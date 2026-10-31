@@ -1,0 +1,79 @@
+{
+  "id": "sentence-sov",
+  "title": "What is a sentence?",
+  "explanation": "## What is a sentence?\n\nA **sentence** (a group of words that says one complete thought) usually tells you who did what. \"I eat rice\" is a sentence. \"Rice\" on its own is not, because nothing happens.\n\n## Who is doing something?\n\nThe **subject** (the person or thing that does the action) is the one who acts.\n\n- In \"I eat rice\", the subject is *I*.\n- In \"Mother eats rice\", the subject is *Mother*.\n\n## What is the action?\n\nThe **verb** (the action word, what someone does) says what is happening.\n\n- In \"I eat rice\", the verb is *eat*.\n- Other verbs: run, drink, read, sleep.\n\n## What is the action done to?\n\nThe **object** (the thing or person the action happens to) receives the action.\n\n- In \"I eat rice\", the object is *rice*. The rice is what gets eaten.\n\n## English word order\n\n**Word order** (the order the words come in, one after another) changes between languages. English puts the subject first, then the verb, then the object.\n\n> I (subject) **eat** (verb) rice (object)\n\nSo in English the verb sits in the middle.\n\n## Bengali word order\n\nBengali usually goes subject, then object, then verb. The verb comes last.\n\n> I (subject) rice (object) **eat** (verb)\n\nThese are English words placed in Bengali order. A Bengali speaker says the same idea in this order: \"I rice eat.\"\n\n## Where to look first\n\nIn a Bengali sentence, look at the last word first. It is usually the action.",
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt": "In the English sentence \"Mother eats rice\", which word is the subject (the one doing the action)?",
+      "options": [
+        { "text": "Mother" },
+        { "text": "eats" },
+        { "text": "rice" }
+      ],
+      "answer": "Mother",
+      "explanation": "The subject is the one who does the action, and Mother is the one eating. \"Eats\" is the action itself (the verb), and \"rice\" is what gets eaten (the object)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "In the English sentence \"You drink water\", which word is the object (what the action is done to)?",
+      "options": [
+        { "text": "You" },
+        { "text": "drink" },
+        { "text": "water" }
+      ],
+      "answer": "water",
+      "explanation": "The object receives the action, and the water is what gets drunk. \"You\" is the subject (the one acting), and \"drink\" is the verb (the action)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Here is a sentence in Bengali word order: \"I rice eat\". Which word is the verb (the action word)?",
+      "options": [
+        { "text": "I" },
+        { "text": "rice" },
+        { "text": "eat" }
+      ],
+      "answer": "eat",
+      "explanation": "Bengali puts the verb last, so \"eat\" is the verb. \"I\" is the subject, who does the action. \"Rice\" is the object, what gets eaten."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word order is the usual Bengali way to say \"You drink water\"?",
+      "options": [
+        { "text": "You water drink" },
+        { "text": "You drink water" },
+        { "text": "Drink you water" }
+      ],
+      "answer": "You water drink",
+      "explanation": "Bengali goes subject, object, verb, so the first option is right. The second copies the English order, with the verb in the middle. The third puts the verb first, which is not the usual Bengali order."
+    },
+    {
+      "type": "fill",
+      "prompt": "In \"I eat rice\", the word that names who does the action is called the ____.",
+      "answer": "subject",
+      "acceptedAnswers": ["the subject"],
+      "explanation": "The subject is the person or thing that does the action. In \"I eat rice\", that is \"I\"."
+    },
+    {
+      "type": "fill",
+      "prompt": "The action word in a sentence, such as eat, drink or run, is called the ____.",
+      "answer": "verb",
+      "acceptedAnswers": ["the verb"],
+      "explanation": "The verb is the action word. The subject does it, and the object receives it."
+    },
+    {
+      "type": "fill",
+      "prompt": "In a usual Bengali sentence, the verb comes ____. (first, middle or last)",
+      "answer": "last",
+      "acceptedAnswers": ["at the end", "end"],
+      "explanation": "Bengali goes subject, object, verb, so the verb comes last. English puts the verb in the middle."
+    },
+    {
+      "type": "fill",
+      "prompt": "In the Bengali word order \"Mother rice eats\", the object (what gets eaten) is ____.",
+      "answer": "rice",
+      "acceptedAnswers": ["the rice"],
+      "explanation": "The rice is what gets eaten, so it is the object. \"Mother\" is the subject, and \"eats\" is the verb, placed last."
+    }
+  ]
+}

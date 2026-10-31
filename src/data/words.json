@@ -1,0 +1,68 @@
+{
+  "deck": "First words",
+  "items": [
+    {
+      "id": "shob",
+      "bengali": "সব",
+      "transliteration": "shob",
+      "english": "all, everything",
+      "usesLetters": ["sha", "ba"]
+    },
+    {
+      "id": "kom",
+      "bengali": "কম",
+      "transliteration": "kom",
+      "english": "less, few",
+      "usesLetters": ["ka", "ma"]
+    },
+    {
+      "id": "mon",
+      "bengali": "মন",
+      "transliteration": "mon",
+      "english": "mind, heart",
+      "usesLetters": ["ma", "na"]
+    },
+    {
+      "id": "dor",
+      "bengali": "দর",
+      "transliteration": "dor",
+      "english": "price, rate",
+      "usesLetters": ["da", "ra"]
+    },
+    {
+      "id": "dom",
+      "bengali": "দম",
+      "transliteration": "dom",
+      "english": "breath",
+      "usesLetters": ["da", "ma"]
+    },
+    {
+      "id": "bon",
+      "bengali": "বন",
+      "transliteration": "bon",
+      "english": "forest",
+      "usesLetters": ["ba", "na"]
+    },
+    {
+      "id": "bor",
+      "bengali": "বর",
+      "transliteration": "bor",
+      "english": "groom",
+      "usesLetters": ["ba", "ra"]
+    },
+    {
+      "id": "bok",
+      "bengali": "বক",
+      "transliteration": "bok",
+      "english": "crane (a tall water bird)",
+      "usesLetters": ["ba", "ka"]
+    },
+    {
+      "id": "nor",
+      "bengali": "নর",
+      "transliteration": "nor",
+      "english": "man (formal, literary)",
+      "usesLetters": ["na", "ra"]
+    }
+  ]
+}

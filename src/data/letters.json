@@ -1,0 +1,123 @@
+[
+  {
+    "id": "aa",
+    "glyph": "আ",
+    "name": "aa",
+    "transliteration": "a",
+    "type": "vowel",
+    "exampleWord": "আম",
+    "exampleTransliteration": "am",
+    "exampleTranslation": "mango",
+    "order": 1
+  },
+  {
+    "id": "i",
+    "glyph": "ই",
+    "name": "short i",
+    "transliteration": "i",
+    "type": "vowel",
+    "exampleWord": "ইট",
+    "exampleTransliteration": "iṭ",
+    "exampleTranslation": "brick",
+    "order": 2
+  },
+  {
+    "id": "u",
+    "glyph": "উ",
+    "name": "short u",
+    "transliteration": "u",
+    "type": "vowel",
+    "exampleWord": "উপর",
+    "exampleTransliteration": "upor",
+    "exampleTranslation": "above, on top",
+    "order": 3
+  },
+  {
+    "id": "ma",
+    "glyph": "ম",
+    "name": "mo",
+    "transliteration": "m",
+    "type": "consonant",
+    "exampleWord": "মন",
+    "exampleTransliteration": "mon",
+    "exampleTranslation": "mind, heart",
+    "order": 4
+  },
+  {
+    "id": "na",
+    "glyph": "ন",
+    "name": "no",
+    "transliteration": "n",
+    "type": "consonant",
+    "exampleWord": "নখ",
+    "exampleTransliteration": "nokh",
+    "exampleTranslation": "fingernail",
+    "order": 5
+  },
+  {
+    "id": "ka",
+    "glyph": "ক",
+    "name": "ko",
+    "transliteration": "k",
+    "type": "consonant",
+    "exampleWord": "কল",
+    "exampleTransliteration": "kol",
+    "exampleTranslation": "tap, faucet",
+    "order": 6
+  },
+  {
+    "id": "ra",
+    "glyph": "র",
+    "name": "ro",
+    "transliteration": "r",
+    "type": "consonant",
+    "exampleWord": "রস",
+    "exampleTransliteration": "ros",
+    "exampleTranslation": "juice",
+    "order": 7
+  },
+  {
+    "id": "ta",
+    "glyph": "ত",
+    "name": "to",
+    "transliteration": "t",
+    "type": "consonant",
+    "exampleWord": "তরল",
+    "exampleTransliteration": "torol",
+    "exampleTranslation": "liquid",
+    "order": 8
+  },
+  {
+    "id": "ba",
+    "glyph": "ব",
+    "name": "bo",
+    "transliteration": "b",
+    "type": "consonant",
+    "exampleWord": "বন",
+    "exampleTransliteration": "bon",
+    "exampleTranslation": "forest",
+    "order": 9
+  },
+  {
+    "id": "sha",
+    "glyph": "স",
+    "name": "sho",
+    "transliteration": "sh",
+    "type": "consonant",
+    "exampleWord": "সব",
+    "exampleTransliteration": "shob",
+    "exampleTranslation": "all, everything",
+    "order": 10
+  },
+  {
+    "id": "da",
+    "glyph": "দ",
+    "name": "do",
+    "transliteration": "d",
+    "type": "consonant",
+    "exampleWord": "দল",
+    "exampleTransliteration": "dol",
+    "exampleTranslation": "group, team",
+    "order": 11
+  }
+]
