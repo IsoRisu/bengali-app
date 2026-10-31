@@ -308,3 +308,15 @@ These will be logged by later rounds as numbered entries. They are not decided h
 
 **Consequences:** The optional Quiz screen is unchanged (multiple choice only). Old `bn.srs` data needs no migration: a missing `starred` means not starred. Tests: `npm test` (Node's built-in runner, no new packages).
 
+## Entry 022: Letters expanded from 50 to 157 entries
+
+**Decision:** `letters.json` had three pieces glued together (a valid 50-entry array, then a `categories` block and loose entry objects inside markdown fences). It is now one valid flat array of 157 entries. The first 50 are unchanged. The 107 new ones are vowel signs (কার), numerals, marks, phala marks, reph, conjuncts and punctuation, plus 4 historical characters. This supersedes the vowel-sign exclusion in Entry 005 for the Letters module only. Words and grammar content are still sign-free.
+
+**How the new entries were chosen**
+
+- **Duplicates removed by glyph.** 202 loose entries became 107 new ones. All 94 pronunciation, orthography, nasalization, aspiration and loanword entries repeated a letter already in the base 50 and were dropped, as were repeats of the same conjunct under different ids (for example ঙ্ক, ট্ট, ড্ড, দ্ভ, ক্ত, ন্দ, ম্প, জ্জ), repeated punctuation, and `anunasika` (same glyph as `chandrabindu`).
+- **Data fixed, not just copied.** Wrong examples were replaced (র্ন showed পূর্ণ, which has র্ণ; ধ্ম showed উদ্মা). Mislabelled names (স্ব and ত্ব were called "ba-phala") are now derived from the component letters. ক্ন (an invented spelling), the loose `categories` block and the 12 `literary_forms` rows (whole words, not letters) are not included. The Arabic comma was replaced with a plain comma, and stray romanization marks and spaces were normalised.
+- **Silent marks.** Hasanta, nukta and avagraha have an empty `transliteration`. The letter screen and flashcard show "a silent mark" instead of "Sounds like". Combining marks use a dotted-circle base (U+25CC) so they display on their own.
+- **Groups.** Conjuncts are split into reph, conjuncts with phala, common conjuncts and more conjuncts. Display groups and chip labels live in `GROUPS` in `src/letters/letters.js`.
+
+**Consequences:** Home and the letters counter pick up the new total automatically. Anyone's saved `lettersLearned` ids are all still valid. Re-run `scripts/make-font-subset.py` before shipping, because the new glyphs (including ৠ, ৡ, ৢ) must be in the subset. `tests/letters.test.js` guards the schema, duplicates, and example/glyph matches.

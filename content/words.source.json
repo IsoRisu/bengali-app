@@ -91179,6 +91179,2377 @@
       "transliteration": "shomapti dhara",
       "english": "closing stream, final continuation clause",
       "usesLetters": ["sa", "ma", "a", "pa", "ti", "dha", "a", "ra", "a"]
+    },{
+      "id": "shonjoton_shutra",
+      "bengali": "নবদিশা",
+      "transliteration": "nobodisha",
+      "english": "new orientation, new guiding path",
+      "usesLetters": ["na", "ba", "di", "sha", "a"]
+    },
+    {
+      "id": "nobojononi",
+      "bengali": "নবজাগরিত",
+      "transliteration": "nobojagorito",
+      "english": "newly awakened, reawakened",
+      "usesLetters": ["na", "ba", "ja", "a", "ga", "ri", "ta"]
+    },
+    {
+      "id": "shrijonikolpo",
+      "bengali": "সৃজনশীল প্রতিভা",
+      "transliteration": "srijonshil protibha",
+      "english": "creative genius, artistic talent",
+      "usesLetters": ["sa", "ri", "ja", "na", "shi", "la", "pa", "ra", "ti", "bha", "a"]
+    },
+    {
+      "id": "protibhar_bikash",
+      "bengali": "প্রতিভার বিকাশ",
+      "transliteration": "protibhar bikash",
+      "english": "flowering of talent, blossoming of genius",
+      "usesLetters": ["pa", "ra", "ti", "bha", "a", "ra", "bi", "ka", "a", "sha"]
+    },
+    {
+      "id": "medhar_shonkolon",
+      "bengali": "মেধাসম্পন্ন",
+      "transliteration": "medhashomponno",
+      "english": "endowed with intellect, gifted",
+      "usesLetters": ["me", "dha", "a", "sa", "ma", "pa", "na", "na"]
+    },
+    {
+      "id": "shudhijon_shongshod",
+      "bengali": "বিদ্যোৎসাহী",
+      "transliteration": "biddotshahi",
+      "english": "patron of education, enthusiastic scholar",
+      "usesLetters": ["bi", "da", "yo", "ta", "sa", "a", "hi"]
+    },
+    {
+      "id": "shikkhanuragi",
+      "bengali": "শিক্ষানুরাগী",
+      "transliteration": "shikkhanuragi",
+      "english": "education lover, supporter of learning",
+      "usesLetters": ["shi", "ka", "kha", "a", "nu", "ra", "a", "gi"]
+    },
+    {
+      "id": "shikkhaprobaho",
+      "bengali": "শিক্ষাপ্রসার",
+      "transliteration": "shikkhaproshar",
+      "english": "spread of education, expansion of literacy",
+      "usesLetters": ["shi", "ka", "kha", "a", "pa", "ra", "sa", "a", "ra"]
+    },
+    {
+      "id": "shakkhorotavijan",
+      "bengali": "স্বাক্ষরতা অভিযান",
+      "transliteration": "shakkhorota ovijan",
+      "english": "literacy campaign/drive",
+      "usesLetters": ["sha", "ba", "a", "ka", "kha", "ra", "ta", "a", "a", "bhi", "ja", "a", "na"]
+    },
+    {
+      "id": "gono_shikkha",
+      "bengali": "গণশিক্ষা",
+      "transliteration": "gonoshikkha",
+      "english": "mass education",
+      "usesLetters": ["ga", "na", "shi", "ka", "kha", "a"]
+    },
+    {
+      "id": "boyoshko_shikkha",
+      "bengali": "বয়স্ক শিক্ষা",
+      "transliteration": "boyoshko shikkha",
+      "english": "adult education",
+      "usesLetters": ["ba", "ya", "sa", "ka", "shi", "ka", "kha", "a"]
+    },
+    {
+      "id": "onoposthanik_shikkha",
+      "bengali": "অনানুষ্ঠানিক শিক্ষা",
+      "transliteration": "onanushthanik shikkha",
+      "english": "non-formal education",
+      "usesLetters": ["a", "na", "a", "nu", "sha", "tha", "a", "ni", "ka", "shi", "ka", "kha", "a"]
+    },
+    {
+      "id": "oprosthanik_shikkha",
+      "bengali": "আনুষ্ঠানিক শিক্ষা",
+      "transliteration": "anushthanik shikkha",
+      "english": "formal education, institutional schooling",
+      "usesLetters": ["a", "nu", "sha", "tha", "a", "ni", "ka", "shi", "ka", "kha", "a"]
+    },
+    {
+      "id": "moulik_shikkha",
+      "bengali": "মৌলিক শিক্ষা",
+      "transliteration": "moulik shikkha",
+      "english": "basic foundational education",
+      "usesLetters": ["ma", "ou", "li", "ka", "shi", "ka", "kha", "a"]
+    },
+    {
+      "id": "shobashil_shikkha",
+      "bengali": "সার্বজনীন শিক্ষা",
+      "transliteration": "shorbojonin shikkha",
+      "english": "universal education for all",
+      "usesLetters": ["sa", "a", "ra", "ba", "ja", "ni", "na", "shi", "ka", "kha", "a"]
+    },
+    {
+      "id": "baddhotamulok_shikkha",
+      "bengali": "বাধ্যতামূলক প্রাথমিক শিক্ষা",
+      "transliteration": "baddhotamulok prathomik shikkha",
+      "english": "compulsory primary education",
+      "usesLetters": ["ba", "a", "dha", "ya", "ta", "a", "mu", "la", "ka", "pa", "ra", "a", "tha", "mi", "ka", "shi", "ka", "kha", "a"]
+    },
+    {
+      "id": "binamulle_shikkha",
+      "bengali": "বিনামূল্যে শিক্ষা",
+      "transliteration": "binamulle shikkha",
+      "english": "free education tuition-free",
+      "usesLetters": ["bi", "na", "a", "mu", "la", "ye", "shi", "ka", "kha", "a"]
+    },
+    {
+      "id": "pathopustok_bitoron",
+      "bengali": "পাঠ্যপুস্তক বিতরণ",
+      "transliteration": "patthopustok bitoron",
+      "english": "distribution of free textbooks",
+      "usesLetters": ["pa", "a", "tha", "ya", "pu", "sa", "ta", "ka", "bi", "ta", "ra", "na"]
+    },
+    {
+      "id": "boi_utshob",
+      "bengali": "বই উৎসব",
+      "transliteration": "boi utshob",
+      "english": "Textbook Festival Day (January 1st)",
+      "usesLetters": ["ba", "i", "u", "ta", "sa", "ba"]
+    },
+    {
+      "id": "omorbikhyat",
+      "bengali": "অমর একুশে বইমেলা",
+      "transliteration": "omor ekushey boimela",
+      "english": "Ekushey Book Fair (month of February)",
+      "usesLetters": ["a", "ma", "ra", "e", "ku", "she", "ba", "i", "me", "la", "a"]
+    },
+    {
+      "id": "boipremi",
+      "bengali": "বইপ্রেমী",
+      "transliteration": "boipremi",
+      "english": "book lover, bibliophile",
+      "usesLetters": ["ba", "i", "pa", "ra", "e", "mi"]
+    },
+    {
+      "id": "boikito",
+      "bengali": "বইপোকা",
+      "transliteration": "boipoka",
+      "english": "bookworm, avid reader",
+      "usesLetters": ["ba", "i", "po", "ka", "a"]
+    },
+    {
+      "id": "pothonpathon",
+      "bengali": "পঠনপাঠন",
+      "transliteration": "pothonpathon",
+      "english": "reading and teaching, studying",
+      "usesLetters": ["pa", "tha", "na", "pa", "a", "tha", "na"]
+    },
+    {
+      "id": "pathovash",
+      "bengali": "পাঠাভ্যাস",
+      "transliteration": "pathobbhash",
+      "english": "reading habit",
+      "usesLetters": ["pa", "a", "tha", "a", "bha", "ya", "a", "sa"]
+    },
+    {
+      "id": "pathagari",
+      "bengali": "পাঠাগার",
+      "transliteration": "pathagar",
+      "english": "reading room, public library",
+      "usesLetters": ["pa", "a", "tha", "a", "ga", "a", "ra"]
+    },
+    {
+      "id": "pathokokkho",
+      "bengali": "পাঠকক্ষ",
+      "transliteration": "pathkokkho",
+      "english": "reading chamber, study room",
+      "usesLetters": ["pa", "a", "tha", "ka", "ka", "kha"]
+    },
+    {
+      "id": "porashonar_table",
+      "bengali": "পড়ার টেবিল",
+      "transliteration": "porar table",
+      "english": "study desk",
+      "usesLetters": ["pa", "ra", "a", "ra", "te", "bi", "la"]
+    },
+    {
+      "id": "tebil_bati",
+      "bengali": "টেবিলবাতি",
+      "transliteration": "tablebati",
+      "english": "reading study lamp",
+      "usesLetters": ["te", "bi", "la", "ba", "a", "ti"]
+    },
+    {
+      "id": "nishir_shadhok",
+      "bengali": "রাতের পড়াশোনা",
+      "transliteration": "rater porashona",
+      "english": "late-night studies, burning midnight oil",
+      "usesLetters": ["ra", "a", "te", "ra", "pa", "ra", "a", "sho", "na", "a"]
+    },
+    {
+      "id": "nishir_prodip",
+      "bengali": "রাতের বাতি",
+      "transliteration": "rater bati",
+      "english": "night lamp, nightlight",
+      "usesLetters": ["ra", "a", "te", "ra", "ba", "a", "ti"]
+    },
+    {
+      "id": "porikkhar_prostuti",
+      "bengali": "পরীক্ষার প্রস্তুতি",
+      "transliteration": "porikkhar prostuti",
+      "english": "exam preparation",
+      "usesLetters": ["pa", "ra", "i", "ka", "kha", "a", "ra", "pa", "ra", "sa", "tu", "ti"]
+    },
+    {
+      "id": "prostuti",
+      "bengali": "প্রস্তুতি",
+      "transliteration": "prostuti",
+      "english": "preparation, readiness, rehearsal",
+      "usesLetters": ["pa", "ra", "sa", "tu", "ti"]
+    },
+    {
+      "id": "prostut",
+      "bengali": "প্রস্তুত",
+      "transliteration": "prostut",
+      "english": "prepared, ready, manufactured",
+      "usesLetters": ["pa", "ra", "sa", "tu", "ta"]
+    },
+    {
+      "id": "oprostut",
+      "bengali": "অপ্রস্তুত",
+      "transliteration": "oprostut",
+      "english": "unprepared, taken by surprise, embarrassed",
+      "usesLetters": ["a", "pa", "ra", "sa", "tu", "ta"]
+    },
+    {
+      "id": "oprostutota",
+      "bengali": "অপ্রস্তুত ভাব",
+      "transliteration": "oprostut bhab",
+      "english": "embarrassed confusion, unreadiness",
+      "usesLetters": ["a", "pa", "ra", "sa", "tu", "ta", "bha", "a", "ba"]
+    },
+    {
+      "id": "lojjabhab",
+      "bengali": "বিব্রত",
+      "transliteration": "bibroto",
+      "english": "embarrassed, disconcerted, perturbed",
+      "usesLetters": ["bi", "ba", "ra", "ta"]
+    },
+    {
+      "id": "bibrotokor",
+      "bengali": "বিব্রতকর",
+      "transliteration": "bibrotokor",
+      "english": "embarrassing, awkward",
+      "usesLetters": ["bi", "ba", "ra", "ta", "ka", "ra"]
+    },
+    {
+      "id": "bibrotota",
+      "bengali": "বিব্রতকর অবস্থা",
+      "transliteration": "bibrotokor obostha",
+      "english": "awkward predicament, embarrassment",
+      "usesLetters": ["bi", "ba", "ra", "ta", "ka", "ra", "a", "ba", "sa", "tha", "a"]
+    },
+    {
+      "id": "shonkotkalin_abostha",
+      "bengali": "বিপাকে পড়া",
+      "transliteration": "bipake pora",
+      "english": "to land in a scrape, to fall into trouble",
+      "usesLetters": ["bi", "pa", "a", "ke", "pa", "ra", "a"]
+    },
+    {
+      "id": "bipak",
+      "bengali": "বিপাক",
+      "transliteration": "bipak",
+      "english": "distress, pickle, metabolic reaction",
+      "usesLetters": ["bi", "pa", "a", "ka"]
+    },
+    {
+      "id": "fer_trouble",
+      "bengali": "ফেরেব",
+      "transliteration": "fereb",
+      "english": "deception, fraudulent entanglement",
+      "usesLetters": ["phe", "re", "ba"]
+    },
+    {
+      "id": "ferebbaaj",
+      "bengali": "ফেরেববাজ",
+      "transliteration": "ferebbaj",
+      "english": "trickster, fraudster, cheat",
+      "usesLetters": ["phe", "re", "ba", "ba", "a", "ja"]
+    },
+    {
+      "id": "chalbaji",
+      "bengali": "চালবাজ",
+      "transliteration": "chalbaj",
+      "english": "artful trickster, cunning schemer",
+      "usesLetters": ["cha", "a", "la", "ba", "a", "ja"]
+    },
+    {
+      "id": "chalbajitwo",
+      "bengali": "চালবাজি",
+      "transliteration": "chalbaji",
+      "english": "artful trickery, connivance",
+      "usesLetters": ["cha", "a", "la", "ba", "a", "ji"]
+    },
+    {
+      "id": "fondi",
+      "bengali": "ফন্দি",
+      "transliteration": "fondi",
+      "english": "ruse, plot, scheme, trick",
+      "usesLetters": ["pha", "na", "di"]
+    },
+    {
+      "id": "fondikfikir",
+      "bengali": "ফন্দিফিকির",
+      "transliteration": "fondiphikir",
+      "english": "wiles and contrivances, artifices",
+      "usesLetters": ["pha", "na", "di", "phi", "ki", "ra"]
+    },
+    {
+      "id": "fikir",
+      "bengali": "ফিকির",
+      "transliteration": "phikir",
+      "english": "device, contrivance, design",
+      "usesLetters": ["phi", "ki", "ra"]
+    },
+    {
+      "id": "upay_khonja",
+      "bengali": "উপায় খোঁজা",
+      "transliteration": "upay khoja",
+      "english": "devising ways and means",
+      "usesLetters": ["u", "pa", "a", "ya", "kho", "n", "ja", "a"]
+    },
+    {
+      "id": "poth_ber_kora",
+      "bengali": "পথ বের করা",
+      "transliteration": "poth ber kora",
+      "english": "finding an exit way out",
+      "usesLetters": ["pa", "tha", "be", "ra", "ka", "ra", "a"]
+    },
+    {
+      "id": "nishkriti",
+      "bengali": "নিষ্কৃতি",
+      "transliteration": "nishkriti",
+      "english": "deliverance, extrication, release",
+      "usesLetters": ["ni", "sha", "kri", "ti"]
+    },
+    {
+      "id": "nishkriti_pawa",
+      "bengali": "নিষ্কৃতি পাওয়া",
+      "transliteration": "nishkriti paowa",
+      "english": "to get rid of, to be liberated from",
+      "usesLetters": ["ni", "sha", "kri", "ti", "pa", "a", "o", "ya", "a"]
+    },
+    {
+      "id": "rehai",
+      "bengali": "রেহাই",
+      "transliteration": "rehai",
+      "english": "escape, reprieve, acquittal",
+      "usesLetters": ["re", "ha", "a", "i"]
+    },
+    {
+      "id": "rehai_pawa",
+      "bengali": "রেহাই পাওয়া",
+      "transliteration": "rehai paowa",
+      "english": "to be spared, to escape unhurt",
+      "usesLetters": ["re", "ha", "a", "i", "pa", "a", "o", "ya", "a"]
+    },
+    {
+      "id": "chhutkaran",
+      "bengali": "মুক্তিলাভ",
+      "transliteration": "muktilabh",
+      "english": "securing emancipation",
+      "usesLetters": ["mu", "ka", "ti", "la", "a", "bha"]
+    },
+    {
+      "id": "shadhinotapropti",
+      "bengali": "স্বাধীনতা অর্জন",
+      "transliteration": "shadhinota orjon",
+      "english": "gaining independence",
+      "usesLetters": ["sha", "ba", "a", "dhi", "na", "ta", "a", "a", "ra", "ja", "na"]
+    },
+    {
+      "id": "bijoyorjon",
+      "bengali": "বিজয় অর্জন",
+      "transliteration": "bijoy orjon",
+      "english": "achieving victory",
+      "usesLetters": ["bi", "ja", "ya", "a", "ra", "ja", "na"]
+    },
+    {
+      "id": "porajoy_grohon",
+      "bengali": "হার মানা",
+      "transliteration": "har mana",
+      "english": "accepting defeat, giving in",
+      "usesLetters": ["ha", "a", "ra", "ma", "a", "na", "a"]
+    },
+    {
+      "id": "har_na_mana",
+      "bengali": "হার না মানা",
+      "transliteration": "har na mana",
+      "english": "unyielding, never say die",
+      "usesLetters": ["ha", "a", "ra", "na", "a", "ma", "a", "na", "a"]
+    },
+    {
+      "id": "onobonoto",
+      "bengali": "অপরাভব",
+      "transliteration": "oporabhob",
+      "english": "invincibility, inability to be vanquished",
+      "usesLetters": ["a", "pa", "ra", "a", "bha", "ba"]
+    },
+    {
+      "id": "durjoy",
+      "bengali": "দুর্জয়",
+      "transliteration": "durjoy",
+      "english": "hard to conquer, unyielding",
+      "usesLetters": ["du", "ra", "ja", "ya"]
+    },
+    {
+      "id": "durjayshokti",
+      "bengali": "দুর্জয় শক্তি",
+      "transliteration": "durjoy shokti",
+      "english": "irresistible mighty power",
+      "usesLetters": ["du", "ra", "ja", "ya", "sha", "ka", "ti"]
+    },
+    {
+      "id": "durbar_goti",
+      "bengali": "দুর্বার গতি",
+      "transliteration": "durbar goti",
+      "english": "unstoppable momentum",
+      "usesLetters": ["du", "ra", "ba", "a", "ra", "ga", "ti"]
+    },
+    {
+      "id": "prochondo_beg",
+      "bengali": "প্রচণ্ড বেগ",
+      "transliteration": "prochondo beg",
+      "english": "violent speed, tremendous velocity",
+      "usesLetters": ["pa", "ra", "cha", "na", "da", "be", "ga"]
+    },
+    {
+      "id": "prochondota",
+      "bengali": "প্রচণ্ডতা",
+      "transliteration": "prochondota",
+      "english": "vehemence, fierceness, intensity",
+      "usesLetters": ["pa", "ra", "cha", "na", "da", "ta", "a"]
+    },
+    {
+      "id": "tibro",
+      "bengali": "তীব্র",
+      "transliteration": "tibro",
+      "english": "acute, pungent, sharp, intense",
+      "usesLetters": ["ti", "i", "ba", "ra"]
+    },
+    {
+      "id": "tibrota",
+      "bengali": "তীব্রতা",
+      "transliteration": "tibrota",
+      "english": "intensity, severity, poignancy",
+      "usesLetters": ["ti", "i", "ba", "ra", "ta", "a"]
+    },
+    {
+      "id": "prokhor",
+      "bengali": "প্রখর",
+      "transliteration": "prokhor",
+      "english": "scorching, sharp, dazzling",
+      "usesLetters": ["pa", "ra", "kha", "ra"]
+    },
+    {
+      "id": "prokhorta",
+      "bengali": "প্রখরতা",
+      "transliteration": "prokhorta",
+      "english": "sharpness, intensity, scorching glare",
+      "usesLetters": ["pa", "ra", "kha", "ra", "ta", "a"]
+    },
+    {
+      "id": "prokhor_roudro",
+      "bengali": "প্রখর রোদ",
+      "transliteration": "prokhor rod",
+      "english": "blistering hot sunshine",
+      "usesLetters": ["pa", "ra", "kha", "ra", "ro", "da"]
+    },
+    {
+      "id": "mridu_shoroth",
+      "bengali": "মিষ্টি রোদ",
+      "transliteration": "mishti rod",
+      "english": "pleasant gentle sunshine (winter morning)",
+      "usesLetters": ["mi", "sha", "ti", "ro", "da"]
+    },
+    {
+      "id": "shiter_shokal",
+      "bengali": "শীতের সকাল",
+      "transliteration": "shiter shokal",
+      "english": "crisp chilly winter morning",
+      "usesLetters": ["shi", "te", "ra", "sa", "ka", "a", "la"]
+    },
+    {
+      "id": "kuashaghera",
+      "bengali": "কুয়াশাঘেরা",
+      "transliteration": "kuyashaghera",
+      "english": "mist-enfolded, enveloped in fog",
+      "usesLetters": ["ku", "ya", "a", "sha", "a", "ghe", "ra", "a"]
+    },
+    {
+      "id": "shiter_chador",
+      "bengali": "শীতের চাদর",
+      "transliteration": "shiter chador",
+      "english": "mantle of winter, woolen shawl",
+      "usesLetters": ["shi", "te", "ra", "cha", "a", "da", "ra"]
+    },
+    {
+      "id": "kantha_shojja",
+      "bengali": "লেপ-তোশক",
+      "transliteration": "lep-toshok",
+      "english": "quilt and mattress winter bedding",
+      "usesLetters": ["le", "pa", "to", "sha", "ka"]
+    },
+    {
+      "id": "lep_quilt",
+      "bengali": "লেপ",
+      "transliteration": "lep",
+      "english": "cotton padded winter quilt",
+      "usesLetters": ["le", "pa"]
+    },
+    {
+      "id": "komboldhari",
+      "bengali": "কম্বলধারী",
+      "transliteration": "komboldhari",
+      "english": "blanket-clad",
+      "usesLetters": ["ka", "ma", "ba", "la", "dha", "a", "ri"]
+    },
+    {
+      "id": "pashmi_chador",
+      "bengali": "পশমি চাদর",
+      "transliteration": "poshmi chador",
+      "english": "warm woolen shawl",
+      "usesLetters": ["pa", "sha", "mi", "cha", "a", "da", "ra"]
+    },
+    {
+      "id": "kashmiri_shaal",
+      "bengali": "কাশ্মীরি শাল",
+      "transliteration": "kashmiri shaal",
+      "english": "Kashmiri pashmina shawl",
+      "usesLetters": ["ka", "a", "sha", "mi", "ri", "sha", "a", "la"]
+    },
+    {
+      "id": "garam_kapor",
+      "bengali": "গরম কাপড়",
+      "transliteration": "gorom kapor",
+      "english": "warm woolen clothes",
+      "usesLetters": ["ga", "ra", "ma", "ka", "a", "pa", "ra"]
+    },
+    {
+      "id": "agun_pohano",
+      "bengali": "আগুন পোহানো",
+      "transliteration": "agun pohano",
+      "english": "warming oneself by the fire",
+      "usesLetters": ["a", "gu", "na", "po", "ha", "a", "no"]
+    },
+    {
+      "id": "pohano",
+      "bengali": "পোহানো",
+      "transliteration": "pohano",
+      "english": "to bask in sun/fire; to pass the night",
+      "usesLetters": ["po", "ha", "a", "no"]
+    },
+    {
+      "id": "rod_pohano",
+      "bengali": "রোদ পোহানো",
+      "transliteration": "rod pohano",
+      "english": "sunbathing, basking in sunshine",
+      "usesLetters": ["ro", "da", "po", "ha", "a", "no"]
+    },
+    {
+      "id": "shonjoton_pahar",
+      "bengali": "পাহাড়ের চূড়া",
+      "transliteration": "paharer chura",
+      "english": "mountain crest summit",
+      "usesLetters": ["pa", "a", "ha", "a", "re", "ra", "chu", "ra", "a"]
+    },
+    {
+      "id": "churashikhor",
+      "bengali": "মেঘের চূড়া",
+      "transliteration": "megher chura",
+      "english": "billowing peak of a cloud",
+      "usesLetters": ["me", "ghe", "ra", "chu", "ra", "a"]
+    },
+    {
+      "id": "shobdokoroshon",
+      "bengali": "স্বরসঙ্গতি বিধান",
+      "transliteration": "shoroshonggoti bidhan",
+      "english": "phonetic vowel-harmony rule",
+      "usesLetters": ["sa", "ba", "ra", "sa", "nga", "ga", "ti", "bi", "dha", "a", "na"]
+    },
+    {
+      "id": "shondhibidhan",
+      "bengali": "সন্ধির নিয়ম",
+      "transliteration": "shondhir niyom",
+      "english": "rules of sandhi euphonic junction",
+      "usesLetters": ["sa", "na", "dhi", "ra", "ni", "ya", "ma"]
+    },
+    {
+      "id": "shoroshondhi",
+      "bengali": "স্বরসন্ধি",
+      "transliteration": "shoroshondhi",
+      "english": "vowel sandhi junction",
+      "usesLetters": ["sa", "ba", "ra", "sa", "na", "dhi"]
+    },
+    {
+      "id": "byonjonshondhi",
+      "bengali": "ব্যঞ্জনসন্ধি",
+      "transliteration": "byonjonshondhi",
+      "english": "consonant sandhi junction",
+      "usesLetters": ["ba", "ya", "na", "ja", "na", "sa", "na", "dhi"]
+    },
+    {
+      "id": "bishorgoshondhi",
+      "bengali": "বিসর্গসন্ধি",
+      "transliteration": "bishorgoshondhi",
+      "english": "visarga sandhi junction",
+      "usesLetters": ["bi", "sa", "ra", "ga", "sa", "na", "dhi"]
+    },
+    {
+      "id": "nipaton_shiddho",
+      "bengali": "নিপাতনে সিদ্ধ",
+      "transliteration": "nipotone siddho",
+      "english": "grammatical exception by irregular rule",
+      "usesLetters": ["ni", "pa", "a", "ta", "ne", "sa", "i", "da", "dha"]
+    },
+    {
+      "id": "byatikrom",
+      "bengali": "ব্যতিক্রম",
+      "transliteration": "byotikkrom",
+      "english": "exception, anomaly, departure",
+      "usesLetters": ["ba", "ya", "ti", "ka", "ra", "ma"]
+    },
+    {
+      "id": "byatikromi",
+      "bengali": "ব্যতিক্রমী",
+      "transliteration": "byotikkromi",
+      "english": "exceptional, unique, anomalous",
+      "usesLetters": ["ba", "ya", "ti", "ka", "ra", "mi"]
+    },
+    {
+      "id": "shadharon_niyom",
+      "bengali": "সাধারণ নিয়ম",
+      "transliteration": "shadharon niyom",
+      "english": "general rule",
+      "usesLetters": ["sha", "a", "dha", "a", "ra", "na", "ni", "ya", "ma"]
+    },
+    {
+      "id": "bishesh_niyom",
+      "bengali": "বিশেষ নিয়ম",
+      "transliteration": "bishesh niyom",
+      "english": "special provision rule",
+      "usesLetters": ["bi", "sha", "e", "sha", "ni", "ya", "ma"]
+    },
+    {
+      "id": "shoroborno_mala_set",
+      "bengali": "স্বরবর্ণমালা",
+      "transliteration": "shorobornomala",
+      "english": "complete vowel alphabet",
+      "usesLetters": ["sa", "ba", "ra", "ba", "ra", "na", "ma", "a", "la", "a"]
+    },
+    {
+      "id": "byonjonborno_mala_set",
+      "bengali": "ব্যঞ্জনবর্ণমালা",
+      "transliteration": "byonjonbornomala",
+      "english": "complete consonant alphabet",
+      "usesLetters": ["ba", "ya", "na", "ja", "na", "ba", "ra", "na", "ma", "a", "la", "a"]
+    },
+    {
+      "id": "chhoroshikha",
+      "bengali": "হাতেখড়ি",
+      "transliteration": "hatekhori",
+      "english": "initiatory slate-writing ritual for child",
+      "usesLetters": ["ha", "a", "te", "kha", "ri"]
+    },
+    {
+      "id": "slet_writing",
+      "bengali": "স্লেট",
+      "transliteration": "slate",
+      "english": "chalk slate",
+      "usesLetters": ["sa", "la", "e", "ta"]
+    },
+    {
+      "id": "sletpencil",
+      "bengali": "স্লেটপেন্সিল",
+      "transliteration": "slatepencil",
+      "english": "slate pencil",
+      "usesLetters": ["sa", "la", "e", "ta", "pe", "na", "si", "la"]
+    },
+    {
+      "id": "khorir_dag",
+      "bengali": "খড়ির দাগ",
+      "transliteration": "khorir dag",
+      "english": "chalk line mark",
+      "usesLetters": ["kha", "ri", "ra", "da", "a", "ga"]
+    },
+    {
+      "id": "chokmate",
+      "bengali": "চকবোর্ড",
+      "transliteration": "chalkboard",
+      "english": "chalk blackboard",
+      "usesLetters": ["cha", "ka", "bo", "ra", "da"]
+    },
+    {
+      "id": "duster",
+      "bengali": "ডাস্টার",
+      "transliteration": "duster",
+      "english": "chalkboard eraser, duster",
+      "usesLetters": ["da", "a", "sa", "ta", "a", "ra"]
+    },
+    {
+      "id": "pochha",
+      "bengali": "মোছা (বোর্ড)",
+      "transliteration": "mochha_board",
+      "english": "erasing the chalkboard",
+      "usesLetters": ["mo", "chha", "a"]
+    },
+    {
+      "id": "likhiya_rakha",
+      "bengali": "লিখে রাখা",
+      "transliteration": "likhe rakha",
+      "english": "to record, to write down, to note",
+      "usesLetters": ["li", "khe", "ra", "a", "kha", "a"]
+    },
+    {
+      "id": "lipiboddho_kora",
+      "bengali": "লিপিবদ্ধ করা",
+      "transliteration": "lipiboddho kora",
+      "english": "to chronicle, to record in writing",
+      "usesLetters": ["li", "pi", "ba", "da", "dha", "ka", "ra", "a"]
+    },
+    {
+      "id": "lipiboddho",
+      "bengali": "লিপিবদ্ধ",
+      "transliteration": "lipiboddho",
+      "english": "recorded, penned down, registered",
+      "usesLetters": ["li", "pi", "ba", "da", "dha"]
+    },
+    {
+      "id": "shonrokkhito_khata",
+      "bengali": "নথিবদ্ধ",
+      "transliteration": "nothiboddho",
+      "english": "documented on official file",
+      "usesLetters": ["na", "thi", "ba", "da", "dha"]
+    },
+    {
+      "id": "nothipokko",
+      "bengali": "নথিপত্র",
+      "transliteration": "nothipotro",
+      "english": "official documents, papers and dossiers",
+      "usesLetters": ["na", "thi", "pa", "ta", "ra"]
+    },
+    {
+      "id": "kagojpotro",
+      "bengali": "কাগজপত্র",
+      "transliteration": "kagojpotro",
+      "english": "documents, credentials, papers",
+      "usesLetters": ["ka", "a", "ga", "ja", "pa", "ta", "ra"]
+    },
+    {
+      "id": "dastabej",
+      "bengali": "দস্তাবেজ",
+      "transliteration": "dostabej",
+      "english": "legal title document, deed",
+      "usesLetters": ["da", "sa", "ta", "a", "be", "ja"]
+    },
+    {
+      "id": "shorkari_dastabej",
+      "bengali": "সরকারি দলিল",
+      "transliteration": "shorkari dolil",
+      "english": "official government document deed",
+      "usesLetters": ["sa", "ra", "ka", "a", "ri", "da", "li", "la"]
+    },
+    {
+      "id": "registrikrita",
+      "bengali": "রেজিস্ট্রি করা",
+      "transliteration": "registry kora",
+      "english": "to register a deed formally",
+      "usesLetters": ["re", "ji", "sa", "ti", "ra", "i", "ka", "ra", "a"]
+    },
+    {
+      "id": "registry_office",
+      "bengali": "রেজিস্ট্রি অফিস",
+      "transliteration": "registry office",
+      "english": "sub-registry deed registration office",
+      "usesLetters": ["re", "ji", "sa", "ti", "ra", "i", "a", "phi", "sa"]
+    },
+    {
+      "id": "sub_registrar",
+      "bengali": "সাব-রেজিস্ট্রার",
+      "transliteration": "sub-registrar",
+      "english": "sub-registrar legal officer",
+      "usesLetters": ["sa", "a", "ba", "re", "ji", "sa", "ta", "ra", "a", "ra"]
+    },
+    {
+      "id": "stramp_duty",
+      "bengali": "স্ট্যাম্প শুল্ক",
+      "transliteration": "stamp shulko",
+      "english": "stamp duty fee",
+      "usesLetters": ["sa", "ta", "ya", "a", "ma", "pa", "shu", "la", "ka"]
+    },
+    {
+      "id": "stramp_paper",
+      "bengali": "স্ট্যাম্প পেপার",
+      "transliteration": "stamp paper",
+      "english": "non-judicial stamp paper",
+      "usesLetters": ["sa", "ta", "ya", "a", "ma", "pa", "pe", "pa", "a", "ra"]
+    },
+    {
+      "id": "nokari_shonod",
+      "bengali": "হলফনামা",
+      "transliteration": "holofnama",
+      "english": "sworn affidavit, oath testament",
+      "usesLetters": ["ha", "la", "pha", "na", "a", "ma", "a"]
+    },
+    {
+      "id": "holof",
+      "bengali": "হলফ",
+      "transliteration": "holof",
+      "english": "solemn oath, sworn affirmation",
+      "usesLetters": ["ha", "la", "pha"]
+    },
+    {
+      "id": "shoptodhan",
+      "bengali": "শপথ",
+      "transliteration": "shophoth",
+      "english": "oath, pledge, vow",
+      "usesLetters": ["sha", "pa", "tha"]
+    },
+    {
+      "id": "shophoth_grohon",
+      "bengali": "শপথগ্রহণ",
+      "transliteration": "shophothgrohon",
+      "english": "swearing-in, taking the oath of office",
+      "usesLetters": ["sha", "pa", "tha", "ga", "ra", "ha", "na"]
+    },
+    {
+      "id": "shophothbakko",
+      "bengali": "শপথবাক্য",
+      "transliteration": "shophothbakko",
+      "english": "oath formula text",
+      "usesLetters": ["sha", "pa", "tha", "ba", "a", "ka", "ya"]
+    },
+    {
+      "id": "shophoth_path",
+      "bengali": "শপথ পাঠ",
+      "transliteration": "shophoth path",
+      "english": "reading the oath of office",
+      "usesLetters": ["sha", "pa", "tha", "pa", "a", "tha"]
+    },
+    {
+      "id": "shophothpath_korano",
+      "bengali": "শপথ পাঠ করানো",
+      "transliteration": "shophoth path korano",
+      "english": "administering the oath",
+      "usesLetters": ["sha", "pa", "tha", "pa", "a", "tha", "ka", "ra", "a", "no"]
+    },
+    {
+      "id": "podeshophoth",
+      "bengali": "গোপনীয়তার শপথ",
+      "transliteration": "goponiyotar shophoth",
+      "english": "oath of secrecy",
+      "usesLetters": ["go", "pa", "ni", "ya", "ta", "a", "ra", "sha", "pa", "tha"]
+    },
+    {
+      "id": "podoshophoth",
+      "bengali": "পদের শপথ",
+      "transliteration": "poder shophoth",
+      "english": "oath of office",
+      "usesLetters": ["pa", "de", "ra", "sha", "pa", "tha"]
+    },
+    {
+      "id": "shangbidhanik_pod",
+      "bengali": "সাংবিধানিক পদ",
+      "transliteration": "shangbidhanik pod",
+      "english": "constitutional post",
+      "usesLetters": ["sa", "a", "nga", "bi", "dha", "a", "ni", "ka", "pa", "da"]
+    },
+    {
+      "id": "shorboccho_adalot",
+      "bengali": "সর্বোচ্চ আদালত",
+      "transliteration": "shorboccho adalat",
+      "english": "apex court, supreme court",
+      "usesLetters": ["sa", "ra", "ba", "o", "cha", "cha", "a", "da", "a", "la", "ta"]
+    },
+    {
+      "id": "supreme_court",
+      "bengali": "সুপ্রিম কোর্ট",
+      "transliteration": "supreme court",
+      "english": "Supreme Court",
+      "usesLetters": ["su", "pa", "ra", "i", "ma", "ko", "ra", "ta"]
+    },
+    {
+      "id": "high_court",
+      "bengali": "হাইকোর্ট",
+      "transliteration": "high court",
+      "english": "High Court division",
+      "usesLetters": ["ha", "a", "i", "ko", "ra", "ta"]
+    },
+    {
+      "id": "appeal_bivag",
+      "bengali": "আপিল বিভাগ",
+      "transliteration": "appeal bibhag",
+      "english": "Appellate Division",
+      "usesLetters": ["a", "pi", "la", "bi", "bha", "a", "ga"]
+    },
+    {
+      "id": "prodhan_bicharpoti",
+      "bengali": "প্রধান বিচারপতি",
+      "transliteration": "prodhan bicharpoti",
+      "english": "Chief Justice",
+      "usesLetters": ["pa", "ra", "dha", "a", "na", "bi", "cha", "a", "ra", "pa", "ti"]
+    },
+    {
+      "id": "attorney_general",
+      "bengali": "অ্যাটর্নি জেনারেল",
+      "transliteration": "attorney general",
+      "english": "Attorney General (chief state lawyer)",
+      "usesLetters": ["a", "ya", "a", "ta", "ra", "ni", "je", "ne", "ra", "a", "la"]
+    },
+    {
+      "id": "shorkari_ukil",
+      "bengali": "সরকারি কৌঁসুলি",
+      "transliteration": "shorkari kousuli",
+      "english": "public prosecutor, government pleader",
+      "usesLetters": ["sa", "ra", "ka", "a", "ri", "ko", "n", "su", "li"]
+    },
+    {
+      "id": "bar_council",
+      "bengali": "বার কাউন্সিল",
+      "transliteration": "bar council",
+      "english": "Bar Council association",
+      "usesLetters": ["ba", "a", "ra", "ka", "a", "u", "na", "si", "la"]
+    },
+    {
+      "id": "ainjibi_somiti",
+      "bengali": "আইনজীবী সমিতি",
+      "transliteration": "ainjibi shomiti",
+      "english": "Bar Association of lawyers",
+      "usesLetters": ["a", "i", "na", "ji", "bi", "sa", "mi", "ti"]
+    },
+    {
+      "id": "odaloter_awomanona",
+      "bengali": "আদালত অবমাননা",
+      "transliteration": "adalat obomanona",
+      "english": "contempt of court",
+      "usesLetters": ["a", "da", "a", "la", "ta", "a", "ba", "ma", "a", "na", "na", "a"]
+    },
+    {
+      "id": "awomanona",
+      "bengali": "অবমাননা",
+      "transliteration": "obomanona",
+      "english": "contempt, disrespect, slight",
+      "usesLetters": ["a", "ba", "ma", "a", "na", "na", "a"]
+    },
+    {
+      "id": "shorirer_rokkha",
+      "bengali": "দেহসৌধ",
+      "transliteration": "deho-shoudho",
+      "english": "temple of the body (poetic)",
+      "usesLetters": ["de", "ha", "sa", "ou", "dha"]
+    },
+    {
+      "id": "praner_debota",
+      "bengali": "প্রাণের দেবতা",
+      "transliteration": "praner debota",
+      "english": "deity of the soul, Lord within",
+      "usesLetters": ["pa", "ra", "a", "ne", "ra", "de", "ba", "ta", "a"]
+    },
+    {
+      "id": "jibondebota",
+      "bengali": "জীবনদেবতা",
+      "transliteration": "jibondebota",
+      "english": "Lord of my Life (celebrated Tagore concept)",
+      "usesLetters": ["ji", "ba", "na", "de", "ba", "ta", "a"]
+    },
+    {
+      "id": "antarjomi_debota",
+      "bengali": "অন্তরের আলো",
+      "transliteration": "ontorer alo",
+      "english": "inner light of conscience",
+      "usesLetters": ["a", "na", "ta", "re", "ra", "a", "lo"]
+    },
+    {
+      "id": "alormurti",
+      "bengali": "জ্যোতির্বিভা",
+      "transliteration": "jyotirbibha",
+      "english": "radiance of divine light",
+      "usesLetters": ["ja", "ya", "o", "ti", "ra", "bi", "bha", "a"]
+    },
+    {
+      "id": "shurjoshanto",
+      "bengali": "সান্ধ্যকালীন",
+      "transliteration": "sandhyokalin",
+      "english": "vesper, of the evening",
+      "usesLetters": ["sa", "a", "na", "dha", "ya", "ka", "a", "li", "na"]
+    },
+    {
+      "id": "sandhyabani",
+      "bengali": "সান্ধ্য সমীরণ",
+      "transliteration": "sandhyo shomiron",
+      "english": "gentle evening breeze",
+      "usesLetters": ["sa", "a", "na", "dha", "ya", "sa", "mi", "ra", "na"]
+    },
+    {
+      "id": "bortiman_shanti",
+      "bengali": "সান্ধ্য শান্তি",
+      "transliteration": "sandhyo shanti",
+      "english": "tranquil peace of eventide",
+      "usesLetters": ["sa", "a", "na", "dha", "ya", "sha", "a", "na", "ti"]
+    },
+    {
+      "id": "kollolkolpo",
+      "bengali": "শান্তিনীড় সদৃশ",
+      "transliteration": "shantinir shodrish",
+      "english": "peaceful like a dove's nest",
+      "usesLetters": ["sha", "a", "na", "ti", "ni", "ra", "sa", "da", "ri", "sha"]
+    },
+    {
+      "id": "chiroon_shukh",
+      "bengali": "পরম সুখ",
+      "transliteration": "porom shukh",
+      "english": "supreme happiness, beatitude",
+      "usesLetters": ["pa", "ra", "ma", "su", "kha"]
+    },
+    {
+      "id": "shukhobhor",
+      "bengali": "সুখের সংসার",
+      "transliteration": "shukher shongshar",
+      "english": "blissful happy household",
+      "usesLetters": ["su", "khe", "ra", "sa", "nga", "sa", "a", "ra"]
+    },
+    {
+      "id": "anondobhuban",
+      "bengali": "আনন্দভুবন",
+      "transliteration": "anondobhubon",
+      "english": "realm of bliss, joyous universe",
+      "usesLetters": ["a", "na", "na", "da", "bhu", "ba", "na"]
+    },
+    {
+      "id": "anondoloke",
+      "bengali": "আনন্দলোকে মঙ্গলালোকে",
+      "transliteration": "anondoloke monggololoke",
+      "english": "In the realm of joy and realm of blessings (Tagore anthem)",
+      "usesLetters": ["a", "na", "na", "da", "lo", "ke", "ma", "nga", "la", "lo", "ke"]
+    },
+    {
+      "id": "shobhon_srishti",
+      "bengali": "বিরাজ সত্যসুন্দর",
+      "transliteration": "birajo shotyoshundor",
+      "english": "Thou abidest as Truth and Beauty",
+      "usesLetters": ["bi", "ra", "a", "ja", "sa", "ta", "ya", "su", "na", "da", "ra"]
+    },
+    {
+      "id": "shotyoshivsundor",
+      "bengali": "সত্য শিব সুন্দর",
+      "transliteration": "shotyo shibo shundor",
+      "english": "Truth, Goodness, and Beauty (Satyam Shivam Sundaram)",
+      "usesLetters": ["sa", "ta", "ya", "shi", "ba", "su", "na", "da", "ra"]
+    },
+    {
+      "id": "shotyer_joy",
+      "bengali": "সত্যমেব জয়তে",
+      "transliteration": "satyameva jayate",
+      "english": "Truth Alone Triumphs",
+      "usesLetters": ["sa", "ta", "ya", "me", "ba", "ja", "ya", "te"]
+    },
+    {
+      "id": "dharmer_joy",
+      "bengali": "ধর্মের জয়",
+      "transliteration": "dhormer joy",
+      "english": "victory of righteousness",
+      "usesLetters": ["dha", "ra", "me", "ra", "ja", "ya"]
+    },
+    {
+      "id": "papor_khoy",
+      "bengali": "পাপের ক্ষয়",
+      "transliteration": "paper khoy",
+      "english": "destruction of sin and vice",
+      "usesLetters": ["pa", "a", "pe", "ra", "ka", "kha", "ya"]
+    },
+    {
+      "id": "onnayer_binash",
+      "bengali": "অন্যায়ের বিনাশ",
+      "transliteration": "onnyayer binash",
+      "english": "annihilation of injustice",
+      "usesLetters": ["a", "na", "ya", "a", "ye", "ra", "bi", "na", "a", "sha"]
+    },
+    {
+      "id": "shongshodhon_purno",
+      "bengali": "চূড়ান্ত সমাধান",
+      "transliteration": "churanto shomadhan",
+      "english": "definitive resolution, final settlement",
+      "usesLetters": ["chu", "ra", "a", "na", "ta", "sa", "ma", "a", "dha", "a", "na"]
+    },
+    {
+      "id": "shomadhanhin_bhab",
+      "bengali": "চিরন্তন সত্যের জয়",
+      "transliteration": "chironton shotyer joy",
+      "english": "triumph of eternal truth",
+      "usesLetters": ["chi", "ra", "na", "ta", "na", "sa", "ta", "ye", "ra", "ja", "ya"]
+    },
+    {
+      "id": "shobcheye_shesh_pada",
+      "bengali": "যবনিকা পতন",
+      "transliteration": "jobonika poton",
+      "english": "curtain falls, final conclusion",
+      "usesLetters": ["ja", "ba", "ni", "ka", "a", "pa", "ta", "na"]
+    },
+    {
+      "id": "jobonika",
+      "bengali": "যবনিকা",
+      "transliteration": "jobonika",
+      "english": "theatrical stage curtain, drop-scene",
+      "usesLetters": ["ja", "ba", "ni", "ka", "a"]
+    },
+    {
+      "id": "shesh_porinotir_rup",
+      "bengali": "সমাপ্তিসূচক",
+      "transliteration": "shomaptishuchok",
+      "english": "indicative of completion, conclusion marker",
+      "usesLetters": ["sa", "ma", "a", "pa", "ti", "shu", "cha", "ka"]
+    },{
+      "id": "shonjoton_shubharambho",
+      "bengali": "প্রভাতকালীন",
+      "transliteration": "probhatkalin",
+      "english": "morning, relating to daybreak",
+      "usesLetters": ["pa", "ra", "bha", "a", "ta", "ka", "a", "li", "na"]
+    },
+    {
+      "id": "probhatferir_gan",
+      "bengali": "প্রভাতী গান",
+      "transliteration": "probhati gan",
+      "english": "morning awakening song, matins",
+      "usesLetters": ["pa", "ra", "bha", "a", "ti", "ga", "a", "na"]
+    },
+    {
+      "id": "bhorer_pakhi",
+      "bengali": "ভোরের দোয়েল",
+      "transliteration": "bhorer doyel",
+      "english": "magpie-robin of dawn",
+      "usesLetters": ["bho", "re", "ra", "do", "ye", "la"]
+    },
+    {
+      "id": "kujonotthan",
+      "bengali": "পাখির কলকাকলি",
+      "transliteration": "pakhir kolokakoli",
+      "english": "sweet twittering chirp of birds",
+      "usesLetters": ["pa", "a", "khi", "ra", "ka", "la", "ka", "a", "ka", "li"]
+    },
+    {
+      "id": "alor_agomon",
+      "bengali": "আলোর আগমন",
+      "transliteration": "alor agomon",
+      "english": "arrival of light, dawn break",
+      "usesLetters": ["a", "lo", "e", "ra", "a", "ga", "ma", "na"]
+    },
+    {
+      "id": "prohori_prahara",
+      "bengali": "রাতপাহারা",
+      "transliteration": "raatpahara",
+      "english": "night watch, night patrol",
+      "usesLetters": ["ra", "a", "ta", "pa", "a", "ha", "a", "ra", "a"]
+    },
+    {
+      "id": "paharar_shobdo",
+      "bengali": "সজাগ থাকা",
+      "transliteration": "shojag thaka",
+      "english": "staying awake, staying watchful",
+      "usesLetters": ["sa", "ja", "a", "ga", "tha", "a", "ka", "a"]
+    },
+    {
+      "id": "chowkidarer_shithi",
+      "bengali": "হাঁকডাক",
+      "transliteration": "hakdak",
+      "english": "calling out, shouting summons",
+      "usesLetters": ["ha", "n", "ka", "da", "a", "ka"]
+    },
+    {
+      "id": "shorirer_aloshsho",
+      "bengali": "আলসেমি",
+      "transliteration": "alsemi",
+      "english": "laziness, languor, sluggishness",
+      "usesLetters": ["a", "la", "se", "mi"]
+    },
+    {
+      "id": "ga_mora",
+      "bengali": "গা মোচড়া",
+      "transliteration": "ga mochra",
+      "english": "stretching the body lazily",
+      "usesLetters": ["ga", "a", "mo", "cha", "ra", "a"]
+    },
+    {
+      "id": "aromorir_bhanga",
+      "bengali": "আড়মোড়া ভাঙা",
+      "transliteration": "armora bhanga",
+      "english": "stretching arms and yawning",
+      "usesLetters": ["a", "ra", "mo", "ra", "a", "bha", "a", "nga", "a"]
+    },
+    {
+      "id": "mukh_dhowa",
+      "bengali": "মুখ ধোয়া",
+      "transliteration": "mukh dhowa",
+      "english": "washing one's face",
+      "usesLetters": ["mu", "kha", "dho", "ya", "a"]
+    },
+    {
+      "id": "dant_maja",
+      "bengali": "দাঁত মাজা",
+      "transliteration": "dant maja",
+      "english": "brushing teeth",
+      "usesLetters": ["da", "a", "n", "ta", "ma", "a", "ja", "a"]
+    },
+    {
+      "id": "daton_stick",
+      "bengali": "দাঁতন",
+      "transliteration": "daton",
+      "english": "traditional twig toothbrush",
+      "usesLetters": ["da", "a", "n", "ta", "na"]
+    },
+    {
+      "id": "neemer_daton",
+      "bengali": "নিমদাঁতন",
+      "transliteration": "neemdaton",
+      "english": "neem twig toothbrush",
+      "usesLetters": ["ni", "ma", "da", "a", "n", "ta", "na"]
+    },
+    {
+      "id": "snanghor",
+      "bengali": "গোসল",
+      "transliteration": "goshol",
+      "english": "bath, ablution, shower",
+      "usesLetters": ["ga", "o", "sa", "la"]
+    },
+    {
+      "id": "goshol_kora",
+      "bengali": "গোসল করা",
+      "transliteration": "goshol kora",
+      "english": "to take a bath",
+      "usesLetters": ["ga", "o", "sa", "la", "ka", "ra", "a"]
+    },
+    {
+      "id": "snan_kora",
+      "bengali": "স্নান করা",
+      "transliteration": "snan kora",
+      "english": "to bathe (formal)",
+      "usesLetters": ["sa", "na", "a", "na", "ka", "ra", "a"]
+    },
+    {
+      "id": "duporer_khabar",
+      "bengali": "দুপুরের খাবার",
+      "transliteration": "duporer khabar",
+      "english": "lunch, midday meal",
+      "usesLetters": ["du", "pu", "re", "ra", "kha", "a", "ba", "a", "ra"]
+    },
+    {
+      "id": "shokaler_nashta",
+      "bengali": "সকালের নাশতা",
+      "transliteration": "shokaler nashta",
+      "english": "breakfast",
+      "usesLetters": ["sa", "ka", "a", "le", "ra", "na", "a", "sha", "ta", "a"]
+    },
+    {
+      "id": "rater_khabar",
+      "bengali": "রাতের খাবার",
+      "transliteration": "rater khabar",
+      "english": "dinner, supper",
+      "usesLetters": ["ra", "a", "te", "ra", "kha", "a", "ba", "a", "ra"]
+    },
+    {
+      "id": "bikalbelar_nasta",
+      "bengali": "সন্ধ্যার জলখাবার",
+      "transliteration": "shondhar jolkhabar",
+      "english": "evening tea snack",
+      "usesLetters": ["sa", "na", "dha", "ya", "a", "ra", "ja", "la", "kha", "a", "ba", "a", "ra"]
+    },
+    {
+      "id": "jolkhabar",
+      "bengali": "জলখাবার",
+      "transliteration": "jolkhabar",
+      "english": "light refreshments, tiffin",
+      "usesLetters": ["ja", "la", "kha", "a", "ba", "a", "ra"]
+    },
+    {
+      "id": "mukhoshodhon",
+      "bengali": "মুখশুদ্ধি",
+      "transliteration": "mukhoshuddhi",
+      "english": "mouth freshener (paan, aniseed)",
+      "usesLetters": ["mu", "kha", "shu", "da", "dhi"]
+    },
+    {
+      "id": "elachidan",
+      "bengali": "এলাচ দানা",
+      "transliteration": "elach dana",
+      "english": "cardamom seed",
+      "usesLetters": ["e", "la", "a", "cha", "da", "a", "na", "a"]
+    },
+    {
+      "id": "loubongo_dana",
+      "bengali": "লবঙ্গের লবঙ্গ",
+      "transliteration": "lobongger lobonggo",
+      "english": "whole fragrant clove",
+      "usesLetters": ["la", "ba", "nga", "ge", "ra", "la", "ba", "nga", "ga"]
+    },
+    {
+      "id": "mishtidana",
+      "bengali": "মিষ্টির রস",
+      "transliteration": "mishtir rosh",
+      "english": "sweet sugar syrup",
+      "usesLetters": ["mi", "sha", "ti", "ra", "ra", "sa"]
+    },
+    {
+      "id": "shirap_sugar",
+      "bengali": "শিরার রস",
+      "transliteration": "shirar rosh",
+      "english": "sugar syrup, simple syrup",
+      "usesLetters": ["shi", "ra", "a", "ra", "ra", "sa"]
+    },
+    {
+      "id": "chashni",
+      "bengali": "চাশনি",
+      "transliteration": "chashni",
+      "english": "boiled thick sugar syrup",
+      "usesLetters": ["cha", "a", "sha", "ni"]
+    },
+    {
+      "id": "pantua_sweet",
+      "bengali": "পানতুয়া",
+      "transliteration": "pantua",
+      "english": "fried cottage cheese dumpling sweet",
+      "usesLetters": ["pa", "a", "na", "tu", "ya", "a"]
+    },
+    {
+      "id": "ledikeni_sweet",
+      "bengali": "লেডিকেনি",
+      "transliteration": "ledikeni",
+      "english": "Lady Canning sweet confection",
+      "usesLetters": ["le", "di", "ke", "ni"]
+    },
+    {
+      "id": "chhana_bora",
+      "bengali": "ছানাবড়া",
+      "transliteration": "chhanabora",
+      "english": "deep-fried curd sweet of Murshidabad",
+      "usesLetters": ["chha", "a", "na", "a", "ba", "ra", "a"]
+    },
+    {
+      "id": "mihidana",
+      "bengali": "মিহিদানা",
+      "transliteration": "mihidana",
+      "english": "fine grain boondi sweet",
+      "usesLetters": ["mi", "hi", "da", "a", "na", "a"]
+    },
+    {
+      "id": "sitabhog",
+      "bengali": "সীতাভোগ",
+      "transliteration": "sitabhog",
+      "english": "vermicelli-like cottage cheese sweet",
+      "usesLetters": ["si", "ta", "a", "bho", "ga"]
+    },
+    {
+      "id": "rajbhog",
+      "bengali": "রাজভোগ",
+      "transliteration": "rajbhog",
+      "english": "king-sized saffron rasgulla sweet",
+      "usesLetters": ["ra", "a", "ja", "bho", "ga"]
+    },
+    {
+      "id": "kachagolla",
+      "bengali": "কাঁচাগোল্লা",
+      "transliteration": "kachagolla",
+      "english": "Natore soft curd sweet delicacy",
+      "usesLetters": ["ka", "n", "cha", "a", "go", "la", "la", "a"]
+    },
+    {
+      "id": "chomchom_porabari",
+      "bengali": "পোড়াবাড়ির চমচম",
+      "transliteration": "porabarir chomchom",
+      "english": "Tangail Porabari chamcham sweet",
+      "usesLetters": ["po", "ra", "a", "ba", "a", "ri", "ra", "cha", "ma", "cha", "ma"]
+    },
+    {
+      "id": "bograr_doi",
+      "bengali": "বগুড়ার দই",
+      "transliteration": "bogurar doi",
+      "english": "Bogra sweet baked clay-pot yogurt",
+      "usesLetters": ["ba", "gu", "ra", "a", "ra", "da", "i"]
+    },
+    {
+      "id": "mishtidoi",
+      "bengali": "মিষ্টি দই",
+      "transliteration": "mishti doi",
+      "english": "sweet yogurt in earthen cups",
+      "usesLetters": ["mi", "sha", "ti", "da", "i"]
+    },
+    {
+      "id": "tokdoi",
+      "bengali": "টক দই",
+      "transliteration": "tok doi",
+      "english": "sour unflavored plain curd",
+      "usesLetters": ["ta", "ka", "da", "i"]
+    },
+    {
+      "id": "doi_fota",
+      "bengali": "দইয়ের পাতা",
+      "transliteration": "doiyer pata",
+      "english": "setting and culturing curd",
+      "usesLetters": ["da", "i", "ye", "ra", "pa", "a", "ta", "a"]
+    },
+    {
+      "id": "shorirer_shor",
+      "bengali": "দুধের সর",
+      "transliteration": "dudher shor",
+      "english": "clotted cream of boiled milk",
+      "usesLetters": ["du", "dhe", "ra", "sa", "ra"]
+    },
+    {
+      "id": "ghonodudh",
+      "bengali": "ঘন দুধ",
+      "transliteration": "ghono dudh",
+      "english": "condensed boiled creamy milk",
+      "usesLetters": ["gha", "na", "du", "dha"]
+    },
+    {
+      "id": "kheer_er_rosh",
+      "bengali": "ক্ষীরসা",
+      "transliteration": "khirsha",
+      "english": "sweet condensed milk pudding paste",
+      "usesLetters": ["khi", "ra", "sa", "a"]
+    },
+    {
+      "id": "chhanar_sandesh",
+      "bengali": "ছানার সন্দেশ",
+      "transliteration": "chhanar shondesh",
+      "english": "fresh cottage cheese sandesh sweet",
+      "usesLetters": ["chha", "a", "na", "a", "ra", "sa", "na", "de", "sha"]
+    },
+    {
+      "id": "kachagolla_curd",
+      "bengali": "নরম পাক",
+      "transliteration": "norom pak",
+      "english": "soft-boiled consistency of sweets",
+      "usesLetters": ["na", "ra", "ma", "pa", "a", "ka"]
+    },
+    {
+      "id": "kora_pak",
+      "bengali": "কড়া পাক",
+      "transliteration": "kora pak",
+      "english": "hard-boiled firm sandesh sweet",
+      "usesLetters": ["ka", "ra", "a", "pa", "a", "ka"]
+    },
+    {
+      "id": "jolbhora_sandesh",
+      "bengali": "জলভরা সন্দেশ",
+      "transliteration": "jolbhora shondesh",
+      "english": "liquid syrup-filled sandesh sweet",
+      "usesLetters": ["ja", "la", "bho", "ra", "a", "sa", "na", "de", "sha"]
+    },
+    {
+      "id": "talshash_sandesh",
+      "bengali": "তালশাঁস সন্দেশ",
+      "transliteration": "talshash shondesh",
+      "english": "palm-fruit shaped sandesh",
+      "usesLetters": ["ta", "a", "la", "sha", "n", "sa", "sa", "na", "de", "sha"]
+    },
+    {
+      "id": "shankhoshondesh",
+      "bengali": "শাঁখ সন্দেশ",
+      "transliteration": "shakh shondesh",
+      "english": "conch-shaped wedding sandesh",
+      "usesLetters": ["sha", "n", "kha", "sa", "na", "de", "sha"]
+    },
+    {
+      "id": "machh_sandesh",
+      "bengali": "মাছ সন্দেশ",
+      "transliteration": "machh shondesh",
+      "english": "fish-molded auspicious wedding sweet",
+      "usesLetters": ["ma", "a", "chha", "sa", "na", "de", "sha"]
+    },
+    {
+      "id": "tottonirban",
+      "bengali": "তত্ত্ব (বিয়ে)",
+      "transliteration": "totto_wedding",
+      "english": "bridal ceremonial gift baskets",
+      "usesLetters": ["ta", "ta", "ba"]
+    },
+    {
+      "id": "biyer_totto",
+      "bengali": "বিয়ের তত্ত্ব",
+      "transliteration": "biyer totto",
+      "english": "trousseau and trays sent to in-laws",
+      "usesLetters": ["bi", "ye", "ra", "ta", "ta", "ba"]
+    },
+    {
+      "id": "totto_shajano",
+      "bengali": "তত্ত্ব সাজানো",
+      "transliteration": "totto shajano",
+      "english": "decorating trousseau gift trays",
+      "usesLetters": ["ta", "ta", "ba", "sa", "a", "ja", "a", "no"]
+    },
+    {
+      "id": "dala_shojja",
+      "bengali": "ডালা সাজানো",
+      "transliteration": "dala shajano",
+      "english": "arranging wicker gift trays",
+      "usesLetters": ["da", "a", "la", "a", "sa", "a", "ja", "a", "no"]
+    },
+    {
+      "id": "biyer_kone_shaj",
+      "bengali": "বউ সাজানো",
+      "transliteration": "bou shajano",
+      "english": "dressing up the bride",
+      "usesLetters": ["ba", "u", "sa", "a", "ja", "a", "no"]
+    },
+    {
+      "id": "borer_poshak",
+      "bengali": "বরের পোশাক",
+      "transliteration": "borer poshak",
+      "english": "groom's wedding wedding attire",
+      "usesLetters": ["ba", "re", "ra", "po", "sha", "a", "ka"]
+    },
+    {
+      "id": "shonjojit_biyer_gaan",
+      "bengali": "বিয়ের গান",
+      "transliteration": "biyer gan",
+      "english": "traditional wedding folk song",
+      "usesLetters": ["bi", "ye", "ra", "ga", "a", "na"]
+    },
+    {
+      "id": "geet_gawano",
+      "bengali": "গীত গাওয়া",
+      "transliteration": "geet gawa",
+      "english": "singing women's nuptial songs",
+      "usesLetters": ["gi", "ta", "ga", "a", "o", "ya", "a"]
+    },
+    {
+      "id": "bashorgor",
+      "bengali": "বাসরঘর",
+      "transliteration": "bashorghor",
+      "english": "bridal chamber, nuptial room",
+      "usesLetters": ["ba", "a", "sa", "ra", "gha", "ra"]
+    },
+    {
+      "id": "bashor_raat",
+      "bengali": "বাসর রাত",
+      "transliteration": "bashor raat",
+      "english": "wedding night, bridal night",
+      "usesLetters": ["ba", "a", "sa", "ra", "ra", "a", "ta"]
+    },
+    {
+      "id": "phulsajja",
+      "bengali": "ফুলশয্যা",
+      "transliteration": "phulshojja",
+      "english": "floral nuptial bed ceremony",
+      "usesLetters": ["phu", "la", "sha", "ja", "ja", "a"]
+    },
+    {
+      "id": "phuler_bashor",
+      "bengali": "ফুলের বাসর",
+      "transliteration": "phuler bashor",
+      "english": "bedchamber bedecked with garlands",
+      "usesLetters": ["phu", "le", "ra", "ba", "a", "sa", "ra"]
+    },
+    {
+      "id": "rojonigandhar_mala",
+      "bengali": "রজনীগন্ধার মালা",
+      "transliteration": "rojnigandhar mala",
+      "english": "tuberose floral garland",
+      "usesLetters": ["ra", "ja", "ni", "ga", "na", "dha", "a", "ra", "ma", "a", "la", "a"]
+    },
+    {
+      "id": "golapfuler_mala",
+      "bengali": "গোলাপের মালা",
+      "transliteration": "golaper mala",
+      "english": "rose garland",
+      "usesLetters": ["go", "la", "a", "pe", "ra", "ma", "a", "la", "a"]
+    },
+    {
+      "id": "gadapfuler_mala",
+      "bengali": "গাঁদা ফুলের মালা",
+      "transliteration": "ganda phuler mala",
+      "english": "marigold garland",
+      "usesLetters": ["ga", "n", "da", "a", "phu", "le", "ra", "ma", "a", "la", "a"]
+    },
+    {
+      "id": "gadapful",
+      "bengali": "গাঁদা ফুল",
+      "transliteration": "ganda phul",
+      "english": "marigold flower",
+      "usesLetters": ["ga", "n", "da", "a", "phu", "la"]
+    },
+    {
+      "id": "jui_phul",
+      "bengali": "জুঁই ফুল",
+      "transliteration": "jui phul",
+      "english": "fragrant jasmine blossom",
+      "usesLetters": ["ju", "n", "i", "phu", "la"]
+    },
+    {
+      "id": "chameli_phul",
+      "bengali": "চামেলি ফুল",
+      "transliteration": "chameli phul",
+      "english": "sweet jasmine flower",
+      "usesLetters": ["cha", "a", "me", "li", "phu", "la"]
+    },
+    {
+      "id": "beli_phul",
+      "bengali": "বেলি ফুল",
+      "transliteration": "beli phul",
+      "english": "Arabian jasmine flower",
+      "usesLetters": ["be", "li", "phu", "la"]
+    },
+    {
+      "id": "belir_mala",
+      "bengali": "বেলির মালা",
+      "transliteration": "belir mala",
+      "english": "jasmine flower chaplet for hair",
+      "usesLetters": ["be", "li", "ra", "ma", "a", "la", "a"]
+    },
+    {
+      "id": "gajra",
+      "bengali": "গজরা",
+      "transliteration": "gojra",
+      "english": "flower wreath for hair bun",
+      "usesLetters": ["ga", "ja", "ra", "a"]
+    },
+    {
+      "id": "khopay_phul",
+      "bengali": "খোঁপার ফুল",
+      "transliteration": "khopar phul",
+      "english": "flower pinned to hair bun",
+      "usesLetters": ["kho", "n", "pa", "a", "ra", "phu", "la"]
+    },
+    {
+      "id": "shonjojit_katha",
+      "bengali": "কঙ্কণধ্বনি",
+      "transliteration": "kongkondhoni",
+      "english": "clink of bangles",
+      "usesLetters": ["ka", "nga", "ka", "na", "dha", "ba", "ni"]
+    },
+    {
+      "id": "kacher_churi",
+      "bengali": "কাচের চুড়ি",
+      "transliteration": "kacher churi",
+      "english": "colored glass bangles",
+      "usesLetters": ["ka", "a", "che", "ra", "chu", "ri"]
+    },
+    {
+      "id": "reshomi_churi",
+      "bengali": "রেশমি চুড়ি",
+      "transliteration": "reshmi churi",
+      "english": "silk-glazed colorful bangles",
+      "usesLetters": ["re", "sha", "mi", "chu", "ri"]
+    },
+    {
+      "id": "churir_runujhunu",
+      "bengali": "চুড়ির রিনঝিন",
+      "transliteration": "churir rinjhin",
+      "english": "tinkle of glass bangles",
+      "usesLetters": ["chu", "ri", "ra", "ri", "na", "jhi", "na"]
+    },
+    {
+      "id": "churir_shobdo",
+      "bengali": "চুড়ির শব্দ",
+      "transliteration": "churir shobdo",
+      "english": "chime of bangles",
+      "usesLetters": ["chu", "ri", "ra", "sha", "ba", "da"]
+    },
+    {
+      "id": "hater_alapon",
+      "bengali": "হাতে চুড়ি পরা",
+      "transliteration": "hate churi pora",
+      "english": "wearing bangles on wrists",
+      "usesLetters": ["ha", "a", "te", "chu", "ri", "pa", "ra", "a"]
+    },
+    {
+      "id": "shorirshobha",
+      "bengali": "সৌন্দর্যবর্ধন",
+      "transliteration": "shoundorjobordhon",
+      "english": "enhancement of beauty, grooming",
+      "usesLetters": ["sa", "ou", "na", "da", "ra", "ya", "ba", "ra", "dha", "na"]
+    },
+    {
+      "id": "rupchorcha",
+      "bengali": "রূপচর্চা",
+      "transliteration": "rupchorcha",
+      "english": "beauty care, cosmetics grooming",
+      "usesLetters": ["ru", "pa", "cha", "ra", "cha", "a"]
+    },
+    {
+      "id": "rupbisheshoggo",
+      "bengali": "রূপবিশেষজ্ঞ",
+      "transliteration": "rupbisheshoggo",
+      "english": "beautician, aesthetician",
+      "usesLetters": ["ru", "pa", "bi", "sha", "e", "sha", "ga", "ya"]
+    },
+    {
+      "id": "beauty_parlor",
+      "bengali": "রূপচর্চাকেন্দ্র",
+      "transliteration": "rupchorchakendro",
+      "english": "beauty parlor salon",
+      "usesLetters": ["ru", "pa", "cha", "ra", "cha", "a", "ka", "e", "na", "da", "ra"]
+    },
+    {
+      "id": "kurtanagar",
+      "bengali": "কেশবিন্যাস",
+      "transliteration": "keshbinnyash",
+      "english": "hairstyling, coiffure",
+      "usesLetters": ["ke", "sha", "bi", "na", "ya", "a", "sa"]
+    },
+    {
+      "id": "kesho_shojja",
+      "bengali": "কেশসজ্জা",
+      "transliteration": "keshshojja",
+      "english": "hairdressing, coiffure adornment",
+      "usesLetters": ["ke", "sha", "sa", "ja", "ja", "a"]
+    },
+    {
+      "id": "keshorochona",
+      "bengali": "কেশরচনা",
+      "transliteration": "keshrochona",
+      "english": "braiding dressing of hair",
+      "usesLetters": ["ke", "sha", "ra", "cha", "na", "a"]
+    },
+    {
+      "id": "chiruni_diye_achhrano",
+      "bengali": "চুল আঁচড়ানো",
+      "transliteration": "chul achhrano",
+      "english": "combing the hair",
+      "usesLetters": ["chu", "la", "a", "n", "cha", "ra", "a", "no"]
+    },
+    {
+      "id": "tel_malish",
+      "bengali": "তেল মালিশ",
+      "transliteration": "tel malish",
+      "english": "oil massage",
+      "usesLetters": ["ta", "e", "la", "ma", "a", "li", "sha"]
+    },
+    {
+      "id": "mathay_tel",
+      "bengali": "মাথায় তেল দেওয়া",
+      "transliteration": "mathay tel dewa",
+      "english": "oiling the scalp",
+      "usesLetters": ["ma", "a", "tha", "a", "ya", "ta", "e", "la", "da", "e", "o", "ya", "a"]
+    },
+    {
+      "id": "shorirer_jotno",
+      "bengali": "শরীরের যত্ন",
+      "transliteration": "shorirer jotno",
+      "english": "body care, physical hygiene",
+      "usesLetters": ["sha", "ra", "i", "re", "ra", "ya", "ta", "na"]
+    },
+    {
+      "id": "roktoshuddhi",
+      "bengali": "রক্তপরিশোধন",
+      "transliteration": "roktoporishodhon",
+      "english": "blood purification",
+      "usesLetters": ["ra", "ka", "ta", "pa", "ra", "i", "sha", "o", "dha", "na"]
+    },
+    {
+      "id": "biddutbortonik",
+      "bengali": "হৃৎযন্ত্রের ক্রিয়া",
+      "transliteration": "hritjontrer kriya",
+      "english": "cardiac functioning",
+      "usesLetters": ["hri", "ta", "ja", "na", "ta", "re", "ra", "ka", "ri", "ya", "a"]
+    },
+    {
+      "id": "hridrog",
+      "bengali": "হৃদরোগ",
+      "transliteration": "hridrog",
+      "english": "heart disease, cardiac illness",
+      "usesLetters": ["hri", "da", "ra", "o", "ga"]
+    },
+    {
+      "id": "hridrog_bisheshoggo",
+      "bengali": "হৃদরোগ বিশেষজ্ঞ",
+      "transliteration": "hridrog bisheshoggo",
+      "english": "cardiologist heart specialist",
+      "usesLetters": ["hri", "da", "ra", "o", "ga", "bi", "sha", "e", "sha", "ga", "ya"]
+    },
+    {
+      "id": "heart_attack",
+      "bengali": "হার্ট অ্যাটাক",
+      "transliteration": "heart attack",
+      "english": "heart attack, myocardial infarction",
+      "usesLetters": ["ha", "a", "ra", "ta", "a", "ya", "a", "ta", "a", "ka"]
+    },
+    {
+      "id": "hridghat",
+      "bengali": "হৃদঘাত",
+      "transliteration": "hridghat",
+      "english": "heart attack, cardiac arrest",
+      "usesLetters": ["hri", "da", "gha", "a", "ta"]
+    },
+    {
+      "id": "chikitshok_fol",
+      "bengali": "চিকিৎসাপদ্ধতি",
+      "transliteration": "chikitshapoddhoti",
+      "english": "medical therapy technique",
+      "usesLetters": ["chi", "ki", "ta", "sa", "a", "pa", "da", "dha", "ti"]
+    },
+    {
+      "id": "daktari_porikkha",
+      "bengali": "ডাক্তারি পরীক্ষা",
+      "transliteration": "daktari porikkha",
+      "english": "medical checkup/test",
+      "usesLetters": ["da", "a", "ka", "ta", "a", "ri", "pa", "ra", "i", "ka", "kha", "a"]
+    },
+    {
+      "id": "byadhibinash",
+      "bengali": "রোগমুক্তি",
+      "transliteration": "rogmukti",
+      "english": "recovery from ailment, cure",
+      "usesLetters": ["ra", "o", "ga", "mu", "ka", "ti"]
+    },
+    {
+      "id": "shusthodeho",
+      "bengali": "সুস্থ দেহ",
+      "transliteration": "shustho deho",
+      "english": "healthy body, sound physique",
+      "usesLetters": ["su", "sa", "tha", "de", "ha"]
+    },
+    {
+      "id": "shusthomon",
+      "bengali": "সুস্থ মন",
+      "transliteration": "shustho mon",
+      "english": "sound healthy mind",
+      "usesLetters": ["su", "sa", "tha", "ma", "na"]
+    },
+    {
+      "id": "shusthodehe_shusthomon",
+      "bengali": "সুস্থ দেহে সুস্থ মন",
+      "transliteration": "shustho dehe shustho mon",
+      "english": "a sound mind in a sound body",
+      "usesLetters": ["su", "sa", "tha", "de", "he", "su", "sa", "tha", "ma", "na"]
+    },
+    {
+      "id": "shormik_kolyana",
+      "bengali": "শরীরচর্চা",
+      "transliteration": "shorirchorcha",
+      "english": "physical culture, workout exercise",
+      "usesLetters": ["sha", "ra", "i", "ra", "cha", "ra", "cha", "a"]
+    },
+    {
+      "id": "shorirchorchakari",
+      "bengali": "ব্যায়ামবীর",
+      "transliteration": "byayambir",
+      "english": "athlete, gymnast, bodybuilder",
+      "usesLetters": ["ba", "ya", "a", "ya", "a", "ma", "bi", "ra"]
+    },
+    {
+      "id": "dehosoushtob_kora",
+      "bengali": "সুঠাম দেহ",
+      "transliteration": "shutham deho",
+      "english": "well-built muscular physique",
+      "usesLetters": ["su", "tha", "a", "ma", "de", "ha"]
+    },
+    {
+      "id": "shutham",
+      "bengali": "সুঠাম",
+      "transliteration": "shutham",
+      "english": "shapely, robust, athletic",
+      "usesLetters": ["su", "tha", "a", "ma"]
+    },
+    {
+      "id": "peshibohul",
+      "bengali": "পেশীবহুল",
+      "transliteration": "peshibohul",
+      "english": "muscular, brawny",
+      "usesLetters": ["pe", "shi", "ba", "hu", "la"]
+    },
+    {
+      "id": "peshishokti",
+      "bengali": "পেশিশক্তি",
+      "transliteration": "peshishokti",
+      "english": "muscle power, brawn",
+      "usesLetters": ["pe", "shi", "sha", "ka", "ti"]
+    },
+    {
+      "id": "bahubol",
+      "bengali": "বাহুবল",
+      "transliteration": "bahubol",
+      "english": "strength of arms, brute physical power",
+      "usesLetters": ["ba", "a", "hu", "ba", "la"]
+    },
+    {
+      "id": "bahushokti",
+      "bengali": "বাহুশক্তি",
+      "transliteration": "bahushokti",
+      "english": "arm strength, vigor of hands",
+      "usesLetters": ["ba", "a", "hu", "sha", "ka", "ti"]
+    },
+    {
+      "id": "doridro_kuri",
+      "bengali": "দরিদ্রতা দূরীকরণ",
+      "transliteration": "doridrota durikoron",
+      "english": "eradicating poverty",
+      "usesLetters": ["da", "ri", "da", "ra", "ta", "a", "du", "ri", "ka", "ra", "na"]
+    },
+    {
+      "id": "onnoshongsthan",
+      "bengali": "অন্নসংস্থান",
+      "transliteration": "onnoshongsthan",
+      "english": "procurement of daily sustenance/food",
+      "usesLetters": ["a", "na", "na", "sa", "nga", "sa", "tha", "a", "na"]
+    },
+    {
+      "id": "pet_chalano",
+      "bengali": "পেট চালানো",
+      "transliteration": "pet chalano",
+      "english": "earning one's bread and butter",
+      "usesLetters": ["pe", "ta", "cha", "a", "la", "a", "no"]
+    },
+    {
+      "id": "jibika_nirbah",
+      "bengali": "জীবিকানির্বাহ",
+      "transliteration": "jibikanirbah",
+      "english": "earning a livelihood, subsisting",
+      "usesLetters": ["ji", "bi", "ka", "a", "ni", "ra", "ba", "a", "ha"]
+    },
+    {
+      "id": "jibikanirbah_kora",
+      "bengali": "জীবিকা নির্বাহ করা",
+      "transliteration": "jibika nirbah kora",
+      "english": "to make a living",
+      "usesLetters": ["ji", "bi", "ka", "a", "ni", "ra", "ba", "a", "ha", "ka", "ra", "a"]
+    },
+    {
+      "id": "arthik_shwaccholota",
+      "bengali": "আর্থিক স্বচ্ছলতা",
+      "transliteration": "arthik shwoccholota",
+      "english": "financial solvency, affluence",
+      "usesLetters": ["a", "ra", "thi", "ka", "sha", "ba", "cha", "chha", "la", "ta", "a"]
+    },
+    {
+      "id": "shwacchol",
+      "bengali": "স্বচ্ছল",
+      "transliteration": "shwocchol",
+      "english": "well-to-do, solvent, comfortable",
+      "usesLetters": ["sha", "ba", "cha", "chha", "la"]
+    },
+    {
+      "id": "ashwacchol",
+      "bengali": "অস্বচ্ছল",
+      "transliteration": "oshwocchol",
+      "english": "indigent, insolvent, straitened",
+      "usesLetters": ["a", "sha", "ba", "cha", "chha", "la"]
+    },
+    {
+      "id": "ashwaccholota",
+      "bengali": "অস্বচ্ছলতা",
+      "transliteration": "oshwoccholota",
+      "english": "financial insolvency, penury",
+      "usesLetters": ["a", "sha", "ba", "cha", "chha", "la", "ta", "a"]
+    },
+    {
+      "id": "taka_poysha",
+      "bengali": "টাকা-পয়সা",
+      "transliteration": "taka-poysha",
+      "english": "money and wealth, cash",
+      "usesLetters": ["ta", "a", "ka", "a", "pa", "ya", "sa", "a"]
+    },
+    {
+      "id": "arthik_shonghoti",
+      "bengali": "অর্থসম্পদ",
+      "transliteration": "orthoshompod",
+      "english": "financial wealth, capital assets",
+      "usesLetters": ["a", "ra", "tha", "sa", "ma", "pa", "da"]
+    },
+    {
+      "id": "dhonodoulot",
+      "bengali": "ধনদৌলত",
+      "transliteration": "dhondoulot",
+      "english": "wealth, riches and possessions",
+      "usesLetters": ["dha", "na", "da", "ou", "la", "ta"]
+    },
+    {
+      "id": "doulot",
+      "bengali": "দৌলত",
+      "transliteration": "doulot",
+      "english": "riches, opulence, wealth",
+      "usesLetters": ["da", "ou", "la", "ta"]
+    },
+    {
+      "id": "doulotban",
+      "bengali": "দৌলতবান",
+      "transliteration": "doulotban",
+      "english": "wealthy, monied magnate",
+      "usesLetters": ["da", "ou", "la", "ta", "ba", "a", "na"]
+    },
+    {
+      "id": "takar_gorom",
+      "bengali": "টাকার গরম",
+      "transliteration": "takar gorom",
+      "english": "purse-proud arrogance, insolence of wealth",
+      "usesLetters": ["ta", "a", "ka", "a", "ra", "ga", "ra", "ma"]
+    },
+    {
+      "id": "dhonor_ahongkar",
+      "bengali": "ধনের অহংকার",
+      "transliteration": "dhoner ohongkar",
+      "english": "vanity of riches",
+      "usesLetters": ["dha", "ne", "ra", "a", "ha", "nga", "ka", "a", "ra"]
+    },
+    {
+      "id": "ruper_ahongkar",
+      "bengali": "রূপের অহংকার",
+      "transliteration": "ruper ohongkar",
+      "english": "vanity of one's beauty",
+      "usesLetters": ["ru", "pe", "ra", "a", "ha", "nga", "ka", "a", "ra"]
+    },
+    {
+      "id": "biddhar_ahongkar",
+      "bengali": "বিদ্যার অহংকার",
+      "transliteration": "biddhar ohongkar",
+      "english": "pedantry, pride of learning",
+      "usesLetters": ["bi", "da", "ya", "a", "ra", "a", "ha", "nga", "ka", "a", "ra"]
+    },
+    {
+      "id": "shongshoroni_bhab",
+      "bengali": "বিনয়ী আচরণ",
+      "transliteration": "binoyi achoron",
+      "english": "humble and modest demeanor",
+      "usesLetters": ["bi", "na", "yi", "a", "cha", "ra", "na"]
+    },
+    {
+      "id": "shonjomyota_mon",
+      "bengali": "নম্র স্বভাব",
+      "transliteration": "nomro shobhab",
+      "english": "gentle and meek disposition",
+      "usesLetters": ["na", "ma", "ra", "sha", "ba", "bha", "a", "ba"]
+    },
+    {
+      "id": "shujon_shongshod",
+      "bengali": "সজ্জন ব্যক্তি",
+      "transliteration": "shojjon byakti",
+      "english": "noble upright gentleman",
+      "usesLetters": ["sa", "ja", "ja", "na", "ba", "ya", "ka", "ti"]
+    },
+    {
+      "id": "bhadro_achoron",
+      "bengali": "ভদ্র আচরণ",
+      "transliteration": "bhodro achoron",
+      "english": "courteous refined conduct",
+      "usesLetters": ["bha", "da", "ra", "a", "cha", "ra", "na"]
+    },
+    {
+      "id": "shishttachari",
+      "bengali": "শিষ্টাচারসম্মত",
+      "transliteration": "shishtacharshommoto",
+      "english": "conforming to etiquette, polite",
+      "usesLetters": ["shi", "sha", "ta", "a", "cha", "a", "ra", "sa", "ma", "ma", "ta"]
+    },
+    {
+      "id": "odab",
+      "bengali": "আদব-কায়দা",
+      "transliteration": "adob-kayda",
+      "english": "etiquette, polite manners, decorum",
+      "usesLetters": ["a", "da", "ba", "ka", "a", "ya", "da", "a"]
+    },
+    {
+      "id": "shomaj_niyom",
+      "bengali": "সামাজিক প্রথা",
+      "transliteration": "shamajik protha",
+      "english": "social custom, conventional rite",
+      "usesLetters": ["sa", "a", "ma", "a", "ji", "ka", "pa", "ra", "tha", "a"]
+    },
+    {
+      "id": "deshachar",
+      "bengali": "দেশাচার",
+      "transliteration": "deshachar",
+      "english": "local customs of the country",
+      "usesLetters": ["da", "e", "sha", "a", "cha", "a", "ra"]
+    },
+    {
+      "id": "kulachar",
+      "bengali": "কুলাচার",
+      "transliteration": "kulachar",
+      "english": "family traditions and rites",
+      "usesLetters": ["ku", "la", "a", "cha", "a", "ra"]
+    },
+    {
+      "id": "lokachar",
+      "bengali": "লোকাচার",
+      "transliteration": "lokachar",
+      "english": "folk custom, popular usage",
+      "usesLetters": ["lo", "ka", "a", "cha", "a", "ra"]
+    },
+    {
+      "id": "shonjojit_lokobidda",
+      "bengali": "লোকবিশ্বাস",
+      "transliteration": "lokobishwash",
+      "english": "popular folk belief, lore",
+      "usesLetters": ["lo", "ka", "bi", "sha", "ba", "a", "sha"]
+    },
+    {
+      "id": "lokoshahitto",
+      "bengali": "লোকসাহিত্য",
+      "transliteration": "lokoshahitto",
+      "english": "folk literature, folklore",
+      "usesLetters": ["lo", "ka", "sa", "a", "hi", "ta", "ya"]
+    },
+    {
+      "id": "meyeli_geet",
+      "bengali": "মেয়েলি গীত",
+      "transliteration": "meyeli geet",
+      "english": "traditional women's domestic song",
+      "usesLetters": ["me", "ye", "li", "gi", "ta"]
+    },
+    {
+      "id": "bhater_gaan",
+      "bengali": "ভাটিয়ালি সুর",
+      "transliteration": "bhatiyali shur",
+      "english": "bhatiyali river tune melody",
+      "usesLetters": ["bha", "a", "ti", "ya", "a", "li", "su", "ra"]
+    },
+    {
+      "id": "baul_gaan",
+      "bengali": "বাউল গান",
+      "transliteration": "baul gan",
+      "english": "Baul mystic minstrel song",
+      "usesLetters": ["ba", "a", "u", "la", "ga", "a", "na"]
+    },
+    {
+      "id": "baul_shadhok",
+      "bengali": "বাউল সাধক",
+      "transliteration": "baul shadhok",
+      "english": "Baul mystic saint practitioner",
+      "usesLetters": ["ba", "a", "u", "la", "sha", "a", "dha", "ka"]
+    },
+    {
+      "id": "ektarar_sur",
+      "bengali": "একতারার সুর",
+      "transliteration": "ektarar shur",
+      "english": "strum of the ektara one-stringed instrument",
+      "usesLetters": ["e", "ka", "ta", "a", "ra", "a", "ra", "su", "ra"]
+    },
+    {
+      "id": "dotarar_tan",
+      "bengali": "দোতারার তান",
+      "transliteration": "dotarar taan",
+      "english": "plucking resonance of the dotara",
+      "usesLetters": ["do", "ta", "a", "ra", "a", "ra", "ta", "a", "na"]
+    },
+    {
+      "id": "khanjani",
+      "bengali": "খঞ্জনি",
+      "transliteration": "khonjoni",
+      "english": "tambourine-like folk cymbal ring",
+      "usesLetters": ["kha", "na", "ja", "ni"]
+    },
+    {
+      "id": "dubki",
+      "bengali": "ডুবকি",
+      "transliteration": "dubki",
+      "english": "small handheld tambourine drum",
+      "usesLetters": ["du", "ba", "ki"]
+    },
+    {
+      "id": "mondira_bajna",
+      "bengali": "মন্দিরার বাজন",
+      "transliteration": "mondirar bajon",
+      "english": "chime of handheld brass cups",
+      "usesLetters": ["ma", "na", "di", "ra", "a", "ra", "ba", "a", "ja", "na"]
+    },
+    {
+      "id": "premoshadhona",
+      "bengali": "প্রেমসাধনা",
+      "transliteration": "premoshadhona",
+      "english": "cult of spiritual divine love",
+      "usesLetters": ["pa", "ra", "e", "ma", "sha", "a", "dha", "na", "a"]
+    },
+    {
+      "id": "premer_thakur",
+      "bengali": "প্রেমের ঠাকুর",
+      "transliteration": "premer thakur",
+      "english": "Lord of Divine Love",
+      "usesLetters": ["pa", "ra", "e", "me", "ra", "tha", "a", "ku", "ra"]
+    },
+    {
+      "id": "premollash",
+      "bengali": "প্রেমোল্লাস",
+      "transliteration": "premollash",
+      "english": "ecstasy of amorous love",
+      "usesLetters": ["pa", "ra", "e", "mo", "la", "la", "a", "sa"]
+    },
+    {
+      "id": "premer_tori",
+      "bengali": "প্রেমের তরী",
+      "transliteration": "premer tori",
+      "english": "boat of romantic love",
+      "usesLetters": ["pa", "ra", "e", "me", "ra", "ta", "ri"]
+    },
+    {
+      "id": "bhalobashar_bandhon",
+      "bengali": "ভালোবাসার বন্ধন",
+      "transliteration": "bhalobashar bondhon",
+      "english": "bonds of affectionate love",
+      "usesLetters": ["bha", "a", "lo", "ba", "a", "sha", "a", "ra", "ba", "na", "dha", "na"]
+    },
+    {
+      "id": "chirobhalobasha",
+      "bengali": "চিরন্তন ভালোবাসা",
+      "transliteration": "chironton bhalobasha",
+      "english": "everlasting eternal love",
+      "usesLetters": ["chi", "ra", "na", "ta", "na", "bha", "a", "lo", "ba", "a", "sha", "a"]
+    },
+    {
+      "id": "amrito_prem",
+      "bengali": "অমর প্রেম",
+      "transliteration": "omor prem",
+      "english": "undying immortal love",
+      "usesLetters": ["a", "ma", "ra", "pa", "ra", "e", "ma"]
+    },
+    {
+      "id": "premer_shorobor",
+      "bengali": "প্রেমসরোবর",
+      "transliteration": "premoshorobor",
+      "english": "lake of romantic love",
+      "usesLetters": ["pa", "ra", "e", "ma", "sa", "ro", "ba", "ra"]
+    },
+    {
+      "id": "moner_manush",
+      "bengali": "মনের মানুষ",
+      "transliteration": "moner manush",
+      "english": "Man of the Heart (Baul soul-mate)",
+      "usesLetters": ["ma", "ne", "ra", "ma", "a", "nu", "sha"]
+    },
+    {
+      "id": "arshinagar",
+      "bengali": "আরশিনগর",
+      "transliteration": "arshinogor",
+      "english": "City of Mirrors (Lalon Shah song)",
+      "usesLetters": ["a", "ra", "shi", "na", "ga", "ra"]
+    },
+    {
+      "id": "porshi",
+      "bengali": "পড়শী",
+      "transliteration": "porshi",
+      "english": "neighbor; indwelling soul-neighbor",
+      "usesLetters": ["pa", "ra", "shi"]
+    },
+    {
+      "id": "arshinogorer_porshi",
+      "bengali": "বাড়ির কাছে আরশিনগর সেথা এক পড়শী বসত করে",
+      "transliteration": "barir kache arshinogor",
+      "english": "Near my house lies the mirror-city where a neighbor dwells",
+      "usesLetters": ["ba", "a", "ri", "ra", "ka", "a", "chhe", "a", "ra", "shi", "na", "ga", "ra", "se", "tha", "a", "e", "ka", "pa", "ra", "shi", "ba", "sa", "ta", "ka", "re"]
+    },
+    {
+      "id": "ami_ekdin-o_na_dekhilam",
+      "bengali": "আমি একদিনও না দেখিলাম তারে",
+      "transliteration": "ami ekdino na dekhilam tare",
+      "english": "Yet not for a day have I laid eyes upon him",
+      "usesLetters": ["a", "mi", "e", "ka", "di", "na", "o", "na", "a", "de", "khi", "la", "a", "ma", "ta", "a", "re"]
+    },
+    {
+      "id": "atmodarshoner_alo",
+      "bengali": "আত্মোপলব্ধির আলো",
+      "transliteration": "attopolobdhir alo",
+      "english": "light of self-discovery",
+      "usesLetters": ["a", "ta", "ma", "o", "pa", "la", "ba", "dhi", "ra", "a", "lo"]
+    },
+    {
+      "id": "antorlok",
+      "bengali": "অন্তর্লোক",
+      "transliteration": "ontorlok",
+      "english": "inner universe, realm within",
+      "usesLetters": ["a", "na", "ta", "ra", "lo", "ka"]
+    },
+    {
+      "id": "bohirbhubon",
+      "bengali": "বহির্ভুবন",
+      "transliteration": "bohirbhubon",
+      "english": "outer external cosmos",
+      "usesLetters": ["ba", "hi", "ra", "bhu", "ba", "na"]
+    },
+    {
+      "id": "chittobikash",
+      "bengali": "চিত্তস্ফুরণ",
+      "transliteration": "chittosfuron",
+      "english": "manifestation/spark of the mind",
+      "usesLetters": ["chi", "ta", "ta", "sa", "phu", "ra", "na"]
+    },
+    {
+      "id": "sfuron",
+      "bengali": "স্ফুরণ",
+      "transliteration": "sfuron",
+      "english": "quivering, blossoming, flashing",
+      "usesLetters": ["sa", "phu", "ra", "na"]
+    },
+    {
+      "id": "sfurito",
+      "bengali": "স্ফুরিত",
+      "transliteration": "sfurito",
+      "english": "quivered, flashed forth, bloomed",
+      "usesLetters": ["sa", "phu", "ri", "ta"]
+    },
+    {
+      "id": "vikoshito_pushpo",
+      "bengali": "প্রস্ফুটিত কুসুম",
+      "transliteration": "prosfutito kushum",
+      "english": "fully bloomed flower",
+      "usesLetters": ["pa", "ra", "sa", "phu", "ti", "ta", "ku", "su", "ma"]
+    },
+    {
+      "id": "shurobhibhora",
+      "bengali": "সৌরভ",
+      "transliteration": "shourobh",
+      "english": "fragrance, aroma, sweet perfume",
+      "usesLetters": ["sa", "ou", "ra", "bha"]
+    },
+    {
+      "id": "shourobhpurno",
+      "bengali": "সৌরভপূর্ণ",
+      "transliteration": "shourobhpurno",
+      "english": "fragrant, aromatic, sweet-smelling",
+      "usesLetters": ["sa", "ou", "ra", "bha", "pu", "ra", "na"]
+    },
+    {
+      "id": "shugondhomoy",
+      "bengali": "সুগন্ধময়",
+      "transliteration": "shugondhomoy",
+      "english": "permeated with sweet fragrance",
+      "usesLetters": ["su", "ga", "na", "dha", "ma", "ya"]
+    },
+    {
+      "id": "amodito",
+      "bengali": "আমোদিত",
+      "transliteration": "amodito",
+      "english": "delighted, filled with sweet scent",
+      "usesLetters": ["a", "mo", "di", "ta"]
+    },
+    {
+      "id": "shorobor_pushpo",
+      "bengali": "ফুটে থাকা ফুল",
+      "transliteration": "fute thaka phul",
+      "english": "flower in bloom",
+      "usesLetters": ["phu", "te", "tha", "a", "ka", "a", "phu", "la"]
+    },
+    {
+      "id": "moulobdho",
+      "bengali": "মধুভরা",
+      "transliteration": "modhubhora",
+      "english": "nectar-filled, dripping with honey",
+      "usesLetters": ["ma", "dhu", "bho", "ra", "a"]
+    },
+    {
+      "id": "madhuryopurno",
+      "bengali": "মাধুর্যমণ্ডিত",
+      "transliteration": "madhurjomondito",
+      "english": "crowned with grace, endowed with charm",
+      "usesLetters": ["ma", "a", "dhu", "ra", "ya", "ma", "na", "di", "ta"]
+    },
+    {
+      "id": "chiroon_shobhab",
+      "bengali": "অনুপম রূপ",
+      "transliteration": "anupom rup",
+      "english": "incomparable beauty, peerless form",
+      "usesLetters": ["a", "nu", "pa", "ma", "ru", "pa"]
+    },
+    {
+      "id": "chiroon_shomapti_pada",
+      "bengali": "পরিশিষ্টের সমাপ্তি",
+      "transliteration": "porishishter shomapti",
+      "english": "close of the appendix, final conclusion",
+      "usesLetters": ["pa", "ra", "i", "shi", "sha", "te", "ra", "sa", "ma", "a", "pa", "ti"]
     }
   ]
 }

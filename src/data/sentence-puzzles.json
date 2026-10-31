@@ -1892,6 +1892,1429 @@
           "explanation": "Amar cheye means than me, druto means fast, and doure means runs."
         }
       ]
+    },
+    {
+      "id": "present_progressive",
+      "title": "Actions happening now",
+      "puzzles": [
+        {
+          "id": "sb17-1",
+          "english": "I am eating rice",
+          "answer": [
+            "ami",
+            "bhat",
+            "khachchi"
+          ],
+          "explanation": "Khachchi is the present progressive form of eat, meaning am eating."
+        },
+        {
+          "id": "sb17-2",
+          "english": "She is reading a book",
+          "answer": [
+            "she",
+            "ekta",
+            "boi",
+            "porchhe"
+          ],
+          "explanation": "Porchhe means is reading. Ekta means a or one."
+        },
+        {
+          "id": "sb17-3",
+          "english": "They are playing football",
+          "answer": [
+            "tara",
+            "football",
+            "khelchhe"
+          ],
+          "explanation": "Khelchhe means are playing when the subject is plural in this sentence."
+        },
+        {
+          "id": "sb17-4",
+          "english": "We are learning Bengali",
+          "answer": [
+            "amra",
+            "Bangla",
+            "shikhchhi"
+          ],
+          "explanation": "Shikhchhi means are learning."
+        },
+        {
+          "id": "sb17-5",
+          "english": "What are you doing?",
+          "answer": [
+            "tumi",
+            "ki",
+            "korchho"
+          ],
+          "explanation": "Ki means what, and korchho means are doing in informal speech."
+        },
+        {
+          "id": "sb17-6",
+          "english": "It is raining",
+          "answer": [
+            "brishhti",
+            "hochhe"
+          ],
+          "explanation": "Brishhti hochhe is a natural way to say it is raining."
+        },
+        {
+          "id": "sb17-7",
+          "english": "My mother is cooking",
+          "answer": [
+            "amar",
+            "ma",
+            "ranna",
+            "korchhen"
+          ],
+          "explanation": "Kor chhen is the respectful present progressive form; rannā means cooking."
+        },
+        {
+          "id": "sb17-8",
+          "english": "The children are sleeping",
+          "answer": [
+            "bachchara",
+            "ghumochchhe"
+          ],
+          "explanation": "Bachchara means the children, and ghumochchhe means are sleeping."
+        },
+        {
+          "id": "sb17-9",
+          "english": "He is writing a letter",
+          "answer": [
+            "she",
+            "ekta",
+            "chithi",
+            "likhchhe"
+          ],
+          "explanation": "Likhchhe means is writing; chithi means letter."
+        },
+        {
+          "id": "sb17-10",
+          "english": "I am waiting for you",
+          "answer": [
+            "ami",
+            "tomar",
+            "jonno",
+            "opekkha",
+            "korchhi"
+          ],
+          "explanation": "Tomar jonno means for you, and opekkha korchhi means am waiting."
+        }
+      ]
+    },
+    {
+      "id": "habitual_present",
+      "title": "Habits and routines",
+      "puzzles": [
+        {
+          "id": "sb18-1",
+          "english": "I wake up early",
+          "answer": [
+            "ami",
+            "shokale",
+            "taratari",
+            "uthi"
+          ],
+          "explanation": "Shokale means in the morning, taratari means early, and uthi means wake up."
+        },
+        {
+          "id": "sb18-2",
+          "english": "He goes to school every day",
+          "answer": [
+            "she",
+            "protidin",
+            "school-e",
+            "jay"
+          ],
+          "explanation": "Protidin means every day; school-e means to school; jay means goes."
+        },
+        {
+          "id": "sb18-3",
+          "english": "We drink tea in the evening",
+          "answer": [
+            "amra",
+            "shondhay",
+            "cha",
+            "kha-i"
+          ],
+          "explanation": "Shondhay means in the evening. In Bengali, kha-i is used for drinking tea."
+        },
+        {
+          "id": "sb18-4",
+          "english": "My father reads the newspaper",
+          "answer": [
+            "amar",
+            "baba",
+            "khoborer",
+            "kagoj",
+            "poren"
+          ],
+          "explanation": "Khoborer kagoj means newspaper, and poren is the respectful form of reads."
+        },
+        {
+          "id": "sb18-5",
+          "english": "Do you speak Bengali?",
+          "answer": [
+            "tumi",
+            "ki",
+            "Bangla",
+            "bolo"
+          ],
+          "explanation": "Bolo means speak or say in informal second-person speech."
+        },
+        {
+          "id": "sb18-6",
+          "english": "She works at a hospital",
+          "answer": [
+            "she",
+            "ekta",
+            "hashpatale",
+            "kaj",
+            "kore"
+          ],
+          "explanation": "Hashpatale means at a hospital, and kaj kore means works."
+        },
+        {
+          "id": "sb18-7",
+          "english": "They usually eat at home",
+          "answer": [
+            "tara",
+            "shadharonoto",
+            "barite",
+            "kha-y"
+          ],
+          "explanation": "Shadharonoto means usually, barite means at home, and kha-y means eat."
+        },
+        {
+          "id": "sb18-8",
+          "english": "I study at night",
+          "answer": [
+            "ami",
+            "rate",
+            "porashona",
+            "kori"
+          ],
+          "explanation": "Rate means at night, and porashona kori means study."
+        },
+        {
+          "id": "sb18-9",
+          "english": "He often visits his friend",
+          "answer": [
+            "she",
+            "prayi",
+            "tar",
+            "bondhur",
+            "shonge",
+            "dekha",
+            "kore"
+          ],
+          "explanation": "Prayi means often. Tar bondhur shonge dekha kore means meets his friend."
+        },
+        {
+          "id": "sb18-10",
+          "english": "We exercise every morning",
+          "answer": [
+            "amra",
+            "protidin",
+            "shokale",
+            "byayam",
+            "kori"
+          ],
+          "explanation": "Byayam kori means exercise or do exercise."
+        }
+      ]
+    },
+    {
+      "id": "past_experiences",
+      "title": "Past events and experiences",
+      "puzzles": [
+        {
+          "id": "sb19-1",
+          "english": "I ate rice yesterday",
+          "answer": [
+            "ami",
+            "gotokal",
+            "bhat",
+            "kheyechhilam"
+          ],
+          "explanation": "Gotokal means yesterday, and kheyechhilam means had eaten or ate."
+        },
+        {
+          "id": "sb19-2",
+          "english": "She went to the market",
+          "answer": [
+            "she",
+            "bajare",
+            "gechhilo"
+          ],
+          "explanation": "Bajare means to the market, and gechhilo means went."
+        },
+        {
+          "id": "sb19-3",
+          "english": "We watched a movie",
+          "answer": [
+            "amra",
+            "ekta",
+            "chhobi",
+            "dekhechhilam"
+          ],
+          "explanation": "Chhobi dekhechhilam means watched a film or movie."
+        },
+        {
+          "id": "sb19-4",
+          "english": "He called me",
+          "answer": [
+            "she",
+            "amake",
+            "phone",
+            "korechhilo"
+          ],
+          "explanation": "Amake means me, and phone korechhilo means called."
+        },
+        {
+          "id": "sb19-5",
+          "english": "They arrived late",
+          "answer": [
+            "tara",
+            "derite",
+            "eshechhilo"
+          ],
+          "explanation": "Derite means late, and eshechhilo means had come or arrived."
+        },
+        {
+          "id": "sb19-6",
+          "english": "I did not understand",
+          "answer": [
+            "ami",
+            "bujhte",
+            "parini"
+          ],
+          "explanation": "Bujhte parini means could not understand."
+        },
+        {
+          "id": "sb19-7",
+          "english": "Did you see the train?",
+          "answer": [
+            "tumi",
+            "ki",
+            "train-ta",
+            "dekhechhile"
+          ],
+          "explanation": "Dekhechhile means did you see, in informal speech."
+        },
+        {
+          "id": "sb19-8",
+          "english": "My brother bought a new phone",
+          "answer": [
+            "amar",
+            "bhai",
+            "ekta",
+            "notun",
+            "phone",
+            "kinechhilo"
+          ],
+          "explanation": "Notun means new, and kinechhilo means bought."
+        },
+        {
+          "id": "sb19-9",
+          "english": "It was very cold",
+          "answer": [
+            "khub",
+            "thanda",
+            "chhilo"
+          ],
+          "explanation": "Khub means very, thanda means cold, and chhilo means was."
+        },
+        {
+          "id": "sb19-10",
+          "english": "I met my teacher yesterday",
+          "answer": [
+            "ami",
+            "gotokal",
+            "amar",
+            "shikkhoker",
+            "shonge",
+            "dekha",
+            "korechhilam"
+          ],
+          "explanation": "Gotokal means yesterday; shikkhoker shonge dekha korechhilam means met my teacher."
+        }
+      ]
+    },
+    {
+      "id": "future_plans",
+      "title": "Plans and future actions",
+      "puzzles": [
+        {
+          "id": "sb20-1",
+          "english": "I will go tomorrow",
+          "answer": [
+            "ami",
+            "agamikal",
+            "jabo"
+          ],
+          "explanation": "Agamikal means tomorrow, and jabo means will go."
+        },
+        {
+          "id": "sb20-2",
+          "english": "She will call you",
+          "answer": [
+            "she",
+            "tomake",
+            "phone",
+            "korbe"
+          ],
+          "explanation": "Tomake means you, and phone korbe means will call."
+        },
+        {
+          "id": "sb20-3",
+          "english": "We will learn together",
+          "answer": [
+            "amra",
+            "ekshonge",
+            "shikhbo"
+          ],
+          "explanation": "Ekshonge means together, and shikhbo means will learn."
+        },
+        {
+          "id": "sb20-4",
+          "english": "Will you come with me?",
+          "answer": [
+            "tumi",
+            "ki",
+            "amar",
+            "shonge",
+            "ashbe"
+          ],
+          "explanation": "Amar shonge means with me, and ashbe means will come."
+        },
+        {
+          "id": "sb20-5",
+          "english": "They will arrive soon",
+          "answer": [
+            "tara",
+            "shighroi",
+            "pouchhabe"
+          ],
+          "explanation": "Shighroi means soon, and pouchhabe means will arrive."
+        },
+        {
+          "id": "sb20-6",
+          "english": "I will not forget",
+          "answer": [
+            "ami",
+            "bhulbo",
+            "na"
+          ],
+          "explanation": "Bhulbo na means will not forget."
+        },
+        {
+          "id": "sb20-7",
+          "english": "He will buy a car",
+          "answer": [
+            "she",
+            "ekta",
+            "gari",
+            "kinbe"
+          ],
+          "explanation": "Kinbe is the future form of buy."
+        },
+        {
+          "id": "sb20-8",
+          "english": "We will meet next week",
+          "answer": [
+            "amra",
+            "agami",
+            "shoptah-e",
+            "dekha",
+            "korbo"
+          ],
+          "explanation": "Agami shoptah-e means next week, and dekha korbo means will meet."
+        },
+        {
+          "id": "sb20-9",
+          "english": "It will rain tonight",
+          "answer": [
+            "aj",
+            "rate",
+            "brishhti",
+            "hobe"
+          ],
+          "explanation": "Aj rate means tonight, and brishhti hobe means it will rain."
+        },
+        {
+          "id": "sb20-10",
+          "english": "I think she will win",
+          "answer": [
+            "amar",
+            "mone",
+            "hoy",
+            "she",
+            "jitbe"
+          ],
+          "explanation": "Amar mone hoy means I think, and jitbe means will win."
+        }
+      ]
+    },
+    {
+      "id": "requests_reasons",
+      "title": "Requests, reasons and conditions",
+      "puzzles": [
+        {
+          "id": "sb21-1",
+          "english": "Please help me",
+          "answer": [
+            "doya",
+            "kore",
+            "amake",
+            "shahajjo",
+            "korun"
+          ],
+          "explanation": "Doya kore means please; shahajjo korun is a respectful request to help. "
+        },
+        {
+          "id": "sb21-2",
+          "english": "Please speak slowly",
+          "answer": [
+            "doya",
+            "kore",
+            "aste",
+            "kotha",
+            "bolun"
+          ],
+          "explanation": "Aste means slowly, and bolun is the respectful command speak."
+        },
+        {
+          "id": "sb21-3",
+          "english": "Because I am tired, I will rest",
+          "answer": [
+            "ami",
+            "klanto",
+            "bole",
+            "bishram",
+            "nebo"
+          ],
+          "explanation": "Klanto bole means because I am tired; bishram nebo means I will rest."
+        },
+        {
+          "id": "sb21-4",
+          "english": "If it rains, we will stay home",
+          "answer": [
+            "brishhti",
+            "hole",
+            "amra",
+            "barite",
+            "thakbo"
+          ],
+          "explanation": "Brishhti hole means if it rains, and thakbo means will stay."
+        },
+        {
+          "id": "sb21-5",
+          "english": "Can you say that again?",
+          "answer": [
+            "apni",
+            "ki",
+            "abar",
+            "bolte",
+            "paren"
+          ],
+          "explanation": "Abar means again, and bolte paren is the respectful form can you say."
+        },
+        {
+          "id": "sb21-6",
+          "english": "I need a little water",
+          "answer": [
+            "amar",
+            "ektu",
+            "pani",
+            "dorkar"
+          ],
+          "explanation": "Ektu means a little, and dorkar means need."
+        },
+        {
+          "id": "sb21-7",
+          "english": "Please wait here",
+          "answer": [
+            "doya",
+            "kore",
+            "ekhane",
+            "opekkha",
+            "korun"
+          ],
+          "explanation": "Ekhane means here; opekkha korun is a respectful request to wait. "
+        },
+        {
+          "id": "sb21-8",
+          "english": "I am happy because you came",
+          "answer": [
+            "tumi",
+            "eshechho",
+            "bole",
+            "ami",
+            "khushi"
+          ],
+          "explanation": "Eshechho means you have come; bole means because; khushi means happy."
+        },
+        {
+          "id": "sb21-9",
+          "english": "If you have time, call me",
+          "answer": [
+            "tomar",
+            "shomoy",
+            "thakle",
+            "amake",
+            "phone",
+            "koro"
+          ],
+          "explanation": "Shomoy thakle means if you have time, and phone koro means call me."
+        },
+        {
+          "id": "sb21-10",
+          "english": "I cannot come today because I am busy",
+          "answer": [
+            "aj",
+            "ami",
+            "byasto",
+            "bole",
+            "aste",
+            "parbo",
+            "na"
+          ],
+          "explanation": "Aj means today; byasto bole means because I am busy; aste parbo na means cannot come."
+        }
+      ]
+    },
+    {
+      "id": "shopping_food",
+      "title": "Food, shopping and prices",
+      "puzzles": [
+        {
+          "id": "sb22-1",
+          "english": "How much does this cost?",
+          "answer": [
+            "etar",
+            "dam",
+            "koto"
+          ],
+          "explanation": "Etar means of this, dam means price, and koto means how much."
+        },
+        {
+          "id": "sb22-2",
+          "english": "This is too expensive",
+          "answer": [
+            "etar",
+            "dam",
+            "onek",
+            "beshi"
+          ],
+          "explanation": "Onek beshi means too much or very high; in context, the price is too expensive."
+        },
+        {
+          "id": "sb22-3",
+          "english": "Please give me one kilogram of apples",
+          "answer": [
+            "doya",
+            "kore",
+            "amake",
+            "ek",
+            "kilo",
+            "apel",
+            "din"
+          ],
+          "explanation": "Ek kilo apel means one kilogram of apples; din is the respectful form of give."
+        },
+        {
+          "id": "sb22-4",
+          "english": "I would like a cup of tea",
+          "answer": [
+            "ami",
+            "ek",
+            "kap",
+            "cha",
+            "chai"
+          ],
+          "explanation": "Ek kap cha means a cup of tea, and chai means would like or want."
+        },
+        {
+          "id": "sb22-5",
+          "english": "The food is delicious",
+          "answer": [
+            "khabarta",
+            "khub",
+            "shushadu"
+          ],
+          "explanation": "Khabarta means the food, and shushadu means delicious."
+        },
+        {
+          "id": "sb22-6",
+          "english": "Do you have fresh fish?",
+          "answer": [
+            "apnader",
+            "kache",
+            "ki",
+            "tatka",
+            "machh",
+            "ache"
+          ],
+          "explanation": "Apnader kache means do you have, tatka means fresh, and machh means fish."
+        },
+        {
+          "id": "sb22-7",
+          "english": "I do not eat meat",
+          "answer": [
+            "ami",
+            "mangsho",
+            "kha-i",
+            "na"
+          ],
+          "explanation": "Mangsho means meat; kha-i na means do not eat."
+        },
+        {
+          "id": "sb22-8",
+          "english": "Please bring the menu",
+          "answer": [
+            "doya",
+            "kore",
+            "menu-ta",
+            "anun"
+          ],
+          "explanation": "Menu-ta means the menu, and anun is the respectful command bring."
+        },
+        {
+          "id": "sb22-9",
+          "english": "I want to pay by card",
+          "answer": [
+            "ami",
+            "card",
+            "diye",
+            "dam",
+            "dite",
+            "chai"
+          ],
+          "explanation": "Card diye means by card; dam dite chai means want to pay."
+        },
+        {
+          "id": "sb22-10",
+          "english": "The shop is closed today",
+          "answer": [
+            "dokan-ta",
+            "aj",
+            "bondho"
+          ],
+          "explanation": "Dokan-ta means the shop, aj means today, and bondho means closed."
+        }
+      ]
+    },
+    {
+      "id": "transport_travel",
+      "title": "Transport and travel",
+      "puzzles": [
+        {
+          "id": "sb23-1",
+          "english": "Where is the bus stop?",
+          "answer": [
+            "bus",
+            "stand-ta",
+            "kothay"
+          ],
+          "explanation": "Bus stand-ta means the bus stop, and kothay means where."
+        },
+        {
+          "id": "sb23-2",
+          "english": "When does the train leave?",
+          "answer": [
+            "train",
+            "kokhon",
+            "chhare"
+          ],
+          "explanation": "Kokhon means when, and chhare means leaves or departs."
+        },
+        {
+          "id": "sb23-3",
+          "english": "I need a ticket to Dhaka",
+          "answer": [
+            "amar",
+            "Dhaka-r",
+            "ekta",
+            "ticket",
+            "dorkar"
+          ],
+          "explanation": "Amar ... dorkar means I need; Dhaka-r ticket means a ticket to Dhaka."
+        },
+        {
+          "id": "sb23-4",
+          "english": "Please stop here",
+          "answer": [
+            "doya",
+            "kore",
+            "ekhane",
+            "thamun"
+          ],
+          "explanation": "Ekhane means here, and thamun is a respectful command to stop."
+        },
+        {
+          "id": "sb23-5",
+          "english": "Is this seat empty?",
+          "answer": [
+            "ei",
+            "seat-ta",
+            "ki",
+            "khali"
+          ],
+          "explanation": "Ei seat-ta means this seat, and khali means empty or available."
+        },
+        {
+          "id": "sb23-6",
+          "english": "The bus is late",
+          "answer": [
+            "bus-ta",
+            "deri",
+            "korche"
+          ],
+          "explanation": "Bus-ta means the bus; deri korche means is being delayed or is late."
+        },
+        {
+          "id": "sb23-7",
+          "english": "I am going to the airport",
+          "answer": [
+            "ami",
+            "airport-e",
+            "jachchhi"
+          ],
+          "explanation": "Airport-e means to or at the airport, and jachchhi means am going."
+        },
+        {
+          "id": "sb23-8",
+          "english": "Please call a taxi",
+          "answer": [
+            "doya",
+            "kore",
+            "ekta",
+            "taxi",
+            "dakuন"
+          ],
+          "explanation": "Ekta taxi means a taxi; dakun is a respectful request to call one."
+        },
+        {
+          "id": "sb23-9",
+          "english": "How long will it take?",
+          "answer": [
+            "koto",
+            "khon",
+            "lagbe"
+          ],
+          "explanation": "Koto khon means how much time, and lagbe means will be needed or will it take."
+        },
+        {
+          "id": "sb23-10",
+          "english": "I missed my train",
+          "answer": [
+            "ami",
+            "amar",
+            "train",
+            "miss",
+            "korechhi"
+          ],
+          "explanation": "Ami ... korechhi means I have done; miss korechhi means missed."
+        }
+      ]
+    },
+    {
+      "id": "directions_places",
+      "title": "Directions and places",
+      "puzzles": [
+        {
+          "id": "sb24-1",
+          "english": "Where is the nearest hospital?",
+          "answer": [
+            "kachher",
+            "hospital",
+            "kothay"
+          ],
+          "explanation": "Kachher means nearest or nearby, and kothay means where."
+        },
+        {
+          "id": "sb24-2",
+          "english": "Go straight ahead",
+          "answer": [
+            " soja",
+            "samne",
+            "jan"
+          ],
+          "explanation": "Soja samne means straight ahead, and jan is a respectful form of go."
+        },
+        {
+          "id": "sb24-3",
+          "english": "Turn left at the next street",
+          "answer": [
+            "porer",
+            "rastay",
+            "bam",
+            "dike",
+            "ghurun"
+          ],
+          "explanation": "Porer rastay means at the next street; bam dike means to the left; ghurun means turn."
+        },
+        {
+          "id": "sb24-4",
+          "english": "Is the bank far from here?",
+          "answer": [
+            "bank-ta",
+            "ki",
+            "ekhan",
+            "theke",
+            "dure"
+          ],
+          "explanation": "Ekhan theke means from here, and dure means far."
+        },
+        {
+          "id": "sb24-5",
+          "english": "The market is beside the mosque",
+          "answer": [
+            "bazar-ta",
+            "mosjid-er",
+            "pashe"
+          ],
+          "explanation": "Mosjid-er pashe means beside the mosque."
+        },
+        {
+          "id": "sb24-6",
+          "english": "I am looking for this address",
+          "answer": [
+            "ami",
+            "ei",
+            "thikana-ta",
+            "khujchhi"
+          ],
+          "explanation": "Ei thikana-ta means this address, and khujchhi means am looking for."
+        },
+        {
+          "id": "sb24-7",
+          "english": "Please show me on the map",
+          "answer": [
+            "doya",
+            "kore",
+            "amake",
+            "map-e",
+            "dekhiye",
+            "din"
+          ],
+          "explanation": "Amake means to me; map-e means on the map; dekhiye din is a respectful request to show."
+        },
+        {
+          "id": "sb24-8",
+          "english": "The station is across the road",
+          "answer": [
+            "station-ta",
+            "rastার",
+            "opare"
+          ],
+          "explanation": "Rastar opare means on the other side of the road."
+        },
+        {
+          "id": "sb24-9",
+          "english": "Is there a pharmacy nearby?",
+          "answer": [
+            "kache",
+            "ki",
+            "ekta",
+            "pharmacy",
+            "ache"
+          ],
+          "explanation": "Kache means nearby, and ache means there is or exists."
+        },
+        {
+          "id": "sb24-10",
+          "english": "I do not know this area",
+          "answer": [
+            "ami",
+            "ei",
+            "elaka-ta",
+            "chini",
+            "na"
+          ],
+          "explanation": "Ei elaka-ta means this area; chini na means do not know or recognize."
+        }
+      ]
+    },
+    {
+      "id": "weather_seasons",
+      "title": "Weather and seasons",
+      "puzzles": [
+        {
+          "id": "sb25-1",
+          "english": "It is raining outside",
+          "answer": [
+            "baire",
+            "brishti",
+            "hochchhe"
+          ],
+          "explanation": "Baire means outside, and brishti hochchhe means it is raining."
+        },
+        {
+          "id": "sb25-2",
+          "english": "The weather is very hot today",
+          "answer": [
+            "aj",
+            "abohawa",
+            "khub",
+            "gorom"
+          ],
+          "explanation": "Aj means today, abohawa means weather, and khub gorom means very hot."
+        },
+        {
+          "id": "sb25-3",
+          "english": "It may rain tomorrow",
+          "answer": [
+            "kal",
+            "brishti",
+            "hote",
+            "pare"
+          ],
+          "explanation": "Kal means tomorrow in this context; hote pare means may happen."
+        },
+        {
+          "id": "sb25-4",
+          "english": "The sky is cloudy",
+          "answer": [
+            "akash",
+            "meghla"
+          ],
+          "explanation": "Akash means sky, and meghla means cloudy."
+        },
+        {
+          "id": "sb25-5",
+          "english": "I like the winter season",
+          "answer": [
+            "amar",
+            "sheetkal",
+            "bhalo",
+            "lage"
+          ],
+          "explanation": "Sheetkal means winter, and bhalo lage means like or feel good."
+        },
+        {
+          "id": "sb25-6",
+          "english": "It is cold this morning",
+          "answer": [
+            "aj",
+            "shokale",
+            "thanda"
+          ],
+          "explanation": "Aj shokale means this morning, and thanda means cold."
+        },
+        {
+          "id": "sb25-7",
+          "english": "Please bring an umbrella",
+          "answer": [
+            "doya",
+            "kore",
+            "ekta",
+            "chhata",
+            "anun"
+          ],
+          "explanation": "Ekta chhata means an umbrella, and anun is the respectful command bring."
+        },
+        {
+          "id": "sb25-8",
+          "english": "The sun is shining",
+          "answer": [
+            "surjo",
+            "alo",
+            "dichchhe"
+          ],
+          "explanation": "Surjo means sun, and alo dichchhe means is giving light or shining."
+        },
+        {
+          "id": "sb25-9",
+          "english": "The wind is strong",
+          "answer": [
+            "batash",
+            "khub",
+            "jor-e",
+            "boichhe"
+          ],
+          "explanation": "Batash means wind; jor-e boichhe means is blowing strongly."
+        },
+        {
+          "id": "sb25-10",
+          "english": "When will the rain stop?",
+          "answer": [
+            "brishti",
+            "kokhon",
+            "thambে"
+          ],
+          "explanation": "Kokhon means when, and thambe means will stop."
+        }
+      ]
+    },
+    {
+      "id": "health_wellbeing",
+      "title": "Health and wellbeing",
+      "puzzles": [
+        {
+          "id": "sb26-1",
+          "english": "I have a headache",
+          "answer": [
+            "amar",
+            "matha",
+            "betha",
+            "korchhe"
+          ],
+          "explanation": "Amar matha betha korchhe is a common way to say I have a headache."
+        },
+        {
+          "id": "sb26-2",
+          "english": "I need to see a doctor",
+          "answer": [
+            "amar",
+            "ekjon",
+            "doctor-er",
+            "kache",
+            "jete",
+            "hobe"
+          ],
+          "explanation": "Doctor-er kache means to a doctor; jete hobe means must go."
+        },
+        {
+          "id": "sb26-3",
+          "english": "Where is the clinic?",
+          "answer": [
+            "clinic-ta",
+            "kothay"
+          ],
+          "explanation": "Clinic-ta means the clinic, and kothay means where."
+        },
+        {
+          "id": "sb26-4",
+          "english": "Please call an ambulance",
+          "answer": [
+            "doya",
+            "kore",
+            "ekta",
+            "ambulance",
+            "dakuন"
+          ],
+          "explanation": "Ekta ambulance means an ambulance; dakun is a respectful request to call."
+        },
+        {
+          "id": "sb26-5",
+          "english": "I am feeling better now",
+          "answer": [
+            "ekhon",
+            "amar",
+            "ektu",
+            "bhalo",
+            "lagchhe"
+          ],
+          "explanation": "Ekhon means now, and ektu bhalo lagchhe means feeling a little better."
+        },
+        {
+          "id": "sb26-6",
+          "english": "I have a fever",
+          "answer": [
+            "amar",
+            "jor",
+            "hoyeche"
+          ],
+          "explanation": "Amar jor hoyeche means I have developed a fever."
+        },
+        {
+          "id": "sb26-7",
+          "english": "Please drink more water",
+          "answer": [
+            "doya",
+            "kore",
+            "aro",
+            "pani",
+            "khan"
+          ],
+          "explanation": "Aro pani means more water, and khan is the respectful form of drink."
+        },
+        {
+          "id": "sb26-8",
+          "english": "Take this medicine after food",
+          "answer": [
+            "khabar-er",
+            "por",
+            "ei",
+            "oshudh-ta",
+            "khan"
+          ],
+          "explanation": "Khabar-er por means after food; ei oshudh-ta means this medicine."
+        },
+        {
+          "id": "sb26-9",
+          "english": "Are you feeling unwell?",
+          "answer": [
+            "apnar",
+            "ki",
+            "shorir",
+            "kharap",
+            "lagchhe"
+          ],
+          "explanation": "Apnar means your; shorir kharap lagchhe means feeling unwell."
+        },
+        {
+          "id": "sb26-10",
+          "english": "I need some rest",
+          "answer": [
+            "amar",
+            "ektu",
+            "bishram",
+            "dorkar"
+          ],
+          "explanation": "Ektu bishram dorkar means need a little rest."
+        }
+      ]
+    },
+    {
+      "id": "home_family",
+      "title": "Home and family life",
+      "puzzles": [
+        {
+          "id": "sb27-1",
+          "english": "My family lives in Chittagong",
+          "answer": [
+            "amar",
+            "poribar",
+            "Chittagong-e",
+            "thake"
+          ],
+          "explanation": "Amar poribar means my family; Chittagong-e thake means lives in Chittagong."
+        },
+        {
+          "id": "sb27-2",
+          "english": "My older brother works in a bank",
+          "answer": [
+            "amar",
+            "boro",
+            "bhai",
+            "ekta",
+            "bank-e",
+            "kaj",
+            "kore"
+          ],
+          "explanation": "Boro bhai means older brother, and bank-e kaj kore means works in a bank."
+        },
+        {
+          "id": "sb27-3",
+          "english": "The children are playing outside",
+          "answer": [
+            "bachchara",
+            "baire",
+            "khelchhe"
+          ],
+          "explanation": "Bachchara means the children, and baire khelchhe means are playing outside."
+        },
+        {
+          "id": "sb27-4",
+          "english": "Please open the window",
+          "answer": [
+            "doya",
+            "kore",
+            "janala-ta",
+            "khulun"
+          ],
+          "explanation": "Janala-ta means the window, and khulun is the respectful command open."
+        },
+        {
+          "id": "sb27-5",
+          "english": "The room is clean",
+          "answer": [
+            "ghor-ta",
+            "porishkar"
+          ],
+          "explanation": "Ghor-ta means the room, and porishkar means clean."
+        },
+        {
+          "id": "sb27-6",
+          "english": "I am cooking dinner",
+          "answer": [
+            "ami",
+            "raat-er",
+            "khabar",
+            "ranna",
+            "korchhi"
+          ],
+          "explanation": "Raat-er khabar means dinner, and ranna korchhi means am cooking."
+        },
+        {
+          "id": "sb27-7",
+          "english": "Where did you put the keys?",
+          "answer": [
+            "chabi-gulo",
+            "kothay",
+            "rekhechhen"
+          ],
+          "explanation": "Chabi-gulo means the keys; kothay rekhechhen means where have you put them?"
+        },
+        {
+          "id": "sb27-8",
+          "english": "We eat together every evening",
+          "answer": [
+            "amra",
+            "proti",
+            "shondhay",
+            "ekshathe",
+            "kha-i"
+          ],
+          "explanation": "Proti shondhay means every evening; ekshathe means together."
+        },
+        {
+          "id": "sb27-9",
+          "english": "The lights are turned off",
+          "answer": [
+            "bati-gulo",
+            "nibhiye",
+            "dewa",
+            "hoyeche"
+          ],
+          "explanation": "Bati-gulo means the lights; nibhiye dewa hoyeche means have been switched off."
+        },
+        {
+          "id": "sb27-10",
+          "english": "Please wait for me at home",
+          "answer": [
+            "doya",
+            "kore",
+            "bari-te",
+            "amar",
+            "jonno",
+            "opekkha",
+            "korun"
+          ],
+          "explanation": "Bari-te means at home; amar jonno means for me; opekkha korun means please wait."
+        }
+      ]
+    },
+    {
+      "id": "work_study",
+      "title": "Work and study",
+      "puzzles": [
+        {
+          "id": "sb28-1",
+          "english": "I have a meeting at ten",
+          "answer": [
+            "doshtay",
+            "amar",
+            "ekta",
+            "meeting",
+            "ache"
+          ],
+          "explanation": "Doshtay means at ten, and meeting ache means there is a meeting."
+        },
+        {
+          "id": "sb28-2",
+          "english": "I am learning Bengali",
+          "answer": [
+            "ami",
+            "Bangla",
+            "shikhchhi"
+          ],
+          "explanation": "Bangla means Bengali, and shikhchhi means am learning."
+        },
+        {
+          "id": "sb28-3",
+          "english": "Please send me the document",
+          "answer": [
+            "doya",
+            "kore",
+            "amake",
+            "document-ta",
+            "pathan"
+          ],
+          "explanation": "Amake means to me; document-ta means the document; pathan is the respectful command send."
+        },
+        {
+          "id": "sb28-4",
+          "english": "I have finished my homework",
+          "answer": [
+            "ami",
+            "amar",
+            "barir",
+            "kaj",
+            "shesh",
+            "korechhi"
+          ],
+          "explanation": "Barir kaj means homework in this context, and shesh korechhi means have finished."
+        },
+        {
+          "id": "sb28-5",
+          "english": "The class starts at nine",
+          "answer": [
+            "class",
+            "noytay",
+            "shuru",
+            "hoy"
+          ],
+          "explanation": "Noytay means at nine, and shuru hoy means starts."
+        },
+        {
+          "id": "sb28-6",
+          "english": "I do not understand this question",
+          "answer": [
+            "ami",
+            "ei",
+            "proshno-ta",
+            "bujhte",
+            "parchhi",
+            "na"
+          ],
+          "explanation": "Ei proshno-ta means this question; bujhte parchhi na means cannot understand."
+        },
+        {
+          "id": "sb28-7",
+          "english": "Can you explain it again?",
+          "answer": [
+            "apni",
+            "ki",
+            "eta",
+            "abar",
+            "bujhiye",
+            "bolte",
+            "parben"
+          ],
+          "explanation": "Abar means again; bujhiye bolte parben means will you be able to explain."
+        },
+        {
+          "id": "sb28-8",
+          "english": "I work from home on Fridays",
+          "answer": [
+            "ami",
+            "shukrobare",
+            "bari",
+            "theke",
+            "kaj",
+            "kori"
+          ],
+          "explanation": "Shukrobare means on Fridays; bari theke kaj kori means work from home."
+        },
+        {
+          "id": "sb28-9",
+          "english": "The exam was difficult",
+          "answer": [
+            "porikkha-ta",
+            "kothin",
+            "chhilo"
+          ],
+          "explanation": "Porikkha-ta means the exam, kothin means difficult, and chhilo means was."
+        },
+        {
+          "id": "sb28-10",
+          "english": "I want to improve my Bengali",
+          "answer": [
+            "ami",
+            "amar",
+            "Bangla",
+            "aro",
+            "bhalo",
+            "korte",
+            "chai"
+          ],
+          "explanation": "Aro bhalo korte chai means want to make better or improve; amar Bangla means my Bengali."
+        }
+      ]
     }
   ]
 }

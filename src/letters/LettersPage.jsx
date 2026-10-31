@@ -1,13 +1,7 @@
-import { LETTERS } from './letters.js';
+import { LETTERS, GROUPS } from './letters.js';
 import { Roman } from '../components/Roman.jsx';
 import { getProgress, subscribeProgress } from '../lib/progress.js';
 import { useStore } from '../lib/useStore.js';
-
-const GROUPS = [
-  { type: 'vowel', title: 'Vowels' },
-  { type: 'consonant', title: 'Consonants' },
-  { type: 'sign', title: 'Signs & modifiers' },
-];
 
 export function LettersPage() {
   const { lettersLearned = [] } = useStore(getProgress, subscribeProgress);
@@ -64,7 +58,7 @@ export function LettersPage() {
                   <li key={l.id}>
                     <a class={`tile${learned ? ' tile-learned' : ''}`} href={`#/letters/${l.id}`}>
                       <span class="bn tile-glyph" lang="bn">{l.glyph}</span>
-                      <Roman class="tile-sub">{l.transliteration}</Roman>
+                      {l.transliteration && <Roman class="tile-sub">{l.transliteration}</Roman>}
                       {learned && <span class="tile-check" aria-hidden="true">✓</span>}
                       <span class="sr-only">{learned ? ', learned' : ', not learned yet'}</span>
                     </a>

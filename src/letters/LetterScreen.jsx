@@ -1,4 +1,4 @@
-import { LETTERS, findLetter } from './letters.js';
+import { LETTERS, findLetter, typeLabel } from './letters.js';
 import { Roman } from '../components/Roman.jsx';
 import { getProgress, subscribeProgress, toggleLetterLearned } from '../lib/progress.js';
 import { useStore } from '../lib/useStore.js';
@@ -25,23 +25,27 @@ export function LetterScreen({ id }) {
   return (
     <main class="page">
       <a class="back" href="#/letters">← All letters</a>
-      <p class="muted">Letter {index + 1} of {LETTERS.length} · {letter.type}</p>
+      <p class="muted">Letter {index + 1} of {LETTERS.length} · {typeLabel(letter.type)}</p>
 
       <div class="hero bn" lang="bn" role="img" aria-label={`Bengali letter ${letter.name}`}>
         {letter.glyph}
       </div>
 
-      <p class="sound">
-        Sounds like <Roman class="sound-roman">{letter.transliteration}</Roman>
-      </p>
+      {letter.transliteration ? (
+        <p class="sound">
+          Sounds like <Roman class="sound-roman">{letter.transliteration}</Roman>
+        </p>
+      ) : (
+        <p class="sound">A silent mark: it has no sound of its own</p>
+      )}
       <Roman as="p" class="muted">Called “{letter.name}”</Roman>
 
       <section class="example" aria-label="Example word">
         <p class="muted">Example word</p>
         <p class="bn example-word" lang="bn">{letter.exampleWord}</p>
         <p>
-          <Roman>{letter.exampleTransliteration}</Roman>
-          <Roman class="sep"> · </Roman>
+          {letter.exampleTransliteration && <Roman>{letter.exampleTransliteration}</Roman>}
+          {letter.exampleTransliteration && <Roman class="sep"> · </Roman>}
           {letter.exampleTranslation}
         </p>
       </section>

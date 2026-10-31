@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks';
-import { LETTERS, findLetter } from './letters.js';
+import { LETTERS, findLetter, typeLabel } from './letters.js';
 import { Roman } from '../components/Roman.jsx';
 import { getProgress, subscribeProgress, setWordLearned, toggleLetterLearned } from '../lib/progress.js';
 import { useStore } from '../lib/useStore.js';
@@ -79,7 +79,7 @@ export function LetterStudy({ startId }) {
       <a class="back" href="#/letters">← Letters</a>
       <p class="muted">
         Letter flashcards · {pos + 1} of {queue.length}
-        <span class="chip-mini">{letter.type}</span>
+        <span class="chip-mini">{typeLabel(letter.type)}</span>
       </p>
 
       <button
@@ -95,7 +95,9 @@ export function LetterStudy({ startId }) {
         ) : (
           <div class="flash-details">
             <p class="sound" style={{ margin: '8px 0 4px' }}>
-              Sounds like <Roman class="sound-roman">{letter.transliteration}</Roman>
+              {letter.transliteration
+                ? <>Sounds like <Roman class="sound-roman">{letter.transliteration}</Roman></>
+                : 'A silent mark: no sound of its own'}
             </p>
             <Roman as="p" class="muted" style={{ margin: '0 0 12px' }}>
               Letter name: “{letter.name}”
@@ -105,8 +107,8 @@ export function LetterStudy({ startId }) {
                 <span class="muted" style={{ fontSize: '0.85rem' }}>Example: </span>
                 <strong class="bn" lang="bn" style={{ fontSize: '1.4rem' }}>{letter.exampleWord}</strong>
                 {' '}
-                <Roman class="muted">({letter.exampleTransliteration})</Roman>
-                <span class="sep"> · </span>
+                {letter.exampleTransliteration && <Roman class="muted">({letter.exampleTransliteration})</Roman>}
+                {letter.exampleTransliteration && <span class="sep"> · </span>}
                 <span>{letter.exampleTranslation}</span>
               </div>
             )}
