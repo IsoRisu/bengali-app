@@ -234,3 +234,16 @@ These will be logged by later rounds as numbered entries. They are not decided h
 - **Deployment:** added Render (`render.yaml`, `DEPLOY.md`) and a CI build check. The GitHub Pages workflow is now manual-only (`deploy-pages.yml`).
 
 **Still open:** self-hosted font subset (needs the font file), first real `npm run build` / `npm run size`, and the consonant frequency check (Entry 007).
+
+## Entry 016: Grammar expanded from 1 to 12 lessons (Round 9)
+
+**Decision:** `grammar.json` is now `{ "lessons": [...] }` (the loader already accepted this; no code change). Eleven lessons were added after `sentence-sov`: nouns and adjectives, no articles or gender, three ways to say you, verb endings by person, no word for am/is/are, negation with na, question words, possessives, plurals and counting, past/present/future, and a mixed review. That is 77 exercises in total (mcq with 3 options, plus fill).
+
+**Justification:** The grammar points that matter most for a beginner, and that differ most from English, are formality in you, verb endings, the missing "to be", and post-verb negation. Each lesson teaches one idea per `##` section and glosses its technical terms inline.
+
+**Consequences:**
+
+- **Bengali is written in Latin letters inside lessons, not in script.** Real sentences need vowel signs, which Entry 005 keeps out of V1 script content. Latin spellings follow Entry 004 (`o` for the inherent vowel, `sh` for স).
+- **The romanization toggle does not hide lesson text.** In a lesson the Latin spelling is the only form of the Bengali, so hiding it would remove the lesson. The toggle still hides romanization everywhere in letters and words.
+- All new content is plain ASCII, so the font subset script is unaffected.
+- Spellings are standard colloquial Bengali (Kolkata and Dhaka usage agree on these forms). A native speaker should review them before release.

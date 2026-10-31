@@ -4,7 +4,7 @@ Bengali learning web app for absolute beginners. Static site, text only, no back
 
 ## Status
 
-- Round: 8 (see DECISIONS Entry 015: warnings fixed, Letters entry button, Render config). Earlier: Round 7, Worker G (deployment only: GitHub Pages workflow, README, `.gitignore`; no feature code changed, see DECISIONS.md Entry 014). The workflow has never run: the sandbox has no route to `registry.npmjs.org`, so the first real `vite build` will be the first CI run. Round 6 (Worker F) added Home, streak, resets and the accessibility pass (Entry 013).
+- Round: 9 added 11 grammar lessons (Entry 016). Round 8 (see DECISIONS Entry 015: warnings fixed, Letters entry button, Render config). Earlier: Round 7, Worker G (deployment only: GitHub Pages workflow, README, `.gitignore`; no feature code changed, see DECISIONS.md Entry 014). The workflow has never run: the sandbox has no route to `registry.npmjs.org`, so the first real `vite build` will be the first CI run. Round 6 (Worker F) added Home, streak, resets and the accessibility pass (Entry 013).
 - Open warnings from the Round 6 review are in `warnings.txt` and were not in scope for Round 7. The Letters learn-mode gap was closed in Entry 015.
 - Review blockers from Round 2.5 (vowel signs in content, multi-item grammar screen) are resolved, see DECISIONS.md Entry 005.
 - Framework: Preact + Vite (see DECISIONS.md, Entry 001)

@@ -1,79 +1,1171 @@
 {
-  "id": "sentence-sov",
-  "title": "What is a sentence?",
-  "explanation": "## What is a sentence?\n\nA **sentence** (a group of words that says one complete thought) usually tells you who did what. \"I eat rice\" is a sentence. \"Rice\" on its own is not, because nothing happens.\n\n## Who is doing something?\n\nThe **subject** (the person or thing that does the action) is the one who acts.\n\n- In \"I eat rice\", the subject is *I*.\n- In \"Mother eats rice\", the subject is *Mother*.\n\n## What is the action?\n\nThe **verb** (the action word, what someone does) says what is happening.\n\n- In \"I eat rice\", the verb is *eat*.\n- Other verbs: run, drink, read, sleep.\n\n## What is the action done to?\n\nThe **object** (the thing or person the action happens to) receives the action.\n\n- In \"I eat rice\", the object is *rice*. The rice is what gets eaten.\n\n## English word order\n\n**Word order** (the order the words come in, one after another) changes between languages. English puts the subject first, then the verb, then the object.\n\n> I (subject) **eat** (verb) rice (object)\n\nSo in English the verb sits in the middle.\n\n## Bengali word order\n\nBengali usually goes subject, then object, then verb. The verb comes last.\n\n> I (subject) rice (object) **eat** (verb)\n\nThese are English words placed in Bengali order. A Bengali speaker says the same idea in this order: \"I rice eat.\"\n\n## Where to look first\n\nIn a Bengali sentence, look at the last word first. It is usually the action.",
-  "exercises": [
+  "lessons": [
     {
-      "type": "mcq",
-      "prompt": "In the English sentence \"Mother eats rice\", which word is the subject (the one doing the action)?",
-      "options": [
-        { "text": "Mother" },
-        { "text": "eats" },
-        { "text": "rice" }
-      ],
-      "answer": "Mother",
-      "explanation": "The subject is the one who does the action, and Mother is the one eating. \"Eats\" is the action itself (the verb), and \"rice\" is what gets eaten (the object)."
+      "id": "sentence-sov",
+      "title": "What is a sentence?",
+      "explanation": "## What is a sentence?\n\nA **sentence** (a group of words that says one complete thought) usually tells you who did what. \"I eat rice\" is a sentence. \"Rice\" on its own is not, because nothing happens.\n\n## Who is doing something?\n\nThe **subject** (the person or thing that does the action) is the one who acts.\n\n- In \"I eat rice\", the subject is *I*.\n- In \"Mother eats rice\", the subject is *Mother*.\n\n## What is the action?\n\nThe **verb** (the action word, what someone does) says what is happening.\n\n- In \"I eat rice\", the verb is *eat*.\n- Other verbs: run, drink, read, sleep.\n\n## What is the action done to?\n\nThe **object** (the thing or person the action happens to) receives the action.\n\n- In \"I eat rice\", the object is *rice*. The rice is what gets eaten.\n\n## English word order\n\n**Word order** (the order the words come in, one after another) changes between languages. English puts the subject first, then the verb, then the object.\n\n> I (subject) **eat** (verb) rice (object)\n\nSo in English the verb sits in the middle.\n\n## Bengali word order\n\nBengali usually goes subject, then object, then verb. The verb comes last.\n\n> I (subject) rice (object) **eat** (verb)\n\nThese are English words placed in Bengali order. A Bengali speaker says the same idea in this order: \"I rice eat.\"\n\n## Where to look first\n\nIn a Bengali sentence, look at the last word first. It is usually the action.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "In the English sentence \"Mother eats rice\", which word is the subject (the one doing the action)?",
+          "options": [
+            {
+              "text": "Mother"
+            },
+            {
+              "text": "eats"
+            },
+            {
+              "text": "rice"
+            }
+          ],
+          "answer": "Mother",
+          "explanation": "The subject is the one who does the action, and Mother is the one eating. \"Eats\" is the action itself (the verb), and \"rice\" is what gets eaten (the object)."
+        },
+        {
+          "type": "mcq",
+          "prompt": "In the English sentence \"You drink water\", which word is the object (what the action is done to)?",
+          "options": [
+            {
+              "text": "You"
+            },
+            {
+              "text": "drink"
+            },
+            {
+              "text": "water"
+            }
+          ],
+          "answer": "water",
+          "explanation": "The object receives the action, and the water is what gets drunk. \"You\" is the subject (the one acting), and \"drink\" is the verb (the action)."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Here is a sentence in Bengali word order: \"I rice eat\". Which word is the verb (the action word)?",
+          "options": [
+            {
+              "text": "I"
+            },
+            {
+              "text": "rice"
+            },
+            {
+              "text": "eat"
+            }
+          ],
+          "answer": "eat",
+          "explanation": "Bengali puts the verb last, so \"eat\" is the verb. \"I\" is the subject, who does the action. \"Rice\" is the object, what gets eaten."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word order is the usual Bengali way to say \"You drink water\"?",
+          "options": [
+            {
+              "text": "You water drink"
+            },
+            {
+              "text": "You drink water"
+            },
+            {
+              "text": "Drink you water"
+            }
+          ],
+          "answer": "You water drink",
+          "explanation": "Bengali goes subject, object, verb, so the first option is right. The second copies the English order, with the verb in the middle. The third puts the verb first, which is not the usual Bengali order."
+        },
+        {
+          "type": "fill",
+          "prompt": "In \"I eat rice\", the word that names who does the action is called the ____.",
+          "answer": "subject",
+          "acceptedAnswers": [
+            "the subject"
+          ],
+          "explanation": "The subject is the person or thing that does the action. In \"I eat rice\", that is \"I\"."
+        },
+        {
+          "type": "fill",
+          "prompt": "The action word in a sentence, such as eat, drink or run, is called the ____.",
+          "answer": "verb",
+          "acceptedAnswers": [
+            "the verb"
+          ],
+          "explanation": "The verb is the action word. The subject does it, and the object receives it."
+        },
+        {
+          "type": "fill",
+          "prompt": "In a usual Bengali sentence, the verb comes ____. (first, middle or last)",
+          "answer": "last",
+          "acceptedAnswers": [
+            "at the end",
+            "end"
+          ],
+          "explanation": "Bengali goes subject, object, verb, so the verb comes last. English puts the verb in the middle."
+        },
+        {
+          "type": "fill",
+          "prompt": "In the Bengali word order \"Mother rice eats\", the object (what gets eaten) is ____.",
+          "answer": "rice",
+          "acceptedAnswers": [
+            "the rice"
+          ],
+          "explanation": "The rice is what gets eaten, so it is the object. \"Mother\" is the subject, and \"eats\" is the verb, placed last."
+        }
+      ]
     },
     {
-      "type": "mcq",
-      "prompt": "In the English sentence \"You drink water\", which word is the object (what the action is done to)?",
-      "options": [
-        { "text": "You" },
-        { "text": "drink" },
-        { "text": "water" }
-      ],
-      "answer": "water",
-      "explanation": "The object receives the action, and the water is what gets drunk. \"You\" is the subject (the one acting), and \"drink\" is the verb (the action)."
+      "id": "nouns-adjectives",
+      "title": "Nouns and describing words",
+      "explanation": "## Nouns\n\nA **noun** (a word for a person, place or thing) names something. Book, house and friend are nouns.\n\n- boi = book\n- bari = house\n- bondhu = friend\n\n## Describing words\n\nAn **adjective** (a word that describes a noun) tells you more about it, such as good, big or new.\n\n- bhalo = good\n- boro = big\n- notun = new\n\n## Adjective first\n\nBengali puts the adjective before the noun, the same as English.\n\n> boro bari = big house\n> notun boi = new book\n\n## Adjectives do not change\n\nAn adjective keeps one form for every noun. Good is bhalo for a friend, a book or a house.\n\n> bhalo bondhu = good friend\n> bhalo boi = good book",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Which of these is a noun (a word for a person, place or thing)?",
+          "options": [
+            {
+              "text": "bhalo (good)"
+            },
+            {
+              "text": "bondhu (friend)"
+            },
+            {
+              "text": "notun (new)"
+            }
+          ],
+          "answer": "bondhu (friend)",
+          "explanation": "Bondhu names a person, so it is a noun. Bhalo and notun describe something, so they are adjectives."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which of these is an adjective (a word that describes a noun)?",
+          "options": [
+            {
+              "text": "boi (book)"
+            },
+            {
+              "text": "bari (house)"
+            },
+            {
+              "text": "boro (big)"
+            }
+          ],
+          "answer": "boro (big)",
+          "explanation": "Boro describes size, so it is an adjective. Boi and bari are things, so they are nouns."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"big house\"?",
+          "options": [
+            {
+              "text": "bari boro"
+            },
+            {
+              "text": "boro bari"
+            },
+            {
+              "text": "notun bari"
+            }
+          ],
+          "answer": "boro bari",
+          "explanation": "The adjective comes first, so boro bari. Bari boro puts the noun first. Notun bari means new house, because notun means new."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Good friend is bhalo bondhu. How do you say \"good book\"?",
+          "options": [
+            {
+              "text": "bhalo boi"
+            },
+            {
+              "text": "boi bhalo"
+            },
+            {
+              "text": "bhali boi"
+            }
+          ],
+          "answer": "bhalo boi",
+          "explanation": "Adjective first, and bhalo stays the same. Boi bhalo has the wrong order. Bhali boi changes the adjective, which Bengali does not do."
+        },
+        {
+          "type": "fill",
+          "prompt": "A word that describes a noun, such as good or big, is called an ____.",
+          "answer": "adjective",
+          "acceptedAnswers": [
+            "an adjective",
+            "the adjective"
+          ],
+          "explanation": "An adjective describes a noun. Bhalo and boro are adjectives."
+        },
+        {
+          "type": "fill",
+          "prompt": "A word for a person, place or thing is called a ____.",
+          "answer": "noun",
+          "acceptedAnswers": [
+            "a noun",
+            "the noun"
+          ],
+          "explanation": "A noun names a person, place or thing, like boi (book)."
+        }
+      ]
     },
     {
-      "type": "mcq",
-      "prompt": "Here is a sentence in Bengali word order: \"I rice eat\". Which word is the verb (the action word)?",
-      "options": [
-        { "text": "I" },
-        { "text": "rice" },
-        { "text": "eat" }
-      ],
-      "answer": "eat",
-      "explanation": "Bengali puts the verb last, so \"eat\" is the verb. \"I\" is the subject, who does the action. \"Rice\" is the object, what gets eaten."
+      "id": "no-articles-gender",
+      "title": "No a, the or he and she",
+      "explanation": "## No a or the\n\nAn **article** (a small word like a or the that goes before a noun) is common in English. Bengali usually has none.\n\n> boi = book, a book or the book\n\n## Say it plainly\n\nContext tells you which one is meant.\n\n> ami boi pori = I read a book\n\nHere ami is I, and pori is I read.\n\n## No grammatical gender\n\n**Grammatical gender** (a label such as masculine or feminine that some languages give to every noun) does not exist in Bengali. A table or a book is not he or she.\n\n## One word for he and she\n\nA **pronoun** (a small word that stands in for a noun, like I, you or he) can also be gender-free. Bengali uses one word, shey, for both he and she.\n\n> shey bhat khay = he eats rice, or she eats rice",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Bengali has no separate word for the. So the word boi can mean:",
+          "options": [
+            {
+              "text": "only the book"
+            },
+            {
+              "text": "book, a book or the book"
+            },
+            {
+              "text": "only a book"
+            }
+          ],
+          "answer": "book, a book or the book",
+          "explanation": "With no article, boi stands for all three. It is not limited to the or to a."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does shey mean?",
+          "options": [
+            {
+              "text": "he or she"
+            },
+            {
+              "text": "only he"
+            },
+            {
+              "text": "only she"
+            }
+          ],
+          "answer": "he or she",
+          "explanation": "Shey is one word for both, because Bengali has no gender in its pronouns."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which of these is a pronoun (a word that stands in for a noun)?",
+          "options": [
+            {
+              "text": "bari (house)"
+            },
+            {
+              "text": "bhalo (good)"
+            },
+            {
+              "text": "shey (he, she)"
+            }
+          ],
+          "answer": "shey (he, she)",
+          "explanation": "Shey stands in for a person. Bari is a noun, and bhalo is an adjective."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Some languages give every noun a gender, such as masculine or feminine. What does Bengali do?",
+          "options": [
+            {
+              "text": "It gives only people a gender"
+            },
+            {
+              "text": "It gives every noun a gender"
+            },
+            {
+              "text": "It has no grammatical gender"
+            }
+          ],
+          "answer": "It has no grammatical gender",
+          "explanation": "Bengali nouns have no gender label at all, so there is nothing to match."
+        },
+        {
+          "type": "fill",
+          "prompt": "Bengali has no grammatical ____, so one word means both he and she.",
+          "answer": "gender",
+          "acceptedAnswers": [
+            "gender",
+            "the gender"
+          ],
+          "explanation": "Without gender, one pronoun covers both he and she."
+        },
+        {
+          "type": "fill",
+          "prompt": "Words like a and the are called ____. Bengali usually has none.",
+          "answer": "articles",
+          "acceptedAnswers": [
+            "article",
+            "the articles",
+            "an article"
+          ],
+          "explanation": "A and the are articles. Bengali usually leaves them out."
+        }
+      ]
     },
     {
-      "type": "mcq",
-      "prompt": "Which word order is the usual Bengali way to say \"You drink water\"?",
-      "options": [
-        { "text": "You water drink" },
-        { "text": "You drink water" },
-        { "text": "Drink you water" }
-      ],
-      "answer": "You water drink",
-      "explanation": "Bengali goes subject, object, verb, so the first option is right. The second copies the English order, with the verb in the middle. The third puts the verb first, which is not the usual Bengali order."
+      "id": "you-three-ways",
+      "title": "Three ways to say you",
+      "explanation": "## I and we\n\nThe word for I is ami. The word for we is amra.\n\n## Why you has three forms\n\nEnglish has one you. Bengali has three, because it shows **formal** (polite and respectful, used with elders and strangers) or casual speech in the word for you.\n\n## The three yous\n\n- apni = you, formal\n- tumi = you, friendly and everyday\n- tui = you, very casual, for close friends and children\n\n## Which one to choose\n\nWhen you are not sure, use apni. It is never rude. Tui can sound rude to someone you do not know well.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say I in Bengali?",
+          "options": [
+            {
+              "text": "tumi"
+            },
+            {
+              "text": "apni"
+            },
+            {
+              "text": "ami"
+            }
+          ],
+          "answer": "ami",
+          "explanation": "Ami means I. Tumi and apni both mean you."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which you is the formal, polite one?",
+          "options": [
+            {
+              "text": "tumi"
+            },
+            {
+              "text": "apni"
+            },
+            {
+              "text": "tui"
+            }
+          ],
+          "answer": "apni",
+          "explanation": "Apni is the formal you. Tumi is friendly and everyday, and tui is very casual."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which you is the most casual?",
+          "options": [
+            {
+              "text": "tui"
+            },
+            {
+              "text": "apni"
+            },
+            {
+              "text": "tumi"
+            }
+          ],
+          "answer": "tui",
+          "explanation": "Tui is for very close people. Apni is formal, and tumi sits in between."
+        },
+        {
+          "type": "mcq",
+          "prompt": "You meet an older stranger. Which you is the safest?",
+          "options": [
+            {
+              "text": "tui"
+            },
+            {
+              "text": "tumi"
+            },
+            {
+              "text": "apni"
+            }
+          ],
+          "answer": "apni",
+          "explanation": "Apni is polite and safe. Tumi is more familiar, and tui can sound rude."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does amra mean?",
+          "options": [
+            {
+              "text": "we"
+            },
+            {
+              "text": "I"
+            },
+            {
+              "text": "you"
+            }
+          ],
+          "answer": "we",
+          "explanation": "Amra means we. Ami is the single I."
+        },
+        {
+          "type": "fill",
+          "prompt": "Bengali has ____ ways to say you. (give a number)",
+          "answer": "three",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "explanation": "Apni, tumi and tui: three forms for different levels of formality."
+        },
+        {
+          "type": "fill",
+          "prompt": "When you are not sure which you to use, the safe choice is ____.",
+          "answer": "apni",
+          "acceptedAnswers": [],
+          "explanation": "Apni is the formal you, so it is never rude."
+        }
+      ]
     },
     {
-      "type": "fill",
-      "prompt": "In \"I eat rice\", the word that names who does the action is called the ____.",
-      "answer": "subject",
-      "acceptedAnswers": ["the subject"],
-      "explanation": "The subject is the person or thing that does the action. In \"I eat rice\", that is \"I\"."
+      "id": "verb-person",
+      "title": "The verb changes with the person",
+      "explanation": "## One verb, one stem\n\nA **verb** (an action word) such as eat has a **stem** (the part of a verb that stays the same): kha. The ending after the stem changes.\n\n## Eat for each person\n\n- ami bhat khai = I eat rice\n- tumi bhat khao = you eat rice (friendly)\n- apni bhat khan = you eat rice (formal)\n- shey bhat khay = he or she eats rice\n\n## The verb matches the you\n\nEach you has its own ending. Apni goes with khan, and tumi goes with khao.\n\n## The pronoun can be dropped\n\nThe verb already shows who is acting, so speakers often skip the pronoun. Bhat khai alone means I eat rice.\n\n## Another verb\n\nThe verb read has the stem por.\n\n- ami pori = I read\n- tumi poro = you read\n- apni porun = you read, formal\n- shey pore = he or she reads",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "ami bhat ____ (I eat rice). Which verb fits?",
+          "options": [
+            {
+              "text": "khao"
+            },
+            {
+              "text": "khay"
+            },
+            {
+              "text": "khai"
+            }
+          ],
+          "answer": "khai",
+          "explanation": "Khai goes with ami. Khao goes with tumi, and khay goes with shey."
+        },
+        {
+          "type": "mcq",
+          "prompt": "tumi bhat ____ (you eat rice, friendly).",
+          "options": [
+            {
+              "text": "khao"
+            },
+            {
+              "text": "khan"
+            },
+            {
+              "text": "khay"
+            }
+          ],
+          "answer": "khao",
+          "explanation": "Khao goes with tumi. Khan goes with apni, and khay goes with shey."
+        },
+        {
+          "type": "mcq",
+          "prompt": "apni bhat ____ (you eat rice, formal).",
+          "options": [
+            {
+              "text": "khai"
+            },
+            {
+              "text": "khao"
+            },
+            {
+              "text": "khan"
+            }
+          ],
+          "answer": "khan",
+          "explanation": "Khan goes with apni. Khai goes with ami, and khao goes with tumi."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does shey bhat khay mean?",
+          "options": [
+            {
+              "text": "I eat rice"
+            },
+            {
+              "text": "He or she eats rice"
+            },
+            {
+              "text": "You eat rice"
+            }
+          ],
+          "answer": "He or she eats rice",
+          "explanation": "Shey is he or she, and khay is the matching verb."
+        },
+        {
+          "type": "fill",
+          "prompt": "The part of a verb that stays the same, such as kha in khai and khao, is called the ____.",
+          "answer": "stem",
+          "acceptedAnswers": [
+            "the stem",
+            "a stem"
+          ],
+          "explanation": "The stem stays put while the ending changes."
+        },
+        {
+          "type": "fill",
+          "prompt": "Fill in the verb: shey bhat ____ (he or she eats rice).",
+          "answer": "khay",
+          "acceptedAnswers": [],
+          "explanation": "Shey takes khay."
+        },
+        {
+          "type": "fill",
+          "prompt": "Fill in the verb: ami boi ____ (I read a book).",
+          "answer": "pori",
+          "acceptedAnswers": [],
+          "explanation": "Ami takes pori."
+        }
+      ]
     },
     {
-      "type": "fill",
-      "prompt": "The action word in a sentence, such as eat, drink or run, is called the ____.",
-      "answer": "verb",
-      "acceptedAnswers": ["the verb"],
-      "explanation": "The verb is the action word. The subject does it, and the object receives it."
+      "id": "no-to-be",
+      "title": "No word for am, is or are",
+      "explanation": "## The verb that joins\n\nA **linking verb** (a small verb such as am, is or are that joins a subject to a describing word) is very common in English.\n\n## Bengali leaves it out\n\nIn the present, Bengali does not say am, is or are.\n\n> ami doctor = I am a doctor\n> bhat gorom = the rice is hot\n\nHere gorom means hot.\n\n## Sentences without a verb\n\nSo a Bengali sentence can be just a subject and a describing word or noun. It is still complete.\n\n## Being somewhere\n\nTo say something exists or is there, Bengali does use a verb: achhe.\n\n> bhat achhe = there is rice",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"the rice is hot\"?",
+          "options": [
+            {
+              "text": "gorom bhat"
+            },
+            {
+              "text": "bhat gorom"
+            },
+            {
+              "text": "bhat achhe"
+            }
+          ],
+          "answer": "bhat gorom",
+          "explanation": "Bhat gorom is the sentence. Gorom bhat is hot rice, a phrase with no is. Bhat achhe means there is rice."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami doctor mean?",
+          "options": [
+            {
+              "text": "I am a doctor"
+            },
+            {
+              "text": "You are a doctor"
+            },
+            {
+              "text": "He is a doctor"
+            }
+          ],
+          "answer": "I am a doctor",
+          "explanation": "Ami is I, and the verb am is left out."
+        },
+        {
+          "type": "mcq",
+          "prompt": "In bhat gorom (the rice is hot), which English word has no Bengali word?",
+          "options": [
+            {
+              "text": "rice"
+            },
+            {
+              "text": "is"
+            },
+            {
+              "text": "hot"
+            }
+          ],
+          "answer": "is",
+          "explanation": "Bhat is rice and gorom is hot. The word is is simply left out."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means there is, or exists?",
+          "options": [
+            {
+              "text": "khay"
+            },
+            {
+              "text": "pori"
+            },
+            {
+              "text": "achhe"
+            }
+          ],
+          "answer": "achhe",
+          "explanation": "Achhe means there is. Khay means eats, and pori means I read."
+        },
+        {
+          "type": "fill",
+          "prompt": "In a Bengali sentence like the rice is hot, the word for is is ____. (left out or kept)",
+          "answer": "left out",
+          "acceptedAnswers": [
+            "omitted",
+            "dropped",
+            "not used",
+            "left"
+          ],
+          "explanation": "Bengali leaves out am, is and are in the present."
+        },
+        {
+          "type": "fill",
+          "prompt": "bhat ____ means there is rice.",
+          "answer": "achhe",
+          "acceptedAnswers": [],
+          "explanation": "Achhe says that something is there."
+        }
+      ]
     },
     {
-      "type": "fill",
-      "prompt": "In a usual Bengali sentence, the verb comes ____. (first, middle or last)",
-      "answer": "last",
-      "acceptedAnswers": ["at the end", "end"],
-      "explanation": "Bengali goes subject, object, verb, so the verb comes last. English puts the verb in the middle."
+      "id": "negation-na",
+      "title": "Saying no with na",
+      "explanation": "## Negative sentences\n\nA **negative** (a sentence that says something is not true or not done) is made in English with do not or does not.\n\n## One small word\n\nBengali adds the word na (no, not) at the end, after the **verb** (the action word).\n\n> ami bhat khai = I eat rice\n> ami bhat khai na = I do not eat rice\n\n## The verb stays the same\n\nIn the present, the verb does not change. You just add na.\n\n> shey bhat khay na = he or she does not eat rice\n\n## Na on its own\n\nNa by itself also means no, as an answer to a question.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I do not eat rice\"?",
+          "options": [
+            {
+              "text": "ami na bhat khai"
+            },
+            {
+              "text": "ami bhat khai na"
+            },
+            {
+              "text": "ami bhat khay na"
+            }
+          ],
+          "answer": "ami bhat khai na",
+          "explanation": "Na goes after the verb. Ami na bhat khai puts na in the wrong place. Khay goes with shey, not ami."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Where does na go in a plain Bengali sentence?",
+          "options": [
+            {
+              "text": "After the verb"
+            },
+            {
+              "text": "Before the subject"
+            },
+            {
+              "text": "Before the object"
+            }
+          ],
+          "answer": "After the verb",
+          "explanation": "Na comes straight after the verb, at the end."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does tumi bhat khao na mean?",
+          "options": [
+            {
+              "text": "You eat rice"
+            },
+            {
+              "text": "I do not eat rice"
+            },
+            {
+              "text": "You do not eat rice"
+            }
+          ],
+          "answer": "You do not eat rice",
+          "explanation": "Tumi is you and na makes it negative. Without na it would be you eat rice."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does na mean?",
+          "options": [
+            {
+              "text": "yes"
+            },
+            {
+              "text": "also"
+            },
+            {
+              "text": "no, not"
+            }
+          ],
+          "answer": "no, not",
+          "explanation": "Na means no or not."
+        },
+        {
+          "type": "fill",
+          "prompt": "Complete: shey bhat khay ____ (he or she does not eat rice).",
+          "answer": "na",
+          "acceptedAnswers": [],
+          "explanation": "Na goes after the verb."
+        },
+        {
+          "type": "fill",
+          "prompt": "A sentence that says something is not done is called a ____ sentence.",
+          "answer": "negative",
+          "acceptedAnswers": [
+            "a negative"
+          ],
+          "explanation": "A negative sentence says something is not true or not done."
+        }
+      ]
     },
     {
-      "type": "fill",
-      "prompt": "In the Bengali word order \"Mother rice eats\", the object (what gets eaten) is ____.",
-      "answer": "rice",
-      "acceptedAnswers": ["the rice"],
-      "explanation": "The rice is what gets eaten, so it is the object. \"Mother\" is the subject, and \"eats\" is the verb, placed last."
+      "id": "questions",
+      "title": "Asking questions",
+      "explanation": "## Question words\n\nA **question word** (a word that asks for information, such as who, what or where) starts many questions.\n\n- ke = who\n- ki = what\n- kothay = where\n- keno = why\n- kokhon = when\n- kemon = how\n\n## Just before the verb\n\nThe question word usually sits right before the verb.\n\n> tumi ki khao? = what do you eat?\n> shey kothay khay? = where does he or she eat?\n\n## Who takes the subject spot\n\nKe replaces the **subject** (the one who does the action), so it comes first.\n\n> ke bhat khay? = who eats rice?\n\n## Yes or no questions\n\nNo special word is needed. Say the same sentence with a questioning voice.\n\n> tumi bhat khao? = do you eat rice?",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does kothay mean?",
+          "options": [
+            {
+              "text": "who"
+            },
+            {
+              "text": "why"
+            },
+            {
+              "text": "where"
+            }
+          ],
+          "answer": "where",
+          "explanation": "Kothay is where. Ke is who, and keno is why."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means why?",
+          "options": [
+            {
+              "text": "kemon"
+            },
+            {
+              "text": "keno"
+            },
+            {
+              "text": "kokhon"
+            }
+          ],
+          "answer": "keno",
+          "explanation": "Keno is why. Kemon is how, and kokhon is when."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does tumi ki khao? mean?",
+          "options": [
+            {
+              "text": "Who eats?"
+            },
+            {
+              "text": "What do you eat?"
+            },
+            {
+              "text": "Where do you eat?"
+            }
+          ],
+          "answer": "What do you eat?",
+          "explanation": "Ki is what. Ke would be who, and kothay would be where."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"Where do you eat?\" (friendly you)?",
+          "options": [
+            {
+              "text": "tumi khao kothay?"
+            },
+            {
+              "text": "tumi kothay khao?"
+            },
+            {
+              "text": "tumi keno khao?"
+            }
+          ],
+          "answer": "tumi kothay khao?",
+          "explanation": "Kothay sits just before the verb. Khao kothay puts it after. Keno means why."
+        },
+        {
+          "type": "fill",
+          "prompt": "Ke means ____.",
+          "answer": "who",
+          "acceptedAnswers": [],
+          "explanation": "Ke is who."
+        },
+        {
+          "type": "fill",
+          "prompt": "A word like who, what or where that asks for information is a question ____.",
+          "answer": "word",
+          "acceptedAnswers": [
+            "a word"
+          ],
+          "explanation": "It is called a question word."
+        }
+      ]
+    },
+    {
+      "id": "possession",
+      "title": "My, your, his and her",
+      "explanation": "## Belonging\n\nA **possessive** (a word that shows who something belongs to, such as my or your) goes before the noun.\n\n## From I to my\n\n- ami = I, so amar = my\n- tumi = you, so tomar = your, friendly\n- apni = you, so apnar = your, formal\n- shey = he or she, so tar = his or her\n\n## Before the noun\n\n> amar boi = my book\n> tomar nam = your name\n> tar bari = his or her house\n\nHere nam means name.\n\n## Match the formality\n\nUse tomar when you say tumi, and apnar when you say apni.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does amar boi mean?",
+          "options": [
+            {
+              "text": "your book"
+            },
+            {
+              "text": "his or her book"
+            },
+            {
+              "text": "my book"
+            }
+          ],
+          "answer": "my book",
+          "explanation": "Amar is my. Tomar would be your, and tar would be his or her."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means your, for someone you must be polite to?",
+          "options": [
+            {
+              "text": "tomar"
+            },
+            {
+              "text": "apnar"
+            },
+            {
+              "text": "amar"
+            }
+          ],
+          "answer": "apnar",
+          "explanation": "Apnar is the formal your. Tomar is the friendly your, and amar is my."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"her house\"?",
+          "options": [
+            {
+              "text": "bari tar"
+            },
+            {
+              "text": "amar bari"
+            },
+            {
+              "text": "tar bari"
+            }
+          ],
+          "answer": "tar bari",
+          "explanation": "The possessive comes first. Bari tar has the wrong order, and amar is my."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does tomar nam mean?",
+          "options": [
+            {
+              "text": "my name"
+            },
+            {
+              "text": "your name"
+            },
+            {
+              "text": "our name"
+            }
+          ],
+          "answer": "your name",
+          "explanation": "Tomar is your, friendly, and nam is name."
+        },
+        {
+          "type": "fill",
+          "prompt": "The word for my is ____.",
+          "answer": "amar",
+          "acceptedAnswers": [],
+          "explanation": "Amar comes from ami."
+        },
+        {
+          "type": "fill",
+          "prompt": "A word that shows who something belongs to, like my or your, is called ____.",
+          "answer": "possessive",
+          "acceptedAnswers": [
+            "a possessive"
+          ],
+          "explanation": "That is a possessive."
+        }
+      ]
+    },
+    {
+      "id": "plural-counting",
+      "title": "More than one, and counting",
+      "explanation": "## Plural\n\nA **plural** (a form that means more than one) is made in English with -s. Bengali uses endings.\n\n- boi = book, boigulo = books\n- bondhu = friend, bondhura = friends\n\nUse -gulo for things and -ra for people.\n\n## Numbers do not need a plural\n\nAfter a number the noun stays as it is, because the number already shows how many.\n\n> duto boi = two books\n\n## Counting words\n\nA **counting word** (a small word that joins a number to a noun) goes with the number.\n\n> ekta boi = one book\n> duto boi = two books\n> tinte boi = three books\n\n## Ta means the\n\nAdding -ta to a noun can mean the.\n\n> boita = the book",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Which ending makes a plural for things, like boi?",
+          "options": [
+            {
+              "text": "-ra"
+            },
+            {
+              "text": "-gulo"
+            },
+            {
+              "text": "-ta"
+            }
+          ],
+          "answer": "-gulo",
+          "explanation": "-gulo is for things. -ra is for people, and -ta is a counting word or the."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does bondhura mean?",
+          "options": [
+            {
+              "text": "friends"
+            },
+            {
+              "text": "friend"
+            },
+            {
+              "text": "my friend"
+            }
+          ],
+          "answer": "friends",
+          "explanation": "The -ra ending makes a plural for people."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"two books\"?",
+          "options": [
+            {
+              "text": "duto boigulo"
+            },
+            {
+              "text": "boi duto"
+            },
+            {
+              "text": "duto boi"
+            }
+          ],
+          "answer": "duto boi",
+          "explanation": "Number first, and no plural ending after a number. Duto boigulo adds a plural that is not needed."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does boita mean?",
+          "options": [
+            {
+              "text": "books"
+            },
+            {
+              "text": "the book"
+            },
+            {
+              "text": "my book"
+            }
+          ],
+          "answer": "the book",
+          "explanation": "The ending -ta can mean the."
+        },
+        {
+          "type": "fill",
+          "prompt": "ekta boi means one ____.",
+          "answer": "book",
+          "acceptedAnswers": [
+            "a book"
+          ],
+          "explanation": "Ekta is one and boi is book."
+        },
+        {
+          "type": "fill",
+          "prompt": "A form that means more than one is called a ____ form.",
+          "answer": "plural",
+          "acceptedAnswers": [
+            "a plural"
+          ],
+          "explanation": "That is the plural."
+        }
+      ]
+    },
+    {
+      "id": "tenses",
+      "title": "Past, present and future",
+      "explanation": "## Tense\n\nA **tense** (the form of a verb that shows when something happens) tells you if it is now, before or later.\n\n## Three forms of I eat\n\n- ami bhat khai = I eat\n- ami bhat khelam = I ate\n- ami bhat khabo = I will eat\n\n## The same pattern again\n\nWith ami, the past ends in -lam and the future ends in -bo.\n\n- ami boi pori = I read\n- ami boi porlam = I read, in the past\n- ami boi porbo = I will read\n\n## Other people\n\n- tumi bhat khele = you ate\n- shey bhat khelo = he or she ate\n- tumi bhat khabe = you will eat\n- shey bhat khabe = he or she will eat\n\n## The verb is still last\n\nIn every tense the verb stays at the end of the sentence.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ami bhat khelam mean?",
+          "options": [
+            {
+              "text": "I will eat rice"
+            },
+            {
+              "text": "I ate rice"
+            },
+            {
+              "text": "I eat rice"
+            }
+          ],
+          "answer": "I ate rice",
+          "explanation": "Khelam is the past. Khabo would be the future, and khai the present."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which form means I will eat?",
+          "options": [
+            {
+              "text": "khai"
+            },
+            {
+              "text": "khelam"
+            },
+            {
+              "text": "khabo"
+            }
+          ],
+          "answer": "khabo",
+          "explanation": "Khabo is the future. Khai is now, and khelam is the past."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I will read a book\"?",
+          "options": [
+            {
+              "text": "ami boi pori"
+            },
+            {
+              "text": "ami boi porlam"
+            },
+            {
+              "text": "ami boi porbo"
+            }
+          ],
+          "answer": "ami boi porbo",
+          "explanation": "Porbo is the future. Pori is present, and porlam is past."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does shey bhat khabe mean?",
+          "options": [
+            {
+              "text": "He or she ate rice"
+            },
+            {
+              "text": "He or she will eat rice"
+            },
+            {
+              "text": "He or she eats rice"
+            }
+          ],
+          "answer": "He or she will eat rice",
+          "explanation": "Khabe is the future form."
+        },
+        {
+          "type": "fill",
+          "prompt": "A verb form that shows when something happens is called a ____.",
+          "answer": "tense",
+          "acceptedAnswers": [
+            "a tense"
+          ],
+          "explanation": "That is the tense."
+        },
+        {
+          "type": "fill",
+          "prompt": "I ate is ami khelam. I will eat is ami ____.",
+          "answer": "khabo",
+          "acceptedAnswers": [],
+          "explanation": "Future with ami ends in -bo."
+        }
+      ]
+    },
+    {
+      "id": "review-build",
+      "title": "Build a sentence",
+      "explanation": "## Order\n\nPut the sentence in Bengali order.\n\n- **Subject** (who acts) first, **verb** (the action word) last\n- An adjective goes before its noun\n- A possessive goes before its noun\n- A question word goes just before the verb\n\n## Details\n\nFinish the sentence.\n\n- The verb matches the person and the you\n- Na goes after the verb\n- No is, am or are is needed with a noun or adjective",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"You do not eat rice\" (friendly you)?",
+          "options": [
+            {
+              "text": "tumi na bhat khao"
+            },
+            {
+              "text": "tumi khao bhat na"
+            },
+            {
+              "text": "tumi bhat khao na"
+            }
+          ],
+          "answer": "tumi bhat khao na",
+          "explanation": "Subject, object, verb, then na. The other two break the order."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"He or she ate rice\"?",
+          "options": [
+            {
+              "text": "shey bhat khabe"
+            },
+            {
+              "text": "shey bhat khelo"
+            },
+            {
+              "text": "shey bhat khay"
+            }
+          ],
+          "answer": "shey bhat khelo",
+          "explanation": "Khelo is past. Khabe is future, and khay is present."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you ask \"Where do you eat?\" politely?",
+          "options": [
+            {
+              "text": "apni kothay khan"
+            },
+            {
+              "text": "tumi kothay khao"
+            },
+            {
+              "text": "apni kothay khai"
+            }
+          ],
+          "answer": "apni kothay khan",
+          "explanation": "Apni takes khan. Tumi is too casual here, and khai goes with ami."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"my good friend\"?",
+          "options": [
+            {
+              "text": "bhalo amar bondhu"
+            },
+            {
+              "text": "amar bondhu bhalo"
+            },
+            {
+              "text": "amar bhalo bondhu"
+            }
+          ],
+          "answer": "amar bhalo bondhu",
+          "explanation": "Possessive first, then the adjective, then the noun."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I will not eat rice\"?",
+          "options": [
+            {
+              "text": "ami bhat khabo na"
+            },
+            {
+              "text": "ami bhat khai na"
+            },
+            {
+              "text": "ami na bhat khabo"
+            }
+          ],
+          "answer": "ami bhat khabo na",
+          "explanation": "Future verb, then na. Khai na is present. Na before the verb is the wrong place."
+        },
+        {
+          "type": "fill",
+          "prompt": "Complete: ami boi ____ (I read a book).",
+          "answer": "pori",
+          "acceptedAnswers": [],
+          "explanation": "Pori goes with ami."
+        },
+        {
+          "type": "fill",
+          "prompt": "Complete: tumi bhat khao ____ (you do not eat rice).",
+          "answer": "na",
+          "acceptedAnswers": [],
+          "explanation": "Na goes after the verb."
+        }
+      ]
     }
   ]
 }
