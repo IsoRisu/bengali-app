@@ -2939,6 +2939,2105 @@
           "explanation": "Ei is this."
         }
       ]
+    },
+    {
+      "id": "verb-to-be-past",
+      "title": "I was, you were",
+      "explanation": "## The past of am, is, are\n\nBengali leaves out am, is, are now, but it does have a past form. The verb is chhil-.\n\n- ami chhilam = I was\n- tumi chhile = you were (friendly)\n- apni chhilen = you were (polite)\n- shey chhilo = he or she was\n- amra chhilam = we were\n- tara chhilo = they were\n\n## Negative\n\nNa goes after the verb.\n\n> ami chhilam na = I was not\n\n## Order\n\nThe verb still comes last.\n\n> ami shokale barite chhilam = I was at home in the morning",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ami chhilam mean?",
+          "options": [
+            {
+              "text": "I am"
+            },
+            {
+              "text": "I was"
+            },
+            {
+              "text": "I will be"
+            }
+          ],
+          "answer": "I was",
+          "explanation": "Chhilam is the past of the first person. The present is left out entirely."
+        },
+        {
+          "type": "mcq",
+          "prompt": "shey ____ (he or she was)",
+          "options": [
+            {
+              "text": "chhilam"
+            },
+            {
+              "text": "chhile"
+            },
+            {
+              "text": "chhilo"
+            }
+          ],
+          "answer": "chhilo",
+          "explanation": "Chhilo goes with shey. Chhilam is for ami, chhile for tumi."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I was not\"?",
+          "options": [
+            {
+              "text": "ami chhilam na"
+            },
+            {
+              "text": "ami na chhilam"
+            },
+            {
+              "text": "ami chhilam nei"
+            }
+          ],
+          "answer": "ami chhilam na",
+          "explanation": "Na goes after the verb, at the end of the sentence."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you politely say \"You were\"?",
+          "options": [
+            {
+              "text": "tumi chhile"
+            },
+            {
+              "text": "apni chhilen"
+            },
+            {
+              "text": "apni chhilam"
+            }
+          ],
+          "answer": "apni chhilen",
+          "explanation": "Chhilen goes with apni. Chhile goes with tumi."
+        },
+        {
+          "type": "fill",
+          "prompt": "ami ____ = I was.",
+          "answer": "chhilam",
+          "acceptedAnswers": [],
+          "explanation": "Chhilam goes with ami."
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "title": "Bigger, biggest",
+      "explanation": "## Comparing two things\n\nThe pattern is A B **theke** adjective: A is ADJ-er than B.\n\n> Rina Anik theke lomba = Rina is taller than Anik\n\n## The most\n\nshobcheye goes before the adjective.\n\n> shobcheye lomba = the tallest\n> shobcheye boro = the biggest\n\n## Less\n\nkom goes before the adjective.\n\n> kom lomba = less tall",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"taller than\"?",
+          "options": [
+            {
+              "text": "lomba theke"
+            },
+            {
+              "text": "theke lomba"
+            },
+            {
+              "text": "shobcheye lomba"
+            }
+          ],
+          "answer": "theke lomba",
+          "explanation": "Theke comes between the two things being compared, and the adjective follows."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does shobcheye boro mean?",
+          "options": [
+            {
+              "text": "less big"
+            },
+            {
+              "text": "the biggest"
+            },
+            {
+              "text": "bigger than"
+            }
+          ],
+          "answer": "the biggest",
+          "explanation": "Shobcheye means the most, so shobcheye boro is the biggest."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"smaller than Rina\"?",
+          "options": [
+            {
+              "text": "Rina theke chhoto"
+            },
+            {
+              "text": "chhoto Rina theke"
+            },
+            {
+              "text": "Rina kom chhoto"
+            }
+          ],
+          "answer": "Rina theke chhoto",
+          "explanation": "The compared-against noun comes first, then theke, then the adjective."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does kom boro mean?",
+          "options": [
+            {
+              "text": "very big"
+            },
+            {
+              "text": "less big"
+            },
+            {
+              "text": "not big"
+            }
+          ],
+          "answer": "less big",
+          "explanation": "Kom is less. Khub would be very."
+        },
+        {
+          "type": "fill",
+          "prompt": "Rina Anik ____ lomba = Rina is taller than Anik.",
+          "answer": "theke",
+          "acceptedAnswers": [],
+          "explanation": "Theke joins the two things being compared."
+        }
+      ]
+    },
+    {
+      "id": "must-should",
+      "title": "Must and should",
+      "explanation": "## Must\n\nSay amar or tomar, then the verb with -te hobe.\n\n> amar jete hobe = I must go\n> tomar jete hobe = you must go\n\n## Should\n\nThe verb with -a, then uchit.\n\n> tomar jaoa uchit = you should go\n\n## Not have to\n\nNa goes after hobe.\n\n> tomar jete hobe na = you do not have to go",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I must go\"?",
+          "options": [
+            {
+              "text": "ami jete hobe"
+            },
+            {
+              "text": "amar jete hobe"
+            },
+            {
+              "text": "amar jaoa uchit"
+            }
+          ],
+          "answer": "amar jete hobe",
+          "explanation": "Must uses amar (or tomar), not ami, and the verb ends in -te hobe."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does tomar jaoa uchit mean?",
+          "options": [
+            {
+              "text": "You must go"
+            },
+            {
+              "text": "You should go"
+            },
+            {
+              "text": "You did not go"
+            }
+          ],
+          "answer": "You should go",
+          "explanation": "Uchit means should. Hobe would be must."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does hobe na mean after the verb?",
+          "options": [
+            {
+              "text": "must"
+            },
+            {
+              "text": "should"
+            },
+            {
+              "text": "do not have to"
+            }
+          ],
+          "answer": "do not have to",
+          "explanation": "Hobe na flips must into the negative: you do not have to."
+        },
+        {
+          "type": "fill",
+          "prompt": "amar khete ____ = I must eat.",
+          "answer": "hobe",
+          "acceptedAnswers": [],
+          "explanation": "Hobe completes the must pattern."
+        },
+        {
+          "type": "fill",
+          "prompt": "tomar jete hobe ____ = you do not have to go.",
+          "answer": "na",
+          "acceptedAnswers": [],
+          "explanation": "Na goes last to make it negative."
+        }
+      ]
+    },
+    {
+      "id": "conditional",
+      "title": "If and then",
+      "explanation": "## If\n\njodi starts the condition.\n\n> jodi brishti hoy = if it rains\n\n## Then\n\ntobe introduces the result.\n\n> jodi brishti hoy, tobe ami jabo na = if it rains, then I will not go\n\n## Tobe is often dropped\n\n> jodi brishti hoy, ami jabo na = if it rains, I will not go\n\n## Order\n\nThe if-part comes first.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does jodi mean?",
+          "options": [
+            {
+              "text": "if"
+            },
+            {
+              "text": "then"
+            },
+            {
+              "text": "because"
+            }
+          ],
+          "answer": "if",
+          "explanation": "Jodi starts the if-clause. Tobe introduces the then-clause."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does tobe mean?",
+          "options": [
+            {
+              "text": "if"
+            },
+            {
+              "text": "then"
+            },
+            {
+              "text": "but"
+            }
+          ],
+          "answer": "then",
+          "explanation": "Tobe is then. Jodi is if, kintu is but."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"if you go\"?",
+          "options": [
+            {
+              "text": "tumi jodi jao"
+            },
+            {
+              "text": "jodi tumi jao"
+            },
+            {
+              "text": "jodi jao tumi"
+            }
+          ],
+          "answer": "jodi tumi jao",
+          "explanation": "Jodi comes first, then the subject and verb."
+        },
+        {
+          "type": "fill",
+          "prompt": "jodi brishti hoy, ____ ami jabo na = if it rains, then I will not go.",
+          "answer": "tobe",
+          "acceptedAnswers": [],
+          "explanation": "Tobe marks the result, though it can be left out."
+        }
+      ]
+    },
+    {
+      "id": "yes-no-answers",
+      "title": "Saying yes and no",
+      "explanation": "## Yes and no\n\n- hyan = yes\n- na = no\n\n## Confirming\n\n- thik = correct\n- thik achhe = okay, all right\n\n## Emphatic\n\nobosshoi = of course, certainly\n\n## I do not know\n\njani na = I do not know\n\n## Polite no\n\n> na, dhonnobad = no, thank you",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does hyan mean?",
+          "options": [
+            {
+              "text": "no"
+            },
+            {
+              "text": "yes"
+            },
+            {
+              "text": "maybe"
+            }
+          ],
+          "answer": "yes",
+          "explanation": "Hyan is yes. Na is no."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does obosshoi mean?",
+          "options": [
+            {
+              "text": "of course"
+            },
+            {
+              "text": "maybe"
+            },
+            {
+              "text": "never"
+            }
+          ],
+          "answer": "of course",
+          "explanation": "Obosshoi is a strong yes."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I do not know\"?",
+          "options": [
+            {
+              "text": "ami jani"
+            },
+            {
+              "text": "ami jani na"
+            },
+            {
+              "text": "ami na jani"
+            }
+          ],
+          "answer": "ami jani na",
+          "explanation": "Na goes after the verb, at the end."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does thik achhe mean?",
+          "options": [
+            {
+              "text": "correct only"
+            },
+            {
+              "text": "okay, all right"
+            },
+            {
+              "text": "never"
+            }
+          ],
+          "answer": "okay, all right",
+          "explanation": "Thik achhe is the everyday way to say okay."
+        },
+        {
+          "type": "fill",
+          "prompt": "na, ____ = no, thank you.",
+          "answer": "dhonnobad",
+          "acceptedAnswers": [],
+          "explanation": "Dhonnobad is thank you, and the polite no pairs with it."
+        }
+      ]
+    },
+    {
+      "id": "time-clock",
+      "title": "What time is it?",
+      "explanation": "## O'clock\n\nbaje = o'clock\n\n- ekta baje = it is one o'clock\n- dui ta baje = it is two o'clock\n- tinta baje = it is three o'clock\n\n## Asking the time\n\n> koyta baje? = what time is it?\n\n## Right now\n\n> ekhon = now\n> ekhon koyta baje? = what time is it now?",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does baje mean?",
+          "options": [
+            {
+              "text": "minute"
+            },
+            {
+              "text": "o'clock"
+            },
+            {
+              "text": "hour"
+            }
+          ],
+          "answer": "o'clock",
+          "explanation": "Baje is used after the number for the hour."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does koyta baje? mean?",
+          "options": [
+            {
+              "text": "How much is it?"
+            },
+            {
+              "text": "What time is it?"
+            },
+            {
+              "text": "Where is it?"
+            }
+          ],
+          "answer": "What time is it?",
+          "explanation": "Koyta asks how many (of the hour), and baje is o'clock."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"two o'clock\"?",
+          "options": [
+            {
+              "text": "dui baje"
+            },
+            {
+              "text": "dui ta baje"
+            },
+            {
+              "text": "baje dui"
+            }
+          ],
+          "answer": "dui ta baje",
+          "explanation": "The counting word ta joins dui to baje."
+        },
+        {
+          "type": "fill",
+          "prompt": "ekhon ____ baje? = what time is it now?",
+          "answer": "koy",
+          "acceptedAnswers": [
+            "koyta"
+          ],
+          "explanation": "Koy or koyta asks how many."
+        }
+      ]
+    },
+    {
+      "id": "food-drink",
+      "title": "Food and drink",
+      "explanation": "## Useful food words\n\n- jol = water\n- cha = tea\n- dudh = milk\n- machh = fish\n- dim = egg\n- fol = fruit\n- shobji = vegetables\n\n## Talking about eating and drinking\n\n- ami jol khai = I drink water\n- ami cha khai = I drink tea\n- ami machh khai = I eat fish\n\nIn everyday Bengali, the verb **khaoa** can be used for eating and drinking, depending on the object.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does jol mean?",
+          "options": [
+            {
+              "text": "milk"
+            },
+            {
+              "text": "water"
+            },
+            {
+              "text": "tea"
+            }
+          ],
+          "answer": "water",
+          "explanation": "Jol means water."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means fish?",
+          "options": [
+            {
+              "text": "machh"
+            },
+            {
+              "text": "dim"
+            },
+            {
+              "text": "fol"
+            }
+          ],
+          "answer": "machh",
+          "explanation": "Machh means fish."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami dudh khai mean?",
+          "options": [
+            {
+              "text": "I drink milk"
+            },
+            {
+              "text": "I eat fish"
+            },
+            {
+              "text": "I read a book"
+            }
+          ],
+          "answer": "I drink milk",
+          "explanation": "Ami means I, dudh means milk, and khai is the verb form used with ami."
+        },
+        {
+          "type": "fill",
+          "prompt": "cha means ____.",
+          "answer": "tea",
+          "acceptedAnswers": [],
+          "explanation": "Cha means tea."
+        },
+        {
+          "type": "fill",
+          "prompt": "dim means ____.",
+          "answer": "egg",
+          "acceptedAnswers": [],
+          "explanation": "Dim means egg."
+        }
+      ]
+    },
+    {
+      "id": "daily-routine",
+      "title": "Everyday activities",
+      "explanation": "## Everyday verbs\n\n- ghum = sleep\n- uth = get up\n- kha = eat\n- por = read or study\n- lek h (lek h) = write\n- khel = play\n\n## Simple sentences\n\n- ami ghumai = I sleep\n- ami uthi = I get up\n- ami pori = I read or study\n- ami kheli = I play\n\nThe verb ending changes with the subject.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ami pori mean?",
+          "options": [
+            {
+              "text": "I sleep"
+            },
+            {
+              "text": "I read or study"
+            },
+            {
+              "text": "I play"
+            }
+          ],
+          "answer": "I read or study",
+          "explanation": "Pori is the first-person form of por, read or study."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means sleep?",
+          "options": [
+            {
+              "text": "ghum"
+            },
+            {
+              "text": "lekha"
+            },
+            {
+              "text": "khela"
+            }
+          ],
+          "answer": "ghum",
+          "explanation": "Ghum means sleep."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “I play” in the lesson's pattern?",
+          "options": [
+            {
+              "text": "ami kheli"
+            },
+            {
+              "text": "ami khelo"
+            },
+            {
+              "text": "ami khele"
+            }
+          ],
+          "answer": "ami kheli",
+          "explanation": "Kheli is used with ami."
+        },
+        {
+          "type": "fill",
+          "prompt": "ami uthi means I ____ up.",
+          "answer": "get",
+          "acceptedAnswers": [
+            "get up"
+          ],
+          "explanation": "Uthi means get up when used with ami."
+        },
+        {
+          "type": "fill",
+          "prompt": "por can mean read or ____.",
+          "answer": "study",
+          "acceptedAnswers": [],
+          "explanation": "Por can mean read or study."
+        }
+      ]
+    },
+    {
+      "id": "places-city",
+      "title": "Places around town",
+      "explanation": "## Places\n\n- school = school\n- bajar = market\n- dokan = shop\n- hospital = hospital\n- station = station\n- rast a (rasta) = road\n- park = park\n\n## Simple sentences\n\n- ami bajare jai = I go to the market\n- shey school-e jay = he or she goes to school\n\nA place often appears before the verb.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does bajar mean?",
+          "options": [
+            {
+              "text": "market"
+            },
+            {
+              "text": "hospital"
+            },
+            {
+              "text": "station"
+            }
+          ],
+          "answer": "market",
+          "explanation": "Bajar means market."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does dokan mean?",
+          "options": [
+            {
+              "text": "road"
+            },
+            {
+              "text": "shop"
+            },
+            {
+              "text": "park"
+            }
+          ],
+          "answer": "shop",
+          "explanation": "Dokan means shop."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami bajare jai mean?",
+          "options": [
+            {
+              "text": "I go to the market"
+            },
+            {
+              "text": "I read at home"
+            },
+            {
+              "text": "I eat at school"
+            }
+          ],
+          "answer": "I go to the market",
+          "explanation": "Ami = I, bajare = to/at the market, jai = go."
+        },
+        {
+          "type": "fill",
+          "prompt": "hospital means ____.",
+          "answer": "hospital",
+          "acceptedAnswers": [],
+          "explanation": "Hospital is also commonly used as a borrowed word."
+        },
+        {
+          "type": "fill",
+          "prompt": "bajar means ____.",
+          "answer": "market",
+          "acceptedAnswers": [],
+          "explanation": "Bajar means market."
+        }
+      ]
+    },
+    {
+      "id": "days-week",
+      "title": "Days of the week",
+      "explanation": "## The days\n\n- robibar = Sunday\n- shombar = Monday\n- mongolbar = Tuesday\n- budhbar = Wednesday\n- brihospotibar = Thursday\n- shukrobar = Friday\n- shonibar = Saturday\n\n## Talking about a day\n\n- aj = today\n- kal = yesterday or tomorrow, depending on context\n- aj shombar = today is Monday\n\nThe exact meaning of kal is understood from context.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does aj mean?",
+          "options": [
+            {
+              "text": "tomorrow"
+            },
+            {
+              "text": "today"
+            },
+            {
+              "text": "yesterday"
+            }
+          ],
+          "answer": "today",
+          "explanation": "Aj means today."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which day means Friday?",
+          "options": [
+            {
+              "text": "shonibar"
+            },
+            {
+              "text": "shukrobar"
+            },
+            {
+              "text": "robibar"
+            }
+          ],
+          "answer": "shukrobar",
+          "explanation": "Shukrobar means Friday."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What can kal mean?",
+          "options": [
+            {
+              "text": "only today"
+            },
+            {
+              "text": "yesterday or tomorrow"
+            },
+            {
+              "text": "only Sunday"
+            }
+          ],
+          "answer": "yesterday or tomorrow",
+          "explanation": "Kal can mean yesterday or tomorrow, depending on context."
+        },
+        {
+          "type": "fill",
+          "prompt": "robibar means ____.",
+          "answer": "Sunday",
+          "acceptedAnswers": [],
+          "explanation": "Robibar means Sunday."
+        },
+        {
+          "type": "fill",
+          "prompt": "aj shombar means today is ____.",
+          "answer": "Monday",
+          "acceptedAnswers": [],
+          "explanation": "Shombar means Monday."
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather and seasons",
+      "explanation": "## Weather words\n\n- brishti = rain\n- rod = sunshine\n- gorom = hot\n- thanda = cold\n- batas = wind\n- megh = cloud\n\n## Simple descriptions\n\n- aj gorom = it is hot today\n- aj thanda = it is cold today\n- brishti hochhe = it is raining\n\nIn simple present descriptions, Bengali can leave out a word corresponding to “is.”",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does thanda mean?",
+          "options": [
+            {
+              "text": "hot"
+            },
+            {
+              "text": "cold"
+            },
+            {
+              "text": "wind"
+            }
+          ],
+          "answer": "cold",
+          "explanation": "Thanda means cold."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does brishti mean?",
+          "options": [
+            {
+              "text": "rain"
+            },
+            {
+              "text": "sunshine"
+            },
+            {
+              "text": "cloud"
+            }
+          ],
+          "answer": "rain",
+          "explanation": "Brishti means rain."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does aj gorom mean?",
+          "options": [
+            {
+              "text": "It is cold today"
+            },
+            {
+              "text": "It is hot today"
+            },
+            {
+              "text": "It is raining today"
+            }
+          ],
+          "answer": "It is hot today",
+          "explanation": "Aj means today and gorom means hot."
+        },
+        {
+          "type": "fill",
+          "prompt": "rod means ____.",
+          "answer": "sunshine",
+          "acceptedAnswers": [
+            "sun"
+          ],
+          "explanation": "Rod refers to sunshine or sun."
+        },
+        {
+          "type": "fill",
+          "prompt": "batas means ____.",
+          "answer": "wind",
+          "acceptedAnswers": [],
+          "explanation": "Batas means wind."
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "Colors and appearance",
+      "explanation": "## Common colors\n\n- lal = red\n- nil = blue\n- shobuj = green\n- holud = yellow\n- kalo = black\n- shada = white\n\n## Put the color before the noun\n\n- lal phul = red flower\n- nil akash = blue sky\n- shada kagoj = white paper\n\nThe describing word comes before the noun.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does lal mean?",
+          "options": [
+            {
+              "text": "red"
+            },
+            {
+              "text": "blue"
+            },
+            {
+              "text": "green"
+            }
+          ],
+          "answer": "red",
+          "explanation": "Lal means red."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means green?",
+          "options": [
+            {
+              "text": "holud"
+            },
+            {
+              "text": "shobuj"
+            },
+            {
+              "text": "shada"
+            }
+          ],
+          "answer": "shobuj",
+          "explanation": "Shobuj means green."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “red flower”?",
+          "options": [
+            {
+              "text": "phul lal"
+            },
+            {
+              "text": "lal phul"
+            },
+            {
+              "text": "phul shada"
+            }
+          ],
+          "answer": "lal phul",
+          "explanation": "The adjective comes before the noun."
+        },
+        {
+          "type": "fill",
+          "prompt": "kalo means ____.",
+          "answer": "black",
+          "acceptedAnswers": [],
+          "explanation": "Kalo means black."
+        },
+        {
+          "type": "fill",
+          "prompt": "shada kagoj means ____ paper.",
+          "answer": "white",
+          "acceptedAnswers": [],
+          "explanation": "Shada means white and kagoj means paper."
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping and prices",
+      "explanation": "## Shopping words\n\n- dam = price\n- taka = money or taka\n- kom = less, low\n- beshi = more, much\n- chai = want\n- din = give, polite request form\n\n## Useful phrases\n\n- eta koto? = how much is this?\n- ami eta chai = I want this\n- doya kore eta din = please give this\n\nUse a polite tone when asking a shopkeeper for something.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does dam mean?",
+          "options": [
+            {
+              "text": "price"
+            },
+            {
+              "text": "shop"
+            },
+            {
+              "text": "road"
+            }
+          ],
+          "answer": "price",
+          "explanation": "Dam means price."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does eta koto? mean?",
+          "options": [
+            {
+              "text": "Where is this?"
+            },
+            {
+              "text": "How much is this?"
+            },
+            {
+              "text": "Who is this?"
+            }
+          ],
+          "answer": "How much is this?",
+          "explanation": "Eta means this and koto means how much."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami eta chai mean?",
+          "options": [
+            {
+              "text": "I want this"
+            },
+            {
+              "text": "I see this"
+            },
+            {
+              "text": "I sold this"
+            }
+          ],
+          "answer": "I want this",
+          "explanation": "Chai means want with ami."
+        },
+        {
+          "type": "fill",
+          "prompt": "taka can mean money or the currency called the ____.",
+          "answer": "taka",
+          "acceptedAnswers": [],
+          "explanation": "Taka is the name of Bangladesh's currency and also commonly means money."
+        },
+        {
+          "type": "fill",
+          "prompt": "doya kore eta ____ = please give this.",
+          "answer": "din",
+          "acceptedAnswers": [],
+          "explanation": "Din is the polite request form meaning give."
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Getting around",
+      "explanation": "## Transport words\n\n- gari = car or vehicle\n- bus = bus\n- tren = train\n- riksha = rickshaw\n- hata = walk\n- jawa = going\n\n## Asking and answering\n\n- apni kibhabe jaben? = how will you go? (polite)\n- ami bus-e jabo = I will go by bus\n- ami hete jabo = I will go on foot\n\nThe future form jabo is used with ami.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does tren mean?",
+          "options": [
+            {
+              "text": "train"
+            },
+            {
+              "text": "car"
+            },
+            {
+              "text": "boat"
+            }
+          ],
+          "answer": "train",
+          "explanation": "Tren means train."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami bus-e jabo mean?",
+          "options": [
+            {
+              "text": "I went by bus"
+            },
+            {
+              "text": "I will go by bus"
+            },
+            {
+              "text": "I drive a bus"
+            }
+          ],
+          "answer": "I will go by bus",
+          "explanation": "Jabo is the future form, “I will go.”"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which phrase means “on foot”?",
+          "options": [
+            {
+              "text": "bus-e"
+            },
+            {
+              "text": "hete"
+            },
+            {
+              "text": "ghore"
+            }
+          ],
+          "answer": "hete",
+          "explanation": "Hete means by walking or on foot."
+        },
+        {
+          "type": "fill",
+          "prompt": "gari means car or ____.",
+          "answer": "vehicle",
+          "acceptedAnswers": [],
+          "explanation": "Gari can mean car or vehicle."
+        },
+        {
+          "type": "fill",
+          "prompt": "ami hete jabo means I will go on ____.",
+          "answer": "foot",
+          "acceptedAnswers": [],
+          "explanation": "Hete jabo means I will go by walking."
+        }
+      ]
+    },
+    {
+      "id": "want-need",
+      "title": "Wanting and needing things",
+      "explanation": "## Useful expressions\n\n- chai = want\n- dorkar = need, necessary\n- amar dorkar = I need\n- amar jol chai = I want water\n- amar ekta boi dorkar = I need a book\n\nBengali often expresses “I need” with amar plus the thing and dorkar.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does chai mean in ami jol chai?",
+          "options": [
+            {
+              "text": "I want"
+            },
+            {
+              "text": "I see"
+            },
+            {
+              "text": "I give"
+            }
+          ],
+          "answer": "I want",
+          "explanation": "Chai means want in this sentence."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does dorkar mean?",
+          "options": [
+            {
+              "text": "beautiful"
+            },
+            {
+              "text": "necessary or needed"
+            },
+            {
+              "text": "expensive"
+            }
+          ],
+          "answer": "necessary or needed",
+          "explanation": "Dorkar means need or necessity."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does amar jol chai mean?",
+          "options": [
+            {
+              "text": "I want water"
+            },
+            {
+              "text": "I have water"
+            },
+            {
+              "text": "I drink water"
+            }
+          ],
+          "answer": "I want water",
+          "explanation": "Amar jol chai is a common way to say that you want water."
+        },
+        {
+          "type": "fill",
+          "prompt": "amar ekta boi ____ = I need a book.",
+          "answer": "dorkar",
+          "acceptedAnswers": [],
+          "explanation": "Dorkar means needed or necessary."
+        }
+      ]
+    },
+    {
+      "id": "can-cannot",
+      "title": "Can and cannot",
+      "explanation": "## Expressing ability\n\nA common way to express ability is to use **pari** with ami, **paro** with tumi, and **paren** with apni.\n\n- ami pari = I can\n- tumi paro = you can\n- apni paren = you can (polite)\n\nAdd the main verb to say what someone can do, for example ami Bangla bolte pari = I can speak Bengali.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Which form goes with ami?",
+          "options": [
+            {
+              "text": "paro"
+            },
+            {
+              "text": "pari"
+            },
+            {
+              "text": "paren"
+            }
+          ],
+          "answer": "pari",
+          "explanation": "Pari is used with ami."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami Bangla bolte pari mean?",
+          "options": [
+            {
+              "text": "I can speak Bengali"
+            },
+            {
+              "text": "I want to learn Bengali"
+            },
+            {
+              "text": "I spoke Bengali yesterday"
+            }
+          ],
+          "answer": "I can speak Bengali",
+          "explanation": "Bolte means to speak, and pari means can."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which is the polite form for “you can”?",
+          "options": [
+            {
+              "text": "paro"
+            },
+            {
+              "text": "pari"
+            },
+            {
+              "text": "paren"
+            }
+          ],
+          "answer": "paren",
+          "explanation": "Paren is used with apni."
+        },
+        {
+          "type": "fill",
+          "prompt": "ami ____ = I can.",
+          "answer": "pari",
+          "acceptedAnswers": [],
+          "explanation": "Pari is the form used with ami."
+        }
+      ]
+    },
+    {
+      "id": "conjunctions",
+      "title": "And, but, or",
+      "explanation": "## Joining words and ideas\n\n- ar = and\n- kintu = but\n- ba = or\n- tai = so, therefore\n\n## Examples\n\n- cha ar jol = tea and water\n- ami jabo, kintu shey jabe na = I will go, but he or she will not\n- cha ba coffee = tea or coffee\n\nThese short words help connect nouns and sentences.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ar mean?",
+          "options": [
+            {
+              "text": "but"
+            },
+            {
+              "text": "and"
+            },
+            {
+              "text": "because"
+            }
+          ],
+          "answer": "and",
+          "explanation": "Ar means and."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means but?",
+          "options": [
+            {
+              "text": "ba"
+            },
+            {
+              "text": "tai"
+            },
+            {
+              "text": "kintu"
+            }
+          ],
+          "answer": "kintu",
+          "explanation": "Kintu means but."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does cha ba coffee mean?",
+          "options": [
+            {
+              "text": "tea and coffee"
+            },
+            {
+              "text": "tea or coffee"
+            },
+            {
+              "text": "tea without coffee"
+            }
+          ],
+          "answer": "tea or coffee",
+          "explanation": "Ba means or."
+        },
+        {
+          "type": "fill",
+          "prompt": "tai means so or ____.",
+          "answer": "therefore",
+          "acceptedAnswers": [],
+          "explanation": "Tai can mean so or therefore."
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "title": "Directions and where things are",
+      "explanation": "## Direction words\n\n- shamne = in front\n- pichhone = behind\n- pashe = beside\n- bhetore = inside\n- baire = outside\n- kachhe = near\n\n## Examples\n\n- dokan barir pashe = the shop is beside the house\n- boi bag-er bhetore = the book is inside the bag\n\nThe relationship word usually follows the noun it describes.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does shamne mean?",
+          "options": [
+            {
+              "text": "behind"
+            },
+            {
+              "text": "in front"
+            },
+            {
+              "text": "outside"
+            }
+          ],
+          "answer": "in front",
+          "explanation": "Shamne means in front."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means inside?",
+          "options": [
+            {
+              "text": "bhetore"
+            },
+            {
+              "text": "baire"
+            },
+            {
+              "text": "pichhone"
+            }
+          ],
+          "answer": "bhetore",
+          "explanation": "Bhetore means inside."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does baire mean?",
+          "options": [
+            {
+              "text": "near"
+            },
+            {
+              "text": "outside"
+            },
+            {
+              "text": "beside"
+            }
+          ],
+          "answer": "outside",
+          "explanation": "Baire means outside."
+        },
+        {
+          "type": "fill",
+          "prompt": "pashe means ____.",
+          "answer": "beside",
+          "acceptedAnswers": [
+            "next to"
+          ],
+          "explanation": "Pashe means beside or next to."
+        },
+        {
+          "type": "fill",
+          "prompt": "kachhe means ____.",
+          "answer": "near",
+          "acceptedAnswers": [
+            "close"
+          ],
+          "explanation": "Kachhe means near or close."
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "Parts of the body",
+      "explanation": "## Common body words\n\n- matha = head\n- chokh = eye\n- kan = ear\n- nak = nose\n- mukh = mouth or face\n- hat = hand\n- pa = foot or leg\n\n## Simple phrases\n\n- amar matha = my head\n- amar chokh = my eye\n- amar hat = my hand\n\nUse amar to say my.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does chokh mean?",
+          "options": [
+            {
+              "text": "eye"
+            },
+            {
+              "text": "ear"
+            },
+            {
+              "text": "nose"
+            }
+          ],
+          "answer": "eye",
+          "explanation": "Chokh means eye."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means hand?",
+          "options": [
+            {
+              "text": "pa"
+            },
+            {
+              "text": "hat"
+            },
+            {
+              "text": "matha"
+            }
+          ],
+          "answer": "hat",
+          "explanation": "Hat means hand."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does matha mean?",
+          "options": [
+            {
+              "text": "mouth"
+            },
+            {
+              "text": "head"
+            },
+            {
+              "text": "foot"
+            }
+          ],
+          "answer": "head",
+          "explanation": "Matha means head."
+        },
+        {
+          "type": "fill",
+          "prompt": "nak means ____.",
+          "answer": "nose",
+          "acceptedAnswers": [],
+          "explanation": "Nak means nose."
+        },
+        {
+          "type": "fill",
+          "prompt": "pa can mean foot or ____.",
+          "answer": "leg",
+          "acceptedAnswers": [],
+          "explanation": "Pa can mean foot or leg."
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "title": "Feelings and states",
+      "explanation": "## Common words\n\n- khushi = happy, happiness\n- dukkhito = sorry\n- klanto = tired\n- khide = hunger\n- trishna = thirst\n- bhoy = fear\n\n## Useful sentences\n\n- ami klanto = I am tired\n- amar khide peyechhe = I am hungry\n- amar trishna peyechhe = I am thirsty\n\nSome feelings are expressed with a phrase rather than a direct adjective.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does klanto mean?",
+          "options": [
+            {
+              "text": "tired"
+            },
+            {
+              "text": "hungry"
+            },
+            {
+              "text": "happy"
+            }
+          ],
+          "answer": "tired",
+          "explanation": "Klanto means tired."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does bhoy mean?",
+          "options": [
+            {
+              "text": "fear"
+            },
+            {
+              "text": "thirst"
+            },
+            {
+              "text": "happiness"
+            }
+          ],
+          "answer": "fear",
+          "explanation": "Bhoy means fear."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does amar khide peyechhe mean?",
+          "options": [
+            {
+              "text": "I am hungry"
+            },
+            {
+              "text": "I am tired"
+            },
+            {
+              "text": "I am cold"
+            }
+          ],
+          "answer": "I am hungry",
+          "explanation": "Khide refers to hunger; the phrase expresses being hungry."
+        },
+        {
+          "type": "fill",
+          "prompt": "khushi means happy or ____.",
+          "answer": "happiness",
+          "acceptedAnswers": [],
+          "explanation": "Khushi can mean happy or happiness."
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothes and things you wear",
+      "explanation": "## Clothing words\n\n- jama = clothes or shirt\n- pant = trousers\n- juta = shoes\n- moja = socks\n- kapor = cloth or clothing\n\n## Useful phrases\n\n- amar juta = my shoes\n- notun jama = new clothes or a new shirt\n- kalo juta = black shoes\n\nPossessives and adjectives come before the noun.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does juta mean?",
+          "options": [
+            {
+              "text": "shoes"
+            },
+            {
+              "text": "socks"
+            },
+            {
+              "text": "shirt"
+            }
+          ],
+          "answer": "shoes",
+          "explanation": "Juta means shoes."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does moja mean?",
+          "options": [
+            {
+              "text": "trousers"
+            },
+            {
+              "text": "socks"
+            },
+            {
+              "text": "hat"
+            }
+          ],
+          "answer": "socks",
+          "explanation": "Moja means socks."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “new shirt/clothes”?",
+          "options": [
+            {
+              "text": "jama notun"
+            },
+            {
+              "text": "notun jama"
+            },
+            {
+              "text": "jama amar"
+            }
+          ],
+          "answer": "notun jama",
+          "explanation": "The adjective comes before the noun."
+        },
+        {
+          "type": "fill",
+          "prompt": "kapor means cloth or ____.",
+          "answer": "clothing",
+          "acceptedAnswers": [
+            "clothes"
+          ],
+          "explanation": "Kapor means cloth or clothing."
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Rooms and household objects",
+      "explanation": "## Around the home\n\n- ghor = room\n- dorja = door\n- janala = window\n- bichhana = bed\n- chair = chair\n- table = table\n\n## Examples\n\n- dorja kholo = open the door (informal)\n- janala bondho = the window is closed\n- boi table-er upor = the book is on the table\n\nUse context to understand short descriptions.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does dorja mean?",
+          "options": [
+            {
+              "text": "window"
+            },
+            {
+              "text": "door"
+            },
+            {
+              "text": "bed"
+            }
+          ],
+          "answer": "door",
+          "explanation": "Dorja means door."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means window?",
+          "options": [
+            {
+              "text": "janala"
+            },
+            {
+              "text": "bichhana"
+            },
+            {
+              "text": "ghor"
+            }
+          ],
+          "answer": "janala",
+          "explanation": "Janala means window."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does bichhana mean?",
+          "options": [
+            {
+              "text": "bed"
+            },
+            {
+              "text": "table"
+            },
+            {
+              "text": "chair"
+            }
+          ],
+          "answer": "bed",
+          "explanation": "Bichhana means bed."
+        },
+        {
+          "type": "fill",
+          "prompt": "ghor means ____.",
+          "answer": "room",
+          "acceptedAnswers": [],
+          "explanation": "Ghor means room."
+        },
+        {
+          "type": "fill",
+          "prompt": "dorja kholo means open the ____.",
+          "answer": "door",
+          "acceptedAnswers": [],
+          "explanation": "Dorja is door and kholo is an informal command to open."
+        }
+      ]
+    },
+    {
+      "id": "requests",
+      "title": "Making simple requests",
+      "explanation": "## Polite requests\n\n- din = give (polite)\n- bolun = speak or say (polite)\n- shunun = listen (polite)\n- bosun = sit (polite)\n- ashun = come (polite)\n\n## Examples\n\n- ekhane bosun = please sit here\n- abar bolun = please say it again\n- ekhane ashun = please come here\n\nThese forms are useful when speaking respectfully to someone.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Which is a polite form meaning “sit”?",
+          "options": [
+            {
+              "text": "bosun"
+            },
+            {
+              "text": "bosho"
+            },
+            {
+              "text": "boshi"
+            }
+          ],
+          "answer": "bosun",
+          "explanation": "Bosun is the polite imperative form."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does shunun mean?",
+          "options": [
+            {
+              "text": "listen"
+            },
+            {
+              "text": "write"
+            },
+            {
+              "text": "sleep"
+            }
+          ],
+          "answer": "listen",
+          "explanation": "Shunun means listen, politely."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does abar bolun mean?",
+          "options": [
+            {
+              "text": "please go now"
+            },
+            {
+              "text": "please say it again"
+            },
+            {
+              "text": "please sit here"
+            }
+          ],
+          "answer": "please say it again",
+          "explanation": "Abar means again and bolun is the polite form of say."
+        },
+        {
+          "type": "fill",
+          "prompt": "ekhane ashun means please come ____.",
+          "answer": "here",
+          "acceptedAnswers": [],
+          "explanation": "Ekhane means here."
+        }
+      ]
+    },
+    {
+      "id": "past-activities",
+      "title": "Talking about yesterday",
+      "explanation": "## Past actions\n\nUse context words such as kal (yesterday) to talk about the past.\n\n- ami kal gelam = I went yesterday\n- ami boi porlam = I read a book\n- ami bhat khelam = I ate rice\n- shey school-e gelo = he or she went to school\n\nThe past form depends on the verb. Learn common forms as vocabulary and practice them in sentences.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ami kal gelam mean?",
+          "options": [
+            {
+              "text": "I will go tomorrow"
+            },
+            {
+              "text": "I went yesterday"
+            },
+            {
+              "text": "I go every day"
+            }
+          ],
+          "answer": "I went yesterday",
+          "explanation": "Kal can mean yesterday, and gelam is a past form of go."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami boi porlam mean?",
+          "options": [
+            {
+              "text": "I read a book (past)"
+            },
+            {
+              "text": "I will read a book"
+            },
+            {
+              "text": "I am a book"
+            }
+          ],
+          "answer": "I read a book (past)",
+          "explanation": "Porlam is the past form in this pattern."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which sentence means “he or she went to school”?",
+          "options": [
+            {
+              "text": "shey school-e gelo"
+            },
+            {
+              "text": "shey school-e jabe"
+            },
+            {
+              "text": "shey school-e jay"
+            }
+          ],
+          "answer": "shey school-e gelo",
+          "explanation": "Gelo is the past form used here."
+        },
+        {
+          "type": "fill",
+          "prompt": "ami bhat khelam means I ____ rice.",
+          "answer": "ate",
+          "acceptedAnswers": [],
+          "explanation": "Khelam means ate in this sentence."
+        }
+      ]
+    },
+    {
+      "id": "future-plans",
+      "title": "Talking about future plans",
+      "explanation": "## Future forms\n\n- jabo = I will go\n- khabo = I will eat\n- porbo = I will read or study\n- korbo = I will do\n\n## Examples\n\n- ami kal jabo = I will go tomorrow\n- ami porashona korbo = I will study\n- shey ashbe = he or she will come\n\nKal may mean yesterday or tomorrow, so the verb helps show which meaning is intended.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ami kal jabo mean in a future context?",
+          "options": [
+            {
+              "text": "I went yesterday"
+            },
+            {
+              "text": "I will go tomorrow"
+            },
+            {
+              "text": "I am going home"
+            }
+          ],
+          "answer": "I will go tomorrow",
+          "explanation": "Jabo is the future form of go."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which form means “I will do”?",
+          "options": [
+            {
+              "text": "kori"
+            },
+            {
+              "text": "korlam"
+            },
+            {
+              "text": "korbo"
+            }
+          ],
+          "answer": "korbo",
+          "explanation": "Korbo is the future form with ami."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does porbo mean?",
+          "options": [
+            {
+              "text": "I will read or study"
+            },
+            {
+              "text": "I read yesterday"
+            },
+            {
+              "text": "I am tired"
+            }
+          ],
+          "answer": "I will read or study",
+          "explanation": "Porbo is the future form of read or study."
+        },
+        {
+          "type": "fill",
+          "prompt": "ami bhat ____ = I will eat rice.",
+          "answer": "khabo",
+          "acceptedAnswers": [],
+          "explanation": "Khabo means I will eat."
+        }
+      ]
+    },
+    {
+      "id": "asking-help",
+      "title": "Asking for help",
+      "explanation": "## Helpful phrases\n\n- shahajjo = help\n- amake shahajjo korun = please help me\n- ami bujhte parchhi na = I do not understand\n- aste bolun = please speak slowly\n- abar bolun = please say it again\n\nThese phrases are useful when you are learning Bengali or need clarification.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does shahajjo mean?",
+          "options": [
+            {
+              "text": "help"
+            },
+            {
+              "text": "food"
+            },
+            {
+              "text": "time"
+            }
+          ],
+          "answer": "help",
+          "explanation": "Shahajjo means help."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami bujhte parchhi na mean?",
+          "options": [
+            {
+              "text": "I understand"
+            },
+            {
+              "text": "I do not understand"
+            },
+            {
+              "text": "I am going"
+            }
+          ],
+          "answer": "I do not understand",
+          "explanation": "The phrase means I am not understanding, or I do not understand."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you politely ask someone to say it again?",
+          "options": [
+            {
+              "text": "abar bolun"
+            },
+            {
+              "text": "bari jan"
+            },
+            {
+              "text": "jol khan"
+            }
+          ],
+          "answer": "abar bolun",
+          "explanation": "Abar means again and bolun is the polite form of say."
+        },
+        {
+          "type": "fill",
+          "prompt": "aste bolun means please speak ____.",
+          "answer": "slowly",
+          "acceptedAnswers": [],
+          "explanation": "Aste means slowly or gently in this phrase."
+        }
+      ]
+    },
+    {
+      "id": "weather-questions",
+      "title": "Asking about the weather",
+      "explanation": "## Weather questions\n\n- aj abohawa kemon? = how is the weather today?\n- brishti hobe? = will it rain?\n- thanda lagchhe = it feels cold\n- gorom lagchhe = it feels hot\n\nKemon asks “how” or “what ... like.”",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does aj abohawa kemon? mean?",
+          "options": [
+            {
+              "text": "What time is it?"
+            },
+            {
+              "text": "How is the weather today?"
+            },
+            {
+              "text": "Where is the market?"
+            }
+          ],
+          "answer": "How is the weather today?",
+          "explanation": "Aj means today, abohawa means weather, and kemon asks how it is."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does brishti hobe? ask?",
+          "options": [
+            {
+              "text": "Will it rain?"
+            },
+            {
+              "text": "Is it hot?"
+            },
+            {
+              "text": "Where is the rain?"
+            }
+          ],
+          "answer": "Will it rain?",
+          "explanation": "Hobe is a future form of be/happen in this expression."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does thanda lagchhe mean?",
+          "options": [
+            {
+              "text": "It feels cold"
+            },
+            {
+              "text": "It is sunny"
+            },
+            {
+              "text": "It is late"
+            }
+          ],
+          "answer": "It feels cold",
+          "explanation": "Thanda means cold and lagchhe expresses a feeling."
+        },
+        {
+          "type": "fill",
+          "prompt": "kemon asks how or what something is like. Translate: aj abohawa ____?",
+          "answer": "kemon",
+          "acceptedAnswers": [],
+          "explanation": "Kemon means how or what something is like."
+        }
+      ]
+    },
+    {
+      "id": "time-schedule",
+      "title": "Daily time and schedules",
+      "explanation": "## Useful time phrases\n\n- shokal = morning\n- dupur = noon or afternoon\n- bikel = late afternoon\n- shondha = evening\n- rat = night\n- ekhon = now\n\n## Examples\n\n- ami shokale uthi = I get up in the morning\n- ami rate pori = I study at night\n- ekhon koyta baje? = what time is it now?\n\nTime words commonly come before the verb.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does shokal mean?",
+          "options": [
+            {
+              "text": "morning"
+            },
+            {
+              "text": "evening"
+            },
+            {
+              "text": "night"
+            }
+          ],
+          "answer": "morning",
+          "explanation": "Shokal means morning."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ekhon mean?",
+          "options": [
+            {
+              "text": "yesterday"
+            },
+            {
+              "text": "now"
+            },
+            {
+              "text": "tomorrow"
+            }
+          ],
+          "answer": "now",
+          "explanation": "Ekhon means now."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami rate pori mean?",
+          "options": [
+            {
+              "text": "I study at night"
+            },
+            {
+              "text": "I sleep in the morning"
+            },
+            {
+              "text": "I go to the market"
+            }
+          ],
+          "answer": "I study at night",
+          "explanation": "Rate means at night and pori means I read or study."
+        },
+        {
+          "type": "fill",
+          "prompt": "shondha means ____.",
+          "answer": "evening",
+          "acceptedAnswers": [],
+          "explanation": "Shondha means evening."
+        }
+      ]
+    },
+    {
+      "id": "common-adverbs",
+      "title": "Often, always and sometimes",
+      "explanation": "## Frequency words\n\n- shobshomoy = always\n- pray = often, almost\n- majhe majhe = sometimes\n- kokhono = ever or sometimes, depending on context\n- protidin = every day\n\n## Examples\n\n- ami protidin pori = I study every day\n- shey majhe majhe ashe = he or she comes sometimes\n- ami shobshomoy cha khai = I always drink tea\n\nFrequency words usually appear before the verb or phrase they modify.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does protidin mean?",
+          "options": [
+            {
+              "text": "every day"
+            },
+            {
+              "text": "every week"
+            },
+            {
+              "text": "never"
+            }
+          ],
+          "answer": "every day",
+          "explanation": "Protidin means every day."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which phrase means sometimes?",
+          "options": [
+            {
+              "text": "shobshomoy"
+            },
+            {
+              "text": "majhe majhe"
+            },
+            {
+              "text": "ekhon"
+            }
+          ],
+          "answer": "majhe majhe",
+          "explanation": "Majhe majhe means sometimes."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami shobshomoy cha khai mean?",
+          "options": [
+            {
+              "text": "I always drink tea"
+            },
+            {
+              "text": "I never drink tea"
+            },
+            {
+              "text": "I want tea now"
+            }
+          ],
+          "answer": "I always drink tea",
+          "explanation": "Shobshomoy means always."
+        },
+        {
+          "type": "fill",
+          "prompt": "shobshomoy means ____.",
+          "answer": "always",
+          "acceptedAnswers": [],
+          "explanation": "Shobshomoy means always."
+        }
+      ]
+    },
+    {
+      "id": "polite-introductions",
+      "title": "Introducing yourself",
+      "explanation": "## Useful introductions\n\n- amar nam ... = my name is ...\n- ami ... theke eshechi = I have come from ...\n- ami Bangla shikhchhi = I am learning Bengali\n- apnar shathe dekha hoye bhalo laglo = nice to meet you\n\n## Example\n\n“Amar nam Rina. Ami Bangla shikhchhi.” means “My name is Rina. I am learning Bengali.”",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does amar nam ... mean?",
+          "options": [
+            {
+              "text": "My name is ..."
+            },
+            {
+              "text": "Where are you going?"
+            },
+            {
+              "text": "I am hungry"
+            }
+          ],
+          "answer": "My name is ...",
+          "explanation": "Amar means my and nam means name."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami Bangla shikhchhi mean?",
+          "options": [
+            {
+              "text": "I am learning Bengali"
+            },
+            {
+              "text": "I speak English"
+            },
+            {
+              "text": "I am going home"
+            }
+          ],
+          "answer": "I am learning Bengali",
+          "explanation": "Shikhchhi means am learning."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means name?",
+          "options": [
+            {
+              "text": "nam"
+            },
+            {
+              "text": "bari"
+            },
+            {
+              "text": "jol"
+            }
+          ],
+          "answer": "nam",
+          "explanation": "Nam means name."
+        },
+        {
+          "type": "fill",
+          "prompt": "ami Bangla ____ = I am learning Bengali.",
+          "answer": "shikhchhi",
+          "acceptedAnswers": [
+            "shikhchi"
+          ],
+          "explanation": "Shikhchhi means am learning."
+        }
+      ]
     }
   ]
 }

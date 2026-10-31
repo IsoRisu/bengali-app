@@ -1,5 +1,16 @@
 [
   {
+    "id": "a",
+    "glyph": "অ",
+    "name": "o",
+    "transliteration": "o",
+    "type": "vowel",
+    "exampleWord": "অনেক",
+    "exampleTransliteration": "onek",
+    "exampleTranslation": "many",
+    "order": 1
+  },
+  {
     "id": "aa",
     "glyph": "আ",
     "name": "aa",
@@ -8,7 +19,7 @@
     "exampleWord": "আম",
     "exampleTransliteration": "am",
     "exampleTranslation": "mango",
-    "order": 1
+    "order": 2
   },
   {
     "id": "i",
@@ -19,7 +30,18 @@
     "exampleWord": "ইট",
     "exampleTransliteration": "iṭ",
     "exampleTranslation": "brick",
-    "order": 2
+    "order": 3
+  },
+  {
+    "id": "ii",
+    "glyph": "ঈ",
+    "name": "long i",
+    "transliteration": "ii",
+    "type": "vowel",
+    "exampleWord": "ঈশ্বর",
+    "exampleTransliteration": "ishshor",
+    "exampleTranslation": "God",
+    "order": 4
   },
   {
     "id": "u",
@@ -30,29 +52,73 @@
     "exampleWord": "উপর",
     "exampleTransliteration": "upor",
     "exampleTranslation": "above, on top",
-    "order": 3
-  },
-  {
-    "id": "ma",
-    "glyph": "ম",
-    "name": "mo",
-    "transliteration": "m",
-    "type": "consonant",
-    "exampleWord": "মন",
-    "exampleTransliteration": "mon",
-    "exampleTranslation": "mind, heart",
-    "order": 4
-  },
-  {
-    "id": "na",
-    "glyph": "ন",
-    "name": "no",
-    "transliteration": "n",
-    "type": "consonant",
-    "exampleWord": "নখ",
-    "exampleTransliteration": "nokh",
-    "exampleTranslation": "fingernail",
     "order": 5
+  },
+  {
+    "id": "uu",
+    "glyph": "ঊ",
+    "name": "long u",
+    "transliteration": "uu",
+    "type": "vowel",
+    "exampleWord": "ঊষা",
+    "exampleTransliteration": "usha",
+    "exampleTranslation": "dawn",
+    "order": 6
+  },
+  {
+    "id": "ri",
+    "glyph": "ঋ",
+    "name": "ri",
+    "transliteration": "ri",
+    "type": "vowel",
+    "exampleWord": "ঋণ",
+    "exampleTransliteration": "rin",
+    "exampleTranslation": "debt",
+    "order": 7
+  },
+  {
+    "id": "e",
+    "glyph": "এ",
+    "name": "e",
+    "transliteration": "e",
+    "type": "vowel",
+    "exampleWord": "এক",
+    "exampleTransliteration": "ek",
+    "exampleTranslation": "one",
+    "order": 8
+  },
+  {
+    "id": "oi",
+    "glyph": "ঐ",
+    "name": "oi",
+    "transliteration": "oi",
+    "type": "vowel",
+    "exampleWord": "ঐতিহ্য",
+    "exampleTransliteration": "oitijjo",
+    "exampleTranslation": "heritage",
+    "order": 9
+  },
+  {
+    "id": "o",
+    "glyph": "ও",
+    "name": "o",
+    "transliteration": "o",
+    "type": "vowel",
+    "exampleWord": "ওরা",
+    "exampleTransliteration": "ora",
+    "exampleTranslation": "they",
+    "order": 10
+  },
+  {
+    "id": "ou",
+    "glyph": "ঔ",
+    "name": "ou",
+    "transliteration": "ou",
+    "type": "vowel",
+    "exampleWord": "ঔষধ",
+    "exampleTransliteration": "oushodh",
+    "exampleTranslation": "medicine",
+    "order": 11
   },
   {
     "id": "ka",
@@ -63,18 +129,161 @@
     "exampleWord": "কল",
     "exampleTransliteration": "kol",
     "exampleTranslation": "tap, faucet",
-    "order": 6
+    "order": 12
   },
   {
-    "id": "ra",
-    "glyph": "র",
-    "name": "ro",
-    "transliteration": "r",
+    "id": "kho",
+    "glyph": "খ",
+    "name": "kho",
+    "transliteration": "kh",
     "type": "consonant",
-    "exampleWord": "রস",
-    "exampleTransliteration": "ros",
-    "exampleTranslation": "juice",
-    "order": 7
+    "exampleWord": "খবর",
+    "exampleTransliteration": "khobor",
+    "exampleTranslation": "news",
+    "order": 13
+  },
+  {
+    "id": "go",
+    "glyph": "গ",
+    "name": "go",
+    "transliteration": "g",
+    "type": "consonant",
+    "exampleWord": "গরম",
+    "exampleTransliteration": "gorom",
+    "exampleTranslation": "hot",
+    "order": 14
+  },
+  {
+    "id": "gho",
+    "glyph": "ঘ",
+    "name": "gho",
+    "transliteration": "gh",
+    "type": "consonant",
+    "exampleWord": "ঘর",
+    "exampleTransliteration": "ghor",
+    "exampleTranslation": "room",
+    "order": 15
+  },
+  {
+    "id": "nga",
+    "glyph": "ঙ",
+    "name": "nga",
+    "transliteration": "ng",
+    "type": "consonant",
+    "exampleWord": "বাঙালি",
+    "exampleTransliteration": "bangali",
+    "exampleTranslation": "Bengali",
+    "order": 16
+  },
+  {
+    "id": "cho",
+    "glyph": "চ",
+    "name": "cho",
+    "transliteration": "ch",
+    "type": "consonant",
+    "exampleWord": "চা",
+    "exampleTransliteration": "cha",
+    "exampleTranslation": "tea",
+    "order": 17
+  },
+  {
+    "id": "chho",
+    "glyph": "ছ",
+    "name": "chho",
+    "transliteration": "chh",
+    "type": "consonant",
+    "exampleWord": "ছল",
+    "exampleTransliteration": "chhol",
+    "exampleTranslation": "trick, deceit",
+    "order": 18
+  },
+  {
+    "id": "jo",
+    "glyph": "জ",
+    "name": "jo",
+    "transliteration": "j",
+    "type": "consonant",
+    "exampleWord": "জল",
+    "exampleTransliteration": "jol",
+    "exampleTranslation": "water",
+    "order": 19
+  },
+  {
+    "id": "jho",
+    "glyph": "ঝ",
+    "name": "jho",
+    "transliteration": "jh",
+    "type": "consonant",
+    "exampleWord": "ঝড়",
+    "exampleTransliteration": "jhor",
+    "exampleTranslation": "storm",
+    "order": 20
+  },
+  {
+    "id": "nya",
+    "glyph": "ঞ",
+    "name": "nya",
+    "transliteration": "n",
+    "type": "consonant",
+    "exampleWord": "মিঞা",
+    "exampleTransliteration": "mia",
+    "exampleTranslation": "gentleman",
+    "order": 21
+  },
+  {
+    "id": "tta",
+    "glyph": "ট",
+    "name": "ṭo",
+    "transliteration": "ṭ",
+    "type": "consonant",
+    "exampleWord": "টাকা",
+    "exampleTransliteration": "ṭaka",
+    "exampleTranslation": "money",
+    "order": 22
+  },
+  {
+    "id": "ttha",
+    "glyph": "ঠ",
+    "name": "ṭho",
+    "transliteration": "ṭh",
+    "type": "consonant",
+    "exampleWord": "ঠিক",
+    "exampleTransliteration": "ṭhik",
+    "exampleTranslation": "correct",
+    "order": 23
+  },
+  {
+    "id": "dda",
+    "glyph": "ড",
+    "name": "ḍo",
+    "transliteration": "ḍ",
+    "type": "consonant",
+    "exampleWord": "ডাক",
+    "exampleTransliteration": "ḍak",
+    "exampleTranslation": "call",
+    "order": 24
+  },
+  {
+    "id": "ddha",
+    "glyph": "ঢ",
+    "name": "ḍho",
+    "transliteration": "ḍh",
+    "type": "consonant",
+    "exampleWord": "ঢাক",
+    "exampleTransliteration": "ḍhak",
+    "exampleTranslation": "drum",
+    "order": 25
+  },
+  {
+    "id": "nna",
+    "glyph": "ণ",
+    "name": "ṇo",
+    "transliteration": "ṇ",
+    "type": "consonant",
+    "exampleWord": "হরিণ",
+    "exampleTransliteration": "horin",
+    "exampleTranslation": "deer",
+    "order": 26
   },
   {
     "id": "ta",
@@ -85,29 +294,18 @@
     "exampleWord": "তরল",
     "exampleTransliteration": "torol",
     "exampleTranslation": "liquid",
-    "order": 8
+    "order": 27
   },
   {
-    "id": "ba",
-    "glyph": "ব",
-    "name": "bo",
-    "transliteration": "b",
+    "id": "tho",
+    "glyph": "থ",
+    "name": "tho",
+    "transliteration": "th",
     "type": "consonant",
-    "exampleWord": "বন",
-    "exampleTransliteration": "bon",
-    "exampleTranslation": "forest",
-    "order": 9
-  },
-  {
-    "id": "sha",
-    "glyph": "স",
-    "name": "sho",
-    "transliteration": "sh",
-    "type": "consonant",
-    "exampleWord": "সব",
-    "exampleTransliteration": "shob",
-    "exampleTranslation": "all, everything",
-    "order": 10
+    "exampleWord": "রথ",
+    "exampleTransliteration": "roth",
+    "exampleTranslation": "chariot",
+    "order": 28
   },
   {
     "id": "da",
@@ -118,6 +316,237 @@
     "exampleWord": "দল",
     "exampleTransliteration": "dol",
     "exampleTranslation": "group, team",
-    "order": 11
+    "order": 29
+  },
+  {
+    "id": "dho",
+    "glyph": "ধ",
+    "name": "dho",
+    "transliteration": "dh",
+    "type": "consonant",
+    "exampleWord": "ধান",
+    "exampleTransliteration": "dhan",
+    "exampleTranslation": "rice, paddy",
+    "order": 30
+  },
+  {
+    "id": "na",
+    "glyph": "ন",
+    "name": "no",
+    "transliteration": "n",
+    "type": "consonant",
+    "exampleWord": "নখ",
+    "exampleTransliteration": "nokh",
+    "exampleTranslation": "fingernail",
+    "order": 31
+  },
+  {
+    "id": "pa",
+    "glyph": "প",
+    "name": "po",
+    "transliteration": "p",
+    "type": "consonant",
+    "exampleWord": "পানি",
+    "exampleTransliteration": "pani",
+    "exampleTranslation": "water",
+    "order": 32
+  },
+  {
+    "id": "pho",
+    "glyph": "ফ",
+    "name": "pho",
+    "transliteration": "ph",
+    "type": "consonant",
+    "exampleWord": "বরফ",
+    "exampleTransliteration": "borof",
+    "exampleTranslation": "ice",
+    "order": 33
+  },
+  {
+    "id": "ba",
+    "glyph": "ব",
+    "name": "bo",
+    "transliteration": "b",
+    "type": "consonant",
+    "exampleWord": "বন",
+    "exampleTransliteration": "bon",
+    "exampleTranslation": "forest",
+    "order": 34
+  },
+  {
+    "id": "bho",
+    "glyph": "ভ",
+    "name": "bho",
+    "transliteration": "bh",
+    "type": "consonant",
+    "exampleWord": "ভর",
+    "exampleTransliteration": "bhor",
+    "exampleTranslation": "fullness, weight",
+    "order": 35
+  },
+  {
+    "id": "ma",
+    "glyph": "ম",
+    "name": "mo",
+    "transliteration": "m",
+    "type": "consonant",
+    "exampleWord": "মন",
+    "exampleTransliteration": "mon",
+    "exampleTranslation": "mind, heart",
+    "order": 36
+  },
+  {
+    "id": "yo",
+    "glyph": "য",
+    "name": "yo",
+    "transliteration": "j",
+    "type": "consonant",
+    "exampleWord": "যত",
+    "exampleTransliteration": "joto",
+    "exampleTranslation": "as much, however much",
+    "order": 37
+  },
+  {
+    "id": "ra",
+    "glyph": "র",
+    "name": "ro",
+    "transliteration": "r",
+    "type": "consonant",
+    "exampleWord": "রস",
+    "exampleTransliteration": "ros",
+    "exampleTranslation": "juice",
+    "order": 38
+  },
+  {
+    "id": "lo",
+    "glyph": "ল",
+    "name": "lo",
+    "transliteration": "l",
+    "type": "consonant",
+    "exampleWord": "লবণ",
+    "exampleTransliteration": "lobon",
+    "exampleTranslation": "salt",
+    "order": 39
+  },
+  {
+    "id": "sho_palatal",
+    "glyph": "শ",
+    "name": "sho",
+    "transliteration": "sh",
+    "type": "consonant",
+    "exampleWord": "শব্দ",
+    "exampleTransliteration": "shobdo",
+    "exampleTranslation": "word",
+    "order": 40
+  },
+  {
+    "id": "sho_retroflex",
+    "glyph": "ষ",
+    "name": "ṣo",
+    "transliteration": "ṣ",
+    "type": "consonant",
+    "exampleWord": "ষাঁড়",
+    "exampleTransliteration": "shãṛ",
+    "exampleTranslation": "bull",
+    "order": 41
+  },
+  {
+    "id": "sha",
+    "glyph": "স",
+    "name": "sho",
+    "transliteration": "sh",
+    "type": "consonant",
+    "exampleWord": "সব",
+    "exampleTransliteration": "shob",
+    "exampleTranslation": "all, everything",
+    "order": 42
+  },
+  {
+    "id": "ho",
+    "glyph": "হ",
+    "name": "ho",
+    "transliteration": "h",
+    "type": "consonant",
+    "exampleWord": "হাত",
+    "exampleTransliteration": "hat",
+    "exampleTranslation": "hand",
+    "order": 43
+  },
+  {
+    "id": "rra",
+    "glyph": "ড়",
+    "name": "ṛo",
+    "transliteration": "ṛ",
+    "type": "consonant",
+    "exampleWord": "বড়",
+    "exampleTransliteration": "boṛo",
+    "exampleTranslation": "big",
+    "order": 44
+  },
+  {
+    "id": "rha",
+    "glyph": "ঢ়",
+    "name": "ṛho",
+    "transliteration": "ṛh",
+    "type": "consonant",
+    "exampleWord": "পাহাড়",
+    "exampleTransliteration": "pahaṛ",
+    "exampleTranslation": "hill",
+    "order": 45
+  },
+  {
+    "id": "yya",
+    "glyph": "য়",
+    "name": "yo",
+    "transliteration": "y",
+    "type": "consonant",
+    "exampleWord": "যায়",
+    "exampleTransliteration": "jay",
+    "exampleTranslation": "goes",
+    "order": 46
+  },
+  {
+    "id": "khanda_ta",
+    "glyph": "ৎ",
+    "name": "khanda ta",
+    "transliteration": "t",
+    "type": "sign",
+    "exampleWord": "হঠাৎ",
+    "exampleTransliteration": "hothath",
+    "exampleTranslation": "suddenly",
+    "order": 47
+  },
+  {
+    "id": "anusvara",
+    "glyph": "ং",
+    "name": "anusvara",
+    "transliteration": "ng",
+    "type": "sign",
+    "exampleWord": "বাংলা",
+    "exampleTransliteration": "bangla",
+    "exampleTranslation": "Bengali",
+    "order": 48
+  },
+  {
+    "id": "visarga",
+    "glyph": "ঃ",
+    "name": "visarga",
+    "transliteration": "h",
+    "type": "sign",
+    "exampleWord": "দুঃখ",
+    "exampleTransliteration": "dukkh",
+    "exampleTranslation": "sorrow",
+    "order": 49
+  },
+  {
+    "id": "chandrabindu",
+    "glyph": "ঁ",
+    "name": "chandrabindu",
+    "transliteration": "~",
+    "type": "sign",
+    "exampleWord": "চাঁদ",
+    "exampleTransliteration": "chãd",
+    "exampleTranslation": "moon",
+    "order": 50
   }
 ]

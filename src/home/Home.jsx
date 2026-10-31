@@ -8,12 +8,11 @@ import { getProgress, getStreak, subscribeProgress, resetCategory, resetAll } fr
 import { useStore } from '../lib/useStore.js';
 import { DECKS } from '../vocab/vocab.js';
 import { DIALOGUES } from '../dialogues/Dialogues.jsx';
+import { LEVELS } from '../sentence/sentence.js';
 import { getExtra, subscribeExtra, resetExtra } from '../lib/extra.js';
 
 const VOCAB_TOTAL = DECKS.reduce((n, d) => n + d.items.length, 0);
 
-// One row per section. `field` is the progress array, `items` the content it counts against.
-// Counts only include ids that exist in the content, so stale ids in storage cannot exceed Y.
 const SECTIONS = [
   { key: 'letters', title: 'Letters', href: '#/letters', field: 'lettersLearned', items: LETTERS,
     noun: 'letters', verb: 'learned' },
@@ -23,33 +22,43 @@ const SECTIONS = [
     noun: 'lessons', verb: 'completed' },
 ];
 
-const countOf = (progress, s) => s.items.filter((x) => progress[s.field].includes(x.id)).length;
+const countOf = (progress, s) => {
+  const list = progress?.[s.field] || [];
+  return s.items.filter((x) => list.includes(x.id)).length;
+};
 
 export function Home() {
   const progress = useStore(getProgress, subscribeProgress);
   const streak = useStore(getStreak, subscribeProgress);
   const extra = useStore(getExtra, subscribeExtra);
-  const vCount = DECKS.reduce((n, d) => n + d.items.filter((i) => extra.vocabLearned.includes(i.id)).length, 0);
-  const dCount = DIALOGUES.filter((d) => extra.dialoguesRead.includes(d.id)).length;
-  const [pending, setPending] = useState(null); // 'letters' | 'words' | 'lessons' | 'all' | null
+
+  const vLearned = extra?.vocabLearned || [];
+  const dRead = extra?.dialoguesRead || [];
+  const sCleared = extra?.sentenceCleared || [];
+
+  const vCount = DECKS.reduce((n, d) => n + d.items.filter((i) => vLearned.includes(i.id)).length, 0);
+  const dCount = DIALOGUES.filter((d) => dRead.includes(d.id)).length;
+  const sCount = LEVELS.filter((l) => sCleared.includes(l.id)).length;
+
+  const [pending, setPending] = useState(null);
   const [status, setStatus] = useState('');
 
   const rows = SECTIONS.map((s) => ({ ...s, count: countOf(progress, s), total: s.items.length }));
 
-  let dialog = null; // what the confirmation says, for the section being reset
+  let dialog = null;
   if (pending === 'all') {
     dialog = {
       title: 'Reset all progress?',
-      body: 'This clears every learned letter, word and vocabulary card, every completed lesson and every read dialogue, and restarts your day streak at 1. Your romanization setting is kept. This cannot be undone.',
+      body: 'This clears every learned letter, word and vocabulary card, completed lesson, read dialogue and cleared sentence level, and restarts your day streak at 1. Your romanization setting is kept. This cannot be undone.',
       confirmLabel: 'Reset everything',
       done: 'All progress was reset.',
     };
   } else if (pending === 'extra') {
     dialog = {
-      title: 'Reset vocabulary and dialogues?',
-      body: `This marks all ${VOCAB_TOTAL} vocabulary cards as not learned (${vCount} learned now) and all ${DIALOGUES.length} dialogues as not read. Letters, words and lessons are not affected. This cannot be undone.`,
-      confirmLabel: 'Reset vocabulary and dialogues',
-      done: 'Vocabulary and dialogue progress was reset.',
+      title: 'Reset vocabulary, dialogues and sentences?',
+      body: `This marks all ${VOCAB_TOTAL} vocabulary cards as unlearned (${vCount} learned now), all ${DIALOGUES.length} dialogues as unread, and all ${LEVELS.length} sentence levels as uncleared. Letters, words and lessons are not affected. This cannot be undone.`,
+      confirmLabel: 'Reset extra modules',
+      done: 'Vocabulary, dialogue and sentence progress was reset.',
     };
   } else if (pending) {
     const r = rows.find((x) => x.key === pending);
@@ -65,11 +74,15 @@ export function Home() {
     if (pending === 'all') {
       resetAll();
       resetExtra();
-    } else if (pending === 'extra') resetExtra();
-    else resetCategory(pending);
+    } else if (pending === 'extra') {
+      resetExtra();
+    } else {
+      resetCategory(pending);
+    }
     setStatus(dialog.done);
     setPending(null);
   };
+
   const ask = (which) => {
     setStatus('');
     setPending(which);
@@ -78,7 +91,7 @@ export function Home() {
   return (
     <main class="page">
       <h1>Bengali First Steps</h1>
-      <p class="lead">Learn your first Bengali letters and words, plus one grammar lesson.</p>
+      <p class="lead">Learn your first Bengali letters and words, plus grammar lessons and practice.</p>
 
       <p class="streak">
         <strong>{streak}</strong>-day streak
@@ -115,9 +128,38 @@ export function Home() {
 
       <h2>More to practise</h2>
       <ul class="llist">
-        <li class="lrow-wrap"><a class="lrow" href="#/vocab"><span class="lrow-text"><span class="lrow-title">Vocabulary</span><span class="lrow-sub">{vCount} of {VOCAB_TOTAL} learned</span></span></a></li>
-        <li class="lrow-wrap"><a class="lrow" href="#/dialogues"><span class="lrow-text"><span class="lrow-title">Dialogues</span><span class="lrow-sub">{dCount} of {DIALOGUES.length} read</span></span></a></li>
-        <li class="lrow-wrap"><a class="lrow" href="#/practice"><span class="lrow-text"><span class="lrow-title">Practice quiz</span><span class="lrow-sub">10 quick questions, nothing saved</span></span></a></li>
+        <li class="lrow-wrap">
+          <a class="lrow" href="#/vocab">
+            <span class="lrow-text">
+              <span class="lrow-title">Vocabulary</span>
+              <span class="lrow-sub">{vCount} of {VOCAB_TOTAL} learned</span>
+            </span>
+          </a>
+        </li>
+        <li class="lrow-wrap">
+          <a class="lrow" href="#/dialogues">
+            <span class="lrow-text">
+              <span class="lrow-title">Dialogues</span>
+              <span class="lrow-sub">{dCount} of {DIALOGUES.length} read</span>
+            </span>
+          </a>
+        </li>
+        <li class="lrow-wrap">
+          <a class="lrow" href="#/sentence">
+            <span class="lrow-text">
+              <span class="lrow-title">Sentence builder</span>
+              <span class="lrow-sub">{sCount} of {LEVELS.length} levels cleared</span>
+            </span>
+          </a>
+        </li>
+        <li class="lrow-wrap">
+          <a class="lrow" href="#/practice">
+            <span class="lrow-text">
+              <span class="lrow-title">Practice quiz</span>
+              <span class="lrow-sub">10 quick questions, nothing saved</span>
+            </span>
+          </a>
+        </li>
       </ul>
 
       <details class="reset">
@@ -132,7 +174,7 @@ export function Home() {
             </button>
           ))}
           <button type="button" class="btn" onClick={() => ask('extra')}>
-            Reset vocabulary and dialogues
+            Reset extra modules
           </button>
           <button type="button" class="btn btn-danger" onClick={() => ask('all')}>
             Reset all progress

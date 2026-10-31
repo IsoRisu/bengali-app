@@ -28,6 +28,16 @@
           "who": "A",
           "text": "ami-o bhalo achhi.",
           "english": "I am well too."
+        },
+        {
+          "who": "B",
+          "text": "apnar shathe dekha hoye bhalo laglo.",
+          "english": "It was nice meeting you."
+        },
+        {
+          "who": "A",
+          "text": "amar-o bhalo laglo.",
+          "english": "It was nice meeting you too."
         }
       ]
     },
@@ -37,13 +47,23 @@
       "lines": [
         {
           "who": "A",
-          "text": "doya kore ekta cha din.",
-          "english": "One tea, please."
+          "text": "doya kore ek cup cha din.",
+          "english": "One cup of tea, please."
         },
         {
           "who": "B",
-          "text": "ar kichhu?",
-          "english": "Anything else?"
+          "text": "chini deben?",
+          "english": "Would you like sugar?"
+        },
+        {
+          "who": "A",
+          "text": "ektu chini din, doya kore.",
+          "english": "A little sugar, please."
+        },
+        {
+          "who": "B",
+          "text": "ar kichhu lagbe?",
+          "english": "Would you like anything else?"
         },
         {
           "who": "A",
@@ -78,24 +98,34 @@
         },
         {
           "who": "A",
-          "text": "onek beshi! ektu kom din.",
-          "english": "That is a lot! Please make it a little less."
+          "text": "onek beshi! ektu kom hobe?",
+          "english": "That is quite expensive! Could you lower the price a little?"
         },
         {
           "who": "B",
-          "text": "thik achhe, ashi taka.",
-          "english": "All right, eighty taka."
+          "text": "koto dite chan?",
+          "english": "How much would you like to pay?"
         },
         {
           "who": "A",
-          "text": "thik achhe. dhonnobad.",
-          "english": "All right. Thank you."
+          "text": "ashi taka dite pari.",
+          "english": "I can pay eighty taka."
+        },
+        {
+          "who": "B",
+          "text": "thik achhe, ashi taka din.",
+          "english": "All right, pay eighty taka."
+        },
+        {
+          "who": "A",
+          "text": "thik achhe. ami eta nebo.",
+          "english": "All right. I will take this."
         }
       ]
     },
     {
       "id": "directions",
-      "title": "Asking the way",
+      "title": "Asking for directions",
       "lines": [
         {
           "who": "A",
@@ -105,22 +135,32 @@
         {
           "who": "B",
           "text": "shoja jan, tarpor bame jan.",
-          "english": "Go straight, then go left."
+          "english": "Go straight, then turn left."
+        },
+        {
+          "who": "A",
+          "text": "station ki ekhane theke dure?",
+          "english": "Is the station far from here?"
+        },
+        {
+          "who": "B",
+          "text": "na, dosh minute hatlei pouchhe jaben.",
+          "english": "No, you will get there by walking for ten minutes."
         },
         {
           "who": "A",
           "text": "abar bolun, doya kore.",
-          "english": "Please say it again."
+          "english": "Please say that again."
         },
         {
           "who": "B",
           "text": "shoja jan, tarpor bame jan.",
-          "english": "Go straight, then go left."
+          "english": "Go straight, then turn left."
         },
         {
           "who": "A",
-          "text": "bujhlam. dhonnobad.",
-          "english": "I understand. Thank you."
+          "text": "bujhlam. onek dhonnobad.",
+          "english": "I understand. Thank you very much."
         }
       ]
     },
@@ -140,24 +180,34 @@
         },
         {
           "who": "A",
-          "text": "apnar barite ke ke achhen?",
-          "english": "Who is at your home?"
+          "text": "apnar poribare kara kara achhen?",
+          "english": "Who is in your family?"
         },
         {
           "who": "B",
-          "text": "amar ma, baba ar ek bon achhen.",
-          "english": "My mother, father and one sister."
+          "text": "amar ma, baba, ek bhai ar ek bon achhe.",
+          "english": "I have my mother, father, one brother, and one sister."
         },
         {
           "who": "A",
-          "text": "khub bhalo.",
-          "english": "Very good."
+          "text": "apnar bhai-bonera ki koren?",
+          "english": "What do your siblings do?"
+        },
+        {
+          "who": "B",
+          "text": "amar bhai chakri kore, ar amar bon porashona kore.",
+          "english": "My brother works, and my sister studies."
+        },
+        {
+          "who": "A",
+          "text": "khub bhalo. apnar poribarer jonno shubhokamna.",
+          "english": "Very nice. Best wishes to your family."
         }
       ]
     },
     {
       "id": "meal",
-      "title": "What will you eat?",
+      "title": "Talking about food",
       "lines": [
         {
           "who": "A",
@@ -172,17 +222,1131 @@
         {
           "who": "A",
           "text": "ami ruti ar dim khabo.",
-          "english": "I will eat bread and egg."
+          "english": "I will eat flatbread and eggs."
         },
         {
           "who": "B",
           "text": "tumi mach khao na?",
-          "english": "Do you not eat fish?"
+          "english": "Don't you eat fish?"
         },
         {
           "who": "A",
           "text": "na, amar mach bhalo lage na.",
-          "english": "No, I do not like fish."
+          "english": "No, I don't like fish."
+        },
+        {
+          "who": "B",
+          "text": "tahole tumi ki pochhondo koro?",
+          "english": "Then what do you like?"
+        },
+        {
+          "who": "A",
+          "text": "ami shobji ar murgir mangsho pochhondo kori.",
+          "english": "I like vegetables and chicken."
+        }
+      ]
+    },
+    {
+      "id": "doctor",
+      "title": "At the doctor's",
+      "lines": [
+        {
+          "who": "A",
+          "text": "apnar ki hoyechhe?",
+          "english": "What seems to be the problem?"
+        },
+        {
+          "who": "B",
+          "text": "amar matha betha korchhe.",
+          "english": "I have a headache."
+        },
+        {
+          "who": "A",
+          "text": "jor achhe?",
+          "english": "Do you have a fever?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, amar halka jor achhe.",
+          "english": "Yes, I have a slight fever."
+        },
+        {
+          "who": "A",
+          "text": "koto din dhore emon hochhe?",
+          "english": "How long have you felt this way?"
+        },
+        {
+          "who": "B",
+          "text": "dui din dhore.",
+          "english": "For two days."
+        },
+        {
+          "who": "A",
+          "text": "ami apnake porikkha kore dekhi.",
+          "english": "Let me examine you."
+        },
+        {
+          "who": "B",
+          "text": "thik achhe, doctor. dhonnobad.",
+          "english": "All right, doctor. Thank you."
+        }
+      ]
+    },
+    {
+      "id": "phone",
+      "title": "A phone call",
+      "lines": [
+        {
+          "who": "A",
+          "text": "halo? ke bolchhen?",
+          "english": "Hello? Who is speaking?"
+        },
+        {
+          "who": "B",
+          "text": "ami Rina bolchhi.",
+          "english": "This is Rina speaking."
+        },
+        {
+          "who": "A",
+          "text": "o, Rina! kemon achho?",
+          "english": "Oh, Rina! How are you?"
+        },
+        {
+          "who": "B",
+          "text": "bhalo achhi. tumi ekhon free?",
+          "english": "I'm well. Are you free now?"
+        },
+        {
+          "who": "A",
+          "text": "hyan, bolo.",
+          "english": "Yes, go ahead."
+        },
+        {
+          "who": "B",
+          "text": "chol, cha khete jai.",
+          "english": "Come on, let's go for tea."
+        },
+        {
+          "who": "A",
+          "text": "darun! kokhon dekha korbo?",
+          "english": "Great! When shall we meet?"
+        },
+        {
+          "who": "B",
+          "text": "bikel panchtae dekha kori.",
+          "english": "Let's meet at five in the afternoon."
+        }
+      ]
+    },
+    {
+      "id": "weekend",
+      "title": "Weekend plans",
+      "lines": [
+        {
+          "who": "A",
+          "text": "shonibar tumi ki korbe?",
+          "english": "What will you do on Saturday?"
+        },
+        {
+          "who": "B",
+          "text": "ami bari jabo.",
+          "english": "I will go home."
+        },
+        {
+          "who": "A",
+          "text": "tomar bari koto dure?",
+          "english": "How far away is your home?"
+        },
+        {
+          "who": "B",
+          "text": "beshi dure na. taratari pouchhe jabo.",
+          "english": "Not very far. I'll get there quickly."
+        },
+        {
+          "who": "A",
+          "text": "robibar ki korbe?",
+          "english": "What will you do on Sunday?"
+        },
+        {
+          "who": "B",
+          "text": "bondhuder shathe dekha korbo.",
+          "english": "I'll meet my friends."
+        },
+        {
+          "who": "A",
+          "text": "bhalo katuk tomar chhuti!",
+          "english": "Have a good holiday!"
+        }
+      ]
+    },
+    {
+      "id": "introductions_work",
+      "title": "Introducing yourself at work",
+      "lines": [
+        {
+          "who": "A",
+          "text": "apni ki ekhane notun?",
+          "english": "Are you new here?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, aj amar prothom din.",
+          "english": "Yes, today is my first day."
+        },
+        {
+          "who": "A",
+          "text": "apni kon bibhage kaj koren?",
+          "english": "Which department do you work in?"
+        },
+        {
+          "who": "B",
+          "text": "ami hisab bibhage kaj kori.",
+          "english": "I work in the accounting department."
+        },
+        {
+          "who": "A",
+          "text": "apnar shathe porichito hoye bhalo laglo.",
+          "english": "It's nice to meet you."
+        },
+        {
+          "who": "B",
+          "text": "amar-o bhalo laglo. shahajyer jonno dhonnobad.",
+          "english": "Nice to meet you too. Thank you for your help."
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Taking a bus",
+      "lines": [
+        {
+          "who": "A",
+          "text": "ei bus ki Dhaka jabe?",
+          "english": "Does this bus go to Dhaka?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, jabe.",
+          "english": "Yes, it does."
+        },
+        {
+          "who": "A",
+          "text": "bhara koto?",
+          "english": "How much is the fare?"
+        },
+        {
+          "who": "B",
+          "text": "panchash taka.",
+          "english": "Fifty taka."
+        },
+        {
+          "who": "A",
+          "text": "ticket kothay katbo?",
+          "english": "Where do I buy a ticket?"
+        },
+        {
+          "who": "B",
+          "text": "bus-er bhitorei ticket paben.",
+          "english": "You can get a ticket inside the bus."
+        },
+        {
+          "who": "A",
+          "text": "onek dhonnobad.",
+          "english": "Thank you very much."
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "title": "At a restaurant",
+      "lines": [
+        {
+          "who": "A",
+          "text": "menu-ta dekhte pari?",
+          "english": "May I see the menu?"
+        },
+        {
+          "who": "B",
+          "text": "oboshshoi. ei nin menu.",
+          "english": "Of course. Here is the menu."
+        },
+        {
+          "who": "A",
+          "text": "ekhane kon khabarta bhalo?",
+          "english": "Which dish is good here?"
+        },
+        {
+          "who": "B",
+          "text": "amader biriyani khub jonopriyo.",
+          "english": "Our biryani is very popular."
+        },
+        {
+          "who": "A",
+          "text": "tahole ek plate biriyani din.",
+          "english": "Then please give me one plate of biryani."
+        },
+        {
+          "who": "B",
+          "text": "apni ki pani neben?",
+          "english": "Would you like some water?"
+        },
+        {
+          "who": "A",
+          "text": "hyan, ek glass pani din.",
+          "english": "Yes, please give me a glass of water."
+        },
+        {
+          "who": "A",
+          "text": "bill-ta din, doya kore.",
+          "english": "The bill, please."
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Talking about the weather",
+      "lines": [
+        {
+          "who": "A",
+          "text": "aj abohawa kemon?",
+          "english": "How is the weather today?"
+        },
+        {
+          "who": "B",
+          "text": "aj khub gorom.",
+          "english": "It's very hot today."
+        },
+        {
+          "who": "A",
+          "text": "brishhti hobe bole mone hoy?",
+          "english": "Do you think it will rain?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, akashe megh korechhe.",
+          "english": "Yes, the sky has become cloudy."
+        },
+        {
+          "who": "A",
+          "text": "amar chhata niye ber howa uchit.",
+          "english": "I should take my umbrella when I go out."
+        },
+        {
+          "who": "B",
+          "text": "hyan, sabdhane jeyo.",
+          "english": "Yes, take care."
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "title": "Checking into a hotel",
+      "lines": [
+        {
+          "who": "A",
+          "text": "amar ekta room dorkar.",
+          "english": "I need a room."
+        },
+        {
+          "who": "B",
+          "text": "apni ki age theke booking korechhen?",
+          "english": "Have you made a reservation?"
+        },
+        {
+          "who": "A",
+          "text": "hyan, amar name booking achhe.",
+          "english": "Yes, there is a reservation in my name."
+        },
+        {
+          "who": "B",
+          "text": "apnar namta bolben?",
+          "english": "Could you tell me your name?"
+        },
+        {
+          "who": "A",
+          "text": "amar nam Anik Sen.",
+          "english": "My name is Anik Sen."
+        },
+        {
+          "who": "B",
+          "text": "dhonnobad. apnar room tin talay.",
+          "english": "Thank you. Your room is on the third floor."
+        },
+        {
+          "who": "A",
+          "text": "lift kothay?",
+          "english": "Where is the lift?"
+        },
+        {
+          "who": "B",
+          "text": "samne, dan dike.",
+          "english": "Ahead, on the right."
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "title": "At school or university",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tomar class kokhon shuru?",
+          "english": "When does your class start?"
+        },
+        {
+          "who": "B",
+          "text": "shokal doshtay.",
+          "english": "At ten in the morning."
+        },
+        {
+          "who": "A",
+          "text": "tumi ki homework korechho?",
+          "english": "Have you done the homework?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, gotokal rate korechhi.",
+          "english": "Yes, I did it last night."
+        },
+        {
+          "who": "A",
+          "text": "amake ektu shahajyo korbe?",
+          "english": "Will you help me a little?"
+        },
+        {
+          "who": "B",
+          "text": "nishchoi. kon bishoye?",
+          "english": "Of course. With which subject?"
+        },
+        {
+          "who": "A",
+          "text": "goniter ekta proshno bujhte parchhi na.",
+          "english": "I can't understand a maths question."
+        }
+      ]
+    },
+    {
+      "id": "shopping_clothes",
+      "title": "Buying clothes",
+      "lines": [
+        {
+          "who": "A",
+          "text": "ei shirt-ta ki onno rong-e achhe?",
+          "english": "Does this shirt come in another colour?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, nil ar kalo rong-e achhe.",
+          "english": "Yes, it comes in blue and black."
+        },
+        {
+          "who": "A",
+          "text": "ami nil rong-ta dekhte chai.",
+          "english": "I'd like to see the blue one."
+        },
+        {
+          "who": "B",
+          "text": "apnar map koto?",
+          "english": "What size are you?"
+        },
+        {
+          "who": "A",
+          "text": "majhari map.",
+          "english": "Medium size."
+        },
+        {
+          "who": "B",
+          "text": "ei nin, eta pore dekhun.",
+          "english": "Here you are. Try this on."
+        },
+        {
+          "who": "A",
+          "text": "eta bhalo legechhe. ami eta kinbo.",
+          "english": "I like it. I'll buy it."
+        }
+      ]
+    },
+    {
+      "id": "lost_item",
+      "title": "Reporting a lost item",
+      "lines": [
+        {
+          "who": "A",
+          "text": "amar bag-ta hariye gechhe.",
+          "english": "I've lost my bag."
+        },
+        {
+          "who": "B",
+          "text": "bag-ta kothay shesh dekhechhilen?",
+          "english": "Where did you last see the bag?"
+        },
+        {
+          "who": "A",
+          "text": "ami eta bus-e rekhe eshechhi bole mone hoy.",
+          "english": "I think I left it on the bus."
+        },
+        {
+          "who": "B",
+          "text": "bag-ta dekhte kemon?",
+          "english": "What does the bag look like?"
+        },
+        {
+          "who": "A",
+          "text": "eta kalo, ar er moddhe amar boi achhe.",
+          "english": "It's black, and my books are inside."
+        },
+        {
+          "who": "B",
+          "text": "apni bus company-r shathe jogajog korun.",
+          "english": "Please contact the bus company."
+        },
+        {
+          "who": "A",
+          "text": "thik achhe, shahajyer jonno dhonnobad.",
+          "english": "All right, thank you for your help."
+        }
+      ]
+    },
+    {
+      "id": "making_friends",
+      "title": "Making friends",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tumi obosore ki korte bhalobasho?",
+          "english": "What do you like doing in your free time?"
+        },
+        {
+          "who": "B",
+          "text": "ami boi porte ar gaan shunte bhalobashi.",
+          "english": "I like reading books and listening to music."
+        },
+        {
+          "who": "A",
+          "text": "kon dhoroner gaan tomar pochhondo?",
+          "english": "What kind of music do you like?"
+        },
+        {
+          "who": "B",
+          "text": "ami Bangla gaan ar rock music shuni.",
+          "english": "I listen to Bengali songs and rock music."
+        },
+        {
+          "who": "A",
+          "text": "darun! amio gaan shunte bhalobashi.",
+          "english": "Great! I like listening to music too."
+        },
+        {
+          "who": "B",
+          "text": "ekdin eksathe gaan shunbo.",
+          "english": "Let's listen to music together sometime."
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "title": "Asking the time",
+      "lines": [
+        {
+          "who": "A",
+          "text": "ekhon koyta baje?",
+          "english": "What time is it now?"
+        },
+        {
+          "who": "B",
+          "text": "ekhon tinte baje.",
+          "english": "It's three o'clock."
+        },
+        {
+          "who": "A",
+          "text": "amader train kokhon chharbe?",
+          "english": "When does our train leave?"
+        },
+        {
+          "who": "B",
+          "text": "sare tinte.",
+          "english": "At half past three."
+        },
+        {
+          "who": "A",
+          "text": "tahole amader taratari jete hobe.",
+          "english": "Then we need to hurry."
+        },
+        {
+          "who": "B",
+          "text": "hyan, cholo ekhon-i jai.",
+          "english": "Yes, let's go right now."
+        }
+      ]
+    },
+    {
+      "id": "apology",
+      "title": "Apologising",
+      "lines": [
+        {
+          "who": "A",
+          "text": "ami dukhito, ami deri kore felechhi.",
+          "english": "I'm sorry, I'm late."
+        },
+        {
+          "who": "B",
+          "text": "kono shomossha nei. ki hoyechhilo?",
+          "english": "No problem. What happened?"
+        },
+        {
+          "who": "A",
+          "text": "rastay onek jam chhilo.",
+          "english": "There was a lot of traffic."
+        },
+        {
+          "who": "B",
+          "text": "bujhte parchhi. cholo, shuru kori.",
+          "english": "I understand. Let's get started."
+        },
+        {
+          "who": "A",
+          "text": "opekkha korar jonno dhonnobad.",
+          "english": "Thank you for waiting."
+        }
+      ]
+    },
+    {
+      "id": "help",
+      "title": "Asking for help",
+      "lines": [
+        {
+          "who": "A",
+          "text": "apni ki amake ektu shahajyo korte parben?",
+          "english": "Could you help me a little?"
+        },
+        {
+          "who": "B",
+          "text": "oboshshoi. ki hoyechhe?",
+          "english": "Of course. What happened?"
+        },
+        {
+          "who": "A",
+          "text": "ami ei thikana khuje pachchhi na.",
+          "english": "I can't find this address."
+        },
+        {
+          "who": "B",
+          "text": "ami apnake map-e dekhiye dichchhi.",
+          "english": "I'll show you on the map."
+        },
+        {
+          "who": "A",
+          "text": "apnake onek dhonnobad.",
+          "english": "Thank you very much."
+        },
+        {
+          "who": "B",
+          "text": "shagotom. shubho din!",
+          "english": "You're welcome. Have a nice day!"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine",
+      "title": "Daily routine",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tumi shokale koytay otho?",
+          "english": "What time do you get up in the morning?"
+        },
+        {
+          "who": "B",
+          "text": "ami shokal chhoytay uthi.",
+          "english": "I get up at six in the morning."
+        },
+        {
+          "who": "A",
+          "text": "tarpor ki koro?",
+          "english": "What do you do after that?"
+        },
+        {
+          "who": "B",
+          "text": "ami mukh dhuye nasta kori.",
+          "english": "I wash my face and have breakfast."
+        },
+        {
+          "who": "A",
+          "text": "tumi kokhon kaj-e jao?",
+          "english": "When do you go to work?"
+        },
+        {
+          "who": "B",
+          "text": "ami shokal aattay bari theke ber hoi.",
+          "english": "I leave home at eight in the morning."
+        }
+      ]
+    },
+    {
+      "id": "hobbies",
+      "title": "Talking about hobbies",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tomar shokh ki?",
+          "english": "What are your hobbies?"
+        },
+        {
+          "who": "B",
+          "text": "amar chhobi aka ar bagan kora bhalo lage.",
+          "english": "I like drawing and gardening."
+        },
+        {
+          "who": "A",
+          "text": "tumi ki kheladhula koro?",
+          "english": "Do you play any sports?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, ami football kheli.",
+          "english": "Yes, I play football."
+        },
+        {
+          "who": "A",
+          "text": "koto din por por khelo?",
+          "english": "How often do you play?"
+        },
+        {
+          "who": "B",
+          "text": "ami shoptah-e duibar kheli.",
+          "english": "I play twice a week."
+        }
+      ]
+    },
+    {
+      "id": "language_learning",
+      "title": "Learning Bengali",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tumi ki Bangla bolte paro?",
+          "english": "Can you speak Bengali?"
+        },
+        {
+          "who": "B",
+          "text": "ektu ektu pari, kintu ami ekhono shikhchhi.",
+          "english": "A little, but I'm still learning."
+        },
+        {
+          "who": "A",
+          "text": "Bangla shikhte tomar kemon lage?",
+          "english": "How do you find learning Bengali?"
+        },
+        {
+          "who": "B",
+          "text": "bhalo lage, kintu uchcharon ektu kothin.",
+          "english": "I enjoy it, but the pronunciation is a little difficult."
+        },
+        {
+          "who": "A",
+          "text": "protidin ektu kore onushilon koro.",
+          "english": "Practise a little every day."
+        },
+        {
+          "who": "B",
+          "text": "poramorsher jonno dhonnobad.",
+          "english": "Thank you for the advice."
+        }
+      ]
+    },
+    {
+      "id": "internet",
+      "title": "Internet problems",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tomar internet kaj korchhe?",
+          "english": "Is your internet working?"
+        },
+        {
+          "who": "B",
+          "text": "na, connection-ta khub dhir.",
+          "english": "No, the connection is very slow."
+        },
+        {
+          "who": "A",
+          "text": "router-ta bondho kore abar chalu korechho?",
+          "english": "Have you turned the router off and on again?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, kintu ekhono kaj korchhe na.",
+          "english": "Yes, but it still isn't working."
+        },
+        {
+          "who": "A",
+          "text": "tahole service provider-ke phone koro.",
+          "english": "Then call the service provider."
+        },
+        {
+          "who": "B",
+          "text": "thik bolechho. tai korbo.",
+          "english": "You're right. I'll do that."
+        }
+      ]
+    },
+    {
+      "id": "at_home",
+      "title": "Inviting someone home",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tumi ki aj shondhay amar bari ashbe?",
+          "english": "Would you come to my house this evening?"
+        },
+        {
+          "who": "B",
+          "text": "nishchoi. koytay ashbo?",
+          "english": "Of course. What time should I come?"
+        },
+        {
+          "who": "A",
+          "text": "shondha shat-tay ele bhalo hoy.",
+          "english": "It would be good if you came at seven in the evening."
+        },
+        {
+          "who": "B",
+          "text": "thik achhe. ami shomoymoto ashbo.",
+          "english": "All right. I'll arrive on time."
+        },
+        {
+          "who": "A",
+          "text": "amra eksathe rater khabar khabo.",
+          "english": "We'll have dinner together."
+        },
+        {
+          "who": "B",
+          "text": "darun, dekha hobe!",
+          "english": "Great, see you!"
+        }
+      ]
+    },
+    {
+      "id": "at_the_bank",
+      "title": "At the bank",
+      "lines": [
+        {
+          "who": "A",
+          "text": "ami ekta bank account khulte chai.",
+          "english": "I'd like to open a bank account."
+        },
+        {
+          "who": "B",
+          "text": "apnar porichoypotro achhe?",
+          "english": "Do you have your identification document?"
+        },
+        {
+          "who": "A",
+          "text": "hyan, amar passport achhe.",
+          "english": "Yes, I have my passport."
+        },
+        {
+          "who": "B",
+          "text": "ei form-ta puron korun.",
+          "english": "Please fill in this form."
+        },
+        {
+          "who": "A",
+          "text": "account khulte koto shomoy lagbe?",
+          "english": "How long will it take to open the account?"
+        },
+        {
+          "who": "B",
+          "text": "shob thik thakle ajkei hoye jabe.",
+          "english": "If everything is in order, it can be done today."
+        }
+      ]
+    },
+    {
+      "id": "at_the_pharmacy",
+      "title": "At the pharmacy",
+      "lines": [
+        {
+          "who": "A",
+          "text": "sordi-r jonno kono oshudh achhe?",
+          "english": "Do you have any medicine for a cold?"
+        },
+        {
+          "who": "B",
+          "text": "apnar ki kashi-o hochhe?",
+          "english": "Do you also have a cough?"
+        },
+        {
+          "who": "A",
+          "text": "hyan, halka kashi achhe.",
+          "english": "Yes, I have a slight cough."
+        },
+        {
+          "who": "B",
+          "text": "oshudh neyar age pharmacist ba doctor-er poramorsho nin.",
+          "english": "Ask a pharmacist or doctor for advice before taking medicine."
+        },
+        {
+          "who": "A",
+          "text": "thik achhe. dhonnobad.",
+          "english": "All right. Thank you."
+        }
+      ]
+    },
+    {
+      "id": "train_station",
+      "title": "At the train station",
+      "lines": [
+        {
+          "who": "A",
+          "text": "Chattogram-er ticket kothay pabo?",
+          "english": "Where can I get a ticket to Chattogram?"
+        },
+        {
+          "who": "B",
+          "text": "oi counter theke ticket nite parben.",
+          "english": "You can get a ticket from that counter."
+        },
+        {
+          "who": "A",
+          "text": "porer train kokhon?",
+          "english": "When is the next train?"
+        },
+        {
+          "who": "B",
+          "text": "bikel chhoytay.",
+          "english": "At six in the afternoon."
+        },
+        {
+          "who": "A",
+          "text": "platform number koto?",
+          "english": "What is the platform number?"
+        },
+        {
+          "who": "B",
+          "text": "tin number platform.",
+          "english": "Platform number three."
+        },
+        {
+          "who": "A",
+          "text": "dhonnobad, ami ekhon-i jacchhi.",
+          "english": "Thank you, I'm going now."
+        }
+      ]
+    },
+    {
+      "id": "celebration",
+      "title": "Planning a celebration",
+      "lines": [
+        {
+          "who": "A",
+          "text": "agami shoptah-e amar jonmodin.",
+          "english": "It's my birthday next week."
+        },
+        {
+          "who": "B",
+          "text": "shubho jonmodin agami-te! tumi ki kichhu korbe?",
+          "english": "Happy early birthday! Are you doing anything?"
+        },
+        {
+          "who": "A",
+          "text": "hyan, ami chhoto ekta onushthan korbo.",
+          "english": "Yes, I'll have a small celebration."
+        },
+        {
+          "who": "B",
+          "text": "ami ki aste pari?",
+          "english": "May I come?"
+        },
+        {
+          "who": "A",
+          "text": "oboshshoi! tomake amontron janachchhi.",
+          "english": "Of course! I'm inviting you."
+        },
+        {
+          "who": "B",
+          "text": "onek dhonnobad. ami ashar cheshta korbo.",
+          "english": "Thank you very much. I'll try to come."
+        }
+      ]
+    },
+    {
+      "id": "work_schedule",
+      "title": "Talking about work",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tumi kothay kaj koro?",
+          "english": "Where do you work?"
+        },
+        {
+          "who": "B",
+          "text": "ami ekta office-e kaj kori.",
+          "english": "I work in an office."
+        },
+        {
+          "who": "A",
+          "text": "tomar kajer shomoy kokhon?",
+          "english": "What are your working hours?"
+        },
+        {
+          "who": "B",
+          "text": "shokal noyta theke bikel panchta porjonto.",
+          "english": "From nine in the morning until five in the afternoon."
+        },
+        {
+          "who": "A",
+          "text": "kaj ki khub chap-er?",
+          "english": "Is the work very stressful?"
+        },
+        {
+          "who": "B",
+          "text": "kokhono kokhono, kintu ami kaj-ta pochhondo kori.",
+          "english": "Sometimes, but I like the job."
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "title": "Talking about feelings",
+      "lines": [
+        {
+          "who": "A",
+          "text": "aj tomake klanto dekhachchhe. shob thik achhe?",
+          "english": "You look tired today. Is everything all right?"
+        },
+        {
+          "who": "B",
+          "text": "kal rate bhalo ghum hoyni.",
+          "english": "I didn't sleep well last night."
+        },
+        {
+          "who": "A",
+          "text": "tumi ki ektu bishram nite parbe?",
+          "english": "Can you get some rest?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, kaj shesh kore bishram nebo.",
+          "english": "Yes, I'll rest after finishing work."
+        },
+        {
+          "who": "A",
+          "text": "nijer jotno nio.",
+          "english": "Take care of yourself."
+        },
+        {
+          "who": "B",
+          "text": "tomar chintar jonno dhonnobad.",
+          "english": "Thank you for your concern."
+        }
+      ]
+    },
+    {
+      "id": "preferences",
+      "title": "Likes and dislikes",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tumi cha pochhondo koro na coffee?",
+          "english": "Do you prefer tea or coffee?"
+        },
+        {
+          "who": "B",
+          "text": "ami cha beshi pochhondo kori.",
+          "english": "I prefer tea."
+        },
+        {
+          "who": "A",
+          "text": "tumi ki jhal khabar khao?",
+          "english": "Do you eat spicy food?"
+        },
+        {
+          "who": "B",
+          "text": "hyan, ami jhal khub pochhondo kori.",
+          "english": "Yes, I really like spicy food."
+        },
+        {
+          "who": "A",
+          "text": "ami beshi jhal khete pari na.",
+          "english": "I can't eat very spicy food."
+        },
+        {
+          "who": "B",
+          "text": "tahole tomar jonno kom jhal ranna korbo.",
+          "english": "Then I'll cook something less spicy for you."
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "title": "Asking for urgent help",
+      "lines": [
+        {
+          "who": "A",
+          "text": "doya kore shahajyo korun!",
+          "english": "Please help!"
+        },
+        {
+          "who": "B",
+          "text": "ki hoyechhe?",
+          "english": "What happened?"
+        },
+        {
+          "who": "A",
+          "text": "amar bondhu pore gechhe ebong uthte parchhe na.",
+          "english": "My friend has fallen and can't get up."
+        },
+        {
+          "who": "B",
+          "text": "ami ekhoni joruri shebay phone korchhi.",
+          "english": "I'll call emergency services right away."
+        },
+        {
+          "who": "A",
+          "text": "dhonnobad. doya kore tar shathe thakun.",
+          "english": "Thank you. Please stay with them."
+        },
+        {
+          "who": "B",
+          "text": "chinta korben na, shahajyo aschhe.",
+          "english": "Don't worry, help is coming."
+        }
+      ]
+    },
+    {
+      "id": "goodbye",
+      "title": "Saying goodbye",
+      "lines": [
+        {
+          "who": "A",
+          "text": "aj tomar shathe kotha bole bhalo laglo.",
+          "english": "It was nice talking with you today."
+        },
+        {
+          "who": "B",
+          "text": "amar-o khub bhalo laglo.",
+          "english": "I enjoyed it too."
+        },
+        {
+          "who": "A",
+          "text": "ekhon amake jete hobe.",
+          "english": "I have to go now."
+        },
+        {
+          "who": "B",
+          "text": "thik achhe. abar dekha hobe.",
+          "english": "All right. See you again."
+        },
+        {
+          "who": "A",
+          "text": "bhalo theko!",
+          "english": "Take care!"
+        },
+        {
+          "who": "B",
+          "text": "tumi-o bhalo theko. biday!",
+          "english": "You take care too. Goodbye!"
         }
       ]
     }

@@ -9,11 +9,18 @@ import { Grammar } from './grammar/Grammar.jsx';
 import { Vocab } from './vocab/Vocab.jsx';
 import { Dialogues } from './dialogues/Dialogues.jsx';
 import { Practice } from './practice/Practice.jsx';
+import { Sentence } from './sentence/Sentence.jsx';
 
-const TITLES = { letters: 'Letters', words: 'Words', grammar: 'Grammar', vocab: 'Vocabulary', dialogues: 'Dialogues', practice: 'Practice' };
+const TITLES = {
+  letters: 'Letters',
+  words: 'Words',
+  grammar: 'Grammar',
+  vocab: 'Vocabulary',
+  dialogues: 'Dialogues',
+  practice: 'Practice',
+  sentence: 'Sentence Builder'
+};
 
-// Hash navigation does not move keyboard focus, and the link that was focused is usually
-// gone after the screen changes. Move focus to <main> so Tab starts at the new content.
 function focusMain() {
   const main = document.querySelector('main');
   if (!main) return;
@@ -27,26 +34,30 @@ export function App() {
   const firstRender = useRef(true);
 
   useEffect(() => {
-    document.title = TITLES[section] ? `${TITLES[section]} · Bengali First Steps` : 'Bengali First Steps';
+    document.title = TITLES[section]
+      ? `${TITLES[section]} · Bengali First Steps`
+      : 'Bengali First Steps';
     if (firstRender.current) {
-      firstRender.current = false; // do not steal focus on page load
+      firstRender.current = false;
       return;
     }
     focusMain();
   }, [segments.join('/')]);
 
   let screen;
+  const rest = [id, ...more].filter(Boolean);
+
   if (section === 'letters') screen = id ? <LetterScreen id={id} /> : <LettersPage />;
-  else if (section === 'words') screen = <Words rest={[id, more[0]].filter(Boolean)} />;
-  else if (section === 'grammar') screen = <Grammar rest={[id].filter(Boolean)} />;
-  else if (section === 'vocab') screen = <Vocab rest={[id, more[0]].filter(Boolean)} />;
-  else if (section === 'dialogues') screen = <Dialogues rest={[id].filter(Boolean)} />;
+  else if (section === 'words') screen = <Words rest={rest} />;
+  else if (section === 'grammar') screen = <Grammar rest={rest} />;
+  else if (section === 'vocab') screen = <Vocab rest={rest} />;
+  else if (section === 'dialogues') screen = <Dialogues rest={rest} />;
   else if (section === 'practice') screen = <Practice />;
+  else if (section === 'sentence') screen = <Sentence rest={rest} />;
   else screen = <Home />;
 
   return (
     <>
-      {/* Hash routing owns the URL hash, so this is a button-like link handled in JS. */}
       <a
         class="skip"
         href="#/"

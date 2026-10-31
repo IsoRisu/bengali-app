@@ -1,41 +1,77 @@
-// Progress for the Vocabulary and Dialogues modules. Kept under its own key, like bn.streak,
-// so the bn.progress shape from the brief stays exactly as it was (DECISIONS Entry 018).
 const KEY = 'bn.extra';
-const empty = () => ({ vocabLearned: [], dialoguesRead: [] });
-const list = (v) => (Array.isArray(v) ? v.filter((x) => typeof x === 'string') : []);
 
-function load() {
-  try {
-    const p = JSON.parse(localStorage.getItem(KEY) || '{}');
-    return { vocabLearned: list(p.vocabLearned), dialoguesRead: list(p.dialoguesRead) };
-  } catch {
-    return empty();
-  }
-}
-
-let state = load();
+let current = null;
 const listeners = new Set();
 
-function save(next) {
-  state = next;
-  try {
-    localStorage.setItem(KEY, JSON.stringify(state));
-  } catch {
-    // Storage blocked: keep working in memory.
+function notify() {
+  for (const fn of listeners) {
+    try { fn(current); } catch (e) { console.error(e); }
   }
-  listeners.forEach((fn) => fn());
 }
 
-function setIn(field, id, on) {
-  if (state[field].includes(id) === on) return;
-  save({ ...state, [field]: on ? [...state[field], id] : state[field].filter((x) => x !== id) });
+function empty() {
+  return { vocabLearned: [], dialoguesRead: [], sentenceCleared: [] };
 }
 
-export const getExtra = () => state;
-export const subscribeExtra = (fn) => {
+function load() {
+  if (current) return current;
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      current = {
+        vocabLearned: Array.isArray(parsed.vocabLearned) ? parsed.vocabLearned : [],
+        dialoguesRead: Array.isArray(parsed.dialoguesRead) ? parsed.dialoguesRead : [],
+        sentenceCleared: Array.isArray(parsed.sentenceCleared) ? parsed.sentenceCleared : []
+      };
+      return current;
+    }
+  } catch (e) {}
+  current = empty();
+  return current;
+}
+
+function save(next) {
+  current = next;
+  try {
+    localStorage.setItem(KEY, JSON.stringify(current));
+  } catch (e) {}
+  notify();
+}
+
+export function getExtra() {
+  return load();
+}
+
+export function subscribeExtra(fn) {
   listeners.add(fn);
   return () => listeners.delete(fn);
-};
-export const setVocabLearned = (id, on) => setIn('vocabLearned', id, on);
-export const setDialogueRead = (id, on) => setIn('dialoguesRead', id, on);
-export const resetExtra = () => save(empty());
+}
+
+export function setVocabLearned(id, bool = true) {
+  const cur = load();
+  const set = new Set(cur.vocabLearned);
+  if (bool) set.add(id);
+  else set.delete(id);
+  save({ ...cur, vocabLearned: Array.from(set) });
+}
+
+export function setDialogueRead(id, bool = true) {
+  const cur = load();
+  const set = new Set(cur.dialoguesRead);
+  if (bool) set.add(id);
+  else set.delete(id);
+  save({ ...cur, dialoguesRead: Array.from(set) });
+}
+
+export function setLevelCleared(id, bool = true) {
+  const cur = load();
+  const set = new Set(cur.sentenceCleared);
+  if (bool) set.add(id);
+  else set.delete(id);
+  save({ ...cur, sentenceCleared: Array.from(set) });
+}
+
+export function resetExtra() {
+  save(empty());
+}

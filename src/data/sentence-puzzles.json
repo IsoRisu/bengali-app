@@ -1,0 +1,48 @@
+{
+  "levels": [
+    {
+      "id": "basic",
+      "title": "Subject · object · verb",
+      "puzzles": [
+        { "id": "sb1-1", "english": "I eat rice",         "answer": ["ami", "bhat", "khai"],      "explanation": "Subject first, then object, then verb." },
+        { "id": "sb1-2", "english": "I eat bread",        "answer": ["ami", "ruti", "khai"],      "explanation": "The verb khai goes last, matching ami." },
+        { "id": "sb1-3", "english": "You drink tea",      "answer": ["tumi", "cha", "khao"],      "explanation": "Khao is the tumi form of eat or drink." },
+        { "id": "sb1-4", "english": "He reads a book",    "answer": ["shey", "boi", "pore"],      "explanation": "Shey can mean he or she, and pore is reads." },
+        { "id": "sb1-5", "english": "We eat rice",        "answer": ["amra", "bhat", "khai"],     "explanation": "Amra takes khai, the same verb as ami." },
+        { "id": "sb1-6", "english": "I read a book",      "answer": ["ami", "boi", "pori"],       "explanation": "Pori goes with ami." }
+      ]
+    },
+    {
+      "id": "negative",
+      "title": "Saying no",
+      "puzzles": [
+        { "id": "sb2-1", "english": "I do not eat rice",       "answer": ["ami", "bhat", "khai", "na"],   "explanation": "Na comes right after the verb, at the end." },
+        { "id": "sb2-2", "english": "You do not drink tea",    "answer": ["tumi", "cha", "khao", "na"],   "explanation": "The verb keeps its form; na just goes after." },
+        { "id": "sb2-3", "english": "He does not read a book", "answer": ["shey", "boi", "pore", "na"],   "explanation": "Verb first, then na." },
+        { "id": "sb2-4", "english": "I do not eat fish",       "answer": ["ami", "mach", "khai", "na"],   "explanation": "Same pattern, different object." },
+        { "id": "sb2-5", "english": "We do not eat rice",      "answer": ["amra", "bhat", "khai", "na"],  "explanation": "Na makes the sentence negative." }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Asking questions",
+      "puzzles": [
+        { "id": "sb3-1", "english": "Where do you go?",     "answer": ["tumi", "kothay", "jao"],       "explanation": "The question word kothay goes right before the verb." },
+        { "id": "sb3-2", "english": "Where does he eat?",   "answer": ["shey", "kothay", "khay"],      "explanation": "Khay goes with shey. Kothay before the verb." },
+        { "id": "sb3-3", "english": "Do you read a book?",  "answer": ["tumi", "ki", "boi", "poro"],   "explanation": "Ki makes a yes or no question. It comes before the object." },
+        { "id": "sb3-4", "english": "Who drinks tea?",      "answer": ["ke", "cha", "khay"],           "explanation": "Ke replaces the subject and comes first." },
+        { "id": "sb3-5", "english": "Do I eat rice?",       "answer": ["ami", "ki", "bhat", "khai"],   "explanation": "Ki before the object makes a yes or no question." }
+      ]
+    },
+    {
+      "id": "describing",
+      "title": "Possessive, adjective, noun",
+      "puzzles": [
+        { "id": "sb4-1", "english": "My good friend",  "answer": ["amar", "bhalo", "bondhu"],  "explanation": "Possessive, then adjective, then noun." },
+        { "id": "sb4-2", "english": "Your big house",  "answer": ["tomar", "boro", "bari"],    "explanation": "Tomar is your. Boro comes before the noun." },
+        { "id": "sb4-3", "english": "His new book",    "answer": ["tar", "notun", "boi"],      "explanation": "Tar is his or her. Notun is new." },
+        { "id": "sb4-4", "english": "My red book",     "answer": ["amar", "lal", "boi"],       "explanation": "Colours act like any adjective: before the noun." }
+      ]
+    }
+  ]
+}

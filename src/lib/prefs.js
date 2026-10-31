@@ -1,27 +1,48 @@
-// Preferences, stored apart from progress (DECISIONS Entry 006).
-// The romanization toggle works through one class on <html>: `hide-roman`.
-// Anything romanized must be wrapped in <Roman>, which carries the `roman` class.
-
 const KEY = 'bn.prefs';
-export const HIDE_ROMAN_CLASS = 'hide-roman';
 
-function load() {
-  try {
-    const p = JSON.parse(localStorage.getItem(KEY) || '{}');
-    return { showRomanization: p.showRomanization !== false }; // visible by default
-  } catch {
-    return { showRomanization: true };
+let current = null;
+const listeners = new Set();
+
+function notify() {
+  for (const fn of listeners) {
+    try { fn(current); } catch (e) { console.error(e); }
   }
 }
 
-let state = load();
-const listeners = new Set();
-
-function apply() {
-  document.documentElement.classList.toggle(HIDE_ROMAN_CLASS, !state.showRomanization);
+function applyHtmlClass(show) {
+  if (typeof document !== 'undefined') {
+    if (show) {
+      document.documentElement.classList.remove('hide-roman');
+    } else {
+      document.documentElement.classList.add('hide-roman');
+    }
+  }
 }
 
-export const getPrefs = () => state;
+function load() {
+  if (current) return current;
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (typeof parsed.showRomanization === 'boolean') {
+        current = { showRomanization: parsed.showRomanization };
+        return current;
+      }
+    }
+  } catch (e) {}
+  current = { showRomanization: true };
+  return current;
+}
+
+export function initPrefs() {
+  const prefs = load();
+  applyHtmlClass(prefs.showRomanization);
+}
+
+export function getPrefs() {
+  return load();
+}
 
 export function subscribePrefs(fn) {
   listeners.add(fn);
@@ -29,14 +50,10 @@ export function subscribePrefs(fn) {
 }
 
 export function setShowRomanization(show) {
-  state = { ...state, showRomanization: !!show };
+  current = { showRomanization: !!show };
   try {
-    localStorage.setItem(KEY, JSON.stringify(state));
-  } catch {
-    // keep working in memory
-  }
-  apply();
-  listeners.forEach((fn) => fn());
+    localStorage.setItem(KEY, JSON.stringify(current));
+  } catch (e) {}
+  applyHtmlClass(current.showRomanization);
+  notify();
 }
-
-export const initPrefs = apply;

@@ -671,6 +671,3197 @@
           "english": "hard"
         }
       ]
+    },
+    {
+      "id": "questions",
+      "title": "Question words",
+      "items": [
+        {
+          "id": "q-ke",
+          "text": "ke",
+          "english": "who"
+        },
+        {
+          "id": "q-ki",
+          "text": "ki",
+          "english": "what"
+        },
+        {
+          "id": "q-kothay",
+          "text": "kothay",
+          "english": "where"
+        },
+        {
+          "id": "q-keno",
+          "text": "keno",
+          "english": "why"
+        },
+        {
+          "id": "q-kokhon",
+          "text": "kokhon",
+          "english": "when"
+        },
+        {
+          "id": "q-kemon",
+          "text": "kemon",
+          "english": "how"
+        },
+        {
+          "id": "q-koto",
+          "text": "koto",
+          "english": "how much, how many"
+        },
+        {
+          "id": "q-koyta",
+          "text": "koyta",
+          "english": "how many (things)"
+        },
+        {
+          "id": "q-konta",
+          "text": "konta",
+          "english": "which one"
+        },
+        {
+          "id": "q-kar",
+          "text": "kar",
+          "english": "whose"
+        }
+      ]
+    },
+    {
+      "id": "time-calendar",
+      "title": "Time and calendar",
+      "items": [
+        {
+          "id": "tc-aj",
+          "text": "aj",
+          "english": "today"
+        },
+        {
+          "id": "tc-kal",
+          "text": "kal",
+          "english": "yesterday or tomorrow"
+        },
+        {
+          "id": "tc-ekhon",
+          "text": "ekhon",
+          "english": "now"
+        },
+        {
+          "id": "tc-pore",
+          "text": "pore",
+          "english": "later"
+        },
+        {
+          "id": "tc-ager",
+          "text": "ager",
+          "english": "previous, earlier"
+        },
+        {
+          "id": "tc-shokal",
+          "text": "shokal",
+          "english": "morning"
+        },
+        {
+          "id": "tc-dupUr",
+          "text": "dupUr",
+          "english": "noon"
+        },
+        {
+          "id": "tc-bikal",
+          "text": "bikal",
+          "english": "afternoon"
+        },
+        {
+          "id": "tc-shondha",
+          "text": "shondha",
+          "english": "evening"
+        },
+        {
+          "id": "tc-rat",
+          "text": "rat",
+          "english": "night"
+        },
+        {
+          "id": "tc-boChhor",
+          "text": "bochhor",
+          "english": "year"
+        }
+      ]
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings and introductions",
+      "items": [
+        {
+          "id": "greetings-assalamu-alaikum",
+          "text": "assalamu alaikum",
+          "english": "peace be upon you (Muslim greeting)"
+        },
+        {
+          "id": "greetings-wa-alaikum-assalam",
+          "text": "wa alaikum assalam",
+          "english": "and peace be upon you (reply)"
+        },
+        {
+          "id": "greetings-shubho-shokal",
+          "text": "shubho shokal",
+          "english": "good morning"
+        },
+        {
+          "id": "greetings-shubho-ratri",
+          "text": "shubho ratri",
+          "english": "good night"
+        },
+        {
+          "id": "greetings-apni-kemon-achhen",
+          "text": "apni kemon achhen?",
+          "english": "how are you? (polite)"
+        },
+        {
+          "id": "greetings-tumi-kemon-acho",
+          "text": "tumi kemon acho?",
+          "english": "how are you? (informal)"
+        },
+        {
+          "id": "greetings-ami-bhalo-achhi",
+          "text": "ami bhalo achhi",
+          "english": "I am well"
+        },
+        {
+          "id": "greetings-apnar-nam-ki",
+          "text": "apnar nam ki?",
+          "english": "what is your name? (polite)"
+        },
+        {
+          "id": "greetings-amar-nam",
+          "text": "amar nam ...",
+          "english": "my name is ..."
+        },
+        {
+          "id": "greetings-apnar-shathe-dekha-hoye-bhalo-laglo",
+          "text": "apnar shathe dekha hoye bhalo laglo",
+          "english": "nice to meet you"
+        },
+        {
+          "id": "greetings-apni-kotha-theke-eshechhen",
+          "text": "apni kotha theke eshechhen?",
+          "english": "where are you from? (polite)"
+        },
+        {
+          "id": "greetings-ami-theke-eshechhi",
+          "text": "ami ... theke eshechhi",
+          "english": "I am from ..."
+        },
+        {
+          "id": "greetings-abar-dekha-hobe",
+          "text": "abar dekha hobe",
+          "english": "see you again"
+        },
+        {
+          "id": "greetings-biday",
+          "text": "biday",
+          "english": "goodbye"
+        },
+        {
+          "id": "greetings-shubhokamna",
+          "text": "shubhokamna",
+          "english": "best wishes"
+        },
+        {
+          "id": "greetings-onek-dhonnobad",
+          "text": "onek dhonnobad",
+          "english": "thank you very much"
+        },
+        {
+          "id": "greetings-shagotom",
+          "text": "shagotom",
+          "english": "welcome"
+        },
+        {
+          "id": "greetings-maf-korben",
+          "text": "maf korben",
+          "english": "excuse me / please forgive me"
+        },
+        {
+          "id": "greetings-kono-shomossha-nei",
+          "text": "kono shomossha nei",
+          "english": "no problem"
+        },
+        {
+          "id": "greetings-apnake-shagotom",
+          "text": "apnake shagotom",
+          "english": "you are welcome"
+        }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "title": "Pronouns and people",
+      "items": [
+        {
+          "id": "pronouns-ami",
+          "text": "ami",
+          "english": "I"
+        },
+        {
+          "id": "pronouns-tumi",
+          "text": "tumi",
+          "english": "you (informal)"
+        },
+        {
+          "id": "pronouns-apni",
+          "text": "apni",
+          "english": "you (polite)"
+        },
+        {
+          "id": "pronouns-she",
+          "text": "she",
+          "english": "he / she"
+        },
+        {
+          "id": "pronouns-eta",
+          "text": "eta",
+          "english": "this / it"
+        },
+        {
+          "id": "pronouns-ota",
+          "text": "ota",
+          "english": "that / it over there"
+        },
+        {
+          "id": "pronouns-amra",
+          "text": "amra",
+          "english": "we"
+        },
+        {
+          "id": "pronouns-tomra",
+          "text": "tomra",
+          "english": "you (plural, informal)"
+        },
+        {
+          "id": "pronouns-apnara",
+          "text": "apnara",
+          "english": "you (plural, polite)"
+        },
+        {
+          "id": "pronouns-tara",
+          "text": "tara",
+          "english": "they"
+        },
+        {
+          "id": "pronouns-amar",
+          "text": "amar",
+          "english": "my / mine"
+        },
+        {
+          "id": "pronouns-tomar",
+          "text": "tomar",
+          "english": "your / yours (informal)"
+        },
+        {
+          "id": "pronouns-apnar",
+          "text": "apnar",
+          "english": "your / yours (polite)"
+        },
+        {
+          "id": "pronouns-tar",
+          "text": "tar",
+          "english": "his / her / their"
+        },
+        {
+          "id": "pronouns-amader",
+          "text": "amader",
+          "english": "our / ours"
+        },
+        {
+          "id": "pronouns-tomader",
+          "text": "tomader",
+          "english": "your / yours (plural informal)"
+        },
+        {
+          "id": "pronouns-nijey",
+          "text": "nijey",
+          "english": "oneself"
+        },
+        {
+          "id": "pronouns-shobai",
+          "text": "shobai",
+          "english": "everyone"
+        },
+        {
+          "id": "pronouns-keu",
+          "text": "keu",
+          "english": "someone / anyone"
+        },
+        {
+          "id": "pronouns-keu-na",
+          "text": "keu na",
+          "english": "no one"
+        }
+      ]
+    },
+    {
+      "id": "common-verbs",
+      "title": "Common verbs",
+      "items": [
+        {
+          "id": "common-verbs-kora",
+          "text": "kora",
+          "english": "to do"
+        },
+        {
+          "id": "common-verbs-jaoa",
+          "text": "jaoa",
+          "english": "to go"
+        },
+        {
+          "id": "common-verbs-asha",
+          "text": "asha",
+          "english": "to come"
+        },
+        {
+          "id": "common-verbs-khaoa",
+          "text": "khaoa",
+          "english": "to eat"
+        },
+        {
+          "id": "common-verbs-pan-kora",
+          "text": "pan kora",
+          "english": "to drink"
+        },
+        {
+          "id": "common-verbs-bola",
+          "text": "bola",
+          "english": "to say / speak"
+        },
+        {
+          "id": "common-verbs-shona",
+          "text": "shona",
+          "english": "to hear / listen"
+        },
+        {
+          "id": "common-verbs-dekha",
+          "text": "dekha",
+          "english": "to see / watch"
+        },
+        {
+          "id": "common-verbs-pora",
+          "text": "pora",
+          "english": "to read / study"
+        },
+        {
+          "id": "common-verbs-lekha",
+          "text": "lekha",
+          "english": "to write"
+        },
+        {
+          "id": "common-verbs-shekha",
+          "text": "shekha",
+          "english": "to learn"
+        },
+        {
+          "id": "common-verbs-porano",
+          "text": "porano",
+          "english": "to teach"
+        },
+        {
+          "id": "common-verbs-bojha",
+          "text": "bojha",
+          "english": "to understand"
+        },
+        {
+          "id": "common-verbs-jana",
+          "text": "jana",
+          "english": "to know"
+        },
+        {
+          "id": "common-verbs-chawa",
+          "text": "chawa",
+          "english": "to want"
+        },
+        {
+          "id": "common-verbs-deoa",
+          "text": "deoa",
+          "english": "to give"
+        },
+        {
+          "id": "common-verbs-neoa",
+          "text": "neoa",
+          "english": "to take"
+        },
+        {
+          "id": "common-verbs-rakha",
+          "text": "rakha",
+          "english": "to keep / put"
+        },
+        {
+          "id": "common-verbs-khola",
+          "text": "khola",
+          "english": "to open"
+        },
+        {
+          "id": "common-verbs-bondho-kora",
+          "text": "bondho kora",
+          "english": "to close / shut"
+        },
+        {
+          "id": "common-verbs-kena",
+          "text": "kena",
+          "english": "to buy"
+        },
+        {
+          "id": "common-verbs-bikri-kora",
+          "text": "bikri kora",
+          "english": "to sell"
+        },
+        {
+          "id": "common-verbs-khunja",
+          "text": "khuNja",
+          "english": "to search for"
+        },
+        {
+          "id": "common-verbs-pawa",
+          "text": "pawa",
+          "english": "to get / find"
+        },
+        {
+          "id": "common-verbs-thaka",
+          "text": "thaka",
+          "english": "to stay / be"
+        },
+        {
+          "id": "common-verbs-basha",
+          "text": "basha",
+          "english": "to live / reside"
+        },
+        {
+          "id": "common-verbs-kaj-kora",
+          "text": "kaj kora",
+          "english": "to work"
+        },
+        {
+          "id": "common-verbs-khela",
+          "text": "khela",
+          "english": "to play"
+        },
+        {
+          "id": "common-verbs-hata",
+          "text": "hata",
+          "english": "to walk"
+        },
+        {
+          "id": "common-verbs-dourano",
+          "text": "dourano",
+          "english": "to run"
+        },
+        {
+          "id": "common-verbs-bosha",
+          "text": "bosha",
+          "english": "to sit"
+        },
+        {
+          "id": "common-verbs-darano",
+          "text": "darano",
+          "english": "to stand"
+        },
+        {
+          "id": "common-verbs-ghumano",
+          "text": "ghumano",
+          "english": "to sleep"
+        },
+        {
+          "id": "common-verbs-otha",
+          "text": "otha",
+          "english": "to get up / rise"
+        },
+        {
+          "id": "common-verbs-hasha",
+          "text": "hasha",
+          "english": "to laugh"
+        },
+        {
+          "id": "common-verbs-kanda",
+          "text": "kanda",
+          "english": "to cry"
+        },
+        {
+          "id": "common-verbs-opekkha-kora",
+          "text": "opekkha kora",
+          "english": "to wait"
+        },
+        {
+          "id": "common-verbs-shuru-kora",
+          "text": "shuru kora",
+          "english": "to start"
+        },
+        {
+          "id": "common-verbs-shesh-kora",
+          "text": "shesh kora",
+          "english": "to finish"
+        },
+        {
+          "id": "common-verbs-help-kora",
+          "text": "help kora",
+          "english": "to help"
+        },
+        {
+          "id": "common-verbs-bhalobasha",
+          "text": "bhalobasha",
+          "english": "to love"
+        }
+      ]
+    },
+    {
+      "id": "food-extra",
+      "title": "More food and cooking",
+      "items": [
+        {
+          "id": "food-extra-nasta",
+          "text": "nasta",
+          "english": "breakfast / snack"
+        },
+        {
+          "id": "food-extra-dupurer-khabar",
+          "text": "dupurer khabar",
+          "english": "lunch"
+        },
+        {
+          "id": "food-extra-rater-khabar",
+          "text": "rater khabar",
+          "english": "dinner"
+        },
+        {
+          "id": "food-extra-mangsho",
+          "text": "mangsho",
+          "english": "meat"
+        },
+        {
+          "id": "food-extra-murgi",
+          "text": "murgi",
+          "english": "chicken"
+        },
+        {
+          "id": "food-extra-gorur-mangsho",
+          "text": "gorur mangsho",
+          "english": "beef"
+        },
+        {
+          "id": "food-extra-khashir-mangsho",
+          "text": "khashir mangsho",
+          "english": "goat meat / mutton"
+        },
+        {
+          "id": "food-extra-shukorer-mangsho",
+          "text": "shukorer mangsho",
+          "english": "pork"
+        },
+        {
+          "id": "food-extra-dal",
+          "text": "dal",
+          "english": "lentils"
+        },
+        {
+          "id": "food-extra-alu",
+          "text": "alu",
+          "english": "potato"
+        },
+        {
+          "id": "food-extra-peyaj",
+          "text": "peyaj",
+          "english": "onion"
+        },
+        {
+          "id": "food-extra-roshun",
+          "text": "roshun",
+          "english": "garlic"
+        },
+        {
+          "id": "food-extra-ada",
+          "text": "ada",
+          "english": "ginger"
+        },
+        {
+          "id": "food-extra-tomato",
+          "text": "tomato",
+          "english": "tomato"
+        },
+        {
+          "id": "food-extra-shosha",
+          "text": "shosha",
+          "english": "cucumber"
+        },
+        {
+          "id": "food-extra-gajor",
+          "text": "gajor",
+          "english": "carrot"
+        },
+        {
+          "id": "food-extra-morich",
+          "text": "morich",
+          "english": "chili pepper"
+        },
+        {
+          "id": "food-extra-lebu",
+          "text": "lebu",
+          "english": "lemon / lime"
+        },
+        {
+          "id": "food-extra-apel",
+          "text": "apel",
+          "english": "apple"
+        },
+        {
+          "id": "food-extra-kola",
+          "text": "kola",
+          "english": "banana"
+        },
+        {
+          "id": "food-extra-aam",
+          "text": "aam",
+          "english": "mango"
+        },
+        {
+          "id": "food-extra-komola",
+          "text": "komola",
+          "english": "orange"
+        },
+        {
+          "id": "food-extra-angur",
+          "text": "angur",
+          "english": "grapes"
+        },
+        {
+          "id": "food-extra-dim-bhaja",
+          "text": "dim bhaja",
+          "english": "fried egg"
+        },
+        {
+          "id": "food-extra-dudh-cha",
+          "text": "dudh cha",
+          "english": "milk tea"
+        },
+        {
+          "id": "food-extra-coffee",
+          "text": "coffee",
+          "english": "coffee"
+        },
+        {
+          "id": "food-extra-chini-chara",
+          "text": "chini chara",
+          "english": "without sugar"
+        },
+        {
+          "id": "food-extra-jhal",
+          "text": "jhal",
+          "english": "spicy"
+        },
+        {
+          "id": "food-extra-tok",
+          "text": "tok",
+          "english": "sour"
+        },
+        {
+          "id": "food-extra-tita",
+          "text": "tita",
+          "english": "bitter"
+        },
+        {
+          "id": "food-extra-nonta",
+          "text": "nonta",
+          "english": "salty"
+        },
+        {
+          "id": "food-extra-khabar",
+          "text": "khabar",
+          "english": "food / meal"
+        },
+        {
+          "id": "food-extra-menu",
+          "text": "menu",
+          "english": "menu"
+        },
+        {
+          "id": "food-extra-bil",
+          "text": "bil",
+          "english": "bill"
+        },
+        {
+          "id": "food-extra-pani",
+          "text": "pani",
+          "english": "water (common in Bangladesh)"
+        },
+        {
+          "id": "food-extra-khida",
+          "text": "khida",
+          "english": "hunger"
+        },
+        {
+          "id": "food-extra-pipasha",
+          "text": "pipasha",
+          "english": "thirst"
+        }
+      ]
+    },
+    {
+      "id": "shopping-money",
+      "title": "Shopping and money",
+      "items": [
+        {
+          "id": "shopping-money-dam",
+          "text": "dam",
+          "english": "price"
+        },
+        {
+          "id": "shopping-money-koto-dam",
+          "text": "koto dam?",
+          "english": "how much does it cost?"
+        },
+        {
+          "id": "shopping-money-eta-khub-dami",
+          "text": "eta khub dami",
+          "english": "this is very expensive"
+        },
+        {
+          "id": "shopping-money-ektu-kom-korun",
+          "text": "ektu kom korun",
+          "english": "please lower the price a little"
+        },
+        {
+          "id": "shopping-money-ami-eta-nebo",
+          "text": "ami eta nebo",
+          "english": "I'll take this"
+        },
+        {
+          "id": "shopping-money-amar-eta-lagbe",
+          "text": "amar eta lagbe",
+          "english": "I need this"
+        },
+        {
+          "id": "shopping-money-amar-eta-lagbe-na",
+          "text": "amar eta lagbe na",
+          "english": "I don't need this"
+        },
+        {
+          "id": "shopping-money-dokaan",
+          "text": "dokaan",
+          "english": "shop"
+        },
+        {
+          "id": "shopping-money-bajar",
+          "text": "bajar",
+          "english": "market"
+        },
+        {
+          "id": "shopping-money-taka",
+          "text": "taka",
+          "english": "money / taka"
+        },
+        {
+          "id": "shopping-money-khuchra-taka",
+          "text": "khuchra taka",
+          "english": "change (small money)"
+        },
+        {
+          "id": "shopping-money-cash",
+          "text": "cash",
+          "english": "cash"
+        },
+        {
+          "id": "shopping-money-card",
+          "text": "card",
+          "english": "card"
+        },
+        {
+          "id": "shopping-money-receipt",
+          "text": "receipt",
+          "english": "receipt"
+        },
+        {
+          "id": "shopping-money-bag",
+          "text": "bag",
+          "english": "bag"
+        },
+        {
+          "id": "shopping-money-jama",
+          "text": "jama",
+          "english": "clothes / shirt"
+        },
+        {
+          "id": "shopping-money-pant",
+          "text": "pant",
+          "english": "trousers"
+        },
+        {
+          "id": "shopping-money-juto",
+          "text": "juto",
+          "english": "shoes"
+        },
+        {
+          "id": "shopping-money-size",
+          "text": "size",
+          "english": "size"
+        },
+        {
+          "id": "shopping-money-rong",
+          "text": "rong",
+          "english": "colour"
+        },
+        {
+          "id": "shopping-money-notun",
+          "text": "notun",
+          "english": "new"
+        },
+        {
+          "id": "shopping-money-purono",
+          "text": "purono",
+          "english": "old / used"
+        },
+        {
+          "id": "shopping-money-khola-ache",
+          "text": "khola ache?",
+          "english": "is it open?"
+        },
+        {
+          "id": "shopping-money-bondho-ache",
+          "text": "bondho ache?",
+          "english": "is it closed?"
+        },
+        {
+          "id": "shopping-money-ami-shudhu-dekhchi",
+          "text": "ami shudhu dekhchi",
+          "english": "I'm just looking"
+        },
+        {
+          "id": "shopping-money-eta-ki-ache",
+          "text": "eta ki ache?",
+          "english": "do you have this?"
+        },
+        {
+          "id": "shopping-money-arekta-din",
+          "text": "arekta din",
+          "english": "another day"
+        },
+        {
+          "id": "shopping-money-discount",
+          "text": "discount",
+          "english": "discount"
+        },
+        {
+          "id": "shopping-money-free",
+          "text": "free",
+          "english": "free of charge"
+        },
+        {
+          "id": "shopping-money-ferot",
+          "text": "ferot",
+          "english": "return / refund"
+        }
+      ]
+    },
+    {
+      "id": "travel-transport",
+      "title": "Travel and transport",
+      "items": [
+        {
+          "id": "travel-transport-rasta",
+          "text": "rasta",
+          "english": "road / way"
+        },
+        {
+          "id": "travel-transport-gari",
+          "text": "gari",
+          "english": "car / vehicle"
+        },
+        {
+          "id": "travel-transport-bus",
+          "text": "bus",
+          "english": "bus"
+        },
+        {
+          "id": "travel-transport-train",
+          "text": "train",
+          "english": "train"
+        },
+        {
+          "id": "travel-transport-riksha",
+          "text": "riksha",
+          "english": "rickshaw"
+        },
+        {
+          "id": "travel-transport-cng",
+          "text": "CNG",
+          "english": "auto-rickshaw (CNG)"
+        },
+        {
+          "id": "travel-transport-biman",
+          "text": "biman",
+          "english": "airplane"
+        },
+        {
+          "id": "travel-transport-nouka",
+          "text": "nouka",
+          "english": "boat"
+        },
+        {
+          "id": "travel-transport-station",
+          "text": "station",
+          "english": "station"
+        },
+        {
+          "id": "travel-transport-bimanbondor",
+          "text": "bimanbondor",
+          "english": "airport"
+        },
+        {
+          "id": "travel-transport-ticket",
+          "text": "ticket",
+          "english": "ticket"
+        },
+        {
+          "id": "travel-transport-bhara",
+          "text": "bhara",
+          "english": "fare / rent"
+        },
+        {
+          "id": "travel-transport-driver",
+          "text": "driver",
+          "english": "driver"
+        },
+        {
+          "id": "travel-transport-jatri",
+          "text": "jatri",
+          "english": "passenger"
+        },
+        {
+          "id": "travel-transport-thikana",
+          "text": "thikana",
+          "english": "address"
+        },
+        {
+          "id": "travel-transport-bam-dike",
+          "text": "bam dike",
+          "english": "to the left"
+        },
+        {
+          "id": "travel-transport-dan-dike",
+          "text": "dan dike",
+          "english": "to the right"
+        },
+        {
+          "id": "travel-transport-shoja",
+          "text": "shoja",
+          "english": "straight"
+        },
+        {
+          "id": "travel-transport-kachhe",
+          "text": "kachhe",
+          "english": "near"
+        },
+        {
+          "id": "travel-transport-dure",
+          "text": "dure",
+          "english": "far"
+        },
+        {
+          "id": "travel-transport-ekhane",
+          "text": "ekhane",
+          "english": "here"
+        },
+        {
+          "id": "travel-transport-okhane",
+          "text": "okhane",
+          "english": "there"
+        },
+        {
+          "id": "travel-transport-kothay-jabo",
+          "text": "kothay jabo?",
+          "english": "where should I go?"
+        },
+        {
+          "id": "travel-transport-koto-khon-lagbe",
+          "text": "koto khon lagbe?",
+          "english": "how long will it take?"
+        },
+        {
+          "id": "travel-transport-kokhon-chharbe",
+          "text": "kokhon chharbe?",
+          "english": "when will it leave?"
+        },
+        {
+          "id": "travel-transport-ekta-ticket-din",
+          "text": "ekta ticket din",
+          "english": "one ticket, please"
+        },
+        {
+          "id": "travel-transport-thamun",
+          "text": "thamun",
+          "english": "stop, please"
+        },
+        {
+          "id": "travel-transport-taratari",
+          "text": "taratari",
+          "english": "quickly"
+        },
+        {
+          "id": "travel-transport-aste-aste",
+          "text": "aste aste",
+          "english": "slowly"
+        },
+        {
+          "id": "travel-transport-hariye-gechhi",
+          "text": "hariye gechhi",
+          "english": "I am lost"
+        },
+        {
+          "id": "travel-transport-map",
+          "text": "map",
+          "english": "map"
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "title": "Places around town",
+      "items": [
+        {
+          "id": "places-shohor",
+          "text": "shohor",
+          "english": "city"
+        },
+        {
+          "id": "places-gram",
+          "text": "gram",
+          "english": "village"
+        },
+        {
+          "id": "places-desh",
+          "text": "desh",
+          "english": "country"
+        },
+        {
+          "id": "places-elaka",
+          "text": "elaka",
+          "english": "area / neighbourhood"
+        },
+        {
+          "id": "places-bari",
+          "text": "bari",
+          "english": "home / house"
+        },
+        {
+          "id": "places-hotel",
+          "text": "hotel",
+          "english": "hotel"
+        },
+        {
+          "id": "places-restora",
+          "text": "restora",
+          "english": "restaurant"
+        },
+        {
+          "id": "places-hospital",
+          "text": "hospital",
+          "english": "hospital"
+        },
+        {
+          "id": "places-pharmacy",
+          "text": "pharmacy",
+          "english": "pharmacy"
+        },
+        {
+          "id": "places-school",
+          "text": "school",
+          "english": "school"
+        },
+        {
+          "id": "places-college",
+          "text": "college",
+          "english": "college"
+        },
+        {
+          "id": "places-bishwabidyaloy",
+          "text": "bishwabidyaloy",
+          "english": "university"
+        },
+        {
+          "id": "places-office",
+          "text": "office",
+          "english": "office"
+        },
+        {
+          "id": "places-bank",
+          "text": "bank",
+          "english": "bank"
+        },
+        {
+          "id": "places-post-office",
+          "text": "post office",
+          "english": "post office"
+        },
+        {
+          "id": "places-police-station",
+          "text": "police station",
+          "english": "police station"
+        },
+        {
+          "id": "places-thana",
+          "text": "thana",
+          "english": "police station / local police office"
+        },
+        {
+          "id": "places-mosjid",
+          "text": "mosjid",
+          "english": "mosque"
+        },
+        {
+          "id": "places-mondir",
+          "text": "mondir",
+          "english": "temple"
+        },
+        {
+          "id": "places-girja",
+          "text": "girja",
+          "english": "church"
+        },
+        {
+          "id": "places-park",
+          "text": "park",
+          "english": "park"
+        },
+        {
+          "id": "places-bagan",
+          "text": "bagan",
+          "english": "garden"
+        },
+        {
+          "id": "places-library",
+          "text": "library",
+          "english": "library"
+        },
+        {
+          "id": "places-toilet",
+          "text": "toilet",
+          "english": "toilet"
+        },
+        {
+          "id": "places-bathroom",
+          "text": "bathroom",
+          "english": "bathroom"
+        },
+        {
+          "id": "places-ranna-ghor",
+          "text": "ranna ghor",
+          "english": "kitchen"
+        },
+        {
+          "id": "places-ghorer-baire",
+          "text": "ghorer baire",
+          "english": "outside the house"
+        },
+        {
+          "id": "places-bhitore",
+          "text": "bhitore",
+          "english": "inside"
+        },
+        {
+          "id": "places-upore",
+          "text": "upore",
+          "english": "above / upstairs"
+        },
+        {
+          "id": "places-niche",
+          "text": "niche",
+          "english": "below / downstairs"
+        },
+        {
+          "id": "places-samne",
+          "text": "samne",
+          "english": "in front"
+        },
+        {
+          "id": "places-pichhone",
+          "text": "pichhone",
+          "english": "behind"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health and emergencies",
+      "items": [
+        {
+          "id": "health-shorir",
+          "text": "shorir",
+          "english": "body / health"
+        },
+        {
+          "id": "health-oshustho",
+          "text": "oshustho",
+          "english": "ill / unwell"
+        },
+        {
+          "id": "health-byatha",
+          "text": "byatha",
+          "english": "pain"
+        },
+        {
+          "id": "health-jor",
+          "text": "jor",
+          "english": "fever"
+        },
+        {
+          "id": "health-kashi",
+          "text": "kashi",
+          "english": "cough"
+        },
+        {
+          "id": "health-thanda-legechhe",
+          "text": "thanda legechhe",
+          "english": "I have a cold"
+        },
+        {
+          "id": "health-matha-byatha",
+          "text": "matha byatha",
+          "english": "headache"
+        },
+        {
+          "id": "health-pet-byatha",
+          "text": "pet byatha",
+          "english": "stomachache"
+        },
+        {
+          "id": "health-daktar",
+          "text": "daktar",
+          "english": "doctor"
+        },
+        {
+          "id": "health-nurse",
+          "text": "nurse",
+          "english": "nurse"
+        },
+        {
+          "id": "health-oshudh",
+          "text": "oshudh",
+          "english": "medicine"
+        },
+        {
+          "id": "health-ambulance",
+          "text": "ambulance",
+          "english": "ambulance"
+        },
+        {
+          "id": "health-joruri",
+          "text": "joruri",
+          "english": "urgent / emergency"
+        },
+        {
+          "id": "health-shahajjo-korun",
+          "text": "shahajjo korun",
+          "english": "please help"
+        },
+        {
+          "id": "health-amar-shahajjo-dorkar",
+          "text": "amar shahajjo dorkar",
+          "english": "I need help"
+        },
+        {
+          "id": "health-ami-poth-hariyechi",
+          "text": "ami poth hariyechi",
+          "english": "I am lost"
+        },
+        {
+          "id": "health-ekhane-betha",
+          "text": "ekhane betha",
+          "english": "it hurts here"
+        },
+        {
+          "id": "health-amar-daktar-dorkar",
+          "text": "amar daktar dorkar",
+          "english": "I need a doctor"
+        },
+        {
+          "id": "health-hospital-kothay",
+          "text": "hospital kothay?",
+          "english": "where is the hospital?"
+        },
+        {
+          "id": "health-pani-din",
+          "text": "pani din",
+          "english": "please give me water"
+        },
+        {
+          "id": "health-bishram",
+          "text": "bishram",
+          "english": "rest"
+        },
+        {
+          "id": "health-ghum",
+          "text": "ghum",
+          "english": "sleep"
+        },
+        {
+          "id": "health-rokto",
+          "text": "rokto",
+          "english": "blood"
+        },
+        {
+          "id": "health-jhor",
+          "text": "jhor",
+          "english": "storm / fever (context-dependent)"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "title": "Feelings and states",
+      "items": [
+        {
+          "id": "feelings-khushi",
+          "text": "khushi",
+          "english": "happy"
+        },
+        {
+          "id": "feelings-dukkho",
+          "text": "dukkho",
+          "english": "sadness / sorrow"
+        },
+        {
+          "id": "feelings-rag",
+          "text": "rag",
+          "english": "anger"
+        },
+        {
+          "id": "feelings-bhoy",
+          "text": "bhoy",
+          "english": "fear"
+        },
+        {
+          "id": "feelings-klanto",
+          "text": "klanto",
+          "english": "tired"
+        },
+        {
+          "id": "feelings-birokto",
+          "text": "birokto",
+          "english": "annoyed / bored"
+        },
+        {
+          "id": "feelings-chintito",
+          "text": "chintito",
+          "english": "worried"
+        },
+        {
+          "id": "feelings-obak",
+          "text": "obak",
+          "english": "surprised"
+        },
+        {
+          "id": "feelings-lojja",
+          "text": "lojja",
+          "english": "shame / shyness"
+        },
+        {
+          "id": "feelings-shanto",
+          "text": "shanto",
+          "english": "calm / peaceful"
+        },
+        {
+          "id": "feelings-eka",
+          "text": "eka",
+          "english": "alone"
+        },
+        {
+          "id": "feelings-byasto",
+          "text": "byasto",
+          "english": "busy"
+        },
+        {
+          "id": "feelings-prosthut",
+          "text": "prosthut",
+          "english": "ready / prepared"
+        },
+        {
+          "id": "feelings-nirapod",
+          "text": "nirapod",
+          "english": "safe"
+        },
+        {
+          "id": "feelings-bipodjonok",
+          "text": "bipodjonok",
+          "english": "dangerous"
+        },
+        {
+          "id": "feelings-moja",
+          "text": "moja",
+          "english": "fun / enjoyable"
+        },
+        {
+          "id": "feelings-bhalo-lage",
+          "text": "bhalo lage",
+          "english": "like / feel good"
+        },
+        {
+          "id": "feelings-bhalo-lage-na",
+          "text": "bhalo lage na",
+          "english": "don't like"
+        },
+        {
+          "id": "feelings-ami-khushi",
+          "text": "ami khushi",
+          "english": "I am happy"
+        },
+        {
+          "id": "feelings-ami-klanto",
+          "text": "ami klanto",
+          "english": "I am tired"
+        },
+        {
+          "id": "feelings-ami-jani-na",
+          "text": "ami jani na",
+          "english": "I don't know"
+        },
+        {
+          "id": "feelings-ami-bhoy-pachchhi",
+          "text": "ami bhoy pachchhi",
+          "english": "I am afraid"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather and seasons",
+      "items": [
+        {
+          "id": "weather-abohawa",
+          "text": "abohawa",
+          "english": "weather"
+        },
+        {
+          "id": "weather-gorom",
+          "text": "gorom",
+          "english": "hot"
+        },
+        {
+          "id": "weather-thanda",
+          "text": "thanda",
+          "english": "cold"
+        },
+        {
+          "id": "weather-bristi-hochchhe",
+          "text": "bristi hochchhe",
+          "english": "it is raining"
+        },
+        {
+          "id": "weather-rod",
+          "text": "rod",
+          "english": "sunshine"
+        },
+        {
+          "id": "weather-megh",
+          "text": "megh",
+          "english": "cloud"
+        },
+        {
+          "id": "weather-meghla",
+          "text": "meghla",
+          "english": "cloudy"
+        },
+        {
+          "id": "weather-jhor",
+          "text": "jhor",
+          "english": "storm"
+        },
+        {
+          "id": "weather-bojropat",
+          "text": "bojropat",
+          "english": "lightning / thunderstorm"
+        },
+        {
+          "id": "weather-kuasha",
+          "text": "kuasha",
+          "english": "fog"
+        },
+        {
+          "id": "weather-shit",
+          "text": "shit",
+          "english": "winter / cold season"
+        },
+        {
+          "id": "weather-grishsho",
+          "text": "grishsho",
+          "english": "summer"
+        },
+        {
+          "id": "weather-borsha",
+          "text": "borsha",
+          "english": "rainy season / monsoon"
+        },
+        {
+          "id": "weather-boshonto",
+          "text": "boshonto",
+          "english": "spring"
+        },
+        {
+          "id": "weather-shorot",
+          "text": "shorot",
+          "english": "autumn"
+        },
+        {
+          "id": "weather-hemonto",
+          "text": "hemonto",
+          "english": "late autumn"
+        },
+        {
+          "id": "weather-aj-abohawa-bhalo",
+          "text": "aj abohawa bhalo",
+          "english": "the weather is nice today"
+        },
+        {
+          "id": "weather-aj-khub-gorom",
+          "text": "aj khub gorom",
+          "english": "it is very hot today"
+        },
+        {
+          "id": "weather-chhata",
+          "text": "chhata",
+          "english": "umbrella"
+        },
+        {
+          "id": "weather-bristi",
+          "text": "bristi",
+          "english": "rain"
+        }
+      ]
+    },
+    {
+      "id": "work-study",
+      "title": "Work and study",
+      "items": [
+        {
+          "id": "work-study-kaj",
+          "text": "kaj",
+          "english": "work"
+        },
+        {
+          "id": "work-study-chakri",
+          "text": "chakri",
+          "english": "job"
+        },
+        {
+          "id": "work-study-kormokhetra",
+          "text": "kormokhetra",
+          "english": "workplace"
+        },
+        {
+          "id": "work-study-bos",
+          "text": "bos",
+          "english": "boss"
+        },
+        {
+          "id": "work-study-shohokormi",
+          "text": "shohokormi",
+          "english": "colleague"
+        },
+        {
+          "id": "work-study-meeting",
+          "text": "meeting",
+          "english": "meeting"
+        },
+        {
+          "id": "work-study-shomoy",
+          "text": "shomoy",
+          "english": "time"
+        },
+        {
+          "id": "work-study-shikkha",
+          "text": "shikkha",
+          "english": "education"
+        },
+        {
+          "id": "work-study-chhatro",
+          "text": "chhatro",
+          "english": "student (male / generic)"
+        },
+        {
+          "id": "work-study-chhatri",
+          "text": "chhatri",
+          "english": "female student"
+        },
+        {
+          "id": "work-study-shikkhok",
+          "text": "shikkhok",
+          "english": "teacher (male / generic)"
+        },
+        {
+          "id": "work-study-shikkhika",
+          "text": "shikkhika",
+          "english": "female teacher"
+        },
+        {
+          "id": "work-study-boi",
+          "text": "boi",
+          "english": "book"
+        },
+        {
+          "id": "work-study-khata",
+          "text": "khata",
+          "english": "notebook"
+        },
+        {
+          "id": "work-study-kolom",
+          "text": "kolom",
+          "english": "pen"
+        },
+        {
+          "id": "work-study-pencil",
+          "text": "pencil",
+          "english": "pencil"
+        },
+        {
+          "id": "work-study-proshno",
+          "text": "proshno",
+          "english": "question"
+        },
+        {
+          "id": "work-study-uttor",
+          "text": "uttor",
+          "english": "answer"
+        },
+        {
+          "id": "work-study-porikkha",
+          "text": "porikkha",
+          "english": "exam"
+        },
+        {
+          "id": "work-study-homework",
+          "text": "homework",
+          "english": "homework"
+        },
+        {
+          "id": "work-study-class",
+          "text": "class",
+          "english": "class"
+        },
+        {
+          "id": "work-study-bishoy",
+          "text": "bishoy",
+          "english": "subject / topic"
+        },
+        {
+          "id": "work-study-ami-porashona-kori",
+          "text": "ami porashona kori",
+          "english": "I study"
+        },
+        {
+          "id": "work-study-ami-kaj-kori",
+          "text": "ami kaj kori",
+          "english": "I work"
+        },
+        {
+          "id": "work-study-ami-bujhte-parchhi",
+          "text": "ami bujhte parchhi",
+          "english": "I can understand"
+        },
+        {
+          "id": "work-study-abar-bujhiye-bolun",
+          "text": "abar bujhiye bolun",
+          "english": "please explain again"
+        },
+        {
+          "id": "work-study-ektu-dhire-bolun",
+          "text": "ektu dhire bolun",
+          "english": "please speak a little slowly"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technology and communication",
+      "items": [
+        {
+          "id": "technology-phone",
+          "text": "phone",
+          "english": "phone"
+        },
+        {
+          "id": "technology-mobile",
+          "text": "mobile",
+          "english": "mobile phone"
+        },
+        {
+          "id": "technology-computer",
+          "text": "computer",
+          "english": "computer"
+        },
+        {
+          "id": "technology-laptop",
+          "text": "laptop",
+          "english": "laptop"
+        },
+        {
+          "id": "technology-internet",
+          "text": "internet",
+          "english": "internet"
+        },
+        {
+          "id": "technology-wifi",
+          "text": "wifi",
+          "english": "Wi-Fi"
+        },
+        {
+          "id": "technology-password",
+          "text": "password",
+          "english": "password"
+        },
+        {
+          "id": "technology-message",
+          "text": "message",
+          "english": "message"
+        },
+        {
+          "id": "technology-chhobi",
+          "text": "chhobi",
+          "english": "picture / photo"
+        },
+        {
+          "id": "technology-video",
+          "text": "video",
+          "english": "video"
+        },
+        {
+          "id": "technology-email",
+          "text": "email",
+          "english": "email"
+        },
+        {
+          "id": "technology-website",
+          "text": "website",
+          "english": "website"
+        },
+        {
+          "id": "technology-charger",
+          "text": "charger",
+          "english": "charger"
+        },
+        {
+          "id": "technology-battery",
+          "text": "battery",
+          "english": "battery"
+        },
+        {
+          "id": "technology-electricity",
+          "text": "electricity",
+          "english": "electricity"
+        },
+        {
+          "id": "technology-number",
+          "text": "number",
+          "english": "number"
+        },
+        {
+          "id": "technology-jogajog",
+          "text": "jogajog",
+          "english": "contact / communication"
+        },
+        {
+          "id": "technology-phone-korun",
+          "text": "phone korun",
+          "english": "please call"
+        },
+        {
+          "id": "technology-amake-message-korun",
+          "text": "amake message korun",
+          "english": "please message me"
+        },
+        {
+          "id": "technology-network-nei",
+          "text": "network nei",
+          "english": "there is no network"
+        },
+        {
+          "id": "technology-internet-kaj-korchhe-na",
+          "text": "internet kaj korchhe na",
+          "english": "the internet is not working"
+        }
+      ]
+    },
+    {
+      "id": "home-actions",
+      "title": "Household objects and chores",
+      "items": [
+        {
+          "id": "home-actions-chair",
+          "text": "chair",
+          "english": "chair"
+        },
+        {
+          "id": "home-actions-janala",
+          "text": "janala",
+          "english": "window"
+        },
+        {
+          "id": "home-actions-chabi",
+          "text": "chabi",
+          "english": "key"
+        },
+        {
+          "id": "home-actions-alo",
+          "text": "alo",
+          "english": "light"
+        },
+        {
+          "id": "home-actions-fan",
+          "text": "fan",
+          "english": "fan"
+        },
+        {
+          "id": "home-actions-bichhana",
+          "text": "bichhana",
+          "english": "bed"
+        },
+        {
+          "id": "home-actions-balish",
+          "text": "balish",
+          "english": "pillow"
+        },
+        {
+          "id": "home-actions-kombol",
+          "text": "kombol",
+          "english": "blanket"
+        },
+        {
+          "id": "home-actions-kapor",
+          "text": "kapor",
+          "english": "clothes / fabric"
+        },
+        {
+          "id": "home-actions-toale",
+          "text": "toale",
+          "english": "towel"
+        },
+        {
+          "id": "home-actions-shaban",
+          "text": "shaban",
+          "english": "soap"
+        },
+        {
+          "id": "home-actions-brush",
+          "text": "brush",
+          "english": "brush"
+        },
+        {
+          "id": "home-actions-toothpaste",
+          "text": "toothpaste",
+          "english": "toothpaste"
+        },
+        {
+          "id": "home-actions-balti",
+          "text": "balti",
+          "english": "bucket"
+        },
+        {
+          "id": "home-actions-jhadu",
+          "text": "jhadu",
+          "english": "broom"
+        },
+        {
+          "id": "home-actions-porishkar",
+          "text": "porishkar",
+          "english": "clean"
+        },
+        {
+          "id": "home-actions-nongra",
+          "text": "nongra",
+          "english": "dirty"
+        },
+        {
+          "id": "home-actions-dhoya",
+          "text": "dhoya",
+          "english": "to wash"
+        },
+        {
+          "id": "home-actions-ranna",
+          "text": "ranna",
+          "english": "cooking"
+        },
+        {
+          "id": "home-actions-ghor-porishkar-kora",
+          "text": "ghor porishkar kora",
+          "english": "to clean the room"
+        },
+        {
+          "id": "home-actions-dorja-khulun",
+          "text": "dorja khulun",
+          "english": "open the door, please"
+        },
+        {
+          "id": "home-actions-dorja-bondho-korun",
+          "text": "dorja bondho korun",
+          "english": "close the door, please"
+        }
+      ]
+    },
+    {
+      "id": "adjectives-extra",
+      "title": "More describing words",
+      "items": [
+        {
+          "id": "adjectives-extra-shoja",
+          "text": "shoja",
+          "english": "straight / simple / easy"
+        },
+        {
+          "id": "adjectives-extra-kothin",
+          "text": "kothin",
+          "english": "difficult"
+        },
+        {
+          "id": "adjectives-extra-druto",
+          "text": "druto",
+          "english": "fast"
+        },
+        {
+          "id": "adjectives-extra-dhire",
+          "text": "dhire",
+          "english": "slowly"
+        },
+        {
+          "id": "adjectives-extra-shokto",
+          "text": "shokto",
+          "english": "strong / hard"
+        },
+        {
+          "id": "adjectives-extra-durbol",
+          "text": "durbol",
+          "english": "weak"
+        },
+        {
+          "id": "adjectives-extra-bhari",
+          "text": "bhari",
+          "english": "heavy"
+        },
+        {
+          "id": "adjectives-extra-halka",
+          "text": "halka",
+          "english": "lightweight"
+        },
+        {
+          "id": "adjectives-extra-lomba",
+          "text": "lomba",
+          "english": "long / tall"
+        },
+        {
+          "id": "adjectives-extra-khato",
+          "text": "khato",
+          "english": "short in height"
+        },
+        {
+          "id": "adjectives-extra-uchu",
+          "text": "uchu",
+          "english": "high / tall"
+        },
+        {
+          "id": "adjectives-extra-nichu",
+          "text": "nichu",
+          "english": "low"
+        },
+        {
+          "id": "adjectives-extra-porishkar",
+          "text": "porishkar",
+          "english": "clean / clear"
+        },
+        {
+          "id": "adjectives-extra-nongra",
+          "text": "nongra",
+          "english": "dirty"
+        },
+        {
+          "id": "adjectives-extra-shukno",
+          "text": "shukno",
+          "english": "dry"
+        },
+        {
+          "id": "adjectives-extra-bheja",
+          "text": "bheja",
+          "english": "wet"
+        },
+        {
+          "id": "adjectives-extra-mishti",
+          "text": "mishti",
+          "english": "sweet"
+        },
+        {
+          "id": "adjectives-extra-tok",
+          "text": "tok",
+          "english": "sour"
+        },
+        {
+          "id": "adjectives-extra-jhal",
+          "text": "jhal",
+          "english": "spicy"
+        },
+        {
+          "id": "adjectives-extra-shundor",
+          "text": "shundor",
+          "english": "beautiful"
+        },
+        {
+          "id": "adjectives-extra-baje",
+          "text": "baje",
+          "english": "bad / lousy"
+        },
+        {
+          "id": "adjectives-extra-dam-kom",
+          "text": "dam kom",
+          "english": "cheap / low-priced"
+        },
+        {
+          "id": "adjectives-extra-dami",
+          "text": "dami",
+          "english": "expensive"
+        },
+        {
+          "id": "adjectives-extra-shobcheye-bhalo",
+          "text": "shobcheye bhalo",
+          "english": "the best"
+        },
+        {
+          "id": "adjectives-extra-shombhob",
+          "text": "shombhob",
+          "english": "possible"
+        },
+        {
+          "id": "adjectives-extra-oshombhob",
+          "text": "oshombhob",
+          "english": "impossible"
+        },
+        {
+          "id": "adjectives-extra-thik",
+          "text": "thik",
+          "english": "correct / right"
+        },
+        {
+          "id": "adjectives-extra-bhul",
+          "text": "bhul",
+          "english": "wrong / mistake"
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "title": "Position and direction words",
+      "items": [
+        {
+          "id": "prepositions-moddhe",
+          "text": "moddhe",
+          "english": "inside / among"
+        },
+        {
+          "id": "prepositions-baire",
+          "text": "baire",
+          "english": "outside"
+        },
+        {
+          "id": "prepositions-upore",
+          "text": "upore",
+          "english": "on / above"
+        },
+        {
+          "id": "prepositions-niche",
+          "text": "niche",
+          "english": "under / below"
+        },
+        {
+          "id": "prepositions-pashe",
+          "text": "pashe",
+          "english": "beside"
+        },
+        {
+          "id": "prepositions-samne",
+          "text": "samne",
+          "english": "in front of"
+        },
+        {
+          "id": "prepositions-pichhone",
+          "text": "pichhone",
+          "english": "behind"
+        },
+        {
+          "id": "prepositions-majhe",
+          "text": "majhe",
+          "english": "in the middle"
+        },
+        {
+          "id": "prepositions-kache",
+          "text": "kache",
+          "english": "near"
+        },
+        {
+          "id": "prepositions-theke",
+          "text": "theke",
+          "english": "from"
+        },
+        {
+          "id": "prepositions-porjonto",
+          "text": "porjonto",
+          "english": "until / up to"
+        },
+        {
+          "id": "prepositions-shathe",
+          "text": "shathe",
+          "english": "with"
+        },
+        {
+          "id": "prepositions-chara",
+          "text": "charA",
+          "english": "without"
+        },
+        {
+          "id": "prepositions-jonno",
+          "text": "jonno",
+          "english": "for"
+        },
+        {
+          "id": "prepositions-shomporke",
+          "text": "shomporke",
+          "english": "about"
+        },
+        {
+          "id": "prepositions-dike",
+          "text": "dike",
+          "english": "toward / direction"
+        },
+        {
+          "id": "prepositions-bam",
+          "text": "bam",
+          "english": "left"
+        },
+        {
+          "id": "prepositions-dan",
+          "text": "dan",
+          "english": "right"
+        },
+        {
+          "id": "prepositions-shoja",
+          "text": "shoja",
+          "english": "straight"
+        },
+        {
+          "id": "prepositions-ekhane-theke",
+          "text": "ekhane theke",
+          "english": "from here"
+        },
+        {
+          "id": "prepositions-amar-shathe",
+          "text": "amar shathe",
+          "english": "with me"
+        },
+        {
+          "id": "prepositions-apnar-jonno",
+          "text": "apnar jonno",
+          "english": "for you (polite)"
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "title": "Useful connecting words",
+      "items": [
+        {
+          "id": "connectors-ebong",
+          "text": "ebong",
+          "english": "and"
+        },
+        {
+          "id": "connectors-ar",
+          "text": "ar",
+          "english": "and / more"
+        },
+        {
+          "id": "connectors-kintu",
+          "text": "kintu",
+          "english": "but"
+        },
+        {
+          "id": "connectors-karon",
+          "text": "karon",
+          "english": "because"
+        },
+        {
+          "id": "connectors-tai",
+          "text": "tai",
+          "english": "so / therefore"
+        },
+        {
+          "id": "connectors-jodi",
+          "text": "jodi",
+          "english": "if"
+        },
+        {
+          "id": "connectors-tahole",
+          "text": "tahole",
+          "english": "then"
+        },
+        {
+          "id": "connectors-othoba",
+          "text": "othoba",
+          "english": "or"
+        },
+        {
+          "id": "connectors-kintu-na",
+          "text": "kintu na",
+          "english": "but not"
+        },
+        {
+          "id": "connectors-hoyto",
+          "text": "hoyto",
+          "english": "maybe"
+        },
+        {
+          "id": "connectors-oboshshoi",
+          "text": "oboshshoi",
+          "english": "certainly / of course"
+        },
+        {
+          "id": "connectors-ashole",
+          "text": "ashole",
+          "english": "actually"
+        },
+        {
+          "id": "connectors-shadharonoto",
+          "text": "shadharonoto",
+          "english": "usually"
+        },
+        {
+          "id": "connectors-shobshomoy",
+          "text": "shobshomoy",
+          "english": "always"
+        },
+        {
+          "id": "connectors-kokhono-kokhono",
+          "text": "kokhono kokhono",
+          "english": "sometimes"
+        },
+        {
+          "id": "connectors-khub",
+          "text": "khub",
+          "english": "very"
+        },
+        {
+          "id": "connectors-onek",
+          "text": "onek",
+          "english": "a lot / many"
+        },
+        {
+          "id": "connectors-ektu",
+          "text": "ektu",
+          "english": "a little"
+        },
+        {
+          "id": "connectors-aro",
+          "text": "aro",
+          "english": "more"
+        },
+        {
+          "id": "connectors-shudhu",
+          "text": "shudhu",
+          "english": "only"
+        },
+        {
+          "id": "connectors-ekshathe",
+          "text": "ekshathe",
+          "english": "together"
+        },
+        {
+          "id": "connectors-alada",
+          "text": "alada",
+          "english": "separate / different"
+        }
+      ]
+    },
+    {
+      "id": "numbers-extra",
+      "title": "Numbers 11 to 100",
+      "items": [
+        {
+          "id": "numbers-extra-egaro",
+          "text": "egaro",
+          "english": "eleven"
+        },
+        {
+          "id": "numbers-extra-baro",
+          "text": "baro",
+          "english": "twelve"
+        },
+        {
+          "id": "numbers-extra-tero",
+          "text": "tero",
+          "english": "thirteen"
+        },
+        {
+          "id": "numbers-extra-choddo",
+          "text": "choddo",
+          "english": "fourteen"
+        },
+        {
+          "id": "numbers-extra-ponero",
+          "text": "ponero",
+          "english": "fifteen"
+        },
+        {
+          "id": "numbers-extra-sholo",
+          "text": "sholo",
+          "english": "sixteen"
+        },
+        {
+          "id": "numbers-extra-shotero",
+          "text": "shotero",
+          "english": "seventeen"
+        },
+        {
+          "id": "numbers-extra-atharo",
+          "text": "atharo",
+          "english": "eighteen"
+        },
+        {
+          "id": "numbers-extra-unish",
+          "text": "unish",
+          "english": "nineteen"
+        },
+        {
+          "id": "numbers-extra-bish",
+          "text": "bish",
+          "english": "twenty"
+        },
+        {
+          "id": "numbers-extra-ekush",
+          "text": "ekush",
+          "english": "twenty-one"
+        },
+        {
+          "id": "numbers-extra-panchish",
+          "text": "panchish",
+          "english": "twenty-five"
+        },
+        {
+          "id": "numbers-extra-trish",
+          "text": "trish",
+          "english": "thirty"
+        },
+        {
+          "id": "numbers-extra-chollish",
+          "text": "chollish",
+          "english": "forty"
+        },
+        {
+          "id": "numbers-extra-ponchash",
+          "text": "ponchash",
+          "english": "fifty"
+        },
+        {
+          "id": "numbers-extra-shat",
+          "text": "shat",
+          "english": "sixty"
+        },
+        {
+          "id": "numbers-extra-shottor",
+          "text": "shottor",
+          "english": "seventy"
+        },
+        {
+          "id": "numbers-extra-ashi",
+          "text": "ashi",
+          "english": "eighty"
+        },
+        {
+          "id": "numbers-extra-nobboi",
+          "text": "nobboi",
+          "english": "ninety"
+        },
+        {
+          "id": "numbers-extra-eksho",
+          "text": "eksho",
+          "english": "one hundred"
+        },
+        {
+          "id": "numbers-extra-prothom",
+          "text": "prothom",
+          "english": "first"
+        },
+        {
+          "id": "numbers-extra-ditiyo",
+          "text": "ditiyo",
+          "english": "second"
+        },
+        {
+          "id": "numbers-extra-tritiyo",
+          "text": "tritiyo",
+          "english": "third"
+        },
+        {
+          "id": "numbers-extra-shesh",
+          "text": "shesh",
+          "english": "last"
+        }
+      ]
+    },
+    {
+      "id": "question-phrases",
+      "title": "Useful questions",
+      "items": [
+        {
+          "id": "question-phrases-apni-ki-bolte-paren",
+          "text": "apni ki bolte paren?",
+          "english": "can you tell me?"
+        },
+        {
+          "id": "question-phrases-eta-ki",
+          "text": "eta ki?",
+          "english": "what is this?"
+        },
+        {
+          "id": "question-phrases-uni-ke",
+          "text": "uni ke?",
+          "english": "who is he / she? (polite)"
+        },
+        {
+          "id": "question-phrases-apni-kothay-thaken",
+          "text": "apni kothay thaken?",
+          "english": "where do you live? (polite)"
+        },
+        {
+          "id": "question-phrases-apni-ki-bangla-bolen",
+          "text": "apni ki Bangla bolen?",
+          "english": "do you speak Bengali? (polite)"
+        },
+        {
+          "id": "question-phrases-ingreji-te-ki-bole",
+          "text": "ingreji te ki bole?",
+          "english": "what is it called in English?"
+        },
+        {
+          "id": "question-phrases-banglay-ki-bole",
+          "text": "Banglay ki bole?",
+          "english": "what is it called in Bengali?"
+        },
+        {
+          "id": "question-phrases-ami-ki-ekhane-boshte-pari",
+          "text": "ami ki ekhane boshte pari?",
+          "english": "may I sit here?"
+        },
+        {
+          "id": "question-phrases-eta-ki-thik",
+          "text": "eta ki thik?",
+          "english": "is this correct?"
+        },
+        {
+          "id": "question-phrases-apni-ki-amake-shahajjo-korte-parben",
+          "text": "apni ki amake shahajjo korte parben?",
+          "english": "could you help me?"
+        },
+        {
+          "id": "question-phrases-kokhon-khulbe",
+          "text": "kokhon khulbe?",
+          "english": "when will it open?"
+        },
+        {
+          "id": "question-phrases-kokhon-bondho-hobe",
+          "text": "kokhon bondho hobe?",
+          "english": "when will it close?"
+        },
+        {
+          "id": "question-phrases-koto-dur",
+          "text": "koto dur?",
+          "english": "how far?"
+        },
+        {
+          "id": "question-phrases-koto-khon",
+          "text": "koto khon?",
+          "english": "how long?"
+        },
+        {
+          "id": "question-phrases-kibhabe-jabo",
+          "text": "kibhabe jabo?",
+          "english": "how do I get there?"
+        },
+        {
+          "id": "question-phrases-keno-emon",
+          "text": "keno emon?",
+          "english": "why is it like this?"
+        },
+        {
+          "id": "question-phrases-apni-ki-bujhte-perechhen",
+          "text": "apni ki bujhte perechhen?",
+          "english": "have you understood? (polite)"
+        },
+        {
+          "id": "question-phrases-abar-bolben",
+          "text": "abar bolben?",
+          "english": "could you say that again?"
+        },
+        {
+          "id": "question-phrases-ektu-opekkha-korun",
+          "text": "ektu opekkha korun",
+          "english": "please wait a little"
+        },
+        {
+          "id": "question-phrases-shomossha-ki",
+          "text": "shomossha ki?",
+          "english": "what is the problem?"
+        }
+      ]
+    },
+    {
+      "id": "daily-routines",
+      "title": "Daily routine and time",
+      "items": [
+        {
+          "id": "daily-routines-prottek-din",
+          "text": "prottek din",
+          "english": "every day"
+        },
+        {
+          "id": "daily-routines-shokal-bela",
+          "text": "shokal bela",
+          "english": "in the morning"
+        },
+        {
+          "id": "daily-routines-dupure",
+          "text": "dupure",
+          "english": "at noon / in the afternoon"
+        },
+        {
+          "id": "daily-routines-bikale",
+          "text": "bikale",
+          "english": "in the afternoon"
+        },
+        {
+          "id": "daily-routines-shondhay",
+          "text": "shondhay",
+          "english": "in the evening"
+        },
+        {
+          "id": "daily-routines-rate",
+          "text": "rate",
+          "english": "at night"
+        },
+        {
+          "id": "daily-routines-taratari-uthun",
+          "text": "taratari uthun",
+          "english": "wake up early"
+        },
+        {
+          "id": "daily-routines-deri-hoye-gechhe",
+          "text": "deri hoye gechhe",
+          "english": "it's late"
+        },
+        {
+          "id": "daily-routines-shomoy-hoyeche",
+          "text": "shomoy hoyeche",
+          "english": "it's time"
+        },
+        {
+          "id": "daily-routines-ajke",
+          "text": "ajke",
+          "english": "today"
+        },
+        {
+          "id": "daily-routines-agamikal",
+          "text": "agamikal",
+          "english": "tomorrow"
+        },
+        {
+          "id": "daily-routines-gotokal",
+          "text": "gotokal",
+          "english": "yesterday"
+        },
+        {
+          "id": "daily-routines-ei-shoptaho",
+          "text": "ei shoptaho",
+          "english": "this week"
+        },
+        {
+          "id": "daily-routines-agami-shoptaho",
+          "text": "agami shoptaho",
+          "english": "next week"
+        },
+        {
+          "id": "daily-routines-ei-mash",
+          "text": "ei mash",
+          "english": "this month"
+        },
+        {
+          "id": "daily-routines-agami-mash",
+          "text": "agami mash",
+          "english": "next month"
+        },
+        {
+          "id": "daily-routines-bochhor",
+          "text": "bochhor",
+          "english": "year"
+        },
+        {
+          "id": "daily-routines-mash",
+          "text": "mash",
+          "english": "month"
+        },
+        {
+          "id": "daily-routines-shoptaho",
+          "text": "shoptaho",
+          "english": "week"
+        },
+        {
+          "id": "daily-routines-din",
+          "text": "din",
+          "english": "day"
+        },
+        {
+          "id": "daily-routines-ghonta",
+          "text": "ghonta",
+          "english": "hour"
+        },
+        {
+          "id": "daily-routines-minute",
+          "text": "minute",
+          "english": "minute"
+        },
+        {
+          "id": "daily-routines-second",
+          "text": "second",
+          "english": "second"
+        },
+        {
+          "id": "daily-routines-kotota-baje",
+          "text": "kotota baje?",
+          "english": "what time is it?"
+        },
+        {
+          "id": "daily-routines-shokal-koytay",
+          "text": "shokal koytay?",
+          "english": "at what time in the morning?"
+        }
+      ]
+    },
+    {
+      "id": "relationships",
+      "title": "Relationships and social life",
+      "items": [
+        {
+          "id": "relationships-poribar",
+          "text": "poribar",
+          "english": "family"
+        },
+        {
+          "id": "relationships-shami",
+          "text": "shami",
+          "english": "husband"
+        },
+        {
+          "id": "relationships-stri",
+          "text": "stri",
+          "english": "wife"
+        },
+        {
+          "id": "relationships-shontan",
+          "text": "shontan",
+          "english": "child / offspring"
+        },
+        {
+          "id": "relationships-ma-baba",
+          "text": "ma-baba",
+          "english": "parents"
+        },
+        {
+          "id": "relationships-dada-bhai",
+          "text": "dada-bhai",
+          "english": "older brother"
+        },
+        {
+          "id": "relationships-bon",
+          "text": "bon",
+          "english": "sister"
+        },
+        {
+          "id": "relationships-bondhutto",
+          "text": "bondhutto",
+          "english": "friendship"
+        },
+        {
+          "id": "relationships-protibeshi",
+          "text": "protibeshi",
+          "english": "neighbour"
+        },
+        {
+          "id": "relationships-otithi",
+          "text": "otithi",
+          "english": "guest"
+        },
+        {
+          "id": "relationships-porichito",
+          "text": "porichito",
+          "english": "acquaintance / known person"
+        },
+        {
+          "id": "relationships-oporichito",
+          "text": "oporichito",
+          "english": "stranger / unfamiliar"
+        },
+        {
+          "id": "relationships-biye",
+          "text": "biye",
+          "english": "wedding / marriage"
+        },
+        {
+          "id": "relationships-jonmodin",
+          "text": "jonmodin",
+          "english": "birthday"
+        },
+        {
+          "id": "relationships-upohar",
+          "text": "upohar",
+          "english": "gift"
+        },
+        {
+          "id": "relationships-nimontonno",
+          "text": "nimontonno",
+          "english": "invitation"
+        },
+        {
+          "id": "relationships-dekha-kora",
+          "text": "dekha kora",
+          "english": "to meet"
+        },
+        {
+          "id": "relationships-kotha-bola",
+          "text": "kotha bola",
+          "english": "to talk"
+        },
+        {
+          "id": "relationships-shathe-jawa",
+          "text": "shathe jawa",
+          "english": "to go with"
+        },
+        {
+          "id": "relationships-ami-apnake-pochhondo-kori",
+          "text": "ami apnake pochhondo kori",
+          "english": "I like you (polite)"
+        }
+      ]
+    },
+    {
+      "id": "animals-extra",
+      "title": "More animals",
+      "items": [
+        {
+          "id": "animals-extra-biralchhana",
+          "text": "biralchhana",
+          "english": "kitten"
+        },
+        {
+          "id": "animals-extra-kukurchhana",
+          "text": "kukurchhana",
+          "english": "puppy"
+        },
+        {
+          "id": "animals-extra-hash",
+          "text": "hash",
+          "english": "duck"
+        },
+        {
+          "id": "animals-extra-murgi",
+          "text": "murgi",
+          "english": "chicken / hen"
+        },
+        {
+          "id": "animals-extra-shingho",
+          "text": "shingho",
+          "english": "lion"
+        },
+        {
+          "id": "animals-extra-bhaluk",
+          "text": "bhaluk",
+          "english": "bear"
+        },
+        {
+          "id": "animals-extra-horin",
+          "text": "horin",
+          "english": "deer"
+        },
+        {
+          "id": "animals-extra-shial",
+          "text": "shial",
+          "english": "fox / jackal"
+        },
+        {
+          "id": "animals-extra-shap",
+          "text": "shap",
+          "english": "snake"
+        },
+        {
+          "id": "animals-extra-byang",
+          "text": "byang",
+          "english": "frog"
+        },
+        {
+          "id": "animals-extra-machhi",
+          "text": "machhi",
+          "english": "fly"
+        },
+        {
+          "id": "animals-extra-mosha",
+          "text": "mosha",
+          "english": "mosquito"
+        },
+        {
+          "id": "animals-extra-pipra",
+          "text": "pipra",
+          "english": "ant"
+        },
+        {
+          "id": "animals-extra-projapoti",
+          "text": "projapoti",
+          "english": "butterfly"
+        },
+        {
+          "id": "animals-extra-moumachi",
+          "text": "moumachi",
+          "english": "bee"
+        },
+        {
+          "id": "animals-extra-idur",
+          "text": "idur",
+          "english": "mouse / rat"
+        },
+        {
+          "id": "animals-extra-khorgosh",
+          "text": "khorgosh",
+          "english": "rabbit"
+        },
+        {
+          "id": "animals-extra-banor",
+          "text": "banor",
+          "english": "monkey"
+        },
+        {
+          "id": "animals-extra-kumir",
+          "text": "kumir",
+          "english": "crocodile"
+        },
+        {
+          "id": "animals-extra-machh",
+          "text": "machh",
+          "english": "fish"
+        }
+      ]
+    },
+    {
+      "id": "nature-extra",
+      "title": "Plants and landscapes",
+      "items": [
+        {
+          "id": "nature-extra-mati",
+          "text": "mati",
+          "english": "soil / earth"
+        },
+        {
+          "id": "nature-extra-pathor",
+          "text": "pathor",
+          "english": "stone"
+        },
+        {
+          "id": "nature-extra-baloo",
+          "text": "baloo",
+          "english": "sand"
+        },
+        {
+          "id": "nature-extra-bon",
+          "text": "bon",
+          "english": "forest"
+        },
+        {
+          "id": "nature-extra-jongol",
+          "text": "jongol",
+          "english": "jungle"
+        },
+        {
+          "id": "nature-extra-pata",
+          "text": "pata",
+          "english": "leaf"
+        },
+        {
+          "id": "nature-extra-dal",
+          "text": "dal",
+          "english": "branch"
+        },
+        {
+          "id": "nature-extra-shikor",
+          "text": "shikor",
+          "english": "root"
+        },
+        {
+          "id": "nature-extra-bij",
+          "text": "bij",
+          "english": "seed"
+        },
+        {
+          "id": "nature-extra-ghash",
+          "text": "ghash",
+          "english": "grass"
+        },
+        {
+          "id": "nature-extra-fol",
+          "text": "fol",
+          "english": "fruit"
+        },
+        {
+          "id": "nature-extra-fuler-gondho",
+          "text": "fuler gondho",
+          "english": "flower scent"
+        },
+        {
+          "id": "nature-extra-jhorna",
+          "text": "jhorna",
+          "english": "waterfall"
+        },
+        {
+          "id": "nature-extra-pukur",
+          "text": "pukur",
+          "english": "pond"
+        },
+        {
+          "id": "nature-extra-dighi",
+          "text": "dighi",
+          "english": "large pond"
+        },
+        {
+          "id": "nature-extra-haor",
+          "text": "haor",
+          "english": "seasonal wetland"
+        },
+        {
+          "id": "nature-extra-dheu",
+          "text": "dheu",
+          "english": "wave"
+        },
+        {
+          "id": "nature-extra-agoon",
+          "text": "agoon",
+          "english": "fire"
+        },
+        {
+          "id": "nature-extra-dhulo",
+          "text": "dhulo",
+          "english": "dust"
+        },
+        {
+          "id": "nature-extra-poribesh",
+          "text": "poribesh",
+          "english": "environment"
+        }
+      ]
+    },
+    {
+      "id": "religion-culture",
+      "title": "Culture and celebrations",
+      "items": [
+        {
+          "id": "religion-culture-utsob",
+          "text": "utsob",
+          "english": "festival"
+        },
+        {
+          "id": "religion-culture-anondo",
+          "text": "anondo",
+          "english": "joy"
+        },
+        {
+          "id": "religion-culture-gaan",
+          "text": "gaan",
+          "english": "song"
+        },
+        {
+          "id": "religion-culture-nach",
+          "text": "nach",
+          "english": "dance"
+        },
+        {
+          "id": "religion-culture-shilpo",
+          "text": "shilpo",
+          "english": "art"
+        },
+        {
+          "id": "religion-culture-shongskriti",
+          "text": "shongskriti",
+          "english": "culture"
+        },
+        {
+          "id": "religion-culture-boi-mela",
+          "text": "boi mela",
+          "english": "book fair"
+        },
+        {
+          "id": "religion-culture-puja",
+          "text": "puja",
+          "english": "worship / puja festival"
+        },
+        {
+          "id": "religion-culture-eid",
+          "text": "eid",
+          "english": "Eid"
+        },
+        {
+          "id": "religion-culture-roja",
+          "text": "roja",
+          "english": "fasting (Ramadan)"
+        },
+        {
+          "id": "religion-culture-iftar",
+          "text": "iftar",
+          "english": "iftar meal"
+        },
+        {
+          "id": "religion-culture-namaz",
+          "text": "namaz",
+          "english": "Muslim prayer"
+        },
+        {
+          "id": "religion-culture-prarthona",
+          "text": "prarthona",
+          "english": "prayer"
+        },
+        {
+          "id": "religion-culture-jonmodin",
+          "text": "jonmodin",
+          "english": "birthday"
+        },
+        {
+          "id": "religion-culture-biye-bari",
+          "text": "biye bari",
+          "english": "wedding celebration / wedding venue"
+        },
+        {
+          "id": "religion-culture-chhuti",
+          "text": "chhuti",
+          "english": "holiday / leave"
+        },
+        {
+          "id": "religion-culture-shubho-jonmodin",
+          "text": "shubho jonmodin",
+          "english": "happy birthday"
+        },
+        {
+          "id": "religion-culture-obhinondon",
+          "text": "obhinondon",
+          "english": "congratulations"
+        },
+        {
+          "id": "religion-culture-shubho-noboborsho",
+          "text": "shubho noboborsho",
+          "english": "happy Bengali New Year"
+        }
+      ]
+    },
+    {
+      "id": "emergency-practical",
+      "title": "Practical phrases",
+      "items": [
+        {
+          "id": "emergency-practical-ami-bangla-shikhchhi",
+          "text": "ami Bangla shikhchhi",
+          "english": "I am learning Bengali"
+        },
+        {
+          "id": "emergency-practical-ami-bangla-bhalo-bolte-pari-na",
+          "text": "ami Bangla bhalo bolte pari na",
+          "english": "I cannot speak Bengali well"
+        },
+        {
+          "id": "emergency-practical-ektu-dhire-bolun",
+          "text": "ektu dhire bolun",
+          "english": "please speak slowly"
+        },
+        {
+          "id": "emergency-practical-ami-bujhte-parini",
+          "text": "ami bujhte parini",
+          "english": "I didn't understand"
+        },
+        {
+          "id": "emergency-practical-abar-bolun",
+          "text": "abar bolun",
+          "english": "say it again"
+        },
+        {
+          "id": "emergency-practical-apni-ki-ingreji-bolen",
+          "text": "apni ki ingreji bolen?",
+          "english": "do you speak English? (polite)"
+        },
+        {
+          "id": "emergency-practical-apni-ki-amake-shahajjo-korben",
+          "text": "apni ki amake shahajjo korben?",
+          "english": "will you help me? (polite)"
+        },
+        {
+          "id": "emergency-practical-sabdhane",
+          "text": "sabdhane",
+          "english": "be careful"
+        },
+        {
+          "id": "emergency-practical-thamen",
+          "text": "thamen",
+          "english": "stop"
+        },
+        {
+          "id": "emergency-practical-taratari-ashun",
+          "text": "taratari ashun",
+          "english": "come quickly"
+        },
+        {
+          "id": "emergency-practical-dorkar-nei",
+          "text": "dorkar nei",
+          "english": "not necessary"
+        },
+        {
+          "id": "emergency-practical-ami-hariye-gechhi",
+          "text": "ami hariye gechhi",
+          "english": "I am lost"
+        },
+        {
+          "id": "emergency-practical-amar-phone-hariye-gechhe",
+          "text": "amar phone hariye gechhe",
+          "english": "I've lost my phone"
+        },
+        {
+          "id": "emergency-practical-police-dakun",
+          "text": "police dakun",
+          "english": "call the police"
+        },
+        {
+          "id": "emergency-practical-agoon-legechhe",
+          "text": "agoon legechhe",
+          "english": "there is a fire"
+        },
+        {
+          "id": "emergency-practical-churi-hoyeche",
+          "text": "churi hoyeche",
+          "english": "there has been a theft"
+        },
+        {
+          "id": "emergency-practical-amar-passport-kothay",
+          "text": "amar passport kothay?",
+          "english": "where is my passport?"
+        },
+        {
+          "id": "emergency-practical-ekhane-opekkha-korun",
+          "text": "ekhane opekkha korun",
+          "english": "please wait here"
+        },
+        {
+          "id": "emergency-practical-dhonnobad-apnakeo",
+          "text": "dhonnobad, apnakeo",
+          "english": "thank you, you too"
+        }
+      ]
     }
   ]
 }

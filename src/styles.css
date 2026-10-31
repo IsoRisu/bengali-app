@@ -254,3 +254,16 @@ main:focus { outline: none; }
 .dlg-who { flex: none; width: 2rem; height: 2rem; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--done); color: var(--accent); font-weight: 700; }
 .dlg-text { display: block; font-size: 1.15rem; font-weight: 600; }
 .dlg-en { display: block; color: var(--muted); }
+.build-line {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  min-height: 3rem; padding: 12px;
+  border: 2px dashed currentColor; border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.build-pool { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1rem; }
+.chip {
+  padding: 8px 14px; font-size: 1rem; cursor: pointer;
+  border: 1px solid currentColor; border-radius: 999px;
+  background: transparent; color: inherit;
+}
+.chip:hover { background: rgba(0, 0, 0, 0.05); }

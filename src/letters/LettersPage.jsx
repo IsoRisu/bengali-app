@@ -6,13 +6,14 @@ import { useStore } from '../lib/useStore.js';
 const GROUPS = [
   { type: 'vowel', title: 'Vowels' },
   { type: 'consonant', title: 'Consonants' },
+  { type: 'sign', title: 'Signs & modifiers' },
 ];
 
 export function LettersPage() {
-  const { lettersLearned } = useStore(getProgress, subscribeProgress);
+  const { lettersLearned = [] } = useStore(getProgress, subscribeProgress);
   const total = LETTERS.length;
   const count = LETTERS.filter((l) => lettersLearned.includes(l.id)).length;
-  const next = LETTERS.find((l) => !lettersLearned.includes(l.id)); // first unlearned, by order
+  const next = LETTERS.find((l) => !lettersLearned.includes(l.id));
 
   return (
     <main class="page">
@@ -40,26 +41,30 @@ export function LettersPage() {
         </p>
       )}
 
-      {GROUPS.map(({ type, title }) => (
-        <section key={type}>
-          <h2>{title}</h2>
-          <ul class="grid">
-            {LETTERS.filter((l) => l.type === type).map((l) => {
-              const learned = lettersLearned.includes(l.id);
-              return (
-                <li key={l.id}>
-                  <a class={`tile${learned ? ' tile-learned' : ''}`} href={`#/letters/${l.id}`}>
-                    <span class="bn tile-glyph" lang="bn">{l.glyph}</span>
-                    <Roman class="tile-sub">{l.transliteration}</Roman>
-                    {learned && <span class="tile-check" aria-hidden="true">✓</span>}
-                    <span class="sr-only">{learned ? ', learned' : ', not learned yet'}</span>
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-      ))}
+      {GROUPS.map(({ type, title }) => {
+        const groupLetters = LETTERS.filter((l) => l.type === type);
+        if (groupLetters.length === 0) return null;
+        return (
+          <section key={type}>
+            <h2>{title}</h2>
+            <ul class="grid">
+              {groupLetters.map((l) => {
+                const learned = lettersLearned.includes(l.id);
+                return (
+                  <li key={l.id}>
+                    <a class={`tile${learned ? ' tile-learned' : ''}`} href={`#/letters/${l.id}`}>
+                      <span class="bn tile-glyph" lang="bn">{l.glyph}</span>
+                      <Roman class="tile-sub">{l.transliteration}</Roman>
+                      {learned && <span class="tile-check" aria-hidden="true">✓</span>}
+                      <span class="sr-only">{learned ? ', learned' : ', not learned yet'}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        );
+      })}
     </main>
   );
 }
