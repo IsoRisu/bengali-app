@@ -55,7 +55,7 @@ Bengali learning web app for absolute beginners. Static site, text only, no back
 - Progress in localStorage: `{ lettersLearned, wordsLearned, lessonsCompleted, lastVisit }`
 - Mobile-first, under ~200KB gzipped, tap targets at least 44px
 - Text only: no audio, no TTS, no `speechSynthesis`
-- "Mark as learned" only: no spaced repetition, intervals or due dates
+- "Mark as learned" only, except Words, which uses spaced repetition (Entry 020)
 - Romanization visible by default, with a global toggle to hide it
 - One concept per screen; Noto Sans Bengali plus clean Latin
 - V1 excludes conjuncts and vowel signs
@@ -72,7 +72,7 @@ Bengali learning web app for absolute beginners. Static site, text only, no back
 
 - `#/` Home (progress summary, streak, resets)
 - `#/letters` grid, `#/letters/:id` one letter
-- `#/words` list of decks, `#/words/deck/:deckId` one deck, `#/words/study/:deckId[/:wordId]` flashcards, `#/words/quiz/:deckId` optional quiz
+- `#/words` list of decks, `#/words/deck/:deckId` one deck, `#/words/study/:deckId[/:wordId]` spaced-repetition session (`all` = due words from every deck), `#/words/quiz/:deckId` optional quiz
 - `#/grammar` lesson list, `#/grammar/:id` one lesson (reading screens, then exercises, then finish screen; the step is component state, not part of the route)
 
 ## Pending decisions
@@ -89,3 +89,13 @@ Bengali learning web app for absolute beginners. Static site, text only, no back
 - Quiz design for letters (Words quiz settled in Entry 010, grammar exercises in Entry 011)
 
 | `src/vocab/`, `src/dialogues/`, `src/practice/`, `src/lib/extra.js`, `src/data/vocab.json`, `src/data/dialogues.json` | Round 11 modules (DECISIONS Entry 018) | new |
+
+## Spaced repetition (Entry 020)
+
+| File | Purpose |
+|---|---|
+| `src/lib/srsCore.js` | Pure logic: item shape, `review(item, rating, now)`, state machine, ease, intervals, mastery fill |
+| `src/lib/srs.js` | Storage in localStorage key `bn.srs`; keeps `wordsLearned` in step; seeding and reset |
+| `src/words/session.js` | Pure logic: which words go in a session, next-card choice, question type per tier |
+| `src/words/StudyScreen.jsx` | The session screen |
+| `src/words/MasteryBar.jsx` | Per-word progress indicator |

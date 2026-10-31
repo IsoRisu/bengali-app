@@ -274,3 +274,21 @@ These will be logged by later rounds as numbered entries. They are not decided h
 **Why:** Bundling the file made the JS 480 KB gzipped against a 200 KB budget. `scripts/check-size.mjs` now holds only the app shell to the budget and reports `data/` separately. Render's `/data/*` is served with `must-revalidate` so a redeploy is picked up.
 
 **Content notes:** The source holds 11,867 entries. 2,986 are exact copies of earlier entries (same id, same content, in blocks starting at entry 4,625). They are written once, so the decks hold 8,881 words, and every distinct word in the source is present. 14 different words shared an id with an earlier word (for example সব and শব are both `shob`); the later ones became `shob_2` and so on, so marking one learned no longer marks the other. The first word of each id keeps its id, so saved progress stays valid. The source file is unchanged.
+
+
+## Entry 020: Spaced repetition for Words (owner request; replaces "Mark as learned only" for this module)
+
+**Decision:** Words are now studied in adaptive spaced-repetition sessions. The brief's "no spaced repetition, intervals or due dates" rule and the SRS non-goal no longer apply to Words. Letters, lessons, vocabulary, dialogues and the sentence builder are unchanged. Content files still hold no SRS fields: all state is the learner's, stored in `bn.srs` (a fifth localStorage key).
+
+**How it works**
+
+- **Per-word item:** `state` (new, learning, familiar, known), `ease` (1.3 to 3.0, start 2.5), `interval` (days), `due`, `streak`, `lapses`, `lastWrong`.
+- **Rating:** Again, Hard, Good, Easy after every answer, each showing its next delay. Again: due in 5 min, ease -0.2, streak 0. Hard: ease -0.15, interval x1.2. Good: interval x ease. Easy: ease +0.15, interval x ease x1.3. The first pass is 6 h, 1 d or 3 d for Hard, Good, Easy. Intervals are capped at 365 days.
+- **States:** new to learning on the first answer; learning to Familiar at 2 correct in a row; Familiar to Known well at 4 in a row, interval of at least 7 days, and no miss in the last 7 days. Again drops one tier (known to familiar, familiar to learning).
+- **Learned tick:** a word counts as learned (`wordsLearned`, the ring on Home) from Familiar up, and drops out if a miss sends it back to Learning. Tapping a learned word in the deck list resets it to New. "Reset words" also clears `bn.srs`. Words already learned before this change are seeded as Familiar, due within the next few days.
+- **Sessions:** due words (weakest and most overdue first) plus up to 8 new words, at most 25 per session. Words not yet due are held back. `#/words/study/all` reviews due words from every deck; a deck's Study button reviews that deck.
+- **Next card:** chosen again after every answer. Missed words come back after 3 other cards, ahead of everything else, and the session ends when every word in it has been answered correctly.
+- **Question type rises with mastery:** new = flashcard with self-rating; learning = pick the meaning (3 options); familiar = pick the meaning among look-alike words (4); known = pick the Bengali word for an English meaning (4). A wrong answer is recorded as Again and no rating is asked.
+- **Indicator:** a bar with the tier name written out, in the session and in the deck list.
+
+**Consequences:** The optional quiz is unchanged and still has its "Mark as learned" shortcut; a word marked that way is seeded as Familiar the next time the Words screens open. The thresholds are constants at the top of `srsCore.js`.

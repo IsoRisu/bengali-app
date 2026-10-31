@@ -10,7 +10,7 @@ Lightweight static web app for learning Bengali, targeting **absolute beginners*
 - Progress stored in localStorage.
 - Mobile-first. Build under \~200KB gzipped.
 - **Text only.** No audio, no TTS, no `speechSynthesis` anywhere.
-- "Mark as learned" only. No spaced repetition, no intervals, no due dates.
+- Words use spaced repetition (Entry 020, owner request): due dates, intervals, a four-level rating and a per-word mastery state, stored in localStorage. Letters, lessons and the other modules stay "Mark as learned" only.
 - Romanization visible by default, with a global toggle to hide it.
 - One concept per screen. Tap targets at least 44px. Noto Sans Bengali plus clean Latin.
 - V1 excludes conjuncts (যুক্তাক্ষর) and vowel signs (কার).
@@ -24,7 +24,7 @@ Lightweight static web app for learning Bengali, targeting **absolute beginners*
 
 ## Non-goals
 
-Accounts, sync, social, AI, handwriting, audio, SRS, conjuncts, vowel signs, multi-language UI.
+Accounts, sync, social, AI, handwriting, audio, SRS outside the Words module, conjuncts, vowel signs, multi-language UI.
 
 ## Decisions so far
 

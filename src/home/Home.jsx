@@ -9,6 +9,7 @@ import { useStore } from '../lib/useStore.js';
 import { DECKS } from '../vocab/vocab.js';
 import { DIALOGUES } from '../dialogues/Dialogues.jsx';
 import { LEVELS } from '../sentence/sentence.js';
+import { resetSrs } from '../lib/srs.js';
 import { getExtra, subscribeExtra, resetExtra } from '../lib/extra.js';
 
 const VOCAB_TOTAL = DECKS.reduce((n, d) => n + d.items.length, 0);
@@ -85,11 +86,13 @@ export function Home() {
   const confirm = () => {
     if (pending === 'all') {
       resetAll();
+      resetSrs();
       resetExtra();
     } else if (pending === 'extra') {
       resetExtra();
     } else {
       resetCategory(pending);
+      if (pending === 'words') resetSrs();
     }
     setStatus(dialog.done);
     setPending(null);

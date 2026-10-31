@@ -462,3 +462,27 @@ main:focus { outline: none; }
   border: 1px dashed var(--line);
   margin: 6px 0;
 }
+/* Spaced repetition: mastery indicator, rating buttons */
+.mastery { display: inline-flex; align-items: center; gap: 8px; }
+.mastery-track { display: inline-block; width: 72px; height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
+.mastery-fill { display: block; height: 100%; background: var(--accent); transition: width 0.3s; }
+.mastery-learning .mastery-fill { background: #b7791f; }
+.mastery-familiar .mastery-fill { background: #2b6cb0; }
+.mastery-known .mastery-fill { background: var(--accent); }
+.mastery-label { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+.mastery-compact .mastery-track { width: 48px; height: 6px; }
+.mastery-compact .mastery-label { font-size: 0.8rem; font-weight: 500; }
+.srs-card { display: grid; gap: 12px; justify-items: center; margin: 12px 0 8px; }
+.srs-card .flash { width: 100%; }
+.quiz-bn-en { font-size: 1.8rem; font-weight: 700; margin: 0; }
+.opt-bn { display: inline-flex; align-items: baseline; gap: 10px; font-size: 1.4rem; }
+.opt-roman { font-size: 0.95rem; color: var(--muted); }
+.rate { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 12px 0; }
+.rate .btn { flex-direction: column; gap: 2px; padding: 8px 4px; min-height: 56px; }
+.rate-name { font-weight: 700; }
+.rate-when { font-size: 0.8rem; color: var(--muted); }
+.rate-again { border-color: var(--bad); color: var(--bad); }
+.rate-good { border-color: var(--accent); }
+.rate-easy { background: var(--done); border-color: var(--accent); }
+.summary { padding-left: 1.2rem; }
+.btn[aria-disabled="true"].btn-done { cursor: default; }

@@ -1,6 +1,6 @@
 # src/data: how to add content
 
-App content lives in this folder as JSON and is imported at build time. The one exception is the word list: it is too big to bundle, so it lives in `content/words.source.json` and is served as small deck files (see words below). Nothing here may contain an audio field, a spaced-repetition field (intervals, due dates, ease, and so on), or any UI code.
+App content lives in this folder as JSON and is imported at build time. The one exception is the word list: it is too big to bundle, so it lives in `content/words.source.json` and is served as small deck files (see words below). Nothing here may contain an audio field, a spaced-repetition field (intervals, due dates, ease, and so on), or any UI code. Spaced-repetition state is the learner's own data and lives in localStorage (`bn.srs`), never in content files.
 
 ## Two rules for every addition
 

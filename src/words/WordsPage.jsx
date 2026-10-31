@@ -1,19 +1,29 @@
+import { useEffect } from 'preact/hooks';
 import { useWordsIndex } from './words.js';
 import { WordsLoading } from './Loading.jsx';
 import { getWordsLearned, subscribeWords } from './wordsProgress.js';
+import { getSrs, subscribeSrs, dueIds, seedLearned } from '../lib/srs.js';
 import { useStore } from '../lib/useStore.js';
 
 // List of decks, each with its own progress.
 export function WordsPage() {
+  useEffect(() => { seedLearned(); }, []);
   const learnedIds = useStore(getWordsLearned, subscribeWords);
+  const srs = useStore(getSrs, subscribeSrs);
   const { data, error, retry } = useWordsIndex();
   if (!data) return <WordsLoading error={error} retry={retry} back="#/" backLabel="← Home" />;
 
   const learned = new Set(learnedIds);
-  const rows = data.decks.map((d) => ({ ...d, done: d.ids.filter((id) => learned.has(id)).length }));
+  const dueSet = new Set(dueIds(srs));
+  const rows = data.decks.map((d) => ({
+    ...d,
+    done: d.ids.filter((id) => learned.has(id)).length,
+    due: d.ids.filter((id) => dueSet.has(id)).length,
+  }));
+  const dueTotal = rows.reduce((n, d) => n + d.due, 0);
   const total = data.total;
   const count = rows.reduce((n, d) => n + d.done, 0);
-  const next = rows.find((d) => d.done < d.count);
+  const next = rows.find((d) => d.ids.some((id) => !srs.items[id]));
 
   return (
     <main class="page">
@@ -35,13 +45,16 @@ export function WordsPage() {
         <div class="bar-fill" style={{ width: `${(count / total) * 100}%` }} />
       </div>
 
-      {next && (
-        <div class="actions">
-          <a class="btn btn-primary" href={`#/words/study/${next.id}`}>
-            {count === 0 ? 'Start learning' : 'Continue learning'}
+      <div class="actions">
+        {dueTotal > 0 && (
+          <a class="btn btn-primary" href="#/words/study/all">Review {dueTotal} due</a>
+        )}
+        {next && (
+          <a class={`btn${dueTotal > 0 ? '' : ' btn-primary'}`} href={`#/words/study/${next.id}`}>
+            {count === 0 && dueTotal === 0 ? 'Start learning' : 'Learn new words'}
           </a>
-        </div>
-      )}
+        )}
+      </div>
 
       <ul class="llist">
         {rows.map((d) => (
@@ -51,6 +64,7 @@ export function WordsPage() {
                 <span class="lrow-title">{d.title}</span>
                 <span class="lrow-sub">
                   {d.done === d.count ? `All ${d.count} learned ✓` : `${d.done} of ${d.count} learned`}
+                  {d.due > 0 && ` · ${d.due} due`}
                 </span>
               </span>
             </a>

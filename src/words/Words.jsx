@@ -6,8 +6,9 @@ import { QuizScreen } from './QuizScreen.jsx';
 // Routes (everything after "#/words"):
 //   (none)                  list of decks
 //   deck/:deckId            the words of one deck
-//   study/:deckId           flashcards for that deck, from its first unlearned word
-//   study/:deckId/:wordId   flashcards, starting at that word
+//   study/all               spaced-repetition session: due words from every deck
+//   study/:deckId           spaced-repetition session for one deck (due words + a few new)
+//   study/:deckId/:wordId   same, with that word first
 //   quiz/:deckId            optional reinforcement quiz on that deck
 export function Words({ rest }) {
   const [sub, deckId, wordId] = rest;
