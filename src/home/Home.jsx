@@ -6,6 +6,11 @@ import { ProgressRing } from '../components/ProgressRing.jsx';
 import { ConfirmDialog } from '../components/ConfirmDialog.jsx';
 import { getProgress, getStreak, subscribeProgress, resetCategory, resetAll } from '../lib/progress.js';
 import { useStore } from '../lib/useStore.js';
+import { DECKS } from '../vocab/vocab.js';
+import { DIALOGUES } from '../dialogues/Dialogues.jsx';
+import { getExtra, subscribeExtra, resetExtra } from '../lib/extra.js';
+
+const VOCAB_TOTAL = DECKS.reduce((n, d) => n + d.items.length, 0);
 
 // One row per section. `field` is the progress array, `items` the content it counts against.
 // Counts only include ids that exist in the content, so stale ids in storage cannot exceed Y.
@@ -23,6 +28,9 @@ const countOf = (progress, s) => s.items.filter((x) => progress[s.field].include
 export function Home() {
   const progress = useStore(getProgress, subscribeProgress);
   const streak = useStore(getStreak, subscribeProgress);
+  const extra = useStore(getExtra, subscribeExtra);
+  const vCount = DECKS.reduce((n, d) => n + d.items.filter((i) => extra.vocabLearned.includes(i.id)).length, 0);
+  const dCount = DIALOGUES.filter((d) => extra.dialoguesRead.includes(d.id)).length;
   const [pending, setPending] = useState(null); // 'letters' | 'words' | 'lessons' | 'all' | null
   const [status, setStatus] = useState('');
 
@@ -32,9 +40,16 @@ export function Home() {
   if (pending === 'all') {
     dialog = {
       title: 'Reset all progress?',
-      body: 'This clears every learned letter and word and every completed lesson, and restarts your day streak at 1. Your romanization setting is kept. This cannot be undone.',
+      body: 'This clears every learned letter, word and vocabulary card, every completed lesson and every read dialogue, and restarts your day streak at 1. Your romanization setting is kept. This cannot be undone.',
       confirmLabel: 'Reset everything',
       done: 'All progress was reset.',
+    };
+  } else if (pending === 'extra') {
+    dialog = {
+      title: 'Reset vocabulary and dialogues?',
+      body: `This marks all ${VOCAB_TOTAL} vocabulary cards as not learned (${vCount} learned now) and all ${DIALOGUES.length} dialogues as not read. Letters, words and lessons are not affected. This cannot be undone.`,
+      confirmLabel: 'Reset vocabulary and dialogues',
+      done: 'Vocabulary and dialogue progress was reset.',
     };
   } else if (pending) {
     const r = rows.find((x) => x.key === pending);
@@ -47,7 +62,10 @@ export function Home() {
   }
 
   const confirm = () => {
-    if (pending === 'all') resetAll();
+    if (pending === 'all') {
+      resetAll();
+      resetExtra();
+    } else if (pending === 'extra') resetExtra();
     else resetCategory(pending);
     setStatus(dialog.done);
     setPending(null);
@@ -95,6 +113,13 @@ export function Home() {
         })}
       </ul>
 
+      <h2>More to practise</h2>
+      <ul class="llist">
+        <li class="lrow-wrap"><a class="lrow" href="#/vocab"><span class="lrow-text"><span class="lrow-title">Vocabulary</span><span class="lrow-sub">{vCount} of {VOCAB_TOTAL} learned</span></span></a></li>
+        <li class="lrow-wrap"><a class="lrow" href="#/dialogues"><span class="lrow-text"><span class="lrow-title">Dialogues</span><span class="lrow-sub">{dCount} of {DIALOGUES.length} read</span></span></a></li>
+        <li class="lrow-wrap"><a class="lrow" href="#/practice"><span class="lrow-text"><span class="lrow-title">Practice quiz</span><span class="lrow-sub">10 quick questions, nothing saved</span></span></a></li>
+      </ul>
+
       <details class="reset">
         <summary>Reset progress</summary>
         <p class="muted">
@@ -106,6 +131,9 @@ export function Home() {
               Reset {r.noun}
             </button>
           ))}
+          <button type="button" class="btn" onClick={() => ask('extra')}>
+            Reset vocabulary and dialogues
+          </button>
           <button type="button" class="btn btn-danger" onClick={() => ask('all')}>
             Reset all progress
           </button>

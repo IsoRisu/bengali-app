@@ -1,0 +1,190 @@
+{
+  "dialogues": [
+    {
+      "id": "meeting",
+      "title": "Meeting someone",
+      "lines": [
+        {
+          "who": "A",
+          "text": "nomoshkar! apnar nam ki?",
+          "english": "Hello! What is your name?"
+        },
+        {
+          "who": "B",
+          "text": "nomoshkar. amar nam Rina. apnar nam ki?",
+          "english": "Hello. My name is Rina. What is your name?"
+        },
+        {
+          "who": "A",
+          "text": "amar nam Anik. apni kemon achhen?",
+          "english": "My name is Anik. How are you?"
+        },
+        {
+          "who": "B",
+          "text": "ami bhalo achhi, dhonnobad. apni kemon achhen?",
+          "english": "I am well, thank you. How are you?"
+        },
+        {
+          "who": "A",
+          "text": "ami-o bhalo achhi.",
+          "english": "I am well too."
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "title": "Ordering tea",
+      "lines": [
+        {
+          "who": "A",
+          "text": "doya kore ekta cha din.",
+          "english": "One tea, please."
+        },
+        {
+          "who": "B",
+          "text": "ar kichhu?",
+          "english": "Anything else?"
+        },
+        {
+          "who": "A",
+          "text": "na, dhonnobad. eta koto?",
+          "english": "No, thank you. How much is it?"
+        },
+        {
+          "who": "B",
+          "text": "dosh taka.",
+          "english": "Ten taka."
+        },
+        {
+          "who": "A",
+          "text": "ei nin. dhonnobad.",
+          "english": "Here you are. Thank you."
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "title": "At the market",
+      "lines": [
+        {
+          "who": "A",
+          "text": "eta koto?",
+          "english": "How much is this?"
+        },
+        {
+          "who": "B",
+          "text": "ek sho taka.",
+          "english": "One hundred taka."
+        },
+        {
+          "who": "A",
+          "text": "onek beshi! ektu kom din.",
+          "english": "That is a lot! Please make it a little less."
+        },
+        {
+          "who": "B",
+          "text": "thik achhe, ashi taka.",
+          "english": "All right, eighty taka."
+        },
+        {
+          "who": "A",
+          "text": "thik achhe. dhonnobad.",
+          "english": "All right. Thank you."
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "title": "Asking the way",
+      "lines": [
+        {
+          "who": "A",
+          "text": "dukkhito, station kothay?",
+          "english": "Excuse me, where is the station?"
+        },
+        {
+          "who": "B",
+          "text": "shoja jan, tarpor bame jan.",
+          "english": "Go straight, then go left."
+        },
+        {
+          "who": "A",
+          "text": "abar bolun, doya kore.",
+          "english": "Please say it again."
+        },
+        {
+          "who": "B",
+          "text": "shoja jan, tarpor bame jan.",
+          "english": "Go straight, then go left."
+        },
+        {
+          "who": "A",
+          "text": "bujhlam. dhonnobad.",
+          "english": "I understand. Thank you."
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Talking about family",
+      "lines": [
+        {
+          "who": "A",
+          "text": "apnar bari kothay?",
+          "english": "Where is your home?"
+        },
+        {
+          "who": "B",
+          "text": "amar bari Dhakay.",
+          "english": "My home is in Dhaka."
+        },
+        {
+          "who": "A",
+          "text": "apnar barite ke ke achhen?",
+          "english": "Who is at your home?"
+        },
+        {
+          "who": "B",
+          "text": "amar ma, baba ar ek bon achhen.",
+          "english": "My mother, father and one sister."
+        },
+        {
+          "who": "A",
+          "text": "khub bhalo.",
+          "english": "Very good."
+        }
+      ]
+    },
+    {
+      "id": "meal",
+      "title": "What will you eat?",
+      "lines": [
+        {
+          "who": "A",
+          "text": "tumi ki khabe?",
+          "english": "What will you eat?"
+        },
+        {
+          "who": "B",
+          "text": "ami bhat ar mach khabo. tumi?",
+          "english": "I will eat rice and fish. And you?"
+        },
+        {
+          "who": "A",
+          "text": "ami ruti ar dim khabo.",
+          "english": "I will eat bread and egg."
+        },
+        {
+          "who": "B",
+          "text": "tumi mach khao na?",
+          "english": "Do you not eat fish?"
+        },
+        {
+          "who": "A",
+          "text": "na, amar mach bhalo lage na.",
+          "english": "No, I do not like fish."
+        }
+      ]
+    }
+  ]
+}

@@ -6,8 +6,11 @@ import { LettersPage } from './letters/LettersPage.jsx';
 import { LetterScreen } from './letters/LetterScreen.jsx';
 import { Words } from './words/Words.jsx';
 import { Grammar } from './grammar/Grammar.jsx';
+import { Vocab } from './vocab/Vocab.jsx';
+import { Dialogues } from './dialogues/Dialogues.jsx';
+import { Practice } from './practice/Practice.jsx';
 
-const TITLES = { letters: 'Letters', words: 'Words', grammar: 'Grammar' };
+const TITLES = { letters: 'Letters', words: 'Words', grammar: 'Grammar', vocab: 'Vocabulary', dialogues: 'Dialogues', practice: 'Practice' };
 
 // Hash navigation does not move keyboard focus, and the link that was focused is usually
 // gone after the screen changes. Move focus to <main> so Tab starts at the new content.
@@ -36,6 +39,9 @@ export function App() {
   if (section === 'letters') screen = id ? <LetterScreen id={id} /> : <LettersPage />;
   else if (section === 'words') screen = <Words rest={[id, more[0]].filter(Boolean)} />;
   else if (section === 'grammar') screen = <Grammar rest={[id].filter(Boolean)} />;
+  else if (section === 'vocab') screen = <Vocab rest={[id, more[0]].filter(Boolean)} />;
+  else if (section === 'dialogues') screen = <Dialogues rest={[id].filter(Boolean)} />;
+  else if (section === 'practice') screen = <Practice />;
   else screen = <Home />;
 
   return (

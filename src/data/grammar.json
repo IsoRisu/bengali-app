@@ -1063,7 +1063,7 @@
     },
     {
       "id": "review-build",
-      "title": "Build a sentence",
+      "title": "Review 1: build a sentence",
       "explanation": "## Order\n\nPut the sentence in Bengali order.\n\n- **Subject** (who acts) first, **verb** (the action word) last\n- An adjective goes before its noun\n- A possessive goes before its noun\n- A question word goes just before the verb\n\n## Details\n\nFinish the sentence.\n\n- The verb matches the person and the you\n- Na goes after the verb\n- No is, am or are is needed with a noun or adjective",
       "exercises": [
         {
@@ -1164,6 +1164,1779 @@
           "answer": "na",
           "acceptedAnswers": [],
           "explanation": "Na goes after the verb."
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Counting to ten",
+      "explanation": "## One to three\n\n- ek = 1\n- dui = 2\n- tin = 3\n\n## Four to six\n\n- char = 4\n- panch = 5\n- chhoy = 6\n\n## Seven to ten\n\n- shat = 7\n- aat = 8\n- noy = 9\n- dosh = 10\n\n## With things\n\nFrom five on, the counting word is -ta.\n\n> panchta boi = five books\n\nThe noun stays singular after a number.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What is dui?",
+          "options": [
+            {
+              "text": "three"
+            },
+            {
+              "text": "two"
+            },
+            {
+              "text": "one"
+            }
+          ],
+          "answer": "two",
+          "explanation": "Dui is 2. Tin is 3 and ek is 1."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does panch mean?",
+          "options": [
+            {
+              "text": "four"
+            },
+            {
+              "text": "six"
+            },
+            {
+              "text": "five"
+            }
+          ],
+          "answer": "five",
+          "explanation": "Panch is 5. Char is 4 and chhoy is 6."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What number is dosh?",
+          "options": [
+            {
+              "text": "nine"
+            },
+            {
+              "text": "eight"
+            },
+            {
+              "text": "ten"
+            }
+          ],
+          "answer": "ten",
+          "explanation": "Dosh is 10. Noy is 9 and aat is 8."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"five books\"?",
+          "options": [
+            {
+              "text": "panch boigulo"
+            },
+            {
+              "text": "panchta boi"
+            },
+            {
+              "text": "boi panchta"
+            }
+          ],
+          "answer": "panchta boi",
+          "explanation": "Number first, with -ta, and no plural. Panch boigulo adds an unneeded plural."
+        },
+        {
+          "type": "fill",
+          "prompt": "ek, dui, ____, char (counting)",
+          "answer": "tin",
+          "acceptedAnswers": [],
+          "explanation": "Tin comes after dui."
+        }
+      ]
+    },
+    {
+      "id": "greetings",
+      "title": "Hello and how are you",
+      "explanation": "## Hello\n\n- nomoshkar = hello\n- assalamu alaikum = hello\n\nBoth are polite. Many people use whichever the other person says first.\n\n## How are you\n\nThe verb is achhi for ami, achho for tumi and achhen for apni.\n\n> tumi kemon achho? = how are you? (friendly)\n> apni kemon achhen? = how are you? (polite)\n\n## Answering\n\nAchhi here means am, as in being well.\n\n> ami bhalo achhi = I am well\n\n## Your name\n\n> amar nam Anik = my name is Anik\n> apnar nam ki? = what is your name?",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does nomoshkar mean?",
+          "options": [
+            {
+              "text": "hello"
+            },
+            {
+              "text": "thank you"
+            },
+            {
+              "text": "goodbye"
+            }
+          ],
+          "answer": "hello",
+          "explanation": "Nomoshkar is a greeting."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you ask politely \"How are you?\"",
+          "options": [
+            {
+              "text": "tumi kemon achhi?"
+            },
+            {
+              "text": "apni kemon achhen?"
+            },
+            {
+              "text": "apni kemon achho?"
+            }
+          ],
+          "answer": "apni kemon achhen?",
+          "explanation": "Apni takes achhen. Achhi goes with ami, and achho goes with tumi."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I am well\"?",
+          "options": [
+            {
+              "text": "ami bhalo achho"
+            },
+            {
+              "text": "ami bhalo achhen"
+            },
+            {
+              "text": "ami bhalo achhi"
+            }
+          ],
+          "answer": "ami bhalo achhi",
+          "explanation": "Ami takes achhi. Achho is for tumi and achhen is for apni."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does apnar nam ki? mean?",
+          "options": [
+            {
+              "text": "What is his name?"
+            },
+            {
+              "text": "What is my name?"
+            },
+            {
+              "text": "What is your name?"
+            }
+          ],
+          "answer": "What is your name?",
+          "explanation": "Apnar is your and ki is what."
+        },
+        {
+          "type": "fill",
+          "prompt": "amar nam Anik means my ____ is Anik.",
+          "answer": "name",
+          "acceptedAnswers": [],
+          "explanation": "Nam is name."
+        }
+      ]
+    },
+    {
+      "id": "polite-words",
+      "title": "Please, thank you and sorry",
+      "explanation": "## Thank you\n\ndhonnobad = thank you\n\n## Please\n\ndoya kore = please. It comes before the request.\n\n> doya kore dekhun = please look\n\n## Sorry\n\ndukkhito = sorry\n\n> ami dukkhito = I am sorry\n\n## Request forms\n\nThe verb matches the you.\n\n> doya kore dekhun = please look (polite)\n> doya kore dekho = please look (friendly)",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does dhonnobad mean?",
+          "options": [
+            {
+              "text": "sorry"
+            },
+            {
+              "text": "thank you"
+            },
+            {
+              "text": "please"
+            }
+          ],
+          "answer": "thank you",
+          "explanation": "Dhonnobad is thank you."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which phrase means please?",
+          "options": [
+            {
+              "text": "dukkhito"
+            },
+            {
+              "text": "dhonnobad"
+            },
+            {
+              "text": "doya kore"
+            }
+          ],
+          "answer": "doya kore",
+          "explanation": "Doya kore is please. Dukkhito is sorry."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I am sorry\"?",
+          "options": [
+            {
+              "text": "ami dukkhito"
+            },
+            {
+              "text": "ami dhonnobad"
+            },
+            {
+              "text": "ami doya kore"
+            }
+          ],
+          "answer": "ami dukkhito",
+          "explanation": "Dukkhito is sorry. The verb am is left out."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you politely say \"Please look\" to an elder?",
+          "options": [
+            {
+              "text": "doya kore dekho"
+            },
+            {
+              "text": "dekhun doya kore"
+            },
+            {
+              "text": "doya kore dekhun"
+            }
+          ],
+          "answer": "doya kore dekhun",
+          "explanation": "Dekhun is the polite form, and doya kore comes first."
+        },
+        {
+          "type": "fill",
+          "prompt": "doya kore dekhun means ____ look.",
+          "answer": "please",
+          "acceptedAnswers": [],
+          "explanation": "Doya kore is please."
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family words",
+      "explanation": "## Parents\n\n- ma = mother\n- baba = father\n\n## Siblings\n\n- dada = older brother\n- didi = older sister\n- bhai = brother\n- bon = sister\n\n## Dada and didi outside the family\n\nDada and didi are also a polite way to address an older man or woman you know.\n\n## Mine\n\n> amar ma = my mother\n> tomar bhai = your brother",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does baba mean?",
+          "options": [
+            {
+              "text": "mother"
+            },
+            {
+              "text": "father"
+            },
+            {
+              "text": "brother"
+            }
+          ],
+          "answer": "father",
+          "explanation": "Baba is father. Ma is mother."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means older sister?",
+          "options": [
+            {
+              "text": "bon"
+            },
+            {
+              "text": "didi"
+            },
+            {
+              "text": "ma"
+            }
+          ],
+          "answer": "didi",
+          "explanation": "Didi is an older sister. Bon is sister."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means older brother?",
+          "options": [
+            {
+              "text": "dada"
+            },
+            {
+              "text": "bhai"
+            },
+            {
+              "text": "baba"
+            }
+          ],
+          "answer": "dada",
+          "explanation": "Dada is an older brother. Bhai is brother. Baba is father."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"my mother\"?",
+          "options": [
+            {
+              "text": "ma amar"
+            },
+            {
+              "text": "tomar ma"
+            },
+            {
+              "text": "amar ma"
+            }
+          ],
+          "answer": "amar ma",
+          "explanation": "The possessive comes first. Tomar is your."
+        },
+        {
+          "type": "fill",
+          "prompt": "didi means older ____.",
+          "answer": "sister",
+          "acceptedAnswers": [],
+          "explanation": "Didi is an older sister."
+        }
+      ]
+    },
+    {
+      "id": "verbs-motion",
+      "title": "Go, come, see and do",
+      "explanation": "## Four stems\n\n- ja = go\n- ash = come\n- dekh = see\n- kor = do\n\n## With ami\n\n- ami jai = I go\n- ami ashi = I come\n- ami dekhi = I see\n- ami kori = I do\n\n## With tumi\n\n- tumi jao = you go\n- tumi asho = you come\n- tumi dekho = you see\n- tumi koro = you do\n\n## With apni and shey\n\n- apni jan, ashen, dekhen, koren\n- shey jay, ashe, dekhe, kore",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "ami ____ (I go)",
+          "options": [
+            {
+              "text": "jao"
+            },
+            {
+              "text": "jai"
+            },
+            {
+              "text": "jay"
+            }
+          ],
+          "answer": "jai",
+          "explanation": "Jai goes with ami. Jao is for tumi and jay is for shey."
+        },
+        {
+          "type": "mcq",
+          "prompt": "tumi ____ (you come)",
+          "options": [
+            {
+              "text": "ashi"
+            },
+            {
+              "text": "asho"
+            },
+            {
+              "text": "ashe"
+            }
+          ],
+          "answer": "asho",
+          "explanation": "Asho goes with tumi. Ashi is for ami and ashe is for shey."
+        },
+        {
+          "type": "mcq",
+          "prompt": "shey ____ (he or she sees)",
+          "options": [
+            {
+              "text": "dekhi"
+            },
+            {
+              "text": "dekho"
+            },
+            {
+              "text": "dekhe"
+            }
+          ],
+          "answer": "dekhe",
+          "explanation": "Dekhe goes with shey. Dekhi is for ami and dekho is for tumi."
+        },
+        {
+          "type": "mcq",
+          "prompt": "apni ____ (you do, polite)",
+          "options": [
+            {
+              "text": "koren"
+            },
+            {
+              "text": "kori"
+            },
+            {
+              "text": "kore"
+            }
+          ],
+          "answer": "koren",
+          "explanation": "Koren goes with apni. Kori is for ami and kore is for shey."
+        },
+        {
+          "type": "fill",
+          "prompt": "The stem ja means ____.",
+          "answer": "go",
+          "acceptedAnswers": [],
+          "explanation": "Ja is go."
+        }
+      ]
+    },
+    {
+      "id": "location-ending",
+      "title": "In and at: the -e ending",
+      "explanation": "## Endings, not little words\n\nEnglish puts in or at before the noun. Bengali adds an ending to the noun instead.\n\n## The ending\n\nAdd -e after a consonant, or -te after a vowel.\n\n- ghor = room, ghore = in the room\n- bari = house, barite = in the house\n\n## With achhi\n\n> ami barite achhi = I am at home\n> shey ghore achhe = he or she is in the room\n\n## Order\n\nThe place goes before the verb.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"in the room\"?",
+          "options": [
+            {
+              "text": "ghor in"
+            },
+            {
+              "text": "in ghor"
+            },
+            {
+              "text": "ghore"
+            }
+          ],
+          "answer": "ghore",
+          "explanation": "The ending -e does the work. The others copy English."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does barite mean?",
+          "options": [
+            {
+              "text": "from the house"
+            },
+            {
+              "text": "in the house"
+            },
+            {
+              "text": "the house"
+            }
+          ],
+          "answer": "in the house",
+          "explanation": "The ending -te means in or at."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami barite achhi mean?",
+          "options": [
+            {
+              "text": "I go home"
+            },
+            {
+              "text": "I am at home"
+            },
+            {
+              "text": "I eat at home"
+            }
+          ],
+          "answer": "I am at home",
+          "explanation": "Barite is at home and achhi is am."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does shey ghore achhe mean?",
+          "options": [
+            {
+              "text": "He or she is in the room"
+            },
+            {
+              "text": "He or she has a room"
+            },
+            {
+              "text": "I am in the room"
+            }
+          ],
+          "answer": "He or she is in the room",
+          "explanation": "Shey is he or she, ghore is in the room."
+        },
+        {
+          "type": "fill",
+          "prompt": "ghore means ____ the room.",
+          "answer": "in",
+          "acceptedAnswers": [
+            "at"
+          ],
+          "explanation": "The ending -e means in."
+        }
+      ]
+    },
+    {
+      "id": "postpositions",
+      "title": "Little words after the noun",
+      "explanation": "## After, not before\n\nEnglish puts from, with and for before the noun. A **postposition** (a small word that goes after the noun it belongs to) does the same job in Bengali, but goes after.\n\n## Three common ones\n\n- theke = from\n- shathe = with\n- jonno = for\n\n## With a noun\n\n> bari theke = from home\n\n## With I, you and he or she\n\nUse the possessive form.\n\n> amar shathe = with me\n> tomar jonno = for you\n> tar shathe = with him or her",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"from home\"?",
+          "options": [
+            {
+              "text": "theke bari"
+            },
+            {
+              "text": "bari theke"
+            },
+            {
+              "text": "bari jonno"
+            }
+          ],
+          "answer": "bari theke",
+          "explanation": "Theke goes after the noun. Jonno means for."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does jonno mean?",
+          "options": [
+            {
+              "text": "with"
+            },
+            {
+              "text": "from"
+            },
+            {
+              "text": "for"
+            }
+          ],
+          "answer": "for",
+          "explanation": "Jonno is for. Shathe is with and theke is from."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"with me\"?",
+          "options": [
+            {
+              "text": "shathe amar"
+            },
+            {
+              "text": "amar shathe"
+            },
+            {
+              "text": "ami shathe"
+            }
+          ],
+          "answer": "amar shathe",
+          "explanation": "The possessive first, then shathe."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does tomar jonno mean?",
+          "options": [
+            {
+              "text": "for you"
+            },
+            {
+              "text": "with you"
+            },
+            {
+              "text": "from you"
+            }
+          ],
+          "answer": "for you",
+          "explanation": "Jonno is for."
+        },
+        {
+          "type": "fill",
+          "prompt": "A small word that goes after the noun, like theke, is called a ____.",
+          "answer": "postposition",
+          "acceptedAnswers": [
+            "a postposition"
+          ],
+          "explanation": "A postposition goes after the noun."
+        }
+      ]
+    },
+    {
+      "id": "and-or-but",
+      "title": "And, or and but",
+      "explanation": "## And\n\nar = and\n\n> bhat ar mach = rice and fish\n\n## Or\n\nba = or\n\n> bhat ba ruti = rice or bread\n\n## But\n\nkintu = but\n\n> ami bhat khai, kintu mach khai na = I eat rice, but I do not eat fish\n\n## Joining\n\nA **conjunction** (a word that joins two words or two parts of a sentence) goes between the things it joins.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does kintu mean?",
+          "options": [
+            {
+              "text": "or"
+            },
+            {
+              "text": "but"
+            },
+            {
+              "text": "and"
+            }
+          ],
+          "answer": "but",
+          "explanation": "Kintu is but. Ba is or and ar is and."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"rice and fish\"?",
+          "options": [
+            {
+              "text": "bhat ba mach"
+            },
+            {
+              "text": "bhat kintu mach"
+            },
+            {
+              "text": "bhat ar mach"
+            }
+          ],
+          "answer": "bhat ar mach",
+          "explanation": "Ar is and. Ba is or and kintu is but."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means or?",
+          "options": [
+            {
+              "text": "ar"
+            },
+            {
+              "text": "ba"
+            },
+            {
+              "text": "kintu"
+            }
+          ],
+          "answer": "ba",
+          "explanation": "Ba is or."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does bhat ba ruti mean?",
+          "options": [
+            {
+              "text": "rice and bread"
+            },
+            {
+              "text": "rice or bread"
+            },
+            {
+              "text": "rice but bread"
+            }
+          ],
+          "answer": "rice or bread",
+          "explanation": "Ba is or."
+        },
+        {
+          "type": "fill",
+          "prompt": "A word that joins two words, like ar or ba, is called a ____.",
+          "answer": "conjunction",
+          "acceptedAnswers": [
+            "a conjunction"
+          ],
+          "explanation": "That is a conjunction."
+        }
+      ]
+    },
+    {
+      "id": "degree-words",
+      "title": "Very, a little and a lot",
+      "explanation": "## How much\n\nA **degree word** (a word that says how much or how strong something is) goes before the word it changes.\n\n## Three degree words\n\n- khub = very\n- ektu = a little\n- onek = a lot, many\n\n## With describing words\n\n> khub bhalo = very good\n> ektu gorom = a little hot\n\n## With nouns\n\n> onek bhat = a lot of rice\n> onek bondhu = many friends",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does khub mean?",
+          "options": [
+            {
+              "text": "a little"
+            },
+            {
+              "text": "very"
+            },
+            {
+              "text": "a lot of"
+            }
+          ],
+          "answer": "very",
+          "explanation": "Khub is very. Ektu is a little."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"a little hot\"?",
+          "options": [
+            {
+              "text": "gorom ektu"
+            },
+            {
+              "text": "khub gorom"
+            },
+            {
+              "text": "ektu gorom"
+            }
+          ],
+          "answer": "ektu gorom",
+          "explanation": "The degree word goes first. Khub gorom is very hot."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does onek bhat mean?",
+          "options": [
+            {
+              "text": "a lot of rice"
+            },
+            {
+              "text": "a little rice"
+            },
+            {
+              "text": "no rice"
+            }
+          ],
+          "answer": "a lot of rice",
+          "explanation": "Onek is a lot or many."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Where does a degree word go?",
+          "options": [
+            {
+              "text": "After the noun"
+            },
+            {
+              "text": "Before the word it changes"
+            },
+            {
+              "text": "After the verb"
+            }
+          ],
+          "answer": "Before the word it changes",
+          "explanation": "It always comes first."
+        },
+        {
+          "type": "fill",
+          "prompt": "ektu means a ____.",
+          "answer": "little",
+          "acceptedAnswers": [],
+          "explanation": "Ektu is a little."
+        }
+      ]
+    },
+    {
+      "id": "time-words",
+      "title": "Today, now and kal",
+      "explanation": "## Time words\n\n- aj = today\n- ekhon = now\n- pore = later\n- kal = yesterday or tomorrow\n\n## Kal means two days\n\nKal is both yesterday and tomorrow. The tense tells you which.\n\n> kal ami khelam = yesterday I ate\n> kal ami khabo = tomorrow I will eat\n\n## Where it goes\n\n> ami aj bhat khabo = I will eat rice today",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ekhon mean?",
+          "options": [
+            {
+              "text": "later"
+            },
+            {
+              "text": "today"
+            },
+            {
+              "text": "now"
+            }
+          ],
+          "answer": "now",
+          "explanation": "Ekhon is now. Pore is later."
+        },
+        {
+          "type": "mcq",
+          "prompt": "kal ami khelam means:",
+          "options": [
+            {
+              "text": "Tomorrow I will eat"
+            },
+            {
+              "text": "Yesterday I ate"
+            },
+            {
+              "text": "I eat now"
+            }
+          ],
+          "answer": "Yesterday I ate",
+          "explanation": "Khelam is past, so kal means yesterday here."
+        },
+        {
+          "type": "mcq",
+          "prompt": "kal ami khabo means:",
+          "options": [
+            {
+              "text": "Yesterday I ate"
+            },
+            {
+              "text": "I eat now"
+            },
+            {
+              "text": "Tomorrow I will eat"
+            }
+          ],
+          "answer": "Tomorrow I will eat",
+          "explanation": "Khabo is future, so kal means tomorrow here."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means later?",
+          "options": [
+            {
+              "text": "aj"
+            },
+            {
+              "text": "pore"
+            },
+            {
+              "text": "kal"
+            }
+          ],
+          "answer": "pore",
+          "explanation": "Pore is later."
+        },
+        {
+          "type": "fill",
+          "prompt": "aj means ____.",
+          "answer": "today",
+          "acceptedAnswers": [],
+          "explanation": "Aj is today."
+        }
+      ]
+    },
+    {
+      "id": "want-can",
+      "title": "Want and can",
+      "explanation": "## Want\n\nchai = I want. The thing you want to do uses a verb ending in -te.\n\n> ami khete chai = I want to eat\n> ami jete chai = I want to go\n\n## Can\n\npari = I can\n\n> ami khete pari = I can eat\n> ami dekhte pari = I can see\n\n## Other people\n\n- tumi chao, tumi paro\n- apni chan, apni paren\n- shey chay, shey pare\n\n## Cannot\n\nNa goes last.\n\n> ami khete pari na = I cannot eat",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I want to go\"?",
+          "options": [
+            {
+              "text": "ami jete pari"
+            },
+            {
+              "text": "ami jete chai"
+            },
+            {
+              "text": "ami jai chai"
+            }
+          ],
+          "answer": "ami jete chai",
+          "explanation": "Chai is want. Pari is can."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami khete pari mean?",
+          "options": [
+            {
+              "text": "I can eat"
+            },
+            {
+              "text": "I want to eat"
+            },
+            {
+              "text": "I ate"
+            }
+          ],
+          "answer": "I can eat",
+          "explanation": "Pari is can."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I cannot see\"?",
+          "options": [
+            {
+              "text": "ami dekhte pari na"
+            },
+            {
+              "text": "ami dekhte chai na"
+            },
+            {
+              "text": "ami dekhte na pari"
+            }
+          ],
+          "answer": "ami dekhte pari na",
+          "explanation": "Pari na, with na last. Chai na means do not want."
+        },
+        {
+          "type": "mcq",
+          "prompt": "tumi khete ____ (you want to eat)",
+          "options": [
+            {
+              "text": "chai"
+            },
+            {
+              "text": "chay"
+            },
+            {
+              "text": "chao"
+            }
+          ],
+          "answer": "chao",
+          "explanation": "Chao goes with tumi. Chai is for ami."
+        },
+        {
+          "type": "fill",
+          "prompt": "shey khete ____ (he or she can eat)",
+          "answer": "pare",
+          "acceptedAnswers": [],
+          "explanation": "Pare goes with shey."
+        }
+      ]
+    },
+    {
+      "id": "having",
+      "title": "Saying I have",
+      "explanation": "## No verb for have\n\nBengali says my something is there, using achhe.\n\n## My book is there\n\n> amar boi achhe = I have a book\n> tomar boi achhe = you have a book\n> tar boi achhe = he or she has a book\n\n## Not having\n\nnei = there is not\n\n> amar boi nei = I do not have a book\n\n## Asking\n\n> tomar boi achhe? = do you have a book?",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I have a book\"?",
+          "options": [
+            {
+              "text": "ami boi achhe"
+            },
+            {
+              "text": "amar boi achhe"
+            },
+            {
+              "text": "amar boi nei"
+            }
+          ],
+          "answer": "amar boi achhe",
+          "explanation": "Use amar, my. Nei means not."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does nei mean?",
+          "options": [
+            {
+              "text": "there is"
+            },
+            {
+              "text": "I have"
+            },
+            {
+              "text": "there is not"
+            }
+          ],
+          "answer": "there is not",
+          "explanation": "Nei is the opposite of achhe."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does tar boi achhe mean?",
+          "options": [
+            {
+              "text": "I have a book"
+            },
+            {
+              "text": "He or she has a book"
+            },
+            {
+              "text": "You have a book"
+            }
+          ],
+          "answer": "He or she has a book",
+          "explanation": "Tar is his or her."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I do not have a book\"?",
+          "options": [
+            {
+              "text": "tomar boi nei"
+            },
+            {
+              "text": "amar boi nei"
+            },
+            {
+              "text": "amar boi achhe"
+            }
+          ],
+          "answer": "amar boi nei",
+          "explanation": "Amar is my and nei is not there."
+        },
+        {
+          "type": "fill",
+          "prompt": "amar boi ____ means I do not have a book.",
+          "answer": "nei",
+          "acceptedAnswers": [],
+          "explanation": "Nei is there is not."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food and drink words",
+      "explanation": "## Staples\n\n- bhat = rice\n- ruti = bread\n- mach = fish\n- dim = egg\n\n## Drinks and fruit\n\n- jol = water\n- dudh = milk\n- cha = tea\n- fol = fruit\n\n## Using them\n\n> ami ruti ar dim khai = I eat bread and egg",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does mach mean?",
+          "options": [
+            {
+              "text": "egg"
+            },
+            {
+              "text": "fish"
+            },
+            {
+              "text": "bread"
+            }
+          ],
+          "answer": "fish",
+          "explanation": "Mach is fish. Dim is egg."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does dudh mean?",
+          "options": [
+            {
+              "text": "milk"
+            },
+            {
+              "text": "water"
+            },
+            {
+              "text": "tea"
+            }
+          ],
+          "answer": "milk",
+          "explanation": "Dudh is milk. Jol is water."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say egg?",
+          "options": [
+            {
+              "text": "fol"
+            },
+            {
+              "text": "dudh"
+            },
+            {
+              "text": "dim"
+            }
+          ],
+          "answer": "dim",
+          "explanation": "Dim is egg."
+        },
+        {
+          "type": "fill",
+          "prompt": "jol means ____.",
+          "answer": "water",
+          "acceptedAnswers": [],
+          "explanation": "Jol is water."
+        }
+      ]
+    },
+    {
+      "id": "colours",
+      "title": "Colours",
+      "explanation": "## Warm colours\n\n- lal = red\n- holud = yellow\n\n## Cool colours\n\n- nil = blue\n- shobuj = green\n\n## Black and white\n\n- kalo = black\n- shada = white\n\n## In a phrase\n\nA colour describes a noun, so it goes first.\n\n> lal boi = red book\n> shobuj bari = green house",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does lal mean?",
+          "options": [
+            {
+              "text": "blue"
+            },
+            {
+              "text": "red"
+            },
+            {
+              "text": "green"
+            }
+          ],
+          "answer": "red",
+          "explanation": "Lal is red."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does shobuj mean?",
+          "options": [
+            {
+              "text": "green"
+            },
+            {
+              "text": "blue"
+            },
+            {
+              "text": "black"
+            }
+          ],
+          "answer": "green",
+          "explanation": "Shobuj is green."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"white house\"?",
+          "options": [
+            {
+              "text": "bari shada"
+            },
+            {
+              "text": "kalo bari"
+            },
+            {
+              "text": "shada bari"
+            }
+          ],
+          "answer": "shada bari",
+          "explanation": "The colour goes first. Kalo is black."
+        },
+        {
+          "type": "fill",
+          "prompt": "nil means ____.",
+          "answer": "blue",
+          "acceptedAnswers": [],
+          "explanation": "Nil is blue."
+        }
+      ]
+    },
+    {
+      "id": "review-more",
+      "title": "Review 2: more sentences",
+      "explanation": "## Putting it together\n\n> ami aj barite bhat khabo = I will eat rice at home today\n\n## The order\n\nSubject, time, place, object, verb, then na.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I want to eat rice\"?",
+          "options": [
+            {
+              "text": "ami khete bhat chai"
+            },
+            {
+              "text": "ami bhat khete chai"
+            },
+            {
+              "text": "ami chai bhat khete"
+            }
+          ],
+          "answer": "ami bhat khete chai",
+          "explanation": "Object, then the -te verb, then chai."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I have a red book\"?",
+          "options": [
+            {
+              "text": "amar lal boi achhe"
+            },
+            {
+              "text": "ami lal boi achhe"
+            },
+            {
+              "text": "amar boi lal achhe"
+            }
+          ],
+          "answer": "amar lal boi achhe",
+          "explanation": "Amar for have, the colour first."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I eat rice and fish\"?",
+          "options": [
+            {
+              "text": "ami bhat ar mach khay"
+            },
+            {
+              "text": "ami bhat ar mach khai"
+            },
+            {
+              "text": "ami khai bhat ar mach"
+            }
+          ],
+          "answer": "ami bhat ar mach khai",
+          "explanation": "Khai goes with ami, and the verb comes last."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I am at home today\"?",
+          "options": [
+            {
+              "text": "ami aj barite achhi"
+            },
+            {
+              "text": "ami aj barite achho"
+            },
+            {
+              "text": "ami aj barite khai"
+            }
+          ],
+          "answer": "ami aj barite achhi",
+          "explanation": "Achhi goes with ami."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I cannot go\"?",
+          "options": [
+            {
+              "text": "ami jete chai na"
+            },
+            {
+              "text": "ami jai pari na"
+            },
+            {
+              "text": "ami jete pari na"
+            }
+          ],
+          "answer": "ami jete pari na",
+          "explanation": "Jete pari na means cannot go."
+        },
+        {
+          "type": "fill",
+          "prompt": "khub ____ means very good.",
+          "answer": "bhalo",
+          "acceptedAnswers": [],
+          "explanation": "Bhalo is good."
+        }
+      ]
+    },
+    {
+      "id": "also-o",
+      "title": "Too and also",
+      "explanation": "## The -o ending\n\nAdd -o to a word to mean also or too.\n\n> ami-o = me too\n> tumi-o = you too\n\n## In a sentence\n\n> ami-o bhat khai = I also eat rice\n> shey-o jay = he or she also goes\n\n## Where it goes\n\nThe -o goes on the word that is also true, not on the verb.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ami-o mean?",
+          "options": [
+            {
+              "text": "only me"
+            },
+            {
+              "text": "not me"
+            },
+            {
+              "text": "me too"
+            }
+          ],
+          "answer": "me too",
+          "explanation": "The ending -o means also."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"you also eat rice\"?",
+          "options": [
+            {
+              "text": "tumi-o bhat khai"
+            },
+            {
+              "text": "tumi-o bhat khao"
+            },
+            {
+              "text": "tumi bhat khao na"
+            }
+          ],
+          "answer": "tumi-o bhat khao",
+          "explanation": "Khao goes with tumi. Khai is for ami, and na makes it negative."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does shey-o jay mean?",
+          "options": [
+            {
+              "text": "He or she also goes"
+            },
+            {
+              "text": "He or she does not go"
+            },
+            {
+              "text": "I also go"
+            }
+          ],
+          "answer": "He or she also goes",
+          "explanation": "Shey is he or she, and -o adds also."
+        },
+        {
+          "type": "fill",
+          "prompt": "The ending -o means ____ or too.",
+          "answer": "also",
+          "acceptedAnswers": [],
+          "explanation": "Add -o for also."
+        }
+      ]
+    },
+    {
+      "id": "give-ke",
+      "title": "Giving and the -ke ending",
+      "explanation": "## To whom\n\nAn **indirect object** (the person who receives something) takes the ending -ke.\n\n- amake = to me\n- tomake = to you\n- apnake = to you, polite\n- take = to him or her\n\n## Give\n\nThe verb give has the stem de.\n\n- ami dei, tumi dao, apni den, shey dey\n\n## Giving something\n\n> tumi amake boi dao = you give me a book\n> ami tomake jol dei = I give you water\n\n## Asking\n\n> doya kore amake ekta cha din = please give me a tea",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does tomake mean?",
+          "options": [
+            {
+              "text": "to me"
+            },
+            {
+              "text": "to you"
+            },
+            {
+              "text": "to him or her"
+            }
+          ],
+          "answer": "to you",
+          "explanation": "Tomake is to you. Amake is to me."
+        },
+        {
+          "type": "mcq",
+          "prompt": "tumi ____ boi dao (you give me a book)",
+          "options": [
+            {
+              "text": "tomake"
+            },
+            {
+              "text": "take"
+            },
+            {
+              "text": "amake"
+            }
+          ],
+          "answer": "amake",
+          "explanation": "The book comes to me, so amake."
+        },
+        {
+          "type": "mcq",
+          "prompt": "shey amake boi ____ (he or she gives me a book)",
+          "options": [
+            {
+              "text": "dei"
+            },
+            {
+              "text": "dao"
+            },
+            {
+              "text": "dey"
+            }
+          ],
+          "answer": "dey",
+          "explanation": "Dey goes with shey. Dei is for ami and dao is for tumi."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Politely: doya kore amake ekta cha ____",
+          "options": [
+            {
+              "text": "dao"
+            },
+            {
+              "text": "din"
+            },
+            {
+              "text": "dey"
+            }
+          ],
+          "answer": "din",
+          "explanation": "Din is the polite form. Dao is friendly."
+        },
+        {
+          "type": "fill",
+          "prompt": "The person who receives something is called the indirect ____.",
+          "answer": "object",
+          "acceptedAnswers": [],
+          "explanation": "It is the indirect object."
+        }
+      ]
+    },
+    {
+      "id": "this-that",
+      "title": "This and that, here and there",
+      "explanation": "## Before a noun\n\n- ei = this\n- oi = that\n\n> ei boi = this book\n> oi bari = that house\n\n## On its own\n\n- eta = this one\n- ota = that one\n\n> eta ki? = what is this?\n> eta koto? = how much is this?\n\n## Here and there\n\n- ekhane = here\n- okhane = there\n\n> ami ekhane achhi = I am here",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does oi bari mean?",
+          "options": [
+            {
+              "text": "this house"
+            },
+            {
+              "text": "that house"
+            },
+            {
+              "text": "my house"
+            }
+          ],
+          "answer": "that house",
+          "explanation": "Oi is that. Ei is this."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you ask \"How much is this?\"",
+          "options": [
+            {
+              "text": "ota koto?"
+            },
+            {
+              "text": "eta ki?"
+            },
+            {
+              "text": "eta koto?"
+            }
+          ],
+          "answer": "eta koto?",
+          "explanation": "Eta is this and koto is how much. Ota is that, and ki is what."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does okhane mean?",
+          "options": [
+            {
+              "text": "here"
+            },
+            {
+              "text": "where"
+            },
+            {
+              "text": "there"
+            }
+          ],
+          "answer": "there",
+          "explanation": "Okhane is there. Ekhane is here."
+        },
+        {
+          "type": "fill",
+          "prompt": "ei means ____ (before a noun).",
+          "answer": "this",
+          "acceptedAnswers": [],
+          "explanation": "Ei is this."
+        }
+      ]
+    },
+    {
+      "id": "likes-needs",
+      "title": "Liking and needing",
+      "explanation": "## Liking\n\nBengali says good feels to me.\n\n> amar bhat bhalo lage = I like rice\n\n## Not liking\n\nNa goes last.\n\n> amar mach bhalo lage na = I do not like fish\n\n## Needing\n\nlagbe = will need\n\n> amar jol lagbe = I need water",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I like fish\"?",
+          "options": [
+            {
+              "text": "ami mach bhalo lage"
+            },
+            {
+              "text": "amar mach bhalo lage"
+            },
+            {
+              "text": "amar mach bhalo lagbe"
+            }
+          ],
+          "answer": "amar mach bhalo lage",
+          "explanation": "Use amar, to me. Lagbe means will need."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does amar mach bhalo lage na mean?",
+          "options": [
+            {
+              "text": "I like fish"
+            },
+            {
+              "text": "I need fish"
+            },
+            {
+              "text": "I do not like fish"
+            }
+          ],
+          "answer": "I do not like fish",
+          "explanation": "Na makes it negative."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I need water\"?",
+          "options": [
+            {
+              "text": "amar jol lagbe"
+            },
+            {
+              "text": "ami jol lagbe"
+            },
+            {
+              "text": "amar jol lage"
+            }
+          ],
+          "answer": "amar jol lagbe",
+          "explanation": "Lagbe is need. Lage is like."
+        },
+        {
+          "type": "fill",
+          "prompt": "amar bhat bhalo ____ means I like rice.",
+          "answer": "lage",
+          "acceptedAnswers": [],
+          "explanation": "Lage is the word for like here."
+        }
+      ]
+    },
+    {
+      "id": "doing-now",
+      "title": "Doing it right now",
+      "explanation": "## The now form\n\nAdd -chhi, -chho, -chhen or -chhe after the stem.\n\n- ami dekhchhi = I am seeing\n- tumi dekhchho\n- apni dekhchhen\n- shey dekhchhe\n\n## Two special stems\n\nKha and ja double a consonant.\n\n> ami khachchhi = I am eating\n> ami jachchhi = I am going\n\n## In a sentence\n\n> ami bhat khachchhi = I am eating rice\n> shey boi porchhe = he or she is reading a book",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "ami boi ____ (I am reading a book)",
+          "options": [
+            {
+              "text": "porchho"
+            },
+            {
+              "text": "porchhe"
+            },
+            {
+              "text": "porchhi"
+            }
+          ],
+          "answer": "porchhi",
+          "explanation": "Porchhi goes with ami."
+        },
+        {
+          "type": "mcq",
+          "prompt": "shey ____ (he or she is going)",
+          "options": [
+            {
+              "text": "jachchhi"
+            },
+            {
+              "text": "jachchho"
+            },
+            {
+              "text": "jachchhe"
+            }
+          ],
+          "answer": "jachchhe",
+          "explanation": "Jachchhe goes with shey."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does ami bhat khachchhi mean?",
+          "options": [
+            {
+              "text": "I ate rice"
+            },
+            {
+              "text": "I am eating rice"
+            },
+            {
+              "text": "I will eat rice"
+            }
+          ],
+          "answer": "I am eating rice",
+          "explanation": "The -chhi ending means right now."
+        },
+        {
+          "type": "fill",
+          "prompt": "Fill in the ending: tumi dekh____ (you are seeing)",
+          "answer": "chho",
+          "acceptedAnswers": [],
+          "explanation": "Chho goes with tumi."
+        }
+      ]
+    },
+    {
+      "id": "not-yet-ni",
+      "title": "Not yet: the ni ending",
+      "explanation": "## Ni\n\nni = did not, or has not yet. It goes after the verb.\n\n> ami bhat khai ni = I did not eat rice\n\n## Same verb form\n\n> shey ashe ni = he or she has not come\n\n## Na or ni\n\nUse na for not in general, and ni for not yet.\n\n> ami mach khai na = I do not eat fish\n> ami mach khai ni = I have not eaten fish",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does ami jai ni mean?",
+          "options": [
+            {
+              "text": "I do not go"
+            },
+            {
+              "text": "I will not go"
+            },
+            {
+              "text": "I did not go"
+            }
+          ],
+          "answer": "I did not go",
+          "explanation": "Ni is for did not or not yet."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word means not yet?",
+          "options": [
+            {
+              "text": "na"
+            },
+            {
+              "text": "nei"
+            },
+            {
+              "text": "ni"
+            }
+          ],
+          "answer": "ni",
+          "explanation": "Ni is not yet. Na is not, and nei is there is not."
+        },
+        {
+          "type": "mcq",
+          "prompt": "shey bhat khay ____ (he or she has not eaten rice)",
+          "options": [
+            {
+              "text": "ni"
+            },
+            {
+              "text": "na"
+            },
+            {
+              "text": "nei"
+            }
+          ],
+          "answer": "ni",
+          "explanation": "Ni is for not yet."
+        },
+        {
+          "type": "fill",
+          "prompt": "ami dekhi ____ means I have not seen.",
+          "answer": "ni",
+          "acceptedAnswers": [],
+          "explanation": "Ni goes after the verb."
+        }
+      ]
+    },
+    {
+      "id": "because",
+      "title": "Because and so",
+      "explanation": "## Because\n\nkaron = because\n\n> ami jabo na, karon ami byasto = I will not go, because I am busy\n\n## So\n\ntai = so, that is why\n\n> ami byasto, tai jabo na = I am busy, so I will not go\n\n## Why\n\nKeno asks the reason, and karon gives it.\n\n> tumi keno jabe na? = why will you not go?",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "What does karon mean?",
+          "options": [
+            {
+              "text": "so"
+            },
+            {
+              "text": "but"
+            },
+            {
+              "text": "because"
+            }
+          ],
+          "answer": "because",
+          "explanation": "Karon is because. Tai is so."
+        },
+        {
+          "type": "mcq",
+          "prompt": "What does tai mean?",
+          "options": [
+            {
+              "text": "so"
+            },
+            {
+              "text": "because"
+            },
+            {
+              "text": "or"
+            }
+          ],
+          "answer": "so",
+          "explanation": "Tai is so. Karon is because."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which word asks for a reason?",
+          "options": [
+            {
+              "text": "kothay"
+            },
+            {
+              "text": "keno"
+            },
+            {
+              "text": "kokhon"
+            }
+          ],
+          "answer": "keno",
+          "explanation": "Keno is why. Kothay is where."
+        },
+        {
+          "type": "fill",
+          "prompt": "byasto means ____ (the verb am is left out).",
+          "answer": "busy",
+          "acceptedAnswers": [],
+          "explanation": "Byasto is busy."
+        }
+      ]
+    },
+    {
+      "id": "review-three",
+      "title": "Review 3: more sentences",
+      "explanation": "## Putting it together\n\n> amar mach-o bhalo lage = I like fish too\n\n## Check the endings\n\nMatch the verb ending to the person and to the time.",
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I like fish too\"?",
+          "options": [
+            {
+              "text": "amar mach bhalo lage na"
+            },
+            {
+              "text": "amar mach-o bhalo lage"
+            },
+            {
+              "text": "ami mach bhalo lage"
+            }
+          ],
+          "answer": "amar mach-o bhalo lage",
+          "explanation": "Amar for like, and -o for too."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I am eating fish now\"?",
+          "options": [
+            {
+              "text": "ami ekhon mach khachchhi"
+            },
+            {
+              "text": "ami ekhon mach khabo"
+            },
+            {
+              "text": "ami ekhon mach khai ni"
+            }
+          ],
+          "answer": "ami ekhon mach khachchhi",
+          "explanation": "The -chhi ending is for now."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"He gives me tea\"?",
+          "options": [
+            {
+              "text": "shey tomake cha dey"
+            },
+            {
+              "text": "ami take cha dei"
+            },
+            {
+              "text": "shey amake cha dey"
+            }
+          ],
+          "answer": "shey amake cha dey",
+          "explanation": "Amake is to me, and dey goes with shey."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say \"I did not go, because I am busy\"?",
+          "options": [
+            {
+              "text": "ami jabo na, karon ami byasto"
+            },
+            {
+              "text": "ami jai ni, karon ami byasto"
+            },
+            {
+              "text": "ami jai ni, tai ami byasto"
+            }
+          ],
+          "answer": "ami jai ni, karon ami byasto",
+          "explanation": "Ni is did not, and karon is because."
+        },
+        {
+          "type": "fill",
+          "prompt": "ei boi means ____ book.",
+          "answer": "this",
+          "acceptedAnswers": [],
+          "explanation": "Ei is this."
         }
       ]
     }

@@ -247,3 +247,21 @@ These will be logged by later rounds as numbered entries. They are not decided h
 - **The romanization toggle does not hide lesson text.** In a lesson the Latin spelling is the only form of the Bengali, so hiding it would remove the lesson. The toggle still hides romanization everywhere in letters and words.
 - All new content is plain ASCII, so the font subset script is unaffected.
 - Spellings are standard colloquial Bengali (Kolkata and Dhaka usage agree on these forms). A native speaker should review them before release.
+
+## Entry 017: Grammar expanded from 12 to 27 lessons (Round 10)
+
+**Decision:** Fifteen lessons added after "Review 1": numbers, greetings, polite words, family, go/come/see/do, the -e location ending, postpositions, and/or/but, degree words, time words, want and can, saying I have (achhe/nei), food, colours, and "Review 2". The lesson list is now 27 lessons and 151 exercises. Same rules as Entry 016: Latin spelling only, ASCII only, 3-option mcq, one idea per `##` section, terms glossed inline.
+
+**Notes:** Kal means both yesterday and tomorrow, so its exercises name the tense. Dada and didi are listed as older brother and sister, with the polite use for older people noted. Nomoshkar and assalamu alaikum are both given as hello, with no claim about who uses which. As in Entry 016, a native speaker should review spellings before release.
+
+## Entry 018: Vocabulary, Dialogues and Practice modules; 35 lessons (Round 11)
+
+**Decision:** Three modules were added, and grammar grew to 35 lessons (185 exercises) (eight more, ending with "Review 3").
+
+- **Vocabulary** (`#/vocab`): 12 decks, 120 cards (phrases, numbers, food, family, days, colours, body, animals, nature, home, verbs, describing words). Each deck has a list where a row tap toggles learned, and flashcards (tap to reveal, mark as learned or skip). Content in `src/data/vocab.json`.
+- **Dialogues** (`#/dialogues`): 6 short conversations. English is hidden until "Show English"; "Mark as read" toggles. Content in `src/data/dialogues.json`.
+- **Practice** (`#/practice`): a 10-question multiple-choice round drawn from all vocabulary. Wrong options come from the same deck (Entry 003). Nothing is saved.
+- **Storage:** vocabulary and dialogue progress live under a new key, `bn.extra`, handled by `src/lib/extra.js`. The `bn.progress` shape from the brief is unchanged (same approach as `bn.streak`). Home has "Reset vocabulary and dialogues", and "Reset all progress" clears `bn.extra` too.
+- **Latin spelling again** (Entry 016): Bengali in these modules is in Latin letters, ASCII only, and the romanization toggle does not hide it.
+
+**Pending:** native-speaker review of all spellings and phrases. The `bn.extra` key adds a fourth localStorage key (after `bn.progress`, `bn.prefs`, `bn.streak`).

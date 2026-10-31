@@ -1,0 +1,676 @@
+{
+  "decks": [
+    {
+      "id": "phrases",
+      "title": "Useful phrases",
+      "items": [
+        {
+          "id": "phrases-nomoshkar",
+          "text": "nomoshkar",
+          "english": "hello"
+        },
+        {
+          "id": "phrases-dhonnobad",
+          "text": "dhonnobad",
+          "english": "thank you"
+        },
+        {
+          "id": "phrases-doya-kore",
+          "text": "doya kore",
+          "english": "please"
+        },
+        {
+          "id": "phrases-dukkhito",
+          "text": "dukkhito",
+          "english": "sorry"
+        },
+        {
+          "id": "phrases-hyan",
+          "text": "hyan",
+          "english": "yes"
+        },
+        {
+          "id": "phrases-na",
+          "text": "na",
+          "english": "no"
+        },
+        {
+          "id": "phrases-thik-achhe",
+          "text": "thik achhe",
+          "english": "okay"
+        },
+        {
+          "id": "phrases-ami-bujhi-na",
+          "text": "ami bujhi na",
+          "english": "I do not understand"
+        },
+        {
+          "id": "phrases-abar-bolun",
+          "text": "abar bolun",
+          "english": "please say it again"
+        },
+        {
+          "id": "phrases-eta-koto",
+          "text": "eta koto?",
+          "english": "how much is this?"
+        },
+        {
+          "id": "phrases-abar-dekha-hobe",
+          "text": "abar dekha hobe",
+          "english": "see you again"
+        },
+        {
+          "id": "phrases-shagotom",
+          "text": "shagotom",
+          "english": "welcome"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers 1 to 10",
+      "items": [
+        {
+          "id": "numbers-ek",
+          "text": "ek",
+          "english": "one"
+        },
+        {
+          "id": "numbers-dui",
+          "text": "dui",
+          "english": "two"
+        },
+        {
+          "id": "numbers-tin",
+          "text": "tin",
+          "english": "three"
+        },
+        {
+          "id": "numbers-char",
+          "text": "char",
+          "english": "four"
+        },
+        {
+          "id": "numbers-panch",
+          "text": "panch",
+          "english": "five"
+        },
+        {
+          "id": "numbers-chhoy",
+          "text": "chhoy",
+          "english": "six"
+        },
+        {
+          "id": "numbers-shat",
+          "text": "shat",
+          "english": "seven"
+        },
+        {
+          "id": "numbers-aat",
+          "text": "aat",
+          "english": "eight"
+        },
+        {
+          "id": "numbers-noy",
+          "text": "noy",
+          "english": "nine"
+        },
+        {
+          "id": "numbers-dosh",
+          "text": "dosh",
+          "english": "ten"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food and drink",
+      "items": [
+        {
+          "id": "food-bhat",
+          "text": "bhat",
+          "english": "rice"
+        },
+        {
+          "id": "food-ruti",
+          "text": "ruti",
+          "english": "bread"
+        },
+        {
+          "id": "food-mach",
+          "text": "mach",
+          "english": "fish"
+        },
+        {
+          "id": "food-dim",
+          "text": "dim",
+          "english": "egg"
+        },
+        {
+          "id": "food-mangsho",
+          "text": "mangsho",
+          "english": "meat"
+        },
+        {
+          "id": "food-shobji",
+          "text": "shobji",
+          "english": "vegetables"
+        },
+        {
+          "id": "food-jol",
+          "text": "jol",
+          "english": "water"
+        },
+        {
+          "id": "food-dudh",
+          "text": "dudh",
+          "english": "milk"
+        },
+        {
+          "id": "food-cha",
+          "text": "cha",
+          "english": "tea"
+        },
+        {
+          "id": "food-fol",
+          "text": "fol",
+          "english": "fruit"
+        },
+        {
+          "id": "food-chini",
+          "text": "chini",
+          "english": "sugar"
+        },
+        {
+          "id": "food-nun",
+          "text": "nun",
+          "english": "salt"
+        },
+        {
+          "id": "food-misti",
+          "text": "misti",
+          "english": "sweet"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family and people",
+      "items": [
+        {
+          "id": "family-ma",
+          "text": "ma",
+          "english": "mother"
+        },
+        {
+          "id": "family-baba",
+          "text": "baba",
+          "english": "father"
+        },
+        {
+          "id": "family-dada",
+          "text": "dada",
+          "english": "older brother"
+        },
+        {
+          "id": "family-didi",
+          "text": "didi",
+          "english": "older sister"
+        },
+        {
+          "id": "family-bhai",
+          "text": "bhai",
+          "english": "brother"
+        },
+        {
+          "id": "family-bon",
+          "text": "bon",
+          "english": "sister"
+        },
+        {
+          "id": "family-chhele",
+          "text": "chhele",
+          "english": "boy or son"
+        },
+        {
+          "id": "family-meye",
+          "text": "meye",
+          "english": "girl or daughter"
+        },
+        {
+          "id": "family-bondhu",
+          "text": "bondhu",
+          "english": "friend"
+        },
+        {
+          "id": "family-manush",
+          "text": "manush",
+          "english": "person"
+        }
+      ]
+    },
+    {
+      "id": "days",
+      "title": "Days of the week",
+      "items": [
+        {
+          "id": "days-robibar",
+          "text": "robibar",
+          "english": "Sunday"
+        },
+        {
+          "id": "days-shombar",
+          "text": "shombar",
+          "english": "Monday"
+        },
+        {
+          "id": "days-mongolbar",
+          "text": "mongolbar",
+          "english": "Tuesday"
+        },
+        {
+          "id": "days-budhbar",
+          "text": "budhbar",
+          "english": "Wednesday"
+        },
+        {
+          "id": "days-brihoshpotibar",
+          "text": "brihoshpotibar",
+          "english": "Thursday"
+        },
+        {
+          "id": "days-shukrobar",
+          "text": "shukrobar",
+          "english": "Friday"
+        },
+        {
+          "id": "days-shonibar",
+          "text": "shonibar",
+          "english": "Saturday"
+        }
+      ]
+    },
+    {
+      "id": "colours",
+      "title": "Colours",
+      "items": [
+        {
+          "id": "colours-lal",
+          "text": "lal",
+          "english": "red"
+        },
+        {
+          "id": "colours-nil",
+          "text": "nil",
+          "english": "blue"
+        },
+        {
+          "id": "colours-shobuj",
+          "text": "shobuj",
+          "english": "green"
+        },
+        {
+          "id": "colours-holud",
+          "text": "holud",
+          "english": "yellow"
+        },
+        {
+          "id": "colours-shada",
+          "text": "shada",
+          "english": "white"
+        },
+        {
+          "id": "colours-kalo",
+          "text": "kalo",
+          "english": "black"
+        },
+        {
+          "id": "colours-golapi",
+          "text": "golapi",
+          "english": "pink"
+        },
+        {
+          "id": "colours-khoyeri",
+          "text": "khoyeri",
+          "english": "brown"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "The body",
+      "items": [
+        {
+          "id": "body-matha",
+          "text": "matha",
+          "english": "head"
+        },
+        {
+          "id": "body-chokh",
+          "text": "chokh",
+          "english": "eye"
+        },
+        {
+          "id": "body-kan",
+          "text": "kan",
+          "english": "ear"
+        },
+        {
+          "id": "body-nak",
+          "text": "nak",
+          "english": "nose"
+        },
+        {
+          "id": "body-mukh",
+          "text": "mukh",
+          "english": "mouth"
+        },
+        {
+          "id": "body-haat",
+          "text": "haat",
+          "english": "hand"
+        },
+        {
+          "id": "body-pa",
+          "text": "pa",
+          "english": "foot or leg"
+        },
+        {
+          "id": "body-pet",
+          "text": "pet",
+          "english": "stomach"
+        },
+        {
+          "id": "body-dat",
+          "text": "dat",
+          "english": "tooth"
+        },
+        {
+          "id": "body-chul",
+          "text": "chul",
+          "english": "hair"
+        }
+      ]
+    },
+    {
+      "id": "animals",
+      "title": "Animals",
+      "items": [
+        {
+          "id": "animals-kukur",
+          "text": "kukur",
+          "english": "dog"
+        },
+        {
+          "id": "animals-biral",
+          "text": "biral",
+          "english": "cat"
+        },
+        {
+          "id": "animals-pakhi",
+          "text": "pakhi",
+          "english": "bird"
+        },
+        {
+          "id": "animals-goru",
+          "text": "goru",
+          "english": "cow"
+        },
+        {
+          "id": "animals-hati",
+          "text": "hati",
+          "english": "elephant"
+        },
+        {
+          "id": "animals-bagh",
+          "text": "bagh",
+          "english": "tiger"
+        },
+        {
+          "id": "animals-ghora",
+          "text": "ghora",
+          "english": "horse"
+        },
+        {
+          "id": "animals-chhagol",
+          "text": "chhagol",
+          "english": "goat"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "Nature",
+      "items": [
+        {
+          "id": "nature-shurjo",
+          "text": "shurjo",
+          "english": "sun"
+        },
+        {
+          "id": "nature-chand",
+          "text": "chand",
+          "english": "moon"
+        },
+        {
+          "id": "nature-akash",
+          "text": "akash",
+          "english": "sky"
+        },
+        {
+          "id": "nature-brishti",
+          "text": "brishti",
+          "english": "rain"
+        },
+        {
+          "id": "nature-nodi",
+          "text": "nodi",
+          "english": "river"
+        },
+        {
+          "id": "nature-gachh",
+          "text": "gachh",
+          "english": "tree"
+        },
+        {
+          "id": "nature-ful",
+          "text": "ful",
+          "english": "flower"
+        },
+        {
+          "id": "nature-pahar",
+          "text": "pahar",
+          "english": "hill"
+        },
+        {
+          "id": "nature-shomudro",
+          "text": "shomudro",
+          "english": "sea"
+        },
+        {
+          "id": "nature-batash",
+          "text": "batash",
+          "english": "wind"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Home and things",
+      "items": [
+        {
+          "id": "home-bari",
+          "text": "bari",
+          "english": "house"
+        },
+        {
+          "id": "home-ghor",
+          "text": "ghor",
+          "english": "room"
+        },
+        {
+          "id": "home-dorja",
+          "text": "dorja",
+          "english": "door"
+        },
+        {
+          "id": "home-janala",
+          "text": "janala",
+          "english": "window"
+        },
+        {
+          "id": "home-khat",
+          "text": "khat",
+          "english": "bed"
+        },
+        {
+          "id": "home-tebil",
+          "text": "tebil",
+          "english": "table"
+        },
+        {
+          "id": "home-kolom",
+          "text": "kolom",
+          "english": "pen"
+        },
+        {
+          "id": "home-khata",
+          "text": "khata",
+          "english": "notebook"
+        },
+        {
+          "id": "home-chabi",
+          "text": "chabi",
+          "english": "key"
+        },
+        {
+          "id": "home-boi",
+          "text": "boi",
+          "english": "book"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "title": "Everyday verbs (I form)",
+      "items": [
+        {
+          "id": "verbs-jai",
+          "text": "jai",
+          "english": "I go"
+        },
+        {
+          "id": "verbs-ashi",
+          "text": "ashi",
+          "english": "I come"
+        },
+        {
+          "id": "verbs-khai",
+          "text": "khai",
+          "english": "I eat"
+        },
+        {
+          "id": "verbs-pori",
+          "text": "pori",
+          "english": "I read"
+        },
+        {
+          "id": "verbs-dekhi",
+          "text": "dekhi",
+          "english": "I see"
+        },
+        {
+          "id": "verbs-kori",
+          "text": "kori",
+          "english": "I do"
+        },
+        {
+          "id": "verbs-boli",
+          "text": "boli",
+          "english": "I say"
+        },
+        {
+          "id": "verbs-shuni",
+          "text": "shuni",
+          "english": "I hear"
+        },
+        {
+          "id": "verbs-likhi",
+          "text": "likhi",
+          "english": "I write"
+        },
+        {
+          "id": "verbs-ghumai",
+          "text": "ghumai",
+          "english": "I sleep"
+        },
+        {
+          "id": "verbs-hashi",
+          "text": "hashi",
+          "english": "I laugh"
+        }
+      ]
+    },
+    {
+      "id": "describing",
+      "title": "Describing words",
+      "items": [
+        {
+          "id": "describing-bhalo",
+          "text": "bhalo",
+          "english": "good"
+        },
+        {
+          "id": "describing-kharap",
+          "text": "kharap",
+          "english": "bad"
+        },
+        {
+          "id": "describing-boro",
+          "text": "boro",
+          "english": "big"
+        },
+        {
+          "id": "describing-chhoto",
+          "text": "chhoto",
+          "english": "small"
+        },
+        {
+          "id": "describing-notun",
+          "text": "notun",
+          "english": "new"
+        },
+        {
+          "id": "describing-purono",
+          "text": "purono",
+          "english": "old"
+        },
+        {
+          "id": "describing-gorom",
+          "text": "gorom",
+          "english": "hot"
+        },
+        {
+          "id": "describing-thanda",
+          "text": "thanda",
+          "english": "cold"
+        },
+        {
+          "id": "describing-shundor",
+          "text": "shundor",
+          "english": "beautiful"
+        },
+        {
+          "id": "describing-shohoj",
+          "text": "shohoj",
+          "english": "easy"
+        },
+        {
+          "id": "describing-kothin",
+          "text": "kothin",
+          "english": "hard"
+        }
+      ]
+    }
+  ]
+}
