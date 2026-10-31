@@ -265,3 +265,12 @@ These will be logged by later rounds as numbered entries. They are not decided h
 - **Latin spelling again** (Entry 016): Bengali in these modules is in Latin letters, ASCII only, and the romanization toggle does not hide it.
 
 **Pending:** native-speaker review of all spellings and phrases. The `bn.extra` key adds a fourth localStorage key (after `bn.progress`, `bn.prefs`, `bn.streak`).
+
+
+## Entry 019: Word list moved out of the bundle and split into 45 decks
+
+**Decision:** The word list (`content/words.source.json`, 2.5 MB) is no longer imported by the app. `scripts/build-word-decks.mjs` writes `public/data/words/` (`index.json` plus `d01.json` ... `d45.json`, 200 words each, in the original order). The app fetches the index and decks at runtime. Routes are now `#/words` (deck list), `#/words/deck/:deckId`, `#/words/study/:deckId[/:wordId]` and `#/words/quiz/:deckId`. The quiz draws its wrong options from the same deck.
+
+**Why:** Bundling the file made the JS 480 KB gzipped against a 200 KB budget. `scripts/check-size.mjs` now holds only the app shell to the budget and reports `data/` separately. Render's `/data/*` is served with `must-revalidate` so a redeploy is picked up.
+
+**Content notes:** The source holds 11,867 entries. 2,986 are exact copies of earlier entries (same id, same content, in blocks starting at entry 4,625). They are written once, so the decks hold 8,881 words, and every distinct word in the source is present. 14 different words shared an id with an earlier word (for example সব and শব are both `shob`); the later ones became `shob_2` and so on, so marking one learned no longer marks the other. The first word of each id keeps its id, so saved progress stays valid. The source file is unchanged.

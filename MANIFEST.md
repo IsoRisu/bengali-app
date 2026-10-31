@@ -16,7 +16,7 @@ Bengali learning web app for absolute beginners. Static site, text only, no back
 | `DECISIONS.md` | Running log of architectural decisions | Entries 001 to 014 written |
 | `MANIFEST.md` | This file: index of project files | Updated in Round 7 |
 | `src/data/letters.json` | 11 letters: 3 vowels, 8 consonants, with `order` 1 to 11 | Written |
-| `src/data/words.json` | Deck "First words", 9 sign-free words | Rewritten in Round 2.5 |
+| `content/words.source.json` | Full word list (not bundled). `npm run decks` splits it into `public/data/words/` decks of 200 | Moved out of `src/data` (Entry 019) |
 | `src/data/grammar.json` | Lesson `sentence-sov` (7 sections, English only), 4 mcq + 4 fill exercises | Rewritten in Round 2.5 |
 | `src/data/README.md` | How to add content, ordering rule, one concept per screen | Written |
 | `src/main.jsx` | Entry point. Round 6: also re-runs `touchLastVisit()` when the tab becomes visible again | Changed (Round 6) |
@@ -72,7 +72,7 @@ Bengali learning web app for absolute beginners. Static site, text only, no back
 
 - `#/` Home (progress summary, streak, resets)
 - `#/letters` grid, `#/letters/:id` one letter
-- `#/words` deck list, `#/words/study` flashcards, `#/words/study/:id` flashcards from one word, `#/words/quiz` optional quiz
+- `#/words` list of decks, `#/words/deck/:deckId` one deck, `#/words/study/:deckId[/:wordId]` flashcards, `#/words/quiz/:deckId` optional quiz
 - `#/grammar` lesson list, `#/grammar/:id` one lesson (reading screens, then exercises, then finish screen; the step is component state, not part of the route)
 
 ## Pending decisions

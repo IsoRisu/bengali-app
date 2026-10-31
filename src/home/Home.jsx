@@ -1,6 +1,6 @@
 import { useState } from 'preact/hooks';
 import { LETTERS } from '../letters/letters.js';
-import { WORDS } from '../words/words.js';
+import { useWordsIndex } from '../words/words.js';
 import { LESSONS } from '../grammar/grammar.js';
 import { ProgressRing } from '../components/ProgressRing.jsx';
 import { ConfirmDialog } from '../components/ConfirmDialog.jsx';
@@ -16,13 +16,18 @@ const VOCAB_TOTAL = DECKS.reduce((n, d) => n + d.items.length, 0);
 const SECTIONS = [
   { key: 'letters', title: 'Letters', href: '#/letters', field: 'lettersLearned', items: LETTERS,
     noun: 'letters', verb: 'learned' },
-  { key: 'words', title: 'Words', href: '#/words', field: 'wordsLearned', items: WORDS,
+  { key: 'words', title: 'Words', href: '#/words', field: 'wordsLearned', items: [],
     noun: 'words', verb: 'learned' },
   { key: 'lessons', title: 'Lessons', href: '#/grammar', field: 'lessonsCompleted', items: LESSONS,
     noun: 'lessons', verb: 'completed' },
 ];
 
-const countOf = (progress, s) => {
+// Words are loaded from public/data/words, so their ids come from the index file.
+const countOf = (progress, s, wordIds) => {
+  if (s.key === 'words') {
+    const list = progress?.wordsLearned || [];
+    return wordIds ? wordIds.filter((id) => list.includes(id)).length : 0;
+  }
   const list = progress?.[s.field] || [];
   return s.items.filter((x) => list.includes(x.id)).length;
 };
@@ -43,7 +48,14 @@ export function Home() {
   const [pending, setPending] = useState(null);
   const [status, setStatus] = useState('');
 
-  const rows = SECTIONS.map((s) => ({ ...s, count: countOf(progress, s), total: s.items.length }));
+  const { data: wordsIndex } = useWordsIndex();
+  const wordIds = wordsIndex ? wordsIndex.decks.flatMap((d) => d.ids) : null;
+
+  const rows = SECTIONS.map((s) => ({
+    ...s,
+    count: countOf(progress, s, wordIds),
+    total: s.key === 'words' ? (wordsIndex ? wordsIndex.total : 0) : s.items.length,
+  }));
 
   let dialog = null;
   if (pending === 'all') {

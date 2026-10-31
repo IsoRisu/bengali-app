@@ -3,11 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
+    "predev": "node scripts/build-word-decks.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/build-word-decks.mjs",
     "build": "vite build",
     "preview": "vite preview",
+    "decks": "node scripts/build-word-decks.mjs",
     "size": "node scripts/check-size.mjs"
   },
   "dependencies": {

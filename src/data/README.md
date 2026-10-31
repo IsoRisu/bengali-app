@@ -1,6 +1,6 @@
 # src/data: how to add content
 
-All app content lives in this folder as JSON. It is imported at build time, so there are no runtime fetches. Nothing here may contain an audio field, a spaced-repetition field (intervals, due dates, ease, and so on), or any UI code.
+App content lives in this folder as JSON and is imported at build time. The one exception is the word list: it is too big to bundle, so it lives in `content/words.source.json` and is served as small deck files (see words below). Nothing here may contain an audio field, a spaced-repetition field (intervals, due dates, ease, and so on), or any UI code.
 
 ## Two rules for every addition
 
@@ -53,7 +53,9 @@ An array of:
 - `type`: `"vowel"` or `"consonant"`.
 - `exampleWord` must be a real word. For letter examples, use words with no vowel signs and no conjuncts.
 
-### words.json
+### Words (content/words.source.json)
+
+The word list is not in `src/data`. The source file is `content/words.source.json`, outside `src`, so it never enters the JS bundle:
 
 ```json
 { "deck": "First words",
@@ -61,9 +63,12 @@ An array of:
                "english": "all, everything", "usesLetters": ["sha", "ba"] } ] }
 ```
 
-- `id` is unique and is used in `wordsLearned`.
+`npm run decks` (it also runs before `npm run dev` and `npm run build`) splits it into decks of 200 words in `public/data/words/` (`index.json`, `d01.json`, `d02.json`, ...). The app fetches them on demand. Edit the source file, never the generated files.
+
+- Array order is study order, and decks are cut in that order. The first deck keeps the `deck` name above; later ones are named by position ("Words 201–400").
+- An entry that is an exact copy of an earlier one (same id and content) is written once. Different words that share an id get `_2`, `_3`, ... so progress is tracked per word.
+- `id` is used in `wordsLearned`. Keep ids stable.
 - Words use no vowel signs and no conjuncts. Prefer words made only of already-taught letters.
-- Grammar lessons contain no Bengali script in V1. Show Bengali word order with English words.
 - Keep romanization in structured fields only, never inside markdown or explanation text, so the global toggle can hide it.
 - `usesLetters` is best effort. List the ids of seeded letters that appear in the word, and use `[]` when none do.
 

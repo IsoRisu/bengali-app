@@ -23,7 +23,12 @@ function getFiles(dir) {
   return results;
 }
 
-const files = getFiles(distDir);
+// The app itself (HTML, JS, CSS, font, icons) is held to the budget. Lazy-loaded content
+// under dist/data/ (the word decks) is fetched on demand, so it is reported but not budgeted.
+const CONTENT_DIR = 'data' + path.sep;
+const allFiles = getFiles(distDir);
+const files = allFiles.filter((f) => !path.relative(distDir, f).startsWith(CONTENT_DIR));
+const contentFiles = allFiles.filter((f) => path.relative(distDir, f).startsWith(CONTENT_DIR));
 const fileSizes = files.map((file) => {
   const content = fs.readFileSync(file);
   const gz = zlib.gzipSync(content);
@@ -42,10 +47,15 @@ for (const f of fileSizes) {
   console.log(`${(f.gzSize / 1024).toFixed(2).padStart(8)} KB  ${f.path}`);
 }
 
+if (contentFiles.length) {
+  const contentGz = contentFiles.reduce((n, f) => n + zlib.gzipSync(fs.readFileSync(f)).length, 0);
+  console.log(`${(contentGz / 1024).toFixed(2).padStart(8)} KB  data/ (${contentFiles.length} lazy-loaded content files, not in budget)`);
+}
+
 const totalKb = (totalGz / 1024).toFixed(2);
 const budgetKb = (BUDGET / 1024).toFixed(2);
 console.log('--------------------------------------');
-console.log(`Total gzipped: ${totalKb} KB / ${budgetKb} KB (${((totalGz / BUDGET) * 100).toFixed(1)}%)\n`);
+console.log(`App total gzipped: ${totalKb} KB / ${budgetKb} KB (${((totalGz / BUDGET) * 100).toFixed(1)}%)\n`);
 
 if (totalGz > BUDGET) {
   console.error(`❌ Build size exceeds budget of ${budgetKb} KB!`);

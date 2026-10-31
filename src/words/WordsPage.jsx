@@ -1,21 +1,25 @@
-import { DECK_TITLE, WORDS } from './words.js';
-import { Roman } from '../components/Roman.jsx';
-import { getWordsLearned, subscribeWords, setWordLearned } from './wordsProgress.js';
+import { useWordsIndex } from './words.js';
+import { WordsLoading } from './Loading.jsx';
+import { getWordsLearned, subscribeWords } from './wordsProgress.js';
 import { useStore } from '../lib/useStore.js';
 
-// Deck list. A learned word is a button: one tap un-learns it. An unlearned word is
-// a link that opens the flashcards at that word.
+// List of decks, each with its own progress.
 export function WordsPage() {
   const learnedIds = useStore(getWordsLearned, subscribeWords);
-  const total = WORDS.length;
-  const count = WORDS.filter((w) => learnedIds.includes(w.id)).length;
-  const allDone = count === total;
+  const { data, error, retry } = useWordsIndex();
+  if (!data) return <WordsLoading error={error} retry={retry} back="#/" backLabel="← Home" />;
+
+  const learned = new Set(learnedIds);
+  const rows = data.decks.map((d) => ({ ...d, done: d.ids.filter((id) => learned.has(id)).length }));
+  const total = data.total;
+  const count = rows.reduce((n, d) => n + d.done, 0);
+  const next = rows.find((d) => d.done < d.count);
 
   return (
     <main class="page">
       <a class="back" href="#/">← Home</a>
       <h1>Words</h1>
-      <p class="muted">Deck: {DECK_TITLE}</p>
+      <p class="muted">{rows.length} decks</p>
 
       <p class="counter" aria-live="polite">
         <strong>{count}</strong> of {total} learned
@@ -31,48 +35,28 @@ export function WordsPage() {
         <div class="bar-fill" style={{ width: `${(count / total) * 100}%` }} />
       </div>
 
-      <div class="actions">
-        {!allDone && (
-          <a class="btn btn-primary" href="#/words/study">
+      {next && (
+        <div class="actions">
+          <a class="btn btn-primary" href={`#/words/study/${next.id}`}>
             {count === 0 ? 'Start learning' : 'Continue learning'}
           </a>
-        )}
-        <a class="btn" href="#/words/quiz">Quiz (optional)</a>
-      </div>
+        </div>
+      )}
 
-      <ul class="wlist">
-        {WORDS.map((w) => {
-          const learned = learnedIds.includes(w.id);
-          const body = (
-            <>
-              <span class="bn wrow-bn" lang="bn">{w.bengali}</span>
-              <span class="wrow-text">
-                <Roman class="wrow-roman">{w.transliteration}</Roman>
-                <span class="wrow-en">{w.english}</span>
+      <ul class="llist">
+        {rows.map((d) => (
+          <li key={d.id} class="lrow-wrap">
+            <a class="lrow" href={`#/words/deck/${d.id}`}>
+              <span class="lrow-text">
+                <span class="lrow-title">{d.title}</span>
+                <span class="lrow-sub">
+                  {d.done === d.count ? `All ${d.count} learned ✓` : `${d.done} of ${d.count} learned`}
+                </span>
               </span>
-              <span class="wrow-mark" aria-hidden="true">{learned ? '✓' : ''}</span>
-            </>
-          );
-          return (
-            <li key={w.id}>
-              {learned ? (
-                <button
-                  type="button"
-                  class="wrow wrow-learned"
-                  aria-pressed="true"
-                  aria-label={`${w.english}, learned. Tap to un-learn.`}
-                  onClick={() => setWordLearned(w.id, false)}
-                >
-                  {body}
-                </button>
-              ) : (
-                <a class="wrow" href={`#/words/study/${w.id}`}>{body}</a>
-              )}
-            </li>
-          );
-        })}
+            </a>
+          </li>
+        ))}
       </ul>
-      <p class="muted">Tap a ✓ word to un-learn it. Tap any other word to study it.</p>
     </main>
   );
 }

@@ -1,15 +1,18 @@
 import { WordsPage } from './WordsPage.jsx';
+import { DeckPage } from './DeckPage.jsx';
 import { StudyScreen } from './StudyScreen.jsx';
 import { QuizScreen } from './QuizScreen.jsx';
 
 // Routes (everything after "#/words"):
-//   (none)          deck list
-//   study           flashcards, from the first unlearned word
-//   study/:id       flashcards, starting at that word
-//   quiz            optional reinforcement quiz
+//   (none)                  list of decks
+//   deck/:deckId            the words of one deck
+//   study/:deckId           flashcards for that deck, from its first unlearned word
+//   study/:deckId/:wordId   flashcards, starting at that word
+//   quiz/:deckId            optional reinforcement quiz on that deck
 export function Words({ rest }) {
-  const [sub, id] = rest;
-  if (sub === 'study') return <StudyScreen key={id || 'first'} startId={id} />;
-  if (sub === 'quiz') return <QuizScreen />;
+  const [sub, deckId, wordId] = rest;
+  if (sub === 'deck' && deckId) return <DeckPage key={deckId} deckId={deckId} />;
+  if (sub === 'study' && deckId) return <StudyScreen key={`${deckId}/${wordId || ''}`} deckId={deckId} startId={wordId} />;
+  if (sub === 'quiz' && deckId) return <QuizScreen key={deckId} deckId={deckId} />;
   return <WordsPage />;
 }

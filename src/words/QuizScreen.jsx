@@ -1,5 +1,6 @@
 import { useState } from 'preact/hooks';
-import { WORDS } from './words.js';
+import { useDeck } from './words.js';
+import { WordsLoading } from './Loading.jsx';
 import { Roman } from '../components/Roman.jsx';
 import { getWordsLearned, subscribeWords, setWordLearned } from './wordsProgress.js';
 import { useStore } from '../lib/useStore.js';
@@ -17,7 +18,7 @@ function shuffle(list) {
 
 // One question per word, in random order. Wrong options are the English meanings of
 // other words in the deck, so every option is the same kind of thing (DECISIONS Entry 003).
-function buildQuestions() {
+function buildQuestions(WORDS) {
   return shuffle(WORDS).map((word) => {
     const others = shuffle(WORDS.filter((w) => w.id !== word.id)).slice(0, OPTIONS - 1);
     return { word, options: shuffle([word, ...others]) };
@@ -26,9 +27,16 @@ function buildQuestions() {
 
 // Optional reinforcement. Nothing here blocks anything: the back link is always
 // there, and the only write is the optional "Mark as learned" shortcut.
-export function QuizScreen() {
+export function QuizScreen({ deckId }) {
+  const { data: deck, error, retry } = useDeck(deckId);
+  const back = `#/words/deck/${deckId}`;
+  if (!deck) return <WordsLoading error={error} retry={retry} back={back} backLabel="← Deck" />;
+  return <Quiz WORDS={deck.items} back={back} />;
+}
+
+function Quiz({ WORDS, back }) {
   const learnedIds = useStore(getWordsLearned, subscribeWords);
-  const [questions, setQuestions] = useState(buildQuestions);
+  const [questions, setQuestions] = useState(() => buildQuestions(WORDS));
   const [qi, setQi] = useState(0);
   const [picked, setPicked] = useState(null); // id of the chosen option
   const [score, setScore] = useState(0);
@@ -36,7 +44,7 @@ export function QuizScreen() {
   if (WORDS.length < 2) {
     return (
       <main class="page">
-        <a class="back" href="#/words">← Words</a>
+        <a class="back" href={back}>← Deck</a>
         <h1>Quiz</h1>
         <p>The deck needs at least 2 words for a quiz.</p>
       </main>
@@ -46,7 +54,7 @@ export function QuizScreen() {
   if (qi >= questions.length) {
     return (
       <main class="page">
-        <a class="back" href="#/words">← Words</a>
+        <a class="back" href={back}>← Deck</a>
         <h1>Quiz done</h1>
         <p class="counter"><strong>{score}</strong> of {questions.length} correct</p>
         <div class="actions actions-col">
@@ -54,7 +62,7 @@ export function QuizScreen() {
             type="button"
             class="btn btn-primary"
             onClick={() => {
-              setQuestions(buildQuestions());
+              setQuestions(buildQuestions(WORDS));
               setQi(0);
               setPicked(null);
               setScore(0);
@@ -62,7 +70,7 @@ export function QuizScreen() {
           >
             Try again
           </button>
-          <a class="btn" href="#/words">Back to deck</a>
+          <a class="btn" href={back}>Back to deck</a>
         </div>
       </main>
     );
@@ -81,7 +89,7 @@ export function QuizScreen() {
 
   return (
     <main class="page">
-      <a class="back" href="#/words">← Words (leave quiz)</a>
+      <a class="back" href={back}>← Deck (leave quiz)</a>
       <p class="muted">Quiz · question {qi + 1} of {questions.length}</p>
 
       <div class="quiz-q">
