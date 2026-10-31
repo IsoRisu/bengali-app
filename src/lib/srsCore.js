@@ -8,6 +8,7 @@
 //   due         time (ms) the item is next due
 //   streak      correct answers in a row (Hard, Good and Easy all count as correct)
 //   lapses      times the learner missed it after having passed it
+//   starred     the learner flagged it as difficult (manual override, see CONFIG.star*)
 //
 // State machine:  new -> learning -> familiar -> known
 //   Again regresses one step: known -> familiar, familiar -> learning, otherwise learning.
@@ -34,12 +35,14 @@ export const CONFIG = {
   knownStreak: 4,                    // Known well: four in a row,
   knownStabilityDays: 7,             //   interval of at least a week,
   knownQuietDays: 7,                 //   and no miss in the last week
+  starIntervalFactor: 0.5,           // a starred word's intervals are halved,
+  starMaxDays: 7,                    //   and never longer than a week
 };
 
 export function newItem() {
   return {
     state: 'new', ease: CONFIG.startEase, interval: 0, due: 0,
-    streak: 0, seen: 0, lapses: 0, lastReview: 0, lastWrong: 0,
+    streak: 0, seen: 0, lapses: 0, lastReview: 0, lastWrong: 0, starred: false,
   };
 }
 
@@ -48,6 +51,9 @@ export function seedItem(now, dueOffsetMs = 0) {
   return { ...newItem(), state: 'familiar', streak: CONFIG.familiarStreak, interval: 1,
     seen: CONFIG.familiarStreak, due: now + dueOffsetMs, lastReview: now };
 }
+
+export const isStarred = (item) => !!item && item.starred === true;
+export const withStar = (item, on) => ({ ...(item || newItem()), starred: !!on });
 
 export const stateRank = (s) => STATES.indexOf(s);
 export const isDue = (item, now) => !!item && item.state !== 'new' && item.due <= now;
@@ -78,7 +84,10 @@ export function review(item, rating, now) {
     return it;
   }
 
-  it.interval = Math.min(nextInterval(item, rating), CONFIG.maxDays);
+  let days = Math.min(nextInterval(item, rating), CONFIG.maxDays);
+  // Star override: whatever the computed state says, a starred word comes back sooner.
+  if (isStarred(item)) days = Math.min(days * CONFIG.starIntervalFactor, CONFIG.starMaxDays);
+  it.interval = days;
   it.streak = item.streak + 1;
   it.due = now + it.interval * DAY;
   if (it.state === 'new') it.state = 'learning';

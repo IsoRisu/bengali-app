@@ -1,4 +1,6 @@
 const KEY = 'bn.prefs';
+// How Words questions are answered: 'auto' picks by mastery tier, or always choose / always type.
+export const ANSWER_MODES = ['auto', 'choose', 'type'];
 
 let current = null;
 const listeners = new Set();
@@ -26,12 +28,15 @@ function load() {
     if (raw) {
       const parsed = JSON.parse(raw);
       if (typeof parsed.showRomanization === 'boolean') {
-        current = { showRomanization: parsed.showRomanization };
+        current = {
+          showRomanization: parsed.showRomanization,
+          answerMode: ANSWER_MODES.includes(parsed.answerMode) ? parsed.answerMode : 'auto',
+        };
         return current;
       }
     }
   } catch (e) {}
-  current = { showRomanization: true };
+  current = { showRomanization: true, answerMode: 'auto' };
   return current;
 }
 
@@ -49,11 +54,20 @@ export function subscribePrefs(fn) {
   return () => listeners.delete(fn);
 }
 
-export function setShowRomanization(show) {
-  current = { showRomanization: !!show };
+function persist() {
   try {
     localStorage.setItem(KEY, JSON.stringify(current));
   } catch (e) {}
-  applyHtmlClass(current.showRomanization);
   notify();
+}
+
+export function setShowRomanization(show) {
+  current = { ...load(), showRomanization: !!show };
+  applyHtmlClass(current.showRomanization);
+  persist();
+}
+
+export function setAnswerMode(mode) {
+  current = { ...load(), answerMode: ANSWER_MODES.includes(mode) ? mode : 'auto' };
+  persist();
 }

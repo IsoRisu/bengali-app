@@ -13,7 +13,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "decks": "node scripts/build-word-decks.mjs",
-    "size": "node scripts/check-size.mjs"
+    "size": "node scripts/check-size.mjs",
+    "test": "node --test tests/*.test.js"
   },
   "dependencies": {
     "preact": "^10.24.0"

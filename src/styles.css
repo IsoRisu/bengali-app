@@ -486,3 +486,29 @@ main:focus { outline: none; }
 .rate-easy { background: var(--done); border-color: var(--accent); }
 .summary { padding-left: 1.2rem; }
 .btn[aria-disabled="true"].btn-done { cursor: default; }
+
+/* Words: typed answers, star, shuffle, full-card reveal */
+.tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0; }
+.tools-group { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-left: auto; }
+.star-on { background: var(--done); border-color: var(--accent); font-weight: 600; }
+.typebox { display: grid; gap: 8px; margin: 8px 0; }
+.typein {
+  width: 100%; min-height: 52px; padding: 8px 14px; font: inherit; font-size: 1.3rem;
+  border: 2px solid var(--line); border-radius: 10px; background: #fff; color: var(--fg);
+}
+.typein:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.typein-right { background: var(--done); border-color: var(--accent); }
+.typein-wrong { background: var(--bad-bg); border-color: var(--bad); }
+.typebox .actions { margin: 0; }
+.reveal {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: #fff;
+}
+.reveal-bn { font-size: 2.6rem; line-height: 1.3; }
+.reveal-roman { font-weight: 700; }
+html.hide-roman .reveal .reveal-roman { display: inline; }
+.reveal-en { color: var(--muted); }
+.wrow-line { display: flex; align-items: stretch; gap: 8px; }
+.wrow-line > .wrow { flex: 1; width: auto; }
+.wstar { min-width: var(--tap); padding: 4px 10px; font-size: 1.2rem; }
+.wstar[aria-pressed="true"] { background: var(--done); border-color: var(--accent); color: var(--accent); }

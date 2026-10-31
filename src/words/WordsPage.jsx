@@ -2,7 +2,7 @@ import { useEffect } from 'preact/hooks';
 import { useWordsIndex } from './words.js';
 import { WordsLoading } from './Loading.jsx';
 import { getWordsLearned, subscribeWords } from './wordsProgress.js';
-import { getSrs, subscribeSrs, dueIds, seedLearned } from '../lib/srs.js';
+import { getSrs, subscribeSrs, dueIds, seedLearned, starredIds } from '../lib/srs.js';
 import { useStore } from '../lib/useStore.js';
 
 // List of decks, each with its own progress.
@@ -23,7 +23,9 @@ export function WordsPage() {
   const dueTotal = rows.reduce((n, d) => n + d.due, 0);
   const total = data.total;
   const count = rows.reduce((n, d) => n + d.done, 0);
-  const next = rows.find((d) => d.ids.some((id) => !srs.items[id]));
+  const isNew = (id) => !srs.items[id] || srs.items[id].state === 'new';
+  const next = rows.find((d) => d.ids.some(isNew));
+  const starredTotal = starredIds(srs).length;
 
   return (
     <main class="page">
@@ -48,6 +50,9 @@ export function WordsPage() {
       <div class="actions">
         {dueTotal > 0 && (
           <a class="btn btn-primary" href="#/words/study/all">Review {dueTotal} due</a>
+        )}
+        {starredTotal > 0 && (
+          <a class="btn" href="#/words/study/starred">Review ★ starred ({starredTotal})</a>
         )}
         {next && (
           <a class={`btn${dueTotal > 0 ? '' : ' btn-primary'}`} href={`#/words/study/${next.id}`}>

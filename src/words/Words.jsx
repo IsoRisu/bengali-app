@@ -7,6 +7,7 @@ import { QuizScreen } from './QuizScreen.jsx';
 //   (none)                  list of decks
 //   deck/:deckId            the words of one deck
 //   study/all               spaced-repetition session: due words from every deck
+//   study/starred           focused review of every starred word, due or not
 //   study/:deckId           spaced-repetition session for one deck (due words + a few new)
 //   study/:deckId/:wordId   same, with that word first
 //   quiz/:deckId            optional reinforcement quiz on that deck

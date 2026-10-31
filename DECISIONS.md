@@ -292,3 +292,19 @@ These will be logged by later rounds as numbered entries. They are not decided h
 - **Indicator:** a bar with the tier name written out, in the session and in the deck list.
 
 **Consequences:** The optional quiz is unchanged and still has its "Mark as learned" shortcut; a word marked that way is seeded as Familiar the next time the Words screens open. The thresholds are constants at the top of `srsCore.js`.
+
+## Entry 021: Typed answers, star and shuffle join the Words pipeline
+
+**Decision:** Words keep multiple choice and gain typed answers, a star flag, shuffle and a passive flip. All of it feeds the one spaced-repetition pipeline from the previous entry: one per-word item, one scheduler, one due queue.
+
+**How it works**
+
+- **Answer mode by tier (Auto):** New = flashcard with self-rating; Learning = multiple choice; Familiar and Known well = typed. The learner can switch any single card ("Type instead" / "Choose instead") or set a default of Auto, Choose or Type (stored in `bn.prefs` as `answerMode`).
+- **Easy needs typing:** after a correct multiple-choice answer the buttons are Again, Hard, Good. A typed answer that needed a forgiven slip also cannot be Easy. A wrong or "I don't know" answer is recorded as Again, as before.
+- **Typed checking** (`src/words/answer.js`): English answers accept any listed meaning ("all, everything" accepts either), ignore case, accents, punctuation, a leading "to/a/the" and bracketed notes. Bengali answers accept Bengali script or the romanization, and any other word with the same English meaning. One slip is forgiven from 5 letters, two from 10. Checked against all 8,881 words: each one's own English, Bengali and romanization is accepted.
+- **Flip is passive:** "Flip to see the answer" shows the full card and scores nothing. The card goes to the back of the queue and mastery is untouched. After an answer, the full card can still be flipped.
+- **Star:** a flag on the word's item (`starred`). It is a manual override: intervals are halved and capped at 7 days, the word ranks ahead of every unstarred word in the due queue and among new words, and a missed starred word returns after 1 card instead of 3. The star never changes the mastery tier by itself and survives "reset to New". `#/words/study/starred` reviews every starred word, due or not.
+- **Shuffle:** changes the order only. In a session it replaces weakest-first with a random draw (missed words still return first); in a deck list it reorders the rows. No word data changes.
+
+**Consequences:** The optional Quiz screen is unchanged (multiple choice only). Old `bn.srs` data needs no migration: a missing `starred` means not starred. Tests: `npm test` (Node's built-in runner, no new packages).
+

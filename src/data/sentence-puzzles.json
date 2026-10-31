@@ -4,44 +4,1893 @@
       "id": "basic",
       "title": "Subject · object · verb",
       "puzzles": [
-        { "id": "sb1-1", "english": "I eat rice",         "answer": ["ami", "bhat", "khai"],      "explanation": "Subject first, then object, then verb." },
-        { "id": "sb1-2", "english": "I eat bread",        "answer": ["ami", "ruti", "khai"],      "explanation": "The verb khai goes last, matching ami." },
-        { "id": "sb1-3", "english": "You drink tea",      "answer": ["tumi", "cha", "khao"],      "explanation": "Khao is the tumi form of eat or drink." },
-        { "id": "sb1-4", "english": "He reads a book",    "answer": ["shey", "boi", "pore"],      "explanation": "Shey can mean he or she, and pore is reads." },
-        { "id": "sb1-5", "english": "We eat rice",        "answer": ["amra", "bhat", "khai"],     "explanation": "Amra takes khai, the same verb as ami." },
-        { "id": "sb1-6", "english": "I read a book",      "answer": ["ami", "boi", "pori"],       "explanation": "Pori goes with ami." }
+        {
+          "id": "sb1-1",
+          "english": "I eat rice",
+          "answer": [
+            "ami",
+            "bhat",
+            "khai"
+          ],
+          "explanation": "Subject first, then object, then verb."
+        },
+        {
+          "id": "sb1-2",
+          "english": "I eat bread",
+          "answer": [
+            "ami",
+            "ruti",
+            "khai"
+          ],
+          "explanation": "The verb khai goes last, matching ami."
+        },
+        {
+          "id": "sb1-3",
+          "english": "You drink tea",
+          "answer": [
+            "tumi",
+            "cha",
+            "khao"
+          ],
+          "explanation": "Khao is the tumi form of eat or drink."
+        },
+        {
+          "id": "sb1-4",
+          "english": "He reads a book",
+          "answer": [
+            "shey",
+            "boi",
+            "pore"
+          ],
+          "explanation": "Shey can mean he or she, and pore means reads."
+        },
+        {
+          "id": "sb1-5",
+          "english": "We eat rice",
+          "answer": [
+            "amra",
+            "bhat",
+            "khai"
+          ],
+          "explanation": "Amra takes khai in this sentence."
+        },
+        {
+          "id": "sb1-6",
+          "english": "I read a book",
+          "answer": [
+            "ami",
+            "boi",
+            "pori"
+          ],
+          "explanation": "Pori is the first-person form of read."
+        },
+        {
+          "id": "sb1-7",
+          "english": "I drink water",
+          "answer": [
+            "ami",
+            "pani",
+            "khaai"
+          ],
+          "explanation": "Pani means water. In Bengali, drinking water uses the verb khaoa."
+        },
+        {
+          "id": "sb1-8",
+          "english": "You eat fish",
+          "answer": [
+            "tumi",
+            "mach",
+            "khao"
+          ],
+          "explanation": "Mach means fish. Khao is used with tumi."
+        },
+        {
+          "id": "sb1-9",
+          "english": "She writes a letter",
+          "answer": [
+            "shey",
+            "chithi",
+            "lekhe"
+          ],
+          "explanation": "Chithi means letter, and lekhe means writes."
+        },
+        {
+          "id": "sb1-10",
+          "english": "They play football",
+          "answer": [
+            "tara",
+            "football",
+            "khele"
+          ],
+          "explanation": "Tara means they, and khele means plays or play."
+        },
+        {
+          "id": "sb1-11",
+          "english": "I see a bird",
+          "answer": [
+            "ami",
+            "pakhi",
+            "dekhi"
+          ],
+          "explanation": "Pakhi means bird, and dekhi means see."
+        },
+        {
+          "id": "sb1-12",
+          "english": "You know me",
+          "answer": [
+            "tumi",
+            "amake",
+            "cheno"
+          ],
+          "explanation": "Amake means me, and cheno means know or recognize."
+        },
+        {
+          "id": "sb1-13",
+          "english": "He speaks Bengali",
+          "answer": [
+            "shey",
+            "bangla",
+            "bole"
+          ],
+          "explanation": "Bangla means Bengali, and bole means speaks or says."
+        },
+        {
+          "id": "sb1-14",
+          "english": "We watch television",
+          "answer": [
+            "amra",
+            "television",
+            "dekhi"
+          ],
+          "explanation": "Dekhi means watch or see when used with amra."
+        },
+        {
+          "id": "sb1-15",
+          "english": "I love music",
+          "answer": [
+            "ami",
+            "gan",
+            "bhalobashi"
+          ],
+          "explanation": "Bhalobashi means love or like very much."
+        }
       ]
     },
     {
       "id": "negative",
       "title": "Saying no",
       "puzzles": [
-        { "id": "sb2-1", "english": "I do not eat rice",       "answer": ["ami", "bhat", "khai", "na"],   "explanation": "Na comes right after the verb, at the end." },
-        { "id": "sb2-2", "english": "You do not drink tea",    "answer": ["tumi", "cha", "khao", "na"],   "explanation": "The verb keeps its form; na just goes after." },
-        { "id": "sb2-3", "english": "He does not read a book", "answer": ["shey", "boi", "pore", "na"],   "explanation": "Verb first, then na." },
-        { "id": "sb2-4", "english": "I do not eat fish",       "answer": ["ami", "mach", "khai", "na"],   "explanation": "Same pattern, different object." },
-        { "id": "sb2-5", "english": "We do not eat rice",      "answer": ["amra", "bhat", "khai", "na"],  "explanation": "Na makes the sentence negative." }
+        {
+          "id": "sb2-1",
+          "english": "I do not eat rice",
+          "answer": [
+            "ami",
+            "bhat",
+            "khaai",
+            "na"
+          ],
+          "explanation": "Na follows the verb to make the sentence negative."
+        },
+        {
+          "id": "sb2-2",
+          "english": "You do not drink tea",
+          "answer": [
+            "tumi",
+            "cha",
+            "khao",
+            "na"
+          ],
+          "explanation": "Na comes after the verb."
+        },
+        {
+          "id": "sb2-3",
+          "english": "He does not read a book",
+          "answer": [
+            "shey",
+            "boi",
+            "pore",
+            "na"
+          ],
+          "explanation": "Place na after the verb pore."
+        },
+        {
+          "id": "sb2-4",
+          "english": "I do not eat fish",
+          "answer": [
+            "ami",
+            "mach",
+            "khai",
+            "na"
+          ],
+          "explanation": "The negative marker na follows the verb."
+        },
+        {
+          "id": "sb2-5",
+          "english": "We do not eat rice",
+          "answer": [
+            "amra",
+            "bhat",
+            "khai",
+            "na"
+          ],
+          "explanation": "Na makes the sentence negative."
+        },
+        {
+          "id": "sb2-6",
+          "english": "I do not know",
+          "answer": [
+            "ami",
+            "jani",
+            "na"
+          ],
+          "explanation": "Jani means know, and jani na means do not know."
+        },
+        {
+          "id": "sb2-7",
+          "english": "You do not understand",
+          "answer": [
+            "tumi",
+            "bojho",
+            "na"
+          ],
+          "explanation": "Bojho na means do not understand when speaking to tumi."
+        },
+        {
+          "id": "sb2-8",
+          "english": "She does not speak",
+          "answer": [
+            "shey",
+            "bole",
+            "na"
+          ],
+          "explanation": "Bole na means does not speak or say."
+        },
+        {
+          "id": "sb2-9",
+          "english": "They do not play",
+          "answer": [
+            "tara",
+            "khele",
+            "na"
+          ],
+          "explanation": "Put na after khele to negate the action."
+        },
+        {
+          "id": "sb2-10",
+          "english": "I do not want tea",
+          "answer": [
+            "ami",
+            "cha",
+            "chai",
+            "na"
+          ],
+          "explanation": "Chai means want in this context, and chai na means do not want."
+        },
+        {
+          "id": "sb2-11",
+          "english": "He does not go",
+          "answer": [
+            "shey",
+            "jay",
+            "na"
+          ],
+          "explanation": "Jay na means does not go."
+        },
+        {
+          "id": "sb2-12",
+          "english": "We do not understand Bengali",
+          "answer": [
+            "amra",
+            "bangla",
+            "bujhi",
+            "na"
+          ],
+          "explanation": "Bujhi means understand when used with amra."
+        }
       ]
     },
     {
       "id": "questions",
       "title": "Asking questions",
       "puzzles": [
-        { "id": "sb3-1", "english": "Where do you go?",     "answer": ["tumi", "kothay", "jao"],       "explanation": "The question word kothay goes right before the verb." },
-        { "id": "sb3-2", "english": "Where does he eat?",   "answer": ["shey", "kothay", "khay"],      "explanation": "Khay goes with shey. Kothay before the verb." },
-        { "id": "sb3-3", "english": "Do you read a book?",  "answer": ["tumi", "ki", "boi", "poro"],   "explanation": "Ki makes a yes or no question. It comes before the object." },
-        { "id": "sb3-4", "english": "Who drinks tea?",      "answer": ["ke", "cha", "khay"],           "explanation": "Ke replaces the subject and comes first." },
-        { "id": "sb3-5", "english": "Do I eat rice?",       "answer": ["ami", "ki", "bhat", "khai"],   "explanation": "Ki before the object makes a yes or no question." }
+        {
+          "id": "sb3-1",
+          "english": "Where do you go?",
+          "answer": [
+            "tumi",
+            "kothay",
+            "jao"
+          ],
+          "explanation": "Kothay means where and appears before the verb."
+        },
+        {
+          "id": "sb3-2",
+          "english": "Where does he eat?",
+          "answer": [
+            "shey",
+            "kothay",
+            "khay"
+          ],
+          "explanation": "Kothay asks about a location."
+        },
+        {
+          "id": "sb3-3",
+          "english": "Do you read a book?",
+          "answer": [
+            "tumi",
+            "ki",
+            "boi",
+            "poro"
+          ],
+          "explanation": "Ki introduces a yes-or-no question."
+        },
+        {
+          "id": "sb3-4",
+          "english": "Who drinks tea?",
+          "answer": [
+            "ke",
+            "cha",
+            "khay"
+          ],
+          "explanation": "Ke means who and replaces the subject."
+        },
+        {
+          "id": "sb3-5",
+          "english": "Do I eat rice?",
+          "answer": [
+            "ami",
+            "ki",
+            "bhat",
+            "khai"
+          ],
+          "explanation": "Ki marks a yes-or-no question."
+        },
+        {
+          "id": "sb3-6",
+          "english": "What do you want?",
+          "answer": [
+            "tumi",
+            "ki",
+            "chao"
+          ],
+          "explanation": "Ki means what, and chao means want when addressing tumi."
+        },
+        {
+          "id": "sb3-7",
+          "english": "Where do you live?",
+          "answer": [
+            "tumi",
+            "kothay",
+            "thako"
+          ],
+          "explanation": "Thako means live or stay when addressing tumi."
+        },
+        {
+          "id": "sb3-8",
+          "english": "When will you come?",
+          "answer": [
+            "tumi",
+            "kokhon",
+            "ashbe"
+          ],
+          "explanation": "Kokhon means when."
+        },
+        {
+          "id": "sb3-9",
+          "english": "Why are you crying?",
+          "answer": [
+            "tumi",
+            "keno",
+            "kadcho"
+          ],
+          "explanation": "Keno means why and comes before the verb."
+        },
+        {
+          "id": "sb3-10",
+          "english": "How are you?",
+          "answer": [
+            "tumi",
+            "kemon",
+            "acho"
+          ],
+          "explanation": "Kemon means how, and acho means are when addressing tumi."
+        },
+        {
+          "id": "sb3-11",
+          "english": "What is your name?",
+          "answer": [
+            "tomar",
+            "nam",
+            "ki"
+          ],
+          "explanation": "Tomar means your, nam means name, and ki means what."
+        },
+        {
+          "id": "sb3-12",
+          "english": "Who is coming?",
+          "answer": [
+            "ke",
+            "ashche"
+          ],
+          "explanation": "Ke ashche means who is coming."
+        }
       ]
     },
     {
       "id": "describing",
       "title": "Possessive, adjective, noun",
       "puzzles": [
-        { "id": "sb4-1", "english": "My good friend",  "answer": ["amar", "bhalo", "bondhu"],  "explanation": "Possessive, then adjective, then noun." },
-        { "id": "sb4-2", "english": "Your big house",  "answer": ["tomar", "boro", "bari"],    "explanation": "Tomar is your. Boro comes before the noun." },
-        { "id": "sb4-3", "english": "His new book",    "answer": ["tar", "notun", "boi"],      "explanation": "Tar is his or her. Notun is new." },
-        { "id": "sb4-4", "english": "My red book",     "answer": ["amar", "lal", "boi"],       "explanation": "Colours act like any adjective: before the noun." }
+        {
+          "id": "sb4-1",
+          "english": "My good friend",
+          "answer": [
+            "amar",
+            "bhalo",
+            "bondhu"
+          ],
+          "explanation": "Possessive, then adjective, then noun."
+        },
+        {
+          "id": "sb4-2",
+          "english": "Your big house",
+          "answer": [
+            "tomar",
+            "boro",
+            "bari"
+          ],
+          "explanation": "Tomar means your, and boro means big."
+        },
+        {
+          "id": "sb4-3",
+          "english": "His new book",
+          "answer": [
+            "tar",
+            "notun",
+            "boi"
+          ],
+          "explanation": "Tar means his or her, and notun means new."
+        },
+        {
+          "id": "sb4-4",
+          "english": "My red book",
+          "answer": [
+            "amar",
+            "lal",
+            "boi"
+          ],
+          "explanation": "Lal means red and comes before the noun."
+        },
+        {
+          "id": "sb4-5",
+          "english": "Your old friend",
+          "answer": [
+            "tomar",
+            "purono",
+            "bondhu"
+          ],
+          "explanation": "Purono means old and comes before bondhu."
+        },
+        {
+          "id": "sb4-6",
+          "english": "Our small house",
+          "answer": [
+            "amader",
+            "choto",
+            "bari"
+          ],
+          "explanation": "Amader means our, and choto means small."
+        },
+        {
+          "id": "sb4-7",
+          "english": "My beautiful garden",
+          "answer": [
+            "amar",
+            "shundor",
+            "bagan"
+          ],
+          "explanation": "Shundor means beautiful, and bagan means garden."
+        },
+        {
+          "id": "sb4-8",
+          "english": "Her black cat",
+          "answer": [
+            "tar",
+            "kalo",
+            "biral"
+          ],
+          "explanation": "Kalo means black, and biral means cat."
+        },
+        {
+          "id": "sb4-9",
+          "english": "Their new car",
+          "answer": [
+            "tader",
+            "notun",
+            "gari"
+          ],
+          "explanation": "Tader means their, and gari means car."
+        },
+        {
+          "id": "sb4-10",
+          "english": "My younger brother",
+          "answer": [
+            "amar",
+            "choto",
+            "bhai"
+          ],
+          "explanation": "Choto bhai commonly means younger brother."
+        },
+        {
+          "id": "sb4-11",
+          "english": "Your white shirt",
+          "answer": [
+            "tomar",
+            "shada",
+            "jama"
+          ],
+          "explanation": "Shada means white, and jama means shirt or clothing."
+        },
+        {
+          "id": "sb4-12",
+          "english": "Our favorite song",
+          "answer": [
+            "amader",
+            "priyo",
+            "gan"
+          ],
+          "explanation": "Priyo means beloved or favorite, and gan means song."
+        }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "title": "People and pronouns",
+      "puzzles": [
+        {
+          "id": "sb5-1",
+          "english": "I know you",
+          "answer": [
+            "ami",
+            "tomake",
+            "jani"
+          ],
+          "explanation": "Tomake means you as the object. Jani means know, though chini is often more natural for knowing a person."
+        },
+        {
+          "id": "sb5-2",
+          "english": "You know me",
+          "answer": [
+            "tumi",
+            "amake",
+            "cheno"
+          ],
+          "explanation": "Amake means me, and cheno means know or recognize a person."
+        },
+        {
+          "id": "sb5-3",
+          "english": "He loves me",
+          "answer": [
+            "shey",
+            "amake",
+            "bhalobashe"
+          ],
+          "explanation": "Amake means me, and bhalobashe means loves."
+        },
+        {
+          "id": "sb5-4",
+          "english": "I see him",
+          "answer": [
+            "ami",
+            "take",
+            "dekhi"
+          ],
+          "explanation": "Take means him or her as the object."
+        },
+        {
+          "id": "sb5-5",
+          "english": "We help them",
+          "answer": [
+            "amra",
+            "tader",
+            "shahajjo",
+            "kori"
+          ],
+          "explanation": "Shahajjo kori means help or provide assistance."
+        },
+        {
+          "id": "sb5-6",
+          "english": "She calls me",
+          "answer": [
+            "shey",
+            "amake",
+            "dake"
+          ],
+          "explanation": "Dake means calls, and amake means me."
+        },
+        {
+          "id": "sb5-7",
+          "english": "I give you a book",
+          "answer": [
+            "ami",
+            "tomake",
+            "ekta",
+            "boi",
+            "di"
+          ],
+          "explanation": "Tomake means to you, ekta means one or a, and di means give in the first person."
+        },
+        {
+          "id": "sb5-8",
+          "english": "They see us",
+          "answer": [
+            "tara",
+            "amader",
+            "dekhe"
+          ],
+          "explanation": "Amader can mean us as the object, and dekhe means see."
+        },
+        {
+          "id": "sb5-9",
+          "english": "You help me",
+          "answer": [
+            "tumi",
+            "amake",
+            "shahajjo",
+            "koro"
+          ],
+          "explanation": "Shahajjo koro means help when addressing tumi."
+        },
+        {
+          "id": "sb5-10",
+          "english": "I miss you",
+          "answer": [
+            "ami",
+            "tomake",
+            "mone",
+            "kori"
+          ],
+          "explanation": "Tomake mone kori can express thinking of or missing someone, depending on context."
+        }
+      ]
+    },
+    {
+      "id": "past",
+      "title": "Talking about the past",
+      "puzzles": [
+        {
+          "id": "sb6-1",
+          "english": "I ate rice",
+          "answer": [
+            "ami",
+            "bhat",
+            "kheyechi"
+          ],
+          "explanation": "Kheyechi means have eaten. This is a natural way to express a completed action."
+        },
+        {
+          "id": "sb6-2",
+          "english": "I went home",
+          "answer": [
+            "ami",
+            "bari",
+            "gechilam"
+          ],
+          "explanation": "Gechilam means went or had been in the first person."
+        },
+        {
+          "id": "sb6-3",
+          "english": "You read a book",
+          "answer": [
+            "tumi",
+            "boi",
+            "porechile"
+          ],
+          "explanation": "Porechile means read or had read when addressing tumi."
+        },
+        {
+          "id": "sb6-4",
+          "english": "He came yesterday",
+          "answer": [
+            "shey",
+            "gotokal",
+            "eshechilo"
+          ],
+          "explanation": "Gotokal means yesterday, and eshechilo means came."
+        },
+        {
+          "id": "sb6-5",
+          "english": "We watched a movie",
+          "answer": [
+            "amra",
+            "ekta",
+            "cinema",
+            "dekhechilam"
+          ],
+          "explanation": "Ekta cinema means a movie, and dekhechilam means watched."
+        },
+        {
+          "id": "sb6-6",
+          "english": "I drank water",
+          "answer": [
+            "ami",
+            "pani",
+            "kheyechilam"
+          ],
+          "explanation": "In Bengali, drinking water uses a form of the verb khaoa."
+        },
+        {
+          "id": "sb6-7",
+          "english": "She wrote a letter",
+          "answer": [
+            "shey",
+            "chithi",
+            "likhechilo"
+          ],
+          "explanation": "Likhechilo means wrote or had written."
+        },
+        {
+          "id": "sb6-8",
+          "english": "They played football",
+          "answer": [
+            "tara",
+            "football",
+            "khelechilo"
+          ],
+          "explanation": "Khelechilo means played in this past-tense construction."
+        },
+        {
+          "id": "sb6-9",
+          "english": "I saw a bird",
+          "answer": [
+            "ami",
+            "ekta",
+            "pakhi",
+            "dekhechilam"
+          ],
+          "explanation": "Ekta pakhi means a bird, and dekhechilam means saw."
+        },
+        {
+          "id": "sb6-10",
+          "english": "You called me",
+          "answer": [
+            "tumi",
+            "amake",
+            "dekechile"
+          ],
+          "explanation": "Amake means me, and dekechile means called."
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "title": "Talking about the future",
+      "puzzles": [
+        {
+          "id": "sb7-1",
+          "english": "I will eat rice",
+          "answer": [
+            "ami",
+            "bhat",
+            "khabo"
+          ],
+          "explanation": "Khabo is the first-person future form of eat."
+        },
+        {
+          "id": "sb7-2",
+          "english": "You will go home",
+          "answer": [
+            "tumi",
+            "bari",
+            "jabe"
+          ],
+          "explanation": "Jabe means will go when addressing tumi."
+        },
+        {
+          "id": "sb7-3",
+          "english": "He will read a book",
+          "answer": [
+            "shey",
+            "boi",
+            "porbe"
+          ],
+          "explanation": "Porbe means will read."
+        },
+        {
+          "id": "sb7-4",
+          "english": "We will play football",
+          "answer": [
+            "amra",
+            "football",
+            "khelbo"
+          ],
+          "explanation": "Khelbo means will play when used with amra."
+        },
+        {
+          "id": "sb7-5",
+          "english": "I will drink tea",
+          "answer": [
+            "ami",
+            "cha",
+            "khabo"
+          ],
+          "explanation": "Khabo is also used for drinking tea or water."
+        },
+        {
+          "id": "sb7-6",
+          "english": "She will come tomorrow",
+          "answer": [
+            "shey",
+            "agamikal",
+            "ashbe"
+          ],
+          "explanation": "Agamikal means tomorrow, and ashbe means will come."
+        },
+        {
+          "id": "sb7-7",
+          "english": "I will write a letter",
+          "answer": [
+            "ami",
+            "chithi",
+            "likhbo"
+          ],
+          "explanation": "Likhbo means will write."
+        },
+        {
+          "id": "sb7-8",
+          "english": "They will watch a movie",
+          "answer": [
+            "tara",
+            "ekta",
+            "cinema",
+            "dekhbe"
+          ],
+          "explanation": "Dekhbe means will watch or see."
+        },
+        {
+          "id": "sb7-9",
+          "english": "You will understand",
+          "answer": [
+            "tumi",
+            "bujhbe"
+          ],
+          "explanation": "Bujhbe means will understand when addressing tumi."
+        },
+        {
+          "id": "sb7-10",
+          "english": "We will learn Bengali",
+          "answer": [
+            "amra",
+            "bangla",
+            "shikhbo"
+          ],
+          "explanation": "Shikhbo means will learn."
+        }
+      ]
+    },
+    {
+      "id": "adverbs",
+      "title": "Time, place, and manner",
+      "puzzles": [
+        {
+          "id": "sb8-1",
+          "english": "I go to school every day",
+          "answer": [
+            "ami",
+            "protidin",
+            "school-e",
+            "jai"
+          ],
+          "explanation": "Protidin means every day, and school-e means to school or at school depending on context."
+        },
+        {
+          "id": "sb8-2",
+          "english": "He eats quickly",
+          "answer": [
+            "shey",
+            "taratari",
+            "khay"
+          ],
+          "explanation": "Taratari means quickly or hurriedly."
+        },
+        {
+          "id": "sb8-3",
+          "english": "I study at night",
+          "answer": [
+            "ami",
+            "rate",
+            "porashona",
+            "kori"
+          ],
+          "explanation": "Rate means at night, and porashona kori means study."
+        },
+        {
+          "id": "sb8-4",
+          "english": "We play here",
+          "answer": [
+            "amra",
+            "ekhane",
+            "kheli"
+          ],
+          "explanation": "Ekhane means here."
+        },
+        {
+          "id": "sb8-5",
+          "english": "She lives there",
+          "answer": [
+            "shey",
+            "shekhane",
+            "thake"
+          ],
+          "explanation": "Shekhane means there, and thake means lives or stays."
+        },
+        {
+          "id": "sb8-6",
+          "english": "I wake up early",
+          "answer": [
+            "ami",
+            "shokale",
+            "taratari",
+            "uthi"
+          ],
+          "explanation": "Shokale means in the morning, taratari means early or quickly, and uthi means get up."
+        },
+        {
+          "id": "sb8-7",
+          "english": "You speak slowly",
+          "answer": [
+            "tumi",
+            "aste",
+            "aste",
+            "bolo"
+          ],
+          "explanation": "Aste aste means slowly, and bolo means speak or say."
+        },
+        {
+          "id": "sb8-8",
+          "english": "They work together",
+          "answer": [
+            "tara",
+            "eksathe",
+            "kaj",
+            "kore"
+          ],
+          "explanation": "Eksathe means together, and kaj kore means work."
+        },
+        {
+          "id": "sb8-9",
+          "english": "I often read books",
+          "answer": [
+            "ami",
+            "prayi",
+            "boi",
+            "pori"
+          ],
+          "explanation": "Prayi means often or frequently."
+        },
+        {
+          "id": "sb8-10",
+          "english": "He sometimes drinks coffee",
+          "answer": [
+            "shey",
+            "majhe",
+            "majhe",
+            "coffee",
+            "khay"
+          ],
+          "explanation": "Majhe majhe means sometimes."
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "title": "Connecting ideas",
+      "puzzles": [
+        {
+          "id": "sb9-1",
+          "english": "I eat rice and fish",
+          "answer": [
+            "ami",
+            "bhat",
+            "ebong",
+            "mach",
+            "khai"
+          ],
+          "explanation": "Ebong means and. In casual speech, ar is also common."
+        },
+        {
+          "id": "sb9-2",
+          "english": "You and I are friends",
+          "answer": [
+            "tumi",
+            "ar",
+            "ami",
+            "bondhu"
+          ],
+          "explanation": "Ar means and. A more complete natural sentence is tumi ar ami bondhu."
+        },
+        {
+          "id": "sb9-3",
+          "english": "I want tea but not coffee",
+          "answer": [
+            "ami",
+            "cha",
+            "chai",
+            "kintu",
+            "coffee",
+            "chai",
+            "na"
+          ],
+          "explanation": "Kintu means but. Chai na means do not want."
+        },
+        {
+          "id": "sb9-4",
+          "english": "He came because I called",
+          "answer": [
+            "ami",
+            "dekechilam",
+            "bole",
+            "shey",
+            "eshechilo"
+          ],
+          "explanation": "Bole can introduce a reason, similar to because in this construction."
+        },
+        {
+          "id": "sb9-5",
+          "english": "If it rains, I will stay home",
+          "answer": [
+            "bristi",
+            "hole",
+            "ami",
+            "barite",
+            "thakbo"
+          ],
+          "explanation": "Bristi hole means if it rains, and barite thakbo means will stay at home."
+        },
+        {
+          "id": "sb9-6",
+          "english": "I study because I have an exam",
+          "answer": [
+            "amar",
+            "porikkha",
+            "ache",
+            "bole",
+            "ami",
+            "porashona",
+            "kori"
+          ],
+          "explanation": "Porikkha means exam, and bole can connect the reason to the main clause."
+        },
+        {
+          "id": "sb9-7",
+          "english": "She is tired but happy",
+          "answer": [
+            "shey",
+            "klanto",
+            "kintu",
+            "khushi"
+          ],
+          "explanation": "Klanto means tired, khushi means happy, and kintu means but."
+        },
+        {
+          "id": "sb9-8",
+          "english": "I went to the market and bought fish",
+          "answer": [
+            "ami",
+            "bajare",
+            "gechilam",
+            "ar",
+            "mach",
+            "kinechilam"
+          ],
+          "explanation": "Bajare means to the market, ar means and, and kinechilam means bought."
+        },
+        {
+          "id": "sb9-9",
+          "english": "Although it is raining, I will go",
+          "answer": [
+            "bristi",
+            "holeo",
+            "ami",
+            "jabo"
+          ],
+          "explanation": "Holeo can express even if or although, depending on the sentence."
+        },
+        {
+          "id": "sb9-10",
+          "english": "I know that he is coming",
+          "answer": [
+            "ami",
+            "jani",
+            "je",
+            "shey",
+            "ashche"
+          ],
+          "explanation": "Je means that when connecting two clauses."
+        }
+      ]
+    },
+    {
+      "id": "daily_conversation",
+      "title": "Everyday conversation",
+      "puzzles": [
+        {
+          "id": "sb10-1",
+          "english": "My name is Rina",
+          "answer": [
+            "amar",
+            "nam",
+            "Rina"
+          ],
+          "explanation": "Amar nam means my name. Bengali often omits the verb is."
+        },
+        {
+          "id": "sb10-2",
+          "english": "I am fine",
+          "answer": [
+            "ami",
+            "bhalo",
+            "achi"
+          ],
+          "explanation": "Bhalo achi means am fine or am well."
+        },
+        {
+          "id": "sb10-3",
+          "english": "Thank you very much",
+          "answer": [
+            "onek",
+            "dhonnobad"
+          ],
+          "explanation": "Onek dhonnobad means thank you very much."
+        },
+        {
+          "id": "sb10-4",
+          "english": "Please sit down",
+          "answer": [
+            "doya",
+            "kore",
+            "boshun"
+          ],
+          "explanation": "Doya kore means please, and boshun is a polite form of sit."
+        },
+        {
+          "id": "sb10-5",
+          "english": "I do not understand",
+          "answer": [
+            "ami",
+            "bujhte",
+            "parchi",
+            "na"
+          ],
+          "explanation": "Bujhte parchi na means I cannot understand."
+        },
+        {
+          "id": "sb10-6",
+          "english": "What happened?",
+          "answer": [
+            "ki",
+            "hoyeche"
+          ],
+          "explanation": "Ki hoyeche means what happened or what is wrong."
+        },
+        {
+          "id": "sb10-7",
+          "english": "I need help",
+          "answer": [
+            "amar",
+            "shahajjo",
+            "dorkar"
+          ],
+          "explanation": "Amar shahajjo dorkar means I need help."
+        },
+        {
+          "id": "sb10-8",
+          "english": "How much does this cost?",
+          "answer": [
+            "etar",
+            "dam",
+            "koto"
+          ],
+          "explanation": "Etar means its or this one's, dam means price, and koto means how much."
+        },
+        {
+          "id": "sb10-9",
+          "english": "Where is the bathroom?",
+          "answer": [
+            "bathroom",
+            "kothay"
+          ],
+          "explanation": "Kothay means where. This is a simple conversational question."
+        },
+        {
+          "id": "sb10-10",
+          "english": "I am learning Bengali",
+          "answer": [
+            "ami",
+            "bangla",
+            "shikhchi"
+          ],
+          "explanation": "Shikhchi means am learning."
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "Polite and formal speech",
+      "puzzles": [
+        {
+          "id": "sb11-1",
+          "english": "You are well",
+          "answer": [
+            "apni",
+            "bhalo",
+            "achhen"
+          ],
+          "explanation": "Apni is the polite form of you, and achhen is the corresponding form of are."
+        },
+        {
+          "id": "sb11-2",
+          "english": "Where do you live?",
+          "answer": [
+            "apni",
+            "kothay",
+            "thaken"
+          ],
+          "explanation": "Thaken is the polite form of live or stay."
+        },
+        {
+          "id": "sb11-3",
+          "english": "Please come here",
+          "answer": [
+            "doya",
+            "kore",
+            "ekhane",
+            "ashun"
+          ],
+          "explanation": "Doya kore means please, ekhane means here, and ashun is the polite command to come."
+        },
+        {
+          "id": "sb11-4",
+          "english": "Please sit down",
+          "answer": [
+            "doya",
+            "kore",
+            "boshun"
+          ],
+          "explanation": "Boshun is the polite form of sit."
+        },
+        {
+          "id": "sb11-5",
+          "english": "What is your name?",
+          "answer": [
+            "apnar",
+            "nam",
+            "ki"
+          ],
+          "explanation": "Apnar means your in polite speech."
+        },
+        {
+          "id": "sb11-6",
+          "english": "Do you understand?",
+          "answer": [
+            "apni",
+            "ki",
+            "bujhte",
+            "parchen"
+          ],
+          "explanation": "Bujhte parchen means are you able to understand, using polite speech."
+        },
+        {
+          "id": "sb11-7",
+          "english": "Please tell me",
+          "answer": [
+            "amake",
+            "bolun"
+          ],
+          "explanation": "Amake means to me, and bolun is the polite command to tell or speak."
+        },
+        {
+          "id": "sb11-8",
+          "english": "Where are you going?",
+          "answer": [
+            "apni",
+            "kothay",
+            "jachhen"
+          ],
+          "explanation": "Jachhen is the polite form of are going."
+        },
+        {
+          "id": "sb11-9",
+          "english": "Please wait a little",
+          "answer": [
+            "ektu",
+            "opekkha",
+            "korun"
+          ],
+          "explanation": "Ektu means a little, and opekkha korun means please wait."
+        },
+        {
+          "id": "sb11-10",
+          "english": "Thank you, sir",
+          "answer": [
+            "dhonnobad",
+            "sh sir"
+          ],
+          "explanation": "Dhonnobad means thank you. A natural form of address depends on the person's title and context."
+        }
+      ]
+    },
+    {
+      "id": "ability",
+      "title": "Can and cannot",
+      "puzzles": [
+        {
+          "id": "sb12-1",
+          "english": "I can swim",
+          "answer": [
+            "ami",
+            "shatar",
+            "katte",
+            "pari"
+          ],
+          "explanation": "Shatar katte pari means I can swim."
+        },
+        {
+          "id": "sb12-2",
+          "english": "You can speak Bengali",
+          "answer": [
+            "tumi",
+            "bangla",
+            "bolte",
+            "paro"
+          ],
+          "explanation": "Bolte paro means can speak when addressing tumi."
+        },
+        {
+          "id": "sb12-3",
+          "english": "She can sing",
+          "answer": [
+            "shey",
+            "gan",
+            "gaite",
+            "pare"
+          ],
+          "explanation": "Gaite pare means can sing."
+        },
+        {
+          "id": "sb12-4",
+          "english": "We can do this",
+          "answer": [
+            "amra",
+            "eta",
+            "korte",
+            "pari"
+          ],
+          "explanation": "Eta means this, and korte pari means can do."
+        },
+        {
+          "id": "sb12-5",
+          "english": "I cannot understand",
+          "answer": [
+            "ami",
+            "bujhte",
+            "pari",
+            "na"
+          ],
+          "explanation": "Bujhte pari na means cannot understand."
+        },
+        {
+          "id": "sb12-6",
+          "english": "He cannot come today",
+          "answer": [
+            "shey",
+            "aj",
+            "ashte",
+            "parbe",
+            "na"
+          ],
+          "explanation": "Aj means today, and ash te parbe na means will not be able to come."
+        },
+        {
+          "id": "sb12-7",
+          "english": "Can you help me?",
+          "answer": [
+            "tumi",
+            "ki",
+            "amake",
+            "shahajjo",
+            "korte",
+            "parbe"
+          ],
+          "explanation": "Parbe means will be able to. This asks whether someone can help."
+        },
+        {
+          "id": "sb12-8",
+          "english": "They can play football",
+          "answer": [
+            "tara",
+            "football",
+            "khelte",
+            "pare"
+          ],
+          "explanation": "Khelte pare means can play. In informal speech, tara can take pare."
+        },
+        {
+          "id": "sb12-9",
+          "english": "I can read Bengali",
+          "answer": [
+            "ami",
+            "bangla",
+            "porte",
+            "pari"
+          ],
+          "explanation": "Porte pari means can read."
+        },
+        {
+          "id": "sb12-10",
+          "english": "Can she drive a car?",
+          "answer": [
+            "shey",
+            "ki",
+            "gari",
+            "chalate",
+            "pare"
+          ],
+          "explanation": "Gari chalate pare means can drive a car."
+        }
+      ]
+    },
+    {
+      "id": "obligation",
+      "title": "Must, should, and need",
+      "puzzles": [
+        {
+          "id": "sb13-1",
+          "english": "I must study",
+          "answer": [
+            "amake",
+            "porte",
+            "hobe"
+          ],
+          "explanation": "Amake porte hobe means I must study or I will have to study."
+        },
+        {
+          "id": "sb13-2",
+          "english": "You should eat",
+          "answer": [
+            "tomar",
+            "khaoa",
+            "uchit"
+          ],
+          "explanation": "Tomar khaoa uchit means you should eat."
+        },
+        {
+          "id": "sb13-3",
+          "english": "We must go now",
+          "answer": [
+            "amader",
+            "ekhon",
+            "jete",
+            "hobe"
+          ],
+          "explanation": "Ekhon means now, and jete hobe means must go."
+        },
+        {
+          "id": "sb13-4",
+          "english": "You should drink water",
+          "answer": [
+            "tomar",
+            "pani",
+            "khaoa",
+            "uchit"
+          ],
+          "explanation": "Pani khaoa uchit means should drink water."
+        },
+        {
+          "id": "sb13-5",
+          "english": "I need to sleep",
+          "answer": [
+            "amar",
+            "ghumano",
+            "dorkar"
+          ],
+          "explanation": "Amar ghumano dorkar means I need to sleep."
+        },
+        {
+          "id": "sb13-6",
+          "english": "He must finish the work",
+          "answer": [
+            "take",
+            "kajta",
+            "shesh",
+            "korte",
+            "hobe"
+          ],
+          "explanation": "Kajta shesh korte hobe means the work must be finished by him."
+        },
+        {
+          "id": "sb13-7",
+          "english": "You should study every day",
+          "answer": [
+            "tomar",
+            "protidin",
+            "porashona",
+            "kora",
+            "uchit"
+          ],
+          "explanation": "Protidin means every day, and kora uchit means should do."
+        },
+        {
+          "id": "sb13-8",
+          "english": "We need to buy food",
+          "answer": [
+            "amader",
+            "khabar",
+            "kena",
+            "dorkar"
+          ],
+          "explanation": "Khabar means food, and kena dorkar means need to buy."
+        },
+        {
+          "id": "sb13-9",
+          "english": "I must wake up early",
+          "answer": [
+            "amake",
+            "shokale",
+            "taratari",
+            "uthte",
+            "hobe"
+          ],
+          "explanation": "Uthte hobe means must get up."
+        },
+        {
+          "id": "sb13-10",
+          "english": "You should help your friend",
+          "answer": [
+            "tomar",
+            "bondhuke",
+            "shahajjo",
+            "kora",
+            "uchit"
+          ],
+          "explanation": "Bondhuke means your friend as the object, and shahajjo kora uchit means should help."
+        }
+      ]
+    },
+    {
+      "id": "postpositions",
+      "title": "Locations and relationships",
+      "puzzles": [
+        {
+          "id": "sb14-1",
+          "english": "The book is on the table",
+          "answer": [
+            "boita",
+            "tebiler",
+            "upore",
+            "ache"
+          ],
+          "explanation": "Tebiler upore means on the table, and ache means is or exists."
+        },
+        {
+          "id": "sb14-2",
+          "english": "The cat is under the chair",
+          "answer": [
+            "biralta",
+            "chair-er",
+            "niche",
+            "ache"
+          ],
+          "explanation": "Niche means under or below."
+        },
+        {
+          "id": "sb14-3",
+          "english": "I am inside the house",
+          "answer": [
+            "ami",
+            "barir",
+            "bhitore",
+            "achi"
+          ],
+          "explanation": "Barir bhitore means inside the house."
+        },
+        {
+          "id": "sb14-4",
+          "english": "The school is near my house",
+          "answer": [
+            "schoolta",
+            "amar",
+            "barir",
+            "kache"
+          ],
+          "explanation": "Barir kache means near the house."
+        },
+        {
+          "id": "sb14-5",
+          "english": "The dog is behind the door",
+          "answer": [
+            "kukurta",
+            "dorjar",
+            "pichhone",
+            "ache"
+          ],
+          "explanation": "Dorjar pichhone means behind the door."
+        },
+        {
+          "id": "sb14-6",
+          "english": "The boy is in front of the house",
+          "answer": [
+            "cheleta",
+            "barir",
+            "samne",
+            "ache"
+          ],
+          "explanation": "Barir samne means in front of the house."
+        },
+        {
+          "id": "sb14-7",
+          "english": "I am going to the market",
+          "answer": [
+            "ami",
+            "bajare",
+            "jachhi"
+          ],
+          "explanation": "Bajare jachhi means I am going to the market."
+        },
+        {
+          "id": "sb14-8",
+          "english": "She came from school",
+          "answer": [
+            "shey",
+            "school",
+            "theke",
+            "esheche"
+          ],
+          "explanation": "Theke means from, and esheche means has come."
+        },
+        {
+          "id": "sb14-9",
+          "english": "The gift is for you",
+          "answer": [
+            "upoharta",
+            "tomar",
+            "jonno"
+          ],
+          "explanation": "Tomar jonno means for you."
+        },
+        {
+          "id": "sb14-10",
+          "english": "I am sitting beside my friend",
+          "answer": [
+            "ami",
+            "amar",
+            "bondhur",
+            "pashe",
+            "boshe",
+            "achi"
+          ],
+          "explanation": "Bondhur pashe means beside my friend, and boshe achi means am sitting."
+        }
+      ]
+    },
+    {
+      "id": "commands",
+      "title": "Commands and requests",
+      "puzzles": [
+        {
+          "id": "sb15-1",
+          "english": "Come here",
+          "answer": [
+            "ekhane",
+            "asho"
+          ],
+          "explanation": "Ekhane means here, and asho is an informal command to come."
+        },
+        {
+          "id": "sb15-2",
+          "english": "Eat your food",
+          "answer": [
+            "tomar",
+            "khabar",
+            "khao"
+          ],
+          "explanation": "Khao is an informal command to eat."
+        },
+        {
+          "id": "sb15-3",
+          "english": "Read the book",
+          "answer": [
+            "boita",
+            "poro"
+          ],
+          "explanation": "Poro is an informal command to read."
+        },
+        {
+          "id": "sb15-4",
+          "english": "Listen to me",
+          "answer": [
+            "amar",
+            "kotha",
+            "shono"
+          ],
+          "explanation": "Amar kotha shono means listen to me or listen to what I say."
+        },
+        {
+          "id": "sb15-5",
+          "english": "Open the door",
+          "answer": [
+            "dorjata",
+            "kholo"
+          ],
+          "explanation": "Kholo is an informal command to open."
+        },
+        {
+          "id": "sb15-6",
+          "english": "Close the window",
+          "answer": [
+            "janalata",
+            "bondho",
+            "koro"
+          ],
+          "explanation": "Bondho koro means close or shut."
+        },
+        {
+          "id": "sb15-7",
+          "english": "Write your name",
+          "answer": [
+            "tomar",
+            "nam",
+            "lekho"
+          ],
+          "explanation": "Lekho is an informal command to write."
+        },
+        {
+          "id": "sb15-8",
+          "english": "Wait here",
+          "answer": [
+            "ekhane",
+            "opekkha",
+            "koro"
+          ],
+          "explanation": "Opekkha koro means wait."
+        },
+        {
+          "id": "sb15-9",
+          "english": "Do not go",
+          "answer": [
+            "jeo",
+            "na"
+          ],
+          "explanation": "Jeo na means do not go in informal speech."
+        },
+        {
+          "id": "sb15-10",
+          "english": "Help me",
+          "answer": [
+            "amake",
+            "shahajjo",
+            "koro"
+          ],
+          "explanation": "Amake shahajjo koro means help me."
+        }
+      ]
+    },
+    {
+      "id": "comparisons",
+      "title": "Comparisons and superlatives",
+      "puzzles": [
+        {
+          "id": "sb16-1",
+          "english": "I am taller than you",
+          "answer": [
+            "ami",
+            "tomar",
+            "cheye",
+            "lomba"
+          ],
+          "explanation": "Tomar cheye means than you, and lomba means tall. A complete natural sentence can add achi."
+        },
+        {
+          "id": "sb16-2",
+          "english": "This house is bigger",
+          "answer": [
+            "ei",
+            "barita",
+            "aro",
+            "boro"
+          ],
+          "explanation": "Ei means this, aro means more, and boro means big."
+        },
+        {
+          "id": "sb16-3",
+          "english": "She is more beautiful than me",
+          "answer": [
+            "shey",
+            "amar",
+            "cheye",
+            "beshi",
+            "shundor"
+          ],
+          "explanation": "Amar cheye means than me, beshi means more, and shundor means beautiful."
+        },
+        {
+          "id": "sb16-4",
+          "english": "He is the tallest boy",
+          "answer": [
+            "shey",
+            "shobcheye",
+            "lomba",
+            "chele"
+          ],
+          "explanation": "Shobcheye means most, lomba means tall, and chele means boy."
+        },
+        {
+          "id": "sb16-5",
+          "english": "Today is better than yesterday",
+          "answer": [
+            "aj",
+            "gotokaler",
+            "cheye",
+            "bhalo"
+          ],
+          "explanation": "Aj means today, gotokaler cheye means than yesterday, and bhalo means good or better in context."
+        },
+        {
+          "id": "sb16-6",
+          "english": "This book is cheaper",
+          "answer": [
+            "ei",
+            "boita",
+            "aro",
+            "shosta"
+          ],
+          "explanation": "Shosta means inexpensive or cheap, and aro means more."
+        },
+        {
+          "id": "sb16-7",
+          "english": "My brother is younger than me",
+          "answer": [
+            "amar",
+            "bhai",
+            "amar",
+            "cheye",
+            "choto"
+          ],
+          "explanation": "Choto can mean small or younger, depending on context."
+        },
+        {
+          "id": "sb16-8",
+          "english": "This is the best food",
+          "answer": [
+            "eta",
+            "shobcheye",
+            "bhalo",
+            "khabar"
+          ],
+          "explanation": "Eta means this, shobcheye means most, and bhalo means good."
+        },
+        {
+          "id": "sb16-9",
+          "english": "The red flower is more beautiful",
+          "answer": [
+            "lal",
+            "phulta",
+            "aro",
+            "shundor"
+          ],
+          "explanation": "Lal phulta means the red flower, and aro shundor means more beautiful."
+        },
+        {
+          "id": "sb16-10",
+          "english": "He runs faster than me",
+          "answer": [
+            "shey",
+            "amar",
+            "cheye",
+            "druto",
+            "doure"
+          ],
+          "explanation": "Amar cheye means than me, druto means fast, and doure means runs."
+        }
       ]
     }
   ]

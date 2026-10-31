@@ -3,7 +3,7 @@
 //
 // It also keeps `wordsLearned` in progress.js in step: a word counts as learned from
 // the Familiar tier up, and drops out again if a miss sends it back to Learning.
-import { newItem, seedItem, review as reviewItem, isDue } from './srsCore.js';
+import { newItem, seedItem, review as reviewItem, isDue, isStarred, withStar } from './srsCore.js';
 import { getProgress, setWordLearned } from './progress.js';
 
 const KEY = 'bn.srs';
@@ -61,10 +61,24 @@ export function seedLearned(now = Date.now()) {
 }
 
 // The learner un-learns a word by hand: it goes back to New.
+// The star is the learner's own flag, so it survives the reset.
 export function forgetWord(id) {
-  const { [id]: _drop, ...rest } = load().items;
+  const { [id]: old, ...rest } = load().items;
+  if (isStarred(old)) rest[id] = withStar(newItem(), true);
   save({ items: rest });
   setWordLearned(id, false);
+}
+
+// Star / un-star one word. Works on words that are still New. Does not touch mastery.
+export function setStar(id, on) {
+  const item = getSrsItem(id);
+  if (isStarred(item) === !!on) return;
+  save({ items: { ...load().items, [id]: withStar(item, on) } });
+}
+export const toggleStar = (id) => setStar(id, !isStarred(getSrsItem(id)));
+
+export function starredIds(srs) {
+  return Object.keys(srs.items).filter((id) => isStarred(srs.items[id]));
 }
 
 export function resetSrs() {

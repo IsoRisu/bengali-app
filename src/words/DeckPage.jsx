@@ -1,11 +1,12 @@
-import { useEffect } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 import { useDeck } from './words.js';
 import { WordsLoading } from './Loading.jsx';
 import { Roman } from '../components/Roman.jsx';
 import { MasteryBar } from './MasteryBar.jsx';
 import { getWordsLearned, subscribeWords } from './wordsProgress.js';
-import { getSrs, subscribeSrs, forgetWord, seedLearned } from '../lib/srs.js';
-import { isDue } from '../lib/srsCore.js';
+import { getSrs, subscribeSrs, forgetWord, seedLearned, toggleStar, starredIds } from '../lib/srs.js';
+import { isDue, isStarred } from '../lib/srsCore.js';
+import { shuffle } from './session.js';
 import { useStore } from '../lib/useStore.js';
 
 // The words of one deck. A learned word is a button: one tap un-learns it. An
@@ -14,10 +15,15 @@ export function DeckPage({ deckId }) {
   useEffect(() => { seedLearned(); }, []);
   const learnedIds = useStore(getWordsLearned, subscribeWords);
   const srs = useStore(getSrs, subscribeSrs);
+  const [order, setOrder] = useState(null); // shuffled list of word ids; null = deck order
   const { data: deck, error, retry } = useDeck(deckId);
   if (!deck) return <WordsLoading error={error} retry={retry} />;
 
   const words = deck.items;
+  // Shuffle only changes the order shown here. It does not touch the deck or any word's progress.
+  const byId = Object.fromEntries(words.map((w) => [w.id, w]));
+  const listed = order ? order.map((id) => byId[id]).filter(Boolean) : words;
+  const starredTotal = starredIds(srs).length;
   const total = words.length;
   const count = words.filter((w) => learnedIds.includes(w.id)).length;
   const now = Date.now();
@@ -54,9 +60,21 @@ export function DeckPage({ deckId }) {
         )}
         <a class="btn" href={`#/words/quiz/${deckId}`}>Quiz (optional)</a>
       </div>
+      <div class="tools">
+        <button
+          type="button"
+          class="btn btn-quiet"
+          aria-pressed={!!order}
+          onClick={() => setOrder(order ? null : shuffle(words.map((w) => w.id)))}
+        >
+          Shuffle list: {order ? 'on' : 'off'}
+        </button>
+        {order && <button type="button" class="btn btn-quiet" onClick={() => setOrder(shuffle(words.map((w) => w.id)))}>Shuffle again</button>}
+        {starredTotal > 0 && <a class="btn btn-quiet" href="#/words/study/starred">Review ★ starred ({starredTotal})</a>}
+      </div>
 
       <ul class="wlist">
-        {words.map((w) => {
+        {listed.map((w) => {
           const learned = learnedIds.includes(w.id);
           const body = (
             <>
@@ -69,8 +87,9 @@ export function DeckPage({ deckId }) {
               <span class="wrow-mark" aria-hidden="true">{learned ? '✓' : ''}</span>
             </>
           );
+          const starred = isStarred(srs.items[w.id]);
           return (
-            <li key={w.id}>
+            <li key={w.id} class="wrow-line">
               {learned ? (
                 <button
                   type="button"
@@ -84,11 +103,20 @@ export function DeckPage({ deckId }) {
               ) : (
                 <a class="wrow" href={`#/words/study/${deckId}/${w.id}`}>{body}</a>
               )}
+              <button
+                type="button"
+                class="btn wstar"
+                aria-pressed={starred}
+                aria-label={`${w.english}: ${starred ? 'starred as difficult. Tap to remove the star.' : 'tap to star as difficult.'}`}
+                onClick={() => toggleStar(w.id)}
+              >
+                {starred ? '★' : '☆'}
+              </button>
             </li>
           );
         })}
       </ul>
-      <p class="muted">Tap a ✓ word to reset it to New. Tap any other word to study it first. Words come back for review when they are due.</p>
+      <p class="muted">Tap a ✓ word to reset it to New. Tap any other word to study it first. Tap ☆ to star a word as difficult: starred words come back sooner and first. Words come back for review when they are due.</p>
     </main>
   );
 }
