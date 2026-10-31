@@ -12,6 +12,7 @@ export function LettersPage() {
   const { lettersLearned } = useStore(getProgress, subscribeProgress);
   const total = LETTERS.length;
   const count = LETTERS.filter((l) => lettersLearned.includes(l.id)).length;
+  const next = LETTERS.find((l) => !lettersLearned.includes(l.id)); // first unlearned, by order
 
   return (
     <main class="page">
@@ -30,6 +31,14 @@ export function LettersPage() {
       >
         <div class="bar-fill" style={{ width: `${(count / total) * 100}%` }} />
       </div>
+
+      {next && (
+        <p>
+          <a class="btn btn-primary" href={`#/letters/${next.id}`}>
+            {count === 0 ? 'Start learning' : 'Continue learning'}
+          </a>
+        </p>
+      )}
 
       {GROUPS.map(({ type, title }) => (
         <section key={type}>

@@ -222,3 +222,15 @@ These will be logged by later rounds as numbered entries. They are not decided h
 - **Content ordering (remaining):** how multiple lessons and further word decks are sequenced after this seed.
 - **Distractor selection (runtime):** how wrong options are picked for letter and word recognition exercises, within Entry 003's principle.
 - **Quiz design (letters):** the words quiz is settled in Entry 010 and grammar exercises in Entry 011. Still open for letters: question types, length, feedback, and how outcomes relate to "Mark as learned". Spaced repetition, intervals, and due dates are excluded by the brief.
+
+## Entry 015: Round 8 improvements (owner delegated all calls)
+
+**Decisions:**
+
+- **Letters learn mode:** instead of a separate `#/letters/learn` route, the grid shows "Start learning" or "Continue learning", linking straight to the first unlearned letter (by `order`) at `#/letters/:id`. This supersedes the route and learn-mode screens in Entry 009; the existing Previous/Next pager carries the learner on. Entry 009 file names are stale: `hooks.js` is `useStore.js` and `App.jsx` is `app.jsx`.
+- **Flashcard romanization:** with romanization off, tapping a card still reveals that card's transliteration (Entry 010). Accepted: "off" means "hidden until asked for" on flashcards, and it is the learner's own tap.
+- **Streak:** kept as a passive counter, not scheduling. The "come back tomorrow" copy was removed, so nothing nudges a return date.
+- **Accessibility:** flashcard name comes from its content (the `aria-label` was removed); the letter glyph has `role="img"`; exercise glossaries now cover the explanation text as well as the prompt.
+- **Deployment:** added Render (`render.yaml`, `DEPLOY.md`) and a CI build check. The GitHub Pages workflow is now manual-only (`deploy-pages.yml`).
+
+**Still open:** self-hosted font subset (needs the font file), first real `npm run build` / `npm run size`, and the consonant frequency check (Entry 007).
