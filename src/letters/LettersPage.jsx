@@ -19,6 +19,16 @@ export function LettersPage() {
     <main class="page">
       <h1>Letters</h1>
 
+      <div class="actions" style={{ flexWrap: 'wrap', gap: '8px' }}>
+        {next && (
+          <a class="btn btn-primary" href={`#/letters/${next.id}`}>
+            {count === 0 ? 'Start learning' : 'Continue learning'}
+          </a>
+        )}
+        <a class="btn" href="#/letters/study">Flashcards</a>
+        <a class="btn" href="#/letters/extensions">Extensions (কার)</a>
+      </div>
+      
       <p class="counter" aria-live="polite">
         <strong>{count}</strong> of {total} learned
       </p>

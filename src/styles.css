@@ -267,3 +267,198 @@ main:focus { outline: none; }
   background: transparent; color: inherit;
 }
 .chip:hover { background: rgba(0, 0, 0, 0.05); }
+/* ---- Letter Flashcards & Extensions ---- */
+.chip-mini {
+  display: inline-block;
+  padding: 2px 8px;
+  margin-left: 8px;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  background: var(--line);
+  color: var(--fg);
+  text-transform: capitalize;
+}
+
+.flash-letter, .flash-generative {
+  min-height: 280px;
+}
+
+.flash-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.flash-example {
+  padding: 8px 14px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.card-highlight {
+  margin: 16px 0;
+  padding: 16px;
+  background: #fff;
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+}
+
+.placement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin: 12px 0 20px;
+}
+
+.placement-card {
+  padding: 12px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.placement-glyph {
+  font-size: 1.8rem;
+  margin: 6px 0 2px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: var(--line);
+}
+.badge-left { background: #e2e8f0; color: #2d3748; }
+.badge-right { background: #feebc8; color: #7b341e; }
+.badge-bottom { background: #e6fffa; color: #234e52; }
+.badge-around { background: #fed7e2; color: #702459; }
+
+.consonant-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 16px;
+}
+
+.consonant-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 44px;
+  min-height: 48px;
+  padding: 6px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.consonant-btn.active {
+  border-color: var(--accent);
+  background: var(--done);
+  font-weight: 700;
+}
+.consonant-roman { font-size: 0.75rem; color: var(--muted); }
+
+.syllable-display {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 14px 0 24px;
+}
+.syllable-header {
+  padding: 12px 16px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+.syllable-header h3 { margin: 0; font-size: 1.05rem; }
+
+.syllable-table {
+  display: flex;
+  flex-direction: column;
+}
+.syllable-row {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 2fr;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+}
+.syllable-row:last-child { border-bottom: none; }
+.syllable-cell-glyph { font-size: 1.6rem; }
+.syllable-cell-trans { font-weight: 600; }
+
+.ext-card {
+  padding: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.ext-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.ext-sign {
+  font-size: 2.4rem;
+  line-height: 1;
+  min-width: 2rem;
+  text-align: center;
+  color: var(--accent);
+}
+.ext-title { margin: 0; font-size: 1.1rem; }
+.ext-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.chip-example {
+  padding: 4px 10px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 0.88rem;
+}
+
+.formula-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.25rem;
+  padding: 6px 14px;
+  background: var(--done);
+  border-radius: 8px;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  background: #fff;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.g-select {
+  padding: 6px 10px;
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+}
+.placement-note {
+  font-size: 0.9rem;
+  background: #f7fafc;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px dashed var(--line);
+  margin: 6px 0;
+}

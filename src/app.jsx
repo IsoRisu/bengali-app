@@ -10,6 +10,7 @@ import { Vocab } from './vocab/Vocab.jsx';
 import { Dialogues } from './dialogues/Dialogues.jsx';
 import { Practice } from './practice/Practice.jsx';
 import { Sentence } from './sentence/Sentence.jsx';
+import { Letters } from './letters/Letters.jsx';
 
 const TITLES = {
   letters: 'Letters',
@@ -47,7 +48,7 @@ export function App() {
   let screen;
   const rest = [id, ...more].filter(Boolean);
 
-  if (section === 'letters') screen = id ? <LetterScreen id={id} /> : <LettersPage />;
+  if (section === 'letters') screen = <Letters rest={rest} />;
   else if (section === 'words') screen = <Words rest={rest} />;
   else if (section === 'grammar') screen = <Grammar rest={rest} />;
   else if (section === 'vocab') screen = <Vocab rest={rest} />;

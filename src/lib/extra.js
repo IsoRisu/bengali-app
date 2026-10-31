@@ -10,7 +10,7 @@ function notify() {
 }
 
 function empty() {
-  return { vocabLearned: [], dialoguesRead: [], sentenceCleared: [] };
+  return { vocabLearned: [], dialoguesRead: [], sentenceCleared: [], extensionsLearned: [] };
 }
 
 function load() {
@@ -22,13 +22,22 @@ function load() {
       current = {
         vocabLearned: Array.isArray(parsed.vocabLearned) ? parsed.vocabLearned : [],
         dialoguesRead: Array.isArray(parsed.dialoguesRead) ? parsed.dialoguesRead : [],
-        sentenceCleared: Array.isArray(parsed.sentenceCleared) ? parsed.sentenceCleared : []
+        sentenceCleared: Array.isArray(parsed.sentenceCleared) ? parsed.sentenceCleared : [],
+        extensionsLearned: Array.isArray(parsed.extensionsLearned) ? parsed.extensionsLearned : []
       };
       return current;
     }
   } catch (e) {}
   current = empty();
   return current;
+}
+
+export function setExtensionLearned(id, bool = true) {
+  const cur = load();
+  const set = new Set(cur.extensionsLearned || []);
+  if (bool) set.add(id);
+  else set.delete(id);
+  save({ ...cur, extensionsLearned: Array.from(set) });
 }
 
 function save(next) {

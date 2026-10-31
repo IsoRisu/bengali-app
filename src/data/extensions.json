@@ -1,0 +1,218 @@
+{
+  "vowelSigns": [
+    {
+      "id": "akar",
+      "sign": "া",
+      "name": "আ-কার (a-kar)",
+      "vowel": "আ",
+      "transliteration": "a",
+      "sound": "‘a’ as in ‘father’ or ‘calm’",
+      "placement": "right",
+      "placementLabel": "Written after (to the right of) the consonant",
+      "inherentChange": "Replaces the inherent ‘o’ with open ‘a’",
+      "tip": "Draw the consonant first, then attach the vertical stroke on the right.",
+      "examples": [
+        { "consonant": "ক", "syllable": "কা", "transliteration": "ka", "word": "কাজ", "wordTrans": "kaj", "meaning": "work" },
+        { "consonant": "ম", "syllable": "মা", "transliteration": "ma", "word": "মাটি", "wordTrans": "mati", "meaning": "soil, earth" },
+        { "consonant": "ব", "syllable": "বা", "transliteration": "ba", "word": "বাড়ি", "wordTrans": "bari", "meaning": "house, home" },
+        { "consonant": "র", "syllable": "রা", "transliteration": "ra", "word": "রাত", "wordTrans": "rat", "meaning": "night" }
+      ]
+    },
+    {
+      "id": "ikar",
+      "sign": "ি",
+      "name": "হ্রস্ব ই-কার (hroshsho i-kar)",
+      "vowel": "ই",
+      "transliteration": "i",
+      "sound": "‘i’ as in ‘pin’ or ‘bit’",
+      "placement": "left",
+      "placementLabel": "Written before (to the left of) the consonant",
+      "inherentChange": "Replaces the inherent ‘o’ with short ‘i’",
+      "tip": "Visually stands to the left of the letter, but is pronounced after it.",
+      "examples": [
+        { "consonant": "ক", "syllable": "কি", "transliteration": "ki", "word": "কিনা", "wordTrans": "kina", "meaning": "whether" },
+        { "consonant": "দ", "syllable": "দি", "transliteration": "di", "word": "দিন", "wordTrans": "din", "meaning": "day" },
+        { "consonant": "ম", "syllable": "মি", "transliteration": "mi", "word": "মিষ্টি", "wordTrans": "mishti", "meaning": "sweet" },
+        { "consonant": "ব", "syllable": "বি", "transliteration": "bi", "word": "বিড়াল", "wordTrans": "biral", "meaning": "cat" }
+      ]
+    },
+    {
+      "id": "iikar",
+      "sign": "ী",
+      "name": "দীর্ঘ ঈ-কার (dirgho ii-kar)",
+      "vowel": "ঈ",
+      "transliteration": "ii",
+      "sound": "‘ee’ as in ‘feel’ or ‘machine’",
+      "placement": "right",
+      "placementLabel": "Written after (to the right of) the consonant with a top curve",
+      "inherentChange": "Replaces inherent ‘o’ with longer ‘ii’",
+      "tip": "The curve on top arches back over the consonant’s top line.",
+      "examples": [
+        { "consonant": "ন", "syllable": "নী", "transliteration": "nii", "word": "নীল", "wordTrans": "nil", "meaning": "blue" },
+        { "consonant": "শ", "syllable": "শী", "transliteration": "shii", "word": "শীত", "wordTrans": "sheet", "meaning": "winter" },
+        { "consonant": "ন", "syllable": "দী", "transliteration": "dii", "word": "নদী", "wordTrans": "nodi", "meaning": "river" }
+      ]
+    },
+    {
+      "id": "ukar",
+      "sign": "ু",
+      "name": "হ্রস্ব উ-কার (hroshsho u-kar)",
+      "vowel": "উ",
+      "transliteration": "u",
+      "sound": "‘u’ as in ‘put’ or ‘book’",
+      "placement": "bottom",
+      "placementLabel": "Attaches directly under the consonant",
+      "inherentChange": "Replaces inherent ‘o’ with short ‘u’",
+      "tip": "Attaches to the foot of the consonant. With ‘র’ it forms a special loop: রু (ru).",
+      "examples": [
+        { "consonant": "ক", "syllable": "কু", "transliteration": "ku", "word": "কুকুর", "wordTrans": "kukur", "meaning": "dog" },
+        { "consonant": "ম", "syllable": "মু", "transliteration": "mu", "word": "মুখ", "wordTrans": "mukh", "meaning": "face, mouth" },
+        { "consonant": "র", "syllable": "রু", "transliteration": "ru", "word": "রুটি", "wordTrans": "ruti", "meaning": "bread", "note": "Special joint ligature" },
+        { "consonant": "গ", "syllable": "গু", "transliteration": "gu", "word": "গুড়", "wordTrans": "gur", "meaning": "jaggery" }
+      ]
+    },
+    {
+      "id": "uukar",
+      "sign": "ূ",
+      "name": "দীর্ঘ ঊ-কার (dirgho uu-kar)",
+      "vowel": "ঊ",
+      "transliteration": "uu",
+      "sound": "‘oo’ as in ‘moon’ or ‘boot’",
+      "placement": "bottom",
+      "placementLabel": "Attaches below the consonant with a downward hook",
+      "inherentChange": "Replaces inherent ‘o’ with long ‘uu’",
+      "tip": "With ‘র’ it forms a distinct ligature: রূ (ruu).",
+      "examples": [
+        { "consonant": "ম", "syllable": "মূ", "transliteration": "muu", "word": "মূল", "wordTrans": "mool", "meaning": "root" },
+        { "consonant": "র", "syllable": "রূ", "transliteration": "ruu", "word": "রূপা", "wordTrans": "rupa", "meaning": "silver", "note": "Special ligature" }
+      ]
+    },
+    {
+      "id": "rikar",
+      "sign": "ৃ",
+      "name": "ঋ-কার (ri-kar)",
+      "vowel": "ঋ",
+      "transliteration": "ri",
+      "sound": "‘ri’ as in ‘rigid’ or ‘ring’",
+      "placement": "bottom",
+      "placementLabel": "Loops directly below the consonant",
+      "inherentChange": "Adds vocalic ‘ri’ to the consonant",
+      "tip": "With ‘হ’ it forms the special ligature হৃ (hri, as in ‘hridoy’ - heart).",
+      "examples": [
+        { "consonant": "ক", "syllable": "কৃ", "transliteration": "kri", "word": "কৃষক", "wordTrans": "krishok", "meaning": "farmer" },
+        { "consonant": "হ", "syllable": "হৃ", "transliteration": "hri", "word": "হৃদয়", "wordTrans": "hridoy", "meaning": "heart", "note": "Special ligature" },
+        { "consonant": "ম", "syllable": "মৃ", "transliteration": "mri", "word": "মৃত্যু", "wordTrans": "mrittu", "meaning": "death" }
+      ]
+    },
+    {
+      "id": "ekar",
+      "sign": "ে",
+      "name": "এ-কার (e-kar)",
+      "vowel": "এ",
+      "transliteration": "e",
+      "sound": "‘e’ as in ‘bed’ or ‘kettle’",
+      "placement": "left",
+      "placementLabel": "Written before (to the left of) the consonant",
+      "inherentChange": "Replaces inherent ‘o’ with ‘e’",
+      "tip": "Visual order: write ‘ে’ first, then consonant (e.g. ে + ক = কে). Pronounced ‘ke’.",
+      "examples": [
+        { "consonant": "ক", "syllable": "কে", "transliteration": "ke", "word": "কেন", "wordTrans": "keno", "meaning": "why" },
+        { "consonant": "দ", "syllable": "দে", "transliteration": "de", "word": "দেখা", "wordTrans": "dekha", "meaning": "to see" },
+        { "consonant": "খ", "syllable": "খে", "transliteration": "khe", "word": "খেলা", "wordTrans": "khela", "meaning": "game, play" },
+        { "consonant": "ল", "syllable": "লে", "transliteration": "le", "word": "লেখা", "wordTrans": "lekha", "meaning": "to write" }
+      ]
+    },
+    {
+      "id": "oikar",
+      "sign": "ৈ",
+      "name": "ঐ-কার (oi-kar)",
+      "vowel": "ঐ",
+      "transliteration": "oi",
+      "sound": "‘oy’ as in ‘boy’ or ‘coin’",
+      "placement": "left",
+      "placementLabel": "Placed before the consonant with a top plume",
+      "inherentChange": "Replaces inherent ‘o’ with diphthong ‘oi’",
+      "tip": "Like e-kar on the left with an extra curl above.",
+      "examples": [
+        { "consonant": "ক", "syllable": "কৈ", "transliteration": "koi", "word": "কৈশোর", "wordTrans": "koishor", "meaning": "adolescence" },
+        { "consonant": "ত", "syllable": "তৈ", "transliteration": "toi", "word": "তৈরি", "wordTrans": "toiri", "meaning": "ready, made" }
+      ]
+    },
+    {
+      "id": "okar",
+      "sign": "ো",
+      "name": "ও-কার (o-kar)",
+      "vowel": "ও",
+      "transliteration": "o",
+      "sound": "‘o’ as in ‘go’ or ‘cold’",
+      "placement": "around",
+      "placementLabel": "Wraps around both sides (ে on left + া on right)",
+      "inherentChange": "Gives the rounded, deep ‘o’ sound",
+      "tip": "Two-part circumfix: the consonant sits nestled in the middle: ে + ক + া = কো.",
+      "examples": [
+        { "consonant": "ক", "syllable": "কো", "transliteration": "ko", "word": "কোথায়", "wordTrans": "kothay", "meaning": "where" },
+        { "consonant": "চ", "syllable": "চো", "transliteration": "cho", "word": "চোখ", "wordTrans": "chokh", "meaning": "eye" },
+        { "consonant": "ল", "syllable": "লো", "transliteration": "lo", "word": "লোক", "wordTrans": "lok", "meaning": "person" },
+        { "consonant": "ঘ", "syllable": "ঘো", "transliteration": "gho", "word": "ঘোড়া", "wordTrans": "ghora", "meaning": "horse" }
+      ]
+    },
+    {
+      "id": "oukar",
+      "sign": "ৌ",
+      "name": "ঔ-কার (ou-kar)",
+      "vowel": "ঔ",
+      "transliteration": "ou",
+      "sound": "‘ow’ as in ‘cow’ or ‘loud’",
+      "placement": "around",
+      "placementLabel": "Wraps around both sides (ে on left + ৌ on right)",
+      "inherentChange": "Adds the diphthong ‘ou’",
+      "tip": "Like o-kar, wraps the consonant between left and right elements.",
+      "examples": [
+        { "consonant": "ন", "syllable": "নৌ", "transliteration": "nou", "word": "নৌকা", "wordTrans": "nouka", "meaning": "boat" },
+        { "consonant": "দ", "syllable": "দৌ", "transliteration": "dou", "word": "দৌড়", "wordTrans": "dour", "meaning": "run, race" }
+      ]
+    }
+  ],
+  "modifiers": [
+    {
+      "id": "hosonto",
+      "sign": "্",
+      "name": "হসন্ত (hosonto / virama)",
+      "transliteration": "",
+      "sound": "Mutes/cancels the inherent vowel",
+      "placement": "bottom",
+      "placementLabel": "Small stroke under consonant",
+      "tip": "Bengali consonants carry inherent ‘o’ (ক = ko). Hosonto silences it: ক্ = k."
+    },
+    {
+      "id": "anusvara",
+      "sign": "ং",
+      "name": "অনুস্বার (anusvara)",
+      "transliteration": "ng",
+      "sound": "Nasal sound ‘ng’ like in ‘sing’",
+      "placement": "right",
+      "placementLabel": "Follows the letter",
+      "tip": "Turns ‘বা’ into ‘বাং’ (bang)."
+    },
+    {
+      "id": "visarga",
+      "sign": "ঃ",
+      "name": "বিসর্গ (visarga)",
+      "transliteration": "h",
+      "sound": "Short voiceless breath or doubles following consonant",
+      "placement": "right",
+      "placementLabel": "Two small stacked circles following the letter",
+      "tip": "As in দুঃখ (dukkho - sorrow)."
+    },
+    {
+      "id": "chandrabindu",
+      "sign": "ঁ",
+      "name": "চন্দ্রবিন্দু (chandrabindu)",
+      "transliteration": "~",
+      "sound": "Nasalizes the preceding vowel",
+      "placement": "top",
+      "placementLabel": "Crescent with dot placed above the consonant",
+      "tip": "As in চাঁদ (chãd - moon) or হাঁস (hãs - duck)."
+    }
+  ]
+}
